@@ -1,0 +1,191 @@
+88aec52248ecf8ab5ddd0a5c79d13204|file:///home/hine/.vim/vimrc|187|1|V|vim
+	Plug 'connorholyday/vim-snazzy'
+bd4d190ef7de51cf3bde5a9281c36119|file:///home/hine/.vim/vimrc|185|1|V|vim
+	tomasr/molokai
+8a7893fce0a15e16822bdcfb1ff3dca6|file:///home/hine/.vim/vimrc|1|1|V|vim
+	"let g:SnazzyTransparent = 1
+	let g:molokai_original = 1
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	" ===
+	" === coc
+	" ===
+	" fix the most annoying bug that coc has
+	"silent! au BufEnter,BufRead,BufNewFile * silent! unmap if
+	let g:coc_global_extensions = ['coc-python', 'coc-vimlsp', 'coc-html', 'coc-json', 'coc-css', 'coc-tsserver', 'coc-yank', 'coc-lists', 'coc-gitignore', 'coc-vimlsp', 'coc-tailwindcss', 'coc-stylelint', 'coc-tslint', 'coc-lists', 'coc-git', 'coc-explorer', 'coc-pyright', 'coc-sourcekit', 'coc-translator', 'coc-flutter']
+	"set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
+	"nmap <silent> <TAB> <Plug>(coc-range-select)
+	"xmap <silent> <TAB> <Plug>(coc-range-select)
+	" use <tab> for trigger completion and navigate to the next complete item
+	function! s:check_back_space() abort
+		let col = col('.') - 1
+		return !col || getline('.')[col - 1]	=~ '\s'
+	endfunction
+	inoremap <silent><expr> <Tab> pumvisible() ? "\<C-n>" : <SID>check_back_space() ? "\<Tab>" : coc#refresh()
+	inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+	function! s:check_back_space() abort
+		let col = col('.') - 1
+		return !col || getline('.')[col - 1]  =~# '\s'
+	endfunction
+	inoremap <silent><expr> <c-space> coc#refresh()
+	
+	" Open up coc-commands
+	nnoremap <c-c> :CocCommand<CR>
+	" Text Objects
+	xmap kf <Plug>(coc-funcobj-i)
+	xmap af <Plug>(coc-funcobj-a)
+	omap kf <Plug>(coc-funcobj-i)
+	omap af <Plug>(coc-funcobj-a)
+	" Useful commands
+	nnoremap <silent> <space>y :<C-u>CocList -A --normal yank<cr>
+	nmap <silent> gd <Plug>(coc-definition)
+	nmap <silent> gy <Plug>(coc-type-definition)
+	nmap <silent> gi <Plug>(coc-implementation)
+	nmap <silent> gr <Plug>(coc-references)
+	nmap <leader>rn <Plug>(coc-rename)
+	nmap tt :CocCommand explorer<CR>
+	" coc-translator
+	nmap ts <Plug>(coc-translator-p)
+	" Remap for do codeAction of selected region, ex: `<leader>aap` for current paragraph
+	xmap <leader>a  <Plug>(coc-codeaction-selected)
+	nmap <leader>a  <Plug>(coc-codeaction-selected)
+	
+	" ===
+	" === MarkdownPreview
+	" ===
+	let g:mkdp_auto_start = 0
+	let g:mkdp_auto_close = 1
+	let g:mkdp_refresh_slow = 0
+	let g:mkdp_command_for_global = 0
+	let g:mkdp_open_to_the_world = 0
+	let g:mkdp_open_ip = ''
+	let g:mkdp_echo_preview_url = 0
+	let g:mkdp_browserfunc = ''
+	let g:mkdp_preview_options = { 'mkit': {}, 'katex': {}, 'uml': {}, 'maid': {}, 'disable_sync_scroll': 0, 'sync_scroll_type': 'middle', 'hide_yaml_meta': 1 }
+	let g:mkdp_markdown_css = ''
+	let g:mkdp_highlight_css = ''
+	let g:mkdp_port = ''
+	let g:mkdp_page_title = '「${name}」'
+b55c282c33549169ab4dd294e9a8e2f6|file:///home/hine/.vim/vimrc|188|1|V|vim
+	Plug 'tomasr/molokai'
+ad9723a9587b58334e46b4781323adce|file:///home/hine/.vim/vimrc|181|1|v|vim
+	" Specify a directory for plugins
+	" - For Neovim: stdpath('data') . '/plugged'
+	" - Avoid using standard Vim directory names like 'plugin'
+	call plug#begin('~/.vim/plugged')
+	Plug 'vim-airline/vim-airline'
+7d09e540f37a78dc50ee6c9c336d1045|file:///home/hine/.vim/vimrc|181|1|v|vim
+	
+	"Plug 'connorholyday/vim-snazzy'
+	
+	
+	
+315d99f208b0fa2a3a0344cce8f3522d|file:///home/hine/.vim/vimrc|181|1|V|vim
+	
+	" Markdown
+	Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install_sync() }, 'for' :['markdown', 'vim-plug'] }
+	
+	Plug 'dhruvasagar/vim-table-mode', { 'on': 'TableModeToggle' }
+fa3d950a87708caf95c799992eaf6ffb|file:///home/hine/.vim/vimrc|181|1|V|vim
+	
+	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+	
+	Plug 'tomasr/molokai'
+	
+a74f2b46c20e83cc180333e15b129ea2|file:///home/hine/.vim/vimrc|181|1|V|vim
+	" Initialize plugin system
+	call plug#end()
+	
+	color molokai
+	
+17d94230347df4bae55b93e7e52d0f8b|file:///home/hine/.vim/vimrc|181|1|V|vim
+	"let g:SnazzyTransparent = 1
+	let g:molokai_original = 1
+	let g:rehash256 = 1
+	
+	
+ff4c8ff01d544500ea4bfea43e6108c1|file:///home/hine/.vim/vimrc|181|1|V|vim
+	
+	
+	
+	
+	
+0e05472131fdf9799f9e575253dfd746|file:///home/hine/.vim/vimrc|181|1|V|vim
+	
+	
+	
+	
+	" ===
+e55a8a77fa4f04de2ff5ecff94ce6b19|file:///home/hine/.vim/vimrc|181|4|v|vim
+	== coc
+	" ===
+	" fix the most annoying bug that coc has
+	"silent! au BufEnter,BufRead,BufNewFile * silent! unmap if
+	let g:coc_global_extensions = ['coc-python', 'coc-vimlsp', 'coc-html', 'coc-json', 'coc-css', 'coc-tsserver', 'coc-yank', 'coc-lists', 'coc-gitignore', 'coc-vimlsp', 'coc-tailwindcss', 'coc-stylelint', 'coc-tslint', 'coc-lists', 'coc-git', 'coc-explorer', 'coc-pyright', 'coc-sourcekit', 'coc-translator', 'coc-flutter']
+50f922a5b0309af2b6a6617606041939|file:///home/hine/.vim/vimrc|181|3|v|vim
+	=
+	"set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
+	"nmap <silent> <TAB> <Plug>(coc-range-select)
+	"xmap <silent> <TAB> <Plug>(coc-range-select)
+	" use <tab> for trigger completion and navigate to the next complete item
+242ee11355a93dfee975790c2c1cfc31|file:///home/hine/.vim/vimrc|237|1|v|vim
+				\ }
+	let g:mkdp_markdown_css = ''
+	let g:mkdp_highlight_css = ''
+	let g:mkdp_port = ''
+	let g:mkdp_page_title = '「${name}」'
+173993e1048c2d51300bad5f842f9c73|file:///home/hine/.vim/vimrc|257|1|v|vim
+	nmap tt :CocCommand explorer<CR>
+	" coc-translator
+	nmap ts <Plug>(coc-translator-p)
+	" Remap for do codeAction of selected region, ex: `<leader>aap` for current paragraph
+	xmap <leader>a  <Plug>(coc-codeaction-selected)
+b80a24c21f1a25d05055c6e26c045835|file:///home/hine/.vim/vimrc|257|1|v|vim
+	
+	nmap <leader>a  <Plug>(coc-codeaction-selected)
+	
+	" ===
+	" === MarkdownPreview
+6d603d5656c7fca35adfcde52fcd9ad8|file:///home/hine/.vim/vimrc|257|1|v|vim
+	
+	" ===
+	let g:mkdp_auto_start = 0
+	let g:mkdp_auto_close = 1
+	let g:mkdp_refresh_slow = 0
+a0ce05c46c265d0399ebb28948d42226|file:///home/hine/.vim/vimrc|257|1|v|vim
+	
+	let g:mkdp_command_for_global = 0
+	let g:mkdp_open_to_the_world = 0
+	let g:mkdp_open_ip = ''
+	let g:mkdp_echo_preview_url = 0
+2e3f634ea037eea4d93815ecb1b30e20|file:///home/hine/.vim/vimrc|257|1|v|vim
+	
+	let g:mkdp_browserfunc = ''
+	let g:mkdp_preview_options = {
+				\ 'mkit': {},
+				\ 'katex': {},
+3f6d0e5d3e4c26e8207171247692fb35|file:///home/hine/.vim/vimrc|255|1|v|vim
+	nmap <silent> gr <Plug>(coc-references)
+	nmap <leader>rn <Plug>(coc-rename)
+	
+				\ 'uml': {},
+				\ 'maid': {},
+213daa2a437f66802f4680376ce29a59|file:///home/hine/.vim/vimrc|255|1|v|vim
+	
+				\ 'disable_sync_scroll': 0,
+				\ 'sync_scroll_type': 'middle',
+				\ 'hide_yaml_meta': 1
+				\ }
+06030fd7b27540dc2d3c3ef7e750e60c|file:///home/hine/.vim/vimrc|25|1|v|vim
+	
+	
+	map <LEADER>rc :e $MYVIMRC<CR>

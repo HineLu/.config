@@ -1,0 +1,8 @@
+# GIMP action-history
+
+(history-item "image-new" 1)
+(history-item "edit-paste-as-new-image" 1)
+(history-item "plug-in-screenshot" 0)
+(history-item "file-quit" 1)
+
+# end of action-history

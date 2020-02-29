@@ -1,0 +1,22 @@
+**** 聊天记录于 Thu Feb 20 00:46:30 2020
+ 开始记录
+2月 20 00:46:30 *	 正在连接到 chat.freenode.net (38.229.70.22:6697)
+2月 20 00:46:32 *	* Subject: /O=Digital Signature Trust Co./CN=DST Root CA X3
+2月 20 00:46:32 *	* Issuer: /O=Digital Signature Trust Co./CN=DST Root CA X3
+2月 20 00:46:32 *	* Subject: /C=US/O=Let's Encrypt/CN=Let's Encrypt Authority X3
+2月 20 00:46:32 *	* Issuer: /O=Digital Signature Trust Co./CN=DST Root CA X3
+2月 20 00:46:32 *	* Subject: /CN=card.freenode.net
+2月 20 00:46:32 *	* Issuer: /C=US/O=Let's Encrypt/CN=Let's Encrypt Authority X3
+2月 20 00:46:33 *	* Certification info:
+2月 20 00:46:33 *	  Subject:
+2月 20 00:46:33 *	    CN=card.freenode.net
+2月 20 00:46:33 *	  Issuer:
+2月 20 00:46:33 *	    C=US
+2月 20 00:46:33 *	    O=Let's Encrypt
+2月 20 00:46:33 *	    CN=Let's Encrypt Authority X3
+2月 20 00:46:33 *	  Public key algorithm: rsaEncryption (4096 bits)
+2月 20 00:46:33 *	  Sign algorithm sha256WithRSAEncryption
+2月 20 00:46:33 *	  Valid since Feb 10 05:01:10 2020 GM to May 10 05:01:10 2020 GM
+2月 20 00:46:33 *	* Cipher info:
+2月 20 00:46:33 *	  Version: TLSv1.3, cipher TLS_AES_256_GCM_SHA384 (256 bits)
+2月 20 00:46:33 *	 已连接。正在登录...

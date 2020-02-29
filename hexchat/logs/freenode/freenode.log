@@ -1,0 +1,89 @@
+**** 聊天记录于 Thu Feb 20 00:46:34 2020
+ 开始记录
+2月 20 00:46:34 *	*** Looking up your hostname...
+2月 20 00:46:34 *	*** Checking Ident
+2月 20 00:46:34 *	*** Couldn't look up your hostname
+2月 20 00:46:42 *	*** No Ident response
+2月 20 00:46:42 *	 支持能力： account-notify away-notify cap-notify chghost extended-join identify-msg multi-prefix sasl tls
+2月 20 00:46:42 *	 请求能力：account-notify away-notify cap-notify chghost extended-join identify-msg multi-prefix 
+2月 20 00:46:42 *	 已知能力： account-notify away-notify cap-notify chghost extended-join identify-msg multi-prefix 
+**** 聊天记录于 Thu Feb 20 00:46:42 2020
+ 结束记录
+**** 聊天记录于 Thu Feb 20 00:46:42 2020
+ 开始记录
+2月 20 00:46:42 *	Welcome to the freenode Internet Relay Chat Network hine
+2月 20 00:46:42 *	Your host is card.freenode.net[38.229.70.22/6697], running version ircd-seven-1.1.9
+2月 20 00:46:42 *	This server was created Tue Oct 22 2019 at 18:43:49 UTC
+2月 20 00:46:43 *	card.freenode.net ircd-seven-1.1.9 DOQRSZaghilopsuwz CFILMPQSbcefgijklmnopqrstuvz bkloveqjfI
+2月 20 00:46:43 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstuz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2月 20 00:46:43 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+2月 20 00:46:43 *	WHOX SAFELIST ELIST=CTU ETRACE :are supported by this server
+2月 20 00:46:43 *	There are 95 users and 85562 invisible on 29 servers
+2月 20 00:46:43 *	32 :IRC Operators online
+2月 20 00:46:43 *	25 :unknown connection(s)
+2月 20 00:46:43 *	43222 :channels formed
+2月 20 00:46:43 *	I have 875 clients and 1 servers
+2月 20 00:46:43 *	875 875 :Current local users 875, max 875
+2月 20 00:46:43 *	85657 87738 :Current global users 85657, max 87738
+2月 20 00:46:43 *	Highest connection count: 876 (875 clients) (9045 connections received)
+2月 20 00:46:43 *	- card.freenode.net Message of the Day - 
+2月 20 00:46:43 *	-  
+2月 20 00:46:43 *	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+2月 20 00:46:43 *	- Team Cymru (http://www.team-cymru.org).
+2月 20 00:46:43 *	-  
+2月 20 00:46:43 *	- CARD, ORSON SCOTT [1951-]. Born in Richland, Washington, Card grew up in
+2月 20 00:46:43 *	- California, Arizona, and Utah. He lived in Brazil for two years as an unpaid
+2月 20 00:46:43 *	- missionary for the Mormon Church. Author of the Ender and Alvin Maker books,
+2月 20 00:46:43 *	- Card's science fiction and fantasy work is strongly influenced by his Mormon
+2月 20 00:46:43 *	- cultural background. The first author to win the Hugo and Nebula novel awards
+2月 20 00:46:43 *	- two years in a row, Card currently lives in Greensboro, North Carolina, US.
+2月 20 00:46:43 *	-  
+2月 20 00:46:43 *	-  
+2月 20 00:46:43 *	- Welcome to freenode - supporting the free and open source
+2月 20 00:46:43 *	- software communities since 1998.
+2月 20 00:46:43 *	-  
+2月 20 00:46:43 *	- By connecting to freenode you indicate that you have read and
+2月 20 00:46:43 *	- accept our policies and guidelines as set out on https://freenode.net
+2月 20 00:46:43 *	-  
+2月 20 00:46:43 *	- In the event that you observe behaviour that contravenes our policies,
+2月 20 00:46:43 *	- please notify a volunteer staff member via private message, or send us an
+2月 20 00:46:43 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+2月 20 00:46:43 *	- situation within a reasonable period of time, and we may request further
+2月 20 00:46:43 *	- information or, as appropriate, involve other parties such as channel operators 
+2月 20 00:46:43 *	- Group Contacts representing an on-topic group.
+2月 20 00:46:43 *	-  
+2月 20 00:46:43 *	- freenode runs an open proxy scanner.
+2月 20 00:46:43 *	-  
+2月 20 00:46:43 *	- If you are looking for assistance, you may be able to find a list of 
+2月 20 00:46:43 *	- volunteer staff on '/stats p' (shows only on-call staff) or by joining 
+2月 20 00:46:43 *	- #freenode and using the '/who freenode/staff/*' command. You may message
+2月 20 00:46:43 *	- any of us at any time. Please note that freenode predominantly provides 
+2月 20 00:46:43 *	- assistance via private message, and while we have a network channel the 
+2月 20 00:46:43 *	- primary venue for support requests is via private message to a member 
+2月 20 00:46:43 *	- of the volunteer staff team.
+2月 20 00:46:43 *	-  
+2月 20 00:46:43 *	- From time to time, volunteer staff may send server-wide notices relating to
+2月 20 00:46:43 *	- the project, or the communities that we host. The majority of such notices
+2月 20 00:46:43 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+2月 20 00:46:43 *	- do not miss them. Important messages relating to the freenode project, including
+2月 20 00:46:43 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+2月 20 00:46:43 *	- global notices.
+2月 20 00:46:43 *	-  
+2月 20 00:46:43 *	- Representing an on-topic project? Don't forget to register, more information
+2月 20 00:46:43 *	- can be found on the https://freenode.net website under "Group Registration".
+2月 20 00:46:43 *	-  
+2月 20 00:46:43 *	- Thank you also to our server sponsors for the sustained support in keeping the
+2月 20 00:46:43 *	- network going for close to two decades.
+2月 20 00:46:43 *	-  
+2月 20 00:46:43 *	- Thank you for using freenode!
+2月 20 00:46:43 *	End of /MOTD command.
+2月 20 00:46:43 *	hine 在上 hine 设置了 +Z 模式
+2月 20 00:46:43 *	hine 在上 hine 设置了 +i 模式
+2月 20 00:46:56 *	#hexchat :Cannot join channel (+r) - you need to be identified with services - see https://freenode.net/kb/answer/registration
+2月 20 00:47:58 Perl interface unloaded
+2月 20 00:47:58 Checksum plugin unloaded
+2月 20 00:47:58 插件 Sysinfo 以卸载
+2月 20 00:47:58 FiSHLiM plugin unloaded
+2月 20 00:47:58 Python interface unloaded
+**** 聊天记录于 Thu Feb 20 00:47:58 2020
+ 结束记录

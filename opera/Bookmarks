@@ -1,0 +1,302 @@
+{
+   "checksum": "0961aa07ec01020ed5e3264021defed7",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13226748409882451",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-A000-000000000002",
+         "id": "1",
+         "name": "书签栏",
+         "type": "folder"
+      },
+      "custom_root": {
+         "speedDial": {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13226748410143215",
+                  "guid": "06b5b780-7d51-4474-84bd-0d20b2e72a36",
+                  "id": "9",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/5aa8c9f341edfc287a605166be602a45e7335eb9.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/7bb03d1c5e40d667ae2049e292201ed0c8b9e010.png",
+                     "imageDataType": "2",
+                     "imageID": "3FEDEC1F22A5450E0093CA9B75E6218FB0E3A68D03E53C18F9D70E57601B26F5",
+                     "imageType": "2",
+                     "partner_id": "baidu_com",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/7bb03d1c5e40d667ae2049e292201ed0c8b9e010.png",
+                     "partner_url": "https://www.baidu.com/index.php?tn=54002054_1_dg",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/baidu_com",
+                     "revision": "20180425",
+                     "server_position": "1"
+                  },
+                  "name": "百度搜索",
+                  "type": "url",
+                  "url": "http://www.baidu.com/"
+               }, {
+                  "date_added": "13226748410146168",
+                  "guid": "46631b51-4a80-44c6-b955-3d85f177e1d2",
+                  "id": "10",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/24d8dc1e7d55eea3c63b864af647eaf90cc31f67.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/bd48a9c2f2bbc61971af5de247d2b13202a5a4d5.png",
+                     "imageDataType": "2",
+                     "imageID": "916D5CF5E396B43EF1FB95EB7698CB826DA437159CCD035654D56FC66AF268EC",
+                     "imageType": "2",
+                     "partner_id": "hao123_com",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/bd48a9c2f2bbc61971af5de247d2b13202a5a4d5.png",
+                     "partner_url": "http://www.hao123.com/?tn=94475379_hao_pg",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/hao123_com",
+                     "revision": "20180425",
+                     "server_position": "2"
+                  },
+                  "name": "网址导航",
+                  "type": "url",
+                  "url": "http://www.hao123.com/"
+               }, {
+                  "date_added": "13226748410148948",
+                  "guid": "8be5165c-cc57-4fb5-be62-a661dcbf1b3d",
+                  "id": "11",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/a07ea74aa0b3aae5b7dc37789a2e834b1e883060.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/8912fbc741edbb52b41e0795e6fbbe865884a819.png",
+                     "imageDataType": "2",
+                     "imageID": "6B8CFBDAD89F8B366C2E3D30EFB812E42BA470D0576A8C2982AD13C263B1957C",
+                     "imageType": "2",
+                     "partner_id": "booking_cn",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/8912fbc741edbb52b41e0795e6fbbe865884a819.png",
+                     "partner_url": "https://www.booking.com/index.html?aid=1686074",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/booking_cn",
+                     "revision": "20190426",
+                     "server_position": "4"
+                  },
+                  "name": "海外酒店",
+                  "type": "url",
+                  "url": "https://www.booking.com/"
+               }, {
+                  "date_added": "13226748410150465",
+                  "guid": "7c715afa-292e-4855-8db8-5749a52bd66e",
+                  "id": "12",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/0e286062d80e41a6a36d7880a8ffc5f5ecb86c45.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/3465ed42c158dc49346044fb0349ed47cac04b87.png",
+                     "imageDataType": "2",
+                     "imageID": "842483E0C19DB8AB7C141E34CA3B3CEBC5BBF8011DAB5390ED5E0F3DCA3C848C",
+                     "imageType": "2",
+                     "partner_id": "jumpluna_58_com",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/3465ed42c158dc49346044fb0349ed47cac04b87.png",
+                     "partner_url": "https://jumpluna.58.com/i/2captxj6297pnc46zg",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/jumpluna_58_com",
+                     "revision": "20180425",
+                     "server_position": "7"
+                  },
+                  "name": "58生活",
+                  "type": "url",
+                  "url": "https://jumpluna.58.com/"
+               }, {
+                  "date_added": "13226748410151906",
+                  "guid": "772cb7e0-f2a2-4518-ae30-4c4cb847903a",
+                  "id": "13",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/4b3ed19446716062bdc405122f6340bd9927c296.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/394bc4de9421db4d2b872afc75f4964898dde2e9.png",
+                     "imageDataType": "2",
+                     "imageID": "B5C3C2FBEF19AFF2BC6545FBFD94D07C584D02CD1375277F82575286E5E434AA",
+                     "imageType": "2",
+                     "partner_id": "ctrip_cn",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/394bc4de9421db4d2b872afc75f4964898dde2e9.png",
+                     "partner_url": "https://www.ctrip.com/?AllianceID=1053405&sid=1820787&ouid=&app=0101F00",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/ctrip_cn",
+                     "revision": "20190507",
+                     "server_position": "9"
+                  },
+                  "name": "携程旅行",
+                  "type": "url",
+                  "url": "http://www.ctrip.com/"
+               }, {
+                  "date_added": "13226748410154224",
+                  "guid": "c85535b3-51c1-40dc-990e-6dca5739959d",
+                  "id": "14",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/752fe2a6fad48ed9d16b904f4a0c685d52ef711f.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/eeae2c7d93581f6481879204bd774adc2c6c24c0.png",
+                     "imageDataType": "2",
+                     "imageID": "4909B5AD1E07B22D449DA959972618E98E6C487A0BF876778D0671C5A2F9A92D",
+                     "imageType": "2",
+                     "partner_id": "jd_cn",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/eeae2c7d93581f6481879204bd774adc2c6c24c0.png",
+                     "partner_url": "https://m.picker.cn/link/jd.com/mall",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/jd_cn",
+                     "revision": "20190527",
+                     "server_position": "10"
+                  },
+                  "name": "京东",
+                  "type": "url",
+                  "url": "https://www.jd.com/"
+               }, {
+                  "date_added": "13226748410155381",
+                  "guid": "267c19f6-d166-42ec-ae4e-c4f23851ef66",
+                  "id": "15",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/3926db43cbb728991010e62a39e32ade12c890ea.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/6691ba0ee68057f1f04321d24871244f8252c185.png",
+                     "imageDataType": "2",
+                     "imageID": "11F42F8785713B90FC3DF7780A3AC73C1FF0088853505D526CF87714CAC0EC27",
+                     "imageType": "2",
+                     "partner_id": "360kuai_cn",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/6691ba0ee68057f1f04321d24871244f8252c185.png",
+                     "partner_url": "https://www.360kuai.com/pc/event/feiyan_2020",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/360kuai_cn",
+                     "revision": "20200204",
+                     "server_position": "11"
+                  },
+                  "name": "抗击肺炎",
+                  "type": "url",
+                  "url": "https://www.360kuai.com/"
+               }, {
+                  "date_added": "13226748410156506",
+                  "guid": "c993a87e-eaa9-49b8-9d93-a2b6cf9a177d",
+                  "id": "16",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/e85ed01b2d3b8765ec94a12bae647ab2b3148129.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/f024bbca939963b265f15a1adfcb7c39afbe8099.png",
+                     "imageDataType": "2",
+                     "imageID": "DD15C81136440C13B587F2C0ABE8815837899B7D43AC4841643F062A40E70C45",
+                     "imageType": "2",
+                     "partner_id": "fliggy_cn",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/f024bbca939963b265f15a1adfcb7c39afbe8099.png",
+                     "partner_url": "https://m.picker.cn/link/fliggy.com/mall",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/fliggy_cn",
+                     "revision": "20190814",
+                     "server_position": "12"
+                  },
+                  "name": "飞猪",
+                  "type": "url",
+                  "url": "https://www.fliggy.com/"
+               }, {
+                  "date_added": "13226748410158345",
+                  "guid": "9d8214aa-ba80-48c6-9edf-c573b427aaca",
+                  "id": "17",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/3446cd3f9740bf211bab0c0304d60911c68aa214.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/716158b5cd42bf80b097be98fac5bb0c25fcae8f.png",
+                     "imageDataType": "2",
+                     "imageID": "1516EC7730698988277428011CE8D32B7150EA8352D81597F62FDBA975A28BB0",
+                     "imageType": "2",
+                     "partner_id": "taobao_cn",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/716158b5cd42bf80b097be98fac5bb0c25fcae8f.png",
+                     "partner_url": "https://m.picker.cn/link/ju.taobao.com/mall",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/taobao_cn",
+                     "revision": "20200116",
+                     "server_position": "13"
+                  },
+                  "name": "聚划算",
+                  "type": "url",
+                  "url": "https://ju.taobao.com/"
+               }, {
+                  "date_added": "13226748410160473",
+                  "guid": "32134b83-3580-49b1-9aaa-04eba7fdc86b",
+                  "id": "18",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/3090cd1ed6264a39b67fe7f67575ed0563ae6a7a.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/1f6b04c9c116b279a907b1f3c93ec4f13e0dac07.png",
+                     "imageDataType": "2",
+                     "imageID": "D7B8284CFF57D5531ED57E7D4CEBBDB363EB48184C06518753F3A1DA954E89C8",
+                     "imageType": "2",
+                     "partner_id": "tmall_cn",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/1f6b04c9c116b279a907b1f3c93ec4f13e0dac07.png",
+                     "partner_url": "https://m.picker.cn/link/tmall.com/mall",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/tmall_cn",
+                     "revision": "20191024",
+                     "server_position": "14"
+                  },
+                  "name": "天猫",
+                  "type": "url",
+                  "url": "https://www.tmall.com/"
+               }, {
+                  "date_added": "13226748410161519",
+                  "guid": "7ca061b2-e0de-4bbe-abc9-abba2b84ad76",
+                  "id": "19",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/8381913b000c3f5508e0cf51f776d6203de80f6f.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/8466b608d3351408766b86e1e3a624d81f4db677.png",
+                     "imageDataType": "2",
+                     "imageID": "B5108522CA143A5B57C0B70A876F4C00DFE33C51D0B723EDCB9D7338AF3203C2",
+                     "imageType": "2",
+                     "partner_id": "vip_cn",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/8466b608d3351408766b86e1e3a624d81f4db677.png",
+                     "partner_url": "http://www.sxm2.com/At",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/vip_cn",
+                     "revision": "20191126",
+                     "server_position": "15"
+                  },
+                  "name": "唯品会",
+                  "type": "url",
+                  "url": "https://www.vip.com/"
+               } ],
+               "date_added": "13226748409936009",
+               "date_modified": "13226748410161519",
+               "guid": "490bec1b-53bc-4424-b85c-b08ff0ec3ff2",
+               "id": "8",
+               "meta_info": {
+                  "speed_dial_root_folder_guid": "46864c32-94e6-44ec-9098-a3c605873b56"
+               },
+               "name": "hine-pc",
+               "type": "folder"
+            } ],
+            "date_added": "13226748409935954",
+            "date_modified": "0",
+            "guid": "00000000-0000-4000-A000-000000000005",
+            "id": "6",
+            "name": "Speed Dials",
+            "type": "folder"
+         },
+         "trash": {
+            "children": [  ],
+            "date_added": "13226748409935954",
+            "date_modified": "0",
+            "guid": "00000000-0000-4000-A000-000000000005",
+            "id": "7",
+            "name": "回收站",
+            "type": "folder"
+         },
+         "unsorted": {
+            "children": [  ],
+            "date_added": "13226748409935952",
+            "date_modified": "0",
+            "guid": "00000000-0000-4000-A000-000000000005",
+            "id": "4",
+            "name": "未分类书签",
+            "type": "folder"
+         },
+         "userRoot": {
+            "children": [  ],
+            "date_added": "13226748409935953",
+            "date_modified": "0",
+            "guid": "00000000-0000-4000-A000-000000000005",
+            "id": "5",
+            "name": "其它书签",
+            "type": "folder"
+         }
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13226748409882455",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-A000-000000000003",
+         "id": "2",
+         "name": "已导入的书签",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13226748409882455",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-A000-000000000004",
+         "id": "3",
+         "name": "移动设备书签",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

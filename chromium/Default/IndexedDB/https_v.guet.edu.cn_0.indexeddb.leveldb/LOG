@@ -1,0 +1,6 @@
+2020/02/26-20:35:10.962 5211 Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_v.guet.edu.cn_0.indexeddb.leveldb/MANIFEST-000001
+2020/02/26-20:35:10.962 5211 Recovering log #3
+2020/02/26-20:35:10.963 5211 Reusing old log /home/hine/.config/chromium/Default/IndexedDB/https_v.guet.edu.cn_0.indexeddb.leveldb/000003.log 
+2020/02/26-20:36:48.857 525c Level-0 table #5: started
+2020/02/26-20:36:48.889 525c Level-0 table #5: 2928470 bytes OK
+2020/02/26-20:36:48.891 525c Delete type=0 #3

@@ -1,0 +1,3 @@
+IBUS_ADDRESS=unix:path=/run/user/1000/bus;
+IBUS_DAEMON_PID=7433
+
