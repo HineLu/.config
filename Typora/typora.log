@@ -1,0 +1,13 @@
+INFO 2020/3/3 下午3:21:57  luanchFromDiffVersion, pre version is undefined
+INFO 2020/3/3 下午3:21:57  overwriteThemeFolder
+INFO 2020/3/3 下午3:21:57  ------------------start------------------
+INFO 2020/3/3 下午3:21:57  typora version: 0.9.85
+DEBUG 2020/3/3 下午3:21:57  [ '/usr/share/typora/Typora' ]
+INFO 2020/3/3 下午3:21:57  [Raven] instanceKey = 521b21d9-6792-4628-9f77-e242b0855472
+DEBUG 2020/3/3 下午3:21:57  app.openFile
+INFO 2020/3/3 下午3:21:58  [Raven] userId = 77a7df68-3b9e-4627-a87c-57b88e2de100
+INFO 2020/3/3 下午3:21:58  [focus] 1
+INFO 2020/3/3 下午3:22:07  [blur] 1
+INFO 2020/3/3 下午3:22:09  [focus] 1
+INFO 2020/3/3 下午3:22:17  ----------------before-quit-----------------
+INFO 2020/3/3 下午3:22:17  ------------------will-quit------------------

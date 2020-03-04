@@ -1,0 +1,15 @@
+0
+/usr/share/backgrounds/manjaro-wallpapers-18.0/Manjaro_Glass_1080p.jpg
+/usr/share/backgrounds/wallpapers-2018/panorama-3629120.jpg
+/usr/share/backgrounds/wallpapers-2018/manhattan-336708.jpg
+/usr/share/backgrounds/xfce/play.jpg
+/usr/share/backgrounds/xfce/Manjaro-Light2.jpg
+/home/hine/.config/variety/Downloaded/Bing/OHR.LakeGullMN_ZH-CN5281494536_1920x1080.jpg
+/usr/share/backgrounds/xfce/sun-ye0s2oy.jpg
+/home/hine/.config/variety/Downloaded/Chrome OS Wallpapers/20130507-163656_Fluffy-Clouds_high_resolution.jpg
+/home/hine/.config/variety/Downloaded/Bing/OHR.MundoFalls_ZH-CN5545236650_1920x1080.jpg
+/usr/share/backgrounds/xfce/manjaro-dog.jpg
+/usr/share/backgrounds/manjaro-wallpapers-18.0/play.jpg
+/usr/share/backgrounds/wallpapers-juhraya/wMJ_J2b_by_Bogdan-Covaciu.jpg
+/home/hine/.config/variety/Downloaded/Bing/OHR.LakeGullMN_ZH-CN5281494536_1920x1080.jpg
+/usr/share/backgrounds/gnome/adwaita-timed.xml

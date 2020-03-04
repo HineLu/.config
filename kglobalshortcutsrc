@@ -1,0 +1,7 @@
+[org.kde.spectacle.desktop]
+ActiveWindowScreenShot=Meta+Print,Meta+Print,截取活动窗口
+CurrentMonitorScreenShot=,none,截取当前显示器
+FullScreenScreenShot=Shift+Print,Shift+Print,截取整个桌面
+RectangularRegionScreenShot=Meta+Shift+Print,Meta+Shift+Print,截取矩形区域
+_k_friendly_name=Spectacle
+_launch=Print,Print,启动 Spectacle

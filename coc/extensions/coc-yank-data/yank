@@ -189,3 +189,363 @@ a0ce05c46c265d0399ebb28948d42226|file:///home/hine/.vim/vimrc|257|1|v|vim
 	
 	
 	map <LEADER>rc :e $MYVIMRC<CR>
+bf983319fc6f50e203265107c3047e43|file:///home/hine/.config/alacritty/alacritty.yml|1|1|V|yaml
+	# Configuration for Alacritty, the GPU enhanced terminal emulator.
+	
+	# Any items in the `env` entry below will be added as
+	# environment variables. Some entries may override variables
+	# set by alacritty itself.
+	env:
+	  # TERM variable
+	  #
+	  # This value is used to set the `$TERM` environment variable for
+	  # each instance of Alacritty. If it is not present, alacritty will
+	  # check the local terminfo database and use `alacritty` if it is
+	  # available, otherwise `xterm-256color` is used.
+	  TERM: xterm-256color
+	
+	window:
+	  # Window dimensions (changes require restart)
+	  #
+	  # Specified in number of columns/lines, not pixels.
+	  # If both are `0`, this setting is ignored.
+	  dimensions:
+	  #  columns: 0
+	  #  lines: 0
+	
+	  # Window position (changes require restart)
+	  #
+	  # Specified in number of pixels.
+	  # If the position is not set, the window manager will handle the placement.
+	  position:
+	  #  x: 0
+	  #  y: 0
+	
+	  # Window padding (changes require restart)
+	  #
+	  # Blank space added around the window in pixels. This padding is scaled
+	  # by DPI and the specified value is always added at both opposing sides.
+	  padding:
+	  #  x: 0
+	  #  y: 0
+	
+	  # Spread additional padding evenly around the terminal content.
+	  dynamic_padding: false
+	
+	  # Window decorations
+	  #
+	  # Values for `decorations`:
+	  #     - full: Borders and title bar
+	  #     - none: Neither borders nor title bar
+	  #
+	  # Values for `decorations` (macOS only):
+	  #     - transparent: Title bar, transparent background and title bar buttons
+	  #     - buttonless: Title bar, transparent background, but no title bar buttons
+	  decorations: full
+	
+	  # Startup Mode (changes require restart)
+	  #
+	  # Values for `startup_mode`:
+	  #   - Windowed
+	  #   - Maximized
+	  #   - Fullscreen
+	  #
+	  # Values for `startup_mode` (macOS only):
+	  #   - SimpleFullscreen
+	  startup_mode: Windowed
+	
+	  # Window title
+	  title: Alacritty
+	
+	  # Window class (Linux/BSD only):
+	  class:
+	    # Application instance name
+	    instance: Alacritty
+	    # General application class
+	    general: Alacritty
+	
+	  # GTK theme variant (Linux/BSD only)
+	  #
+	  # Override the variant of the GTK theme. Commonly supported values are `dark` and `light`.
+	  # Set this to `None` to use the default theme variant.
+	  gtk_theme_variant: None
+	
+	scrolling:
+	  # Maximum number of lines in the scrollback buffer.
+	  # Specifying '0' will disable scrolling.
+	  history: 10000
+	
+	  # Number of lines the viewport will move for every line scrolled when
+	  # scrollback is enabled (history > 0).
+	  multiplier: 3
+	
+	# Spaces per Tab (changes require restart)
+	#
+	# This setting defines the width of a tab in cells.
+	#
+	# Some applications, like Emacs, rely on knowing about the width of a tab.
+	# To prevent unexpected behavior in these applications, it's also required to
+	# change the `it` value in terminfo when altering this setting.
+	tabspaces: 4
+	
+	# Font configuration
+	font:
+	  # Normal (roman) font face
+	  normal:
+	    # Font family
+	    #
+	    # Default:
+	    #   - (macOS) Menlo
+	    #   - (Linux/BSD) monospace
+	    #   - (Windows) Consolas
+	    family: Source Code Pro
+	
+	
+	
+	    # The `style` can be specified to pick a specific face.
+	    style: Regular
+	
+	  # Bold font face
+	  bold:
+	    # Font family
+	    #
+	    # If the bold family is not specified, it will fall back to the
+	    # value specified for the normal font.
+	    family: Source Code Pro
+	
+	    # The `style` can be specified to pick a specific face.
+	    style: Bold
+	
+	  # Italic font face
+	  italic:
+	    # Font family
+	    #
+	    # If the italic family is not specified, it will fall back to the
+	    # value specified for the normal font.
+	    family: Source Code Pro
+	
+	    # The `style` can be specified to pick a specific face.
+	    style: Italic
+	
+	  # Bold italic font face
+	  bold_italic:
+	    # Font family
+	    #
+	    # If the bold italic family is not specified, it will fall back to the
+	    # value specified for the normal font.
+	    family: Source Code Pro
+	
+	    # The `style` can be specified to pick a specific face.
+	    style: Bold Italic
+	
+	  # Point size
+	  size: 18.0
+	
+	  # Offset is the extra space around each character. `offset.y` can be thought of
+	  # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
+	  offset:
+	    x: 0
+	    y: 0
+	
+	  # Glyph offset determines the locations of the glyphs within their cells with
+	  # the default being at the bottom. Increasing `x` moves the glyph to the right,
+	  # increasing `y` moves the glyph upwards.
+	  glyph_offset:
+	    x: 0
+	    y: 0
+	
+	  # Thin stroke font rendering (macOS only)
+	  #
+	  # Thin strokes are suitable for retina displays, but for non-retina screens
+	  # it is recommended to set `use_thin_strokes` to `false`
+	  #
+	  # macOS >= 10.14.x:
+	  #
+	  # If the font quality on non-retina display looks bad then set
+	  # `use_thin_strokes` to `true` and enable font smoothing by running the
+	  # following command:
+	  #   `defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO`
+	  #
+	  # This is a global setting and will require a log out or restart to take
+	  # effect.
+	  use_thin_strokes: true
+	
+	# If `true`, bold text is drawn using the bright color variants.
+	draw_bold_text_with_bright_colors: false
+	
+	# Colors (Tomorrow Night Bright)
+	colors:
+	  # Default colors
+	  primary:
+	  #  background: '0x000000'
+	  #  foreground: '0xeaeaea'
+	
+	    # Bright and dim foreground colors
+	    #
+	    # The dimmed foreground color is calculated automatically if it is not present.
+	    # If the bright foreground color is not set, or `draw_bold_text_with_bright_colors`
+	    # is `false`, the normal foreground color will be used.
+	    dim_foreground: '0x9a9a9a'
+	    bright_foreground: '0xffffff'
+	
+	  # Cursor colors
+	  #
+a7b9bd2190447efcaf8ff2f8e77d7dab|file:///home/hine/.config/alacritty/alacritty.yml|1|1|V|yaml
+	https://raw.githubusercontent.com/tmcdonell/config-alacritty/master/alacritty.y
+edbc2d843c9cf49eafb1955938488a51|file:///etc/hosts|7|1|V|
+	192.30.253.112 github.com
+	185.199.108.153 assets-cdn.github.com
+	185.199.109.153 assets-cdn.github.com
+	185.199.110.153 assets-cdn.github.com
+	185.199.111.153 assets-cdn.github.com
+	199.232.5.194 github.global.ssl.fastly.net
+e7e75d50b10002a624d9682a07e35912|file:///home/hine/Workspace/StudyNote/AdvancedMath/kongjianzhixian.md|3|1|V|markdown
+	A1x+B1y+C1z+D1=0
+1316cc7f8a7e46c766e470e8052eb49f|file:///home/hine/Workspace/StudyNote/AdvancedMath/kongjianzhixian.md|11|1|V|markdown
+	(x-x0)/m=(y-y0)/n=(z-z0)/p  
+956bee3be1e0da043a08fe54fab68f18|file:///home/hine/Workspace/StudyNote/AdvancedMath/kongjianzhixian.md|11|36|v|markdown
+	dianxiangshifangcheng)
+	已知直线上一点M0(x0,y0,z0)和它的方向向量**s**=(m,n,p),设直线上的动点为M(x,y,z)  
+	**M0M**//**s**  
+	(x-x0)/m=(y-y0)/n=(z-z0)/p  
+	当分母为0时, 理解成分子为零  
+	分母即为方向向量  
+a517bedd1701014c46cab9659b09f364|file:///home/hine/Workspace/StudyNote/AdvancedMath/kongjianzhixian.md|4|1|V|markdown
+	>A1x+B1y+C1z+D1=0
+	A2x+B2y+C2z+D2=0
+a3f7cb3ea279b72e6b7a2a90b15a2fa2|file:///home/hine/Workspace/StudyNote/AdvancedMath/kongjianzhixian.md|48|1|V|markdown
+	## 求直线在平面上的投影直线方程
+0ea6c8cad4caa54f6da00e6ac4f79fd1|file:///home/hine/Workspace/StudyNote/AdvancedMath/kongjianzhixian.md|38|1|V|markdown
+	### 求直线在平面上的投影直线方程
+2de750dd4f65e7b755efa05abcd69f35|file:///home/hine/.vim/vimrc|190|7|v|vim
+	Iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install' }
+	Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install_sync() }, 'for' :['markdown', 'vim-plug'] }
+	
+a5cb550cdf5b4c2b439983a533235922|file:///home/hine/.vim/vimrc|192|1|v|vim
+	iamcco/markdown-preview.nvim'
+41b53325cc0b99fb3c01a983ecbc2766|file:///home/hine/.vim/vimrc|191|38|v|vim
+	.nvim
+c734322b0b355e8d8640ae2b9273463e|file:///home/hine/.vim/vimrc|191|9|v|vim
+	.vim/plugged/markdown-preview
+19e1d5c8de66fb40e255906329cae2cf|file:///home/hine/.vim/vimrc|190|8|v|vim
+	iamcco/
+b75dbcd68ca6f8e5fcca5d620d9f458b|untitled:1|1|110|v|
+	/releases/download/v0.0.9/markdown-preview-linux.tar.gz?wrdrecordvisit=record
+90a6581ca1ff3d01f2c7bb7212528b10|untitled:1|1|1|v|
+	https://v.guet.edu.cn/https/77726476706e69737468656265737421f7fe5594323226537105/iamcco/markdown-preview.nvim
+2b51f9f406c9a73d2f69908e04ba2d11|file:///home/hine/.vim/plugged/markdown-preview.nvim/app/install.sh|68|36|v|sh
+	77726476706e69737468656265737421f7fe5594323226537105/
+648c7b3d7af63fdd5bdde6b387f68f36|file:///home/hine/.config/i3/config|31|21|v|conf
+	 spectacle
+	xfce4-clipman
+03d21aea376b2e43c7051cc7086fce46|file:///home/hine/.config/i3/config|31|1|v|conf
+	exec --no-startup-id
+f0ac1868e324b1970367676d9a245578|file:///home/hine/.config/i3/config|25|6|v|conf
+	--no-startup-id 
+74c1e2a89418fafb3cc83356ed614d3e|file:///home/hine/.config/i3/config|31|1|V|conf
+	exec --no-startup-id spectacle
+599eba19aa93a929cb8589f148b8a6c4|file:///home/hine/.config/i3/config|34|14|v|conf
+	screen
+645d6ee6423835eb19023ce427aab526|file:///home/hine/.config/i3/config|34|9|v|conf
+	print 
+f7531e2d0ea27233ce00b5f01c5bf335|file:///home/hine/.config/i3/config|34|9|v|conf
+	print
+8c09692f6797b98aa41045b6b2327d7a|file:///home/hine/.config/i3/config|35|1|V|conf
+	bindsym Mod1+Print exec gnome-screenshot -cw
+0b3a01ff64397871f4de01687113bb1e|file:///home/hine/.config/i3/config|35|1|V|conf
+	bindsym  exec gnome-screenshot -c
+e6c90b96131cd2dd9d0c8ca598b98e58|file:///home/hine/.config/i3/config|34|1|V|conf
+	bindsym Print exec gnome-screenshot -c
+ad32d91b33c70fe453159cab46e64815|file:///home/hine/.config/i3/config|35|1|V|conf
+	bindsym Mod4 exec gnome-screenshot -c
+9f097e5f441d21bf48cc462486ab7dbc|file:///home/hine/.config/i3/config|34|35|V|conf
+	bindsym Print exec --no-startup-id gnome-screenshot -c
+	bindsym ctrl+Print exec gnome-screenshot -ai
+5f460ab025cf328f3c0b4ee500b77a79|file:///home/hine/.config/i3/screencut/cut_all.sh|4|17|V|sh
+	作者：Gaarahan
+	链接：https://www.jianshu.com/p/008ae8af32de
+	来源：简书
+	著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+1cdf8f81dd1057d1923a321c029c50e8|file:///home/hine/.config/i3/config|35|1|V|conf
+	cut all the screen 
+081c7938509ea8a70d1e8f1a67351311|file:///home/hine/.config/i3/config|28|1|V|conf
+	exec --no-startup-id bash ~/.config/i3/tap-to-click.sh
+	exec --no-startup-id bash ~/.config/i3/inverse-scroll.sh
+afd9b215431e26786f262f48ab538ba0|file:///home/hine/.config/i3/config|71|1|V|conf
+	utton2=3 
+de1042312e946e9c6bdef0b92b796ddd|file:///home/hine/.config/i3/config|70|1|V|conf
+	TapButton1=1
+418088fcac0469faadae3a1dd9c7bc48|file:///home/hine/.config/i3/config|230|1|v|conf
+	# resize window (you can also use the mouse for that)
+	mode "resize" {
+	        # These bindings trigger as soon as you enter the resize mode
+	
+	        # Pressing left will shrink the window’s width.
+	        # Pressing right will grow the window’s width.
+	        # Pressing up will shrink the window’s height.
+	        # Pressing down will grow the window’s height.
+	        bindsym j resize shrink width 10 px or 10 ppt
+	        bindsym k resize grow height 10 px or 10 ppt
+	        bindsym l resize shrink height 10 px or 10 ppt
+	        bindsym semicolon resize grow width 10 px or 10 ppt
+	
+	        # same bindings, but for the arrow keys
+	        bindsym Left resize shrink width 10 px or 10 ppt
+	        bindsym Down resize grow height 10 px or 10 ppt
+	        bindsym Up resize shrink height 10 px or 10 ppt
+	        bindsym Right resize grow width 10 px or 10 ppt
+	
+	        # back to normal: Enter or Escape or $mod+r
+	        bindsym Return mode "default"
+	        bindsym Escape mode "default"
+	        bindsym $mod+r mode "default"
+	}
+	
+	bindsym $mod+r mode "resize"
+	
+	
+ad1ec0015f17ea5bcad889d473c59725|file:///home/hine/.config/i3/config|265|19|v|conf
+	resize shrink width 10 px or 10 ppt
+c70aa5835da4f6c63022a0d8e0e0f82e|file:///home/hine/.config/i3/config|266|19|v|conf
+	resize grow height 10 px or 10 ppt
+788db55708d4ed0ecdad67a093f33cef|file:///home/hine/.config/i3/config|267|19|v|conf
+	resize shrink height 10 px or 10 ppt
+044d8bb31eae30fa6b3f521cde010fc8|file:///home/hine/.config/i3/config|268|27|v|conf
+	resize grow width 10 px or 10 ppt
+c0456cb3f7d87c2600b4b9dd25a22b40|file:///home/hine/.config/i3/config|271|1|V|conf
+	        bindsym Left exec xrandr -o left
+	        bindsym Down exec xrandr -o normal
+	        bindsym Up exec xrandr invertrd
+	        bindsym Right exec xrandr right
+e55fe0c834b5f5874dbaf278f08a501c|file:///home/hine/.config/i3/config|268|17|v|conf
+	semicolon 
+f83db46d78627bade12f7765e92a1be2|file:///home/hine/.config/i3/config|272|27|v|conf
+	Right 
+08a38277b0309070706f6652eeae9a53|file:///home/hine/.config/i3/config|270|17|v|conf
+	Down
+945d5e233cf7d6240f6b783b36a374ff|file:///home/hine/.config/i3/config|269|17|v|conf
+	Left
+3b6db62e851efce8798c58ea1d3dd00e|file:///home/hine/.config/i3/config|265|16|V|conf
+	        bindsym j 
+	        bindsym k 
+	        bindsym l 
+	        bindsym 
+cc66f9afe4a26c83965621fc35d17c2b|file:///home/hine/.config/i3/config|265|9|V|conf
+	        bindsym j exec xrandr -o left
+811882fecd5c7618d7099ebbd39ea254|file:///home/hine/.config/i3/config|265|34|v|conf
+	left
+7c4f29407893c334a6cb7a87bf045c0d|file:///home/hine/.config/i3/config|268|46|v|conf
+	right
+d01d359f50eb70e7cec82770ec87744b|file:///home/hine/Workspace/StudyNote/IntroductionToEngineering/innovate.md|10|1|V|markdown
+	>现有的事物能否借用别
+f6cd6fbd693d3be0aff6e1058ad07c18|file:///home/hine/Workspace/StudyNote/IntroductionToEngineering/innovate.md|4|1|V|markdown
+	- 1)能否他用  
+	>现有的事物有无他用  
+	保持不变能否扩大用途  
+	稍加改变有无其他用处  
+f79a6106d9ed2b3ec9fd49eb04c95d22|file:///home/hine/Workspace/StudyNote/IntroductionToEngineering/innovate.md|5|1|V|markdown
+	>现有的事物有无他用  
+	保持不变能否扩大用途  
+	稍加改变有无其他用处  
+f5a80980d0fab40e1789b8f57ff18c39|file:///home/hine/.config/i3/config|80|1|v|conf
+	exec synclient

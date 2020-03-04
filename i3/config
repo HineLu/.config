@@ -23,11 +23,64 @@ font pango:monospace 8
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id /usr/lib/gsd-xsettings
 exec --no-startup-id picom  -b
-exec fcitx
+exec --no-startup-id fcitx
 exec --no-startup-id xfce4-power-manager
+exec --no-startup-id utools
+exec --no-startup-id xfce4-clipman
+
+# Hotkey
+## screenshot
+bindsym --release Print exec "sh ~/.config/i3/screencut/cut_all.sh"
+# cut current window
+bindsym --release $mod+Print exec "sh ~/.config/i3/screencut/cut_cur.sh"
+# cut selection 
+bindsym --release $mod+Shift+Print exec "sh ~/.config/i3/screencut/cut_sel.sh"
+
+
+# TouchPad setting
+# 1.setting by (xorg-)xinput
 exec --no-startup-id bash ~/.config/i3/tap-to-click.sh
 exec --no-startup-id bash ~/.config/i3/inverse-scroll.sh
-exec utools
+# 2.setting by synclient of xf86-input-synaptics
+# ---
+# 四边角按钮
+# 触摸板被分布成类似九宫格的区域，除了中间的矩形区域面积较大，四个边角可以设置为一个按钮，比如最常用就是点击右下角就相当于右键，左上角为中键（个人 喜好）。
+# 涉及参数：（2为右键，3为中键）
+#RTCornerButton=2
+#RBCornerButton=0
+#LTCornerButton=3
+#LBCornerButton=0
+# ---
+# 模拟多点触摸
+# 非多点触摸的触摸板也可以实现双指滚动，它通过触摸板的感应宽度来判断，即两指的在触摸板的跨度比单指大；但是这需要设置驱动参数：
+#
+#EmulateTwoFingerMinZ=50 #模拟双指感应压力
+#EmulateTwoFingerMinW=6 #模拟双指感应跨度
+#VertTwoFingerScroll=1 #使用双指垂直滚动
+exec synclient HorizTwoFingerScroll=1 #使用双指水平滚动
+exec synclient VertScrollDelta=-60 #垂直滚动速度
+exec synclient HorizScrollDelta=-60 #水平滚动速度
+# ---
+# 多指按键
+# 即在触摸板任意地方多指同敲就是相当于某击键，涉及参数：
+#
+exec synclient TapButton1=1    #一指，左键，默认
+exec synclient TapButton2=3    #两指，右键；
+#TapButton3=0    #三指，仅适合硬件支持多触点的触摸板，否则没法感应三指同
+# ---
+# 圆周滚动
+# 即可在某个边沿（通常右）开始手指在触摸板按顺时/逆时针圆周划动，即产生鼠标滚轮滚动作用，通常效率比仅仅使用右侧划动区上下滚动高，特别浏览长网页时（本设置在gsynaptics/GPointingDeviceSettings里面可以直观地设置）。涉及参数：
+#
+exec synclient CircularScrolling=1 #打开圆周滚动
+exec synclient CircScrollTrigger=3 #右边沿，除了0代表任意边沿，1～8分别代表从顶开始顺时针的九宫格外围8个位置。
+# ---
+#圆周滚动
+#即可在某个边沿（通常右）开始手指在触摸板按顺时/逆时针圆周划动，即产生鼠标滚轮滚动作用，通常效率比仅仅使用右侧划动区上下滚动高，特别浏览长网页时（本设置在gsynaptics/GPointingDeviceSettings里面可以直观地设置）。涉及参数：
+exec synclient CircularScrolling=1 #打开圆周滚动
+exec synclient CircScrollTrigger=2 #右边沿，除了0代表任意边沿，1～8分别代表从顶开始顺时针的九宫格外围8个位置。
+
+exec synclient PalmDetect=1
+
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -201,6 +254,36 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+# resize window (you can also use the mouse for that)
+mode "orientation" {
+        # These bindings trigger as soon as you enter the resize mode
+
+        # Pressing left will shrink the window’s width.
+        # Pressing right will grow the window’s width.
+        # Pressing up will shrink the window’s height.
+        # Pressing down will grow the window’s height.
+        bindsym j exec xrandr -o right
+        bindsym k exec xrandr -o normal
+        bindsym l exec xrandr -o inverted
+        bindsym semicolon exec xrandr -o left
+
+        # same bindings, but for the arrow keys
+        bindsym Left exec xrandr -o right
+        bindsym Down exec xrandr -o normal
+        bindsym Up exec xrandr -o inverted
+        bindsym Right exec xrandr -o left
+
+        # back to normal: Enter or Escape or $mod+r
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+o mode "default"
+}
+
+bindsym $mod+o mode "orientation"
+
+
+
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)

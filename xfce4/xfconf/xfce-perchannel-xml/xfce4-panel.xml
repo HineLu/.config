@@ -86,6 +86,12 @@
     <property name="plugin-8" type="string" value="whiskermenu"/>
     <property name="plugin-5" type="string" value="clock"/>
     <property name="plugin-1" type="string" value="showdesktop"/>
+    <property name="clipman" type="empty">
+      <property name="tweaks" type="empty">
+        <property name="paste-on-activate" type="uint" value="1"/>
+        <property name="popup-at-pointer" type="bool" value="false"/>
+      </property>
+    </property>
   </property>
   <property name="configver" type="int" value="2"/>
 </channel>
