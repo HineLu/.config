@@ -1,6 +1,6 @@
 # GIMP user context
 
-(tool "gimp-move-tool")
+(tool "gimp-zoom-tool")
 (paint-info "gimp-paintbrush")
 (foreground (color-rgb 1 1 1))
 (background (color-rgb 0 0 0))

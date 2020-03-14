@@ -1,3 +1,3 @@
-2020/03/04-16:18:36.045 429f Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_ke.qq.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/03/04-16:18:36.045 429f Recovering log #3
-2020/03/04-16:18:36.046 429f Reusing old log /home/hine/.config/chromium/Default/IndexedDB/https_ke.qq.com_0.indexeddb.leveldb/000003.log 
+2020/03/13-17:44:39.852 1185 Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_ke.qq.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/03/13-17:44:39.852 1185 Recovering log #3
+2020/03/13-17:44:39.853 1185 Reusing old log /home/hine/.config/chromium/Default/IndexedDB/https_ke.qq.com_0.indexeddb.leveldb/000003.log 

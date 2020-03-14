@@ -1,24 +1,3 @@
-2020/03/04-07:54:59.790 6e8 Reusing MANIFEST /home/hine/.config/chromium/Default/Session Storage/MANIFEST-000001
-2020/03/04-07:54:59.791 6e8 Recovering log #378
-2020/03/04-07:54:59.792 6e8 Reusing old log /home/hine/.config/chromium/Default/Session Storage/000378.log 
-2020/03/04-07:57:42.381 9c1 Level-0 table #382: started
-2020/03/04-07:57:42.383 9c1 Level-0 table #382: 19172 bytes OK
-2020/03/04-07:57:42.384 9c1 Delete type=0 #378
-2020/03/04-16:16:11.712 9c1 Level-0 table #384: started
-2020/03/04-16:16:11.723 9c1 Level-0 table #384: 18193 bytes OK
-2020/03/04-16:16:11.725 9c1 Delete type=0 #381
-2020/03/04-16:16:11.726 9c1 Compacting 4@0 + 1@1 files
-2020/03/04-16:16:11.744 9c1 Generated table #385@0: 4595 keys, 131861 bytes
-2020/03/04-16:16:11.744 9c1 Compacted 4@0 + 1@1 files => 131861 bytes
-2020/03/04-16:16:11.746 9c1 compacted to: files[ 0 1 1 0 0 0 0 ]
-2020/03/04-16:16:11.746 9c1 Delete type=2 #384
-2020/03/04-16:16:11.746 9c1 Delete type=2 #375
-2020/03/04-16:16:11.746 9c1 Delete type=2 #377
-2020/03/04-16:16:11.746 9c1 Delete type=2 #382
-2020/03/04-16:16:11.746 9c1 Delete type=2 #379
-2020/03/04-19:32:01.525 9c1 Level-0 table #387: started
-2020/03/04-19:32:01.572 9c1 Level-0 table #387: 18356 bytes OK
-2020/03/04-19:32:01.574 9c1 Delete type=0 #383
-2020/03/04-20:13:54.189 9c1 Level-0 table #389: started
-2020/03/04-20:13:54.238 9c1 Level-0 table #389: 50973 bytes OK
-2020/03/04-20:13:54.240 9c1 Delete type=0 #386
+2020/03/15-04:51:55.587 f455 Reusing MANIFEST /home/hine/.config/chromium/Default/Session Storage/MANIFEST-000001
+2020/03/15-04:51:55.587 f455 Recovering log #496
+2020/03/15-04:51:55.588 f455 Reusing old log /home/hine/.config/chromium/Default/Session Storage/000496.log 

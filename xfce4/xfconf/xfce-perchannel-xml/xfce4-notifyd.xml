@@ -8,7 +8,9 @@
   <property name="theme" type="string" value="Default"/>
   <property name="applications" type="empty">
     <property name="known_applications" type="array">
+      <value type="string" value="chromium"/>
       <value type="string" value="Deepin Screenshot"/>
+      <value type="string" value="deepin-picker"/>
       <value type="string" value="deepin-screen-recorder"/>
       <value type="string" value="Electron"/>
       <value type="string" value="fcitx"/>
@@ -17,6 +19,7 @@
       <value type="string" value="org.manjaro.pamac.manager"/>
       <value type="string" value="Package Manager"/>
       <value type="string" value="Thunderbird"/>
+      <value type="string" value="tm"/>
       <value type="string" value="uTools"/>
       <value type="string" value="Variety"/>
       <value type="string" value="Xfce volume control"/>

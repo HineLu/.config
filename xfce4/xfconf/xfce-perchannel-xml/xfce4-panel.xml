@@ -58,6 +58,7 @@
       </property>
       <property name="show-frame" type="bool" value="false"/>
       <property name="names-ordered" type="array">
+        <value type="string" value="variety"/>
         <value type="string" value="任务管理器"/>
         <value type="string" value="hexchat"/>
         <value type="string" value="cloud music"/>
@@ -90,6 +91,7 @@
       <property name="tweaks" type="empty">
         <property name="paste-on-activate" type="uint" value="1"/>
         <property name="popup-at-pointer" type="bool" value="false"/>
+        <property name="never-confirm-history-clear" type="bool" value="false"/>
       </property>
     </property>
   </property>

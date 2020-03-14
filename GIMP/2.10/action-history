@@ -1,14 +1,19 @@
 # GIMP action-history
 
-(history-item "file-quit" 3)
+(history-item "edit-paste" 4)
+(history-item "file-quit" 2)
+(history-item "edit-cut" 1)
+(history-item "edit-copy" 1)
 (history-item "image-new" 0)
 (history-item "layers-edit" 1)
-(history-item "edit-paste-as-new-image" 1)
-(history-item "plug-in-screenshot" 0)
+(history-item "edit-paste-as-new-image" 0)
 (history-item "file-save" 0)
+(history-item "file-overwrite" 1)
+(history-item "plug-in-screenshot" 0)
 (history-item "file-save-a-copy" 0)
-(history-item "file-overwrite" 0)
-(history-item "edit-paste" 0)
-(history-item "file-export-as" 1)
+(history-item "file-export-as" 0)
+(history-item "dialogs-preferences" 0)
+(history-item "dialogs-selection-editor" 0)
+(history-item "file-save-as" 1)
 
 # end of action-history

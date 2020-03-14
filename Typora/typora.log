@@ -11,3 +11,22 @@ INFO 2020/3/3 下午3:22:07  [blur] 1
 INFO 2020/3/3 下午3:22:09  [focus] 1
 INFO 2020/3/3 下午3:22:17  ----------------before-quit-----------------
 INFO 2020/3/3 下午3:22:17  ------------------will-quit------------------
+INFO 2020/3/11 下午5:47:51  ------------------start------------------
+INFO 2020/3/11 下午5:47:51  typora version: 0.9.85
+DEBUG 2020/3/11 下午5:47:51  [ '/usr/share/typora/Typora' ]
+INFO 2020/3/11 下午5:47:51  [Raven] instanceKey = bf21647f-ab92-4f29-82ec-edee58f819c7
+DEBUG 2020/3/11 下午5:47:51  app.openFile
+INFO 2020/3/11 下午5:47:52  [Raven] userId = 77a7df68-3b9e-4627-a87c-57b88e2de100
+INFO 2020/3/11 下午5:47:52  [focus] 1
+INFO 2020/3/11 下午5:48:07  ----------------before-quit-----------------
+INFO 2020/3/11 下午5:48:07  ------------------will-quit------------------
+INFO 2020/3/11 下午5:48:26  ------------------start------------------
+INFO 2020/3/11 下午5:48:26  typora version: 0.9.85
+DEBUG 2020/3/11 下午5:48:26  [ '/usr/share/typora/Typora', '5_2.md' ]
+DEBUG 2020/3/11 下午5:48:26  app.openFile
+INFO 2020/3/11 下午5:48:26  addRecentDocument
+INFO 2020/3/11 下午5:48:27  [Raven] instanceKey = 7c01523b-b065-43b7-84d7-a6fcf5eff396
+INFO 2020/3/11 下午5:48:27  [Raven] userId = 77a7df68-3b9e-4627-a87c-57b88e2de100
+INFO 2020/3/11 下午5:48:27  [focus] 1
+INFO 2020/3/11 下午5:49:13  ----------------before-quit-----------------
+INFO 2020/3/11 下午5:49:13  ------------------will-quit------------------

@@ -1303,6 +1303,27 @@
   <resource identifier="${gimp_data_dir}/palettes/Web.gpl" checksum="be9b5962481585cd5288a049cf8ccda5">
   </resource>
 
+  <resource identifier="思源黑体 CN" checksum="(null)">
+  </resource>
+
+  <resource identifier="思源黑体 CN Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="思源黑体 CN Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="思源黑体 CN Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="思源黑体 CN Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="思源黑体 CN Semi-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="思源黑体 CN weight=255" checksum="(null)">
+  </resource>
+
   <resource identifier="文泉驿等宽微米黑" checksum="(null)">
   </resource>
 
@@ -3467,6 +3488,12 @@
   </resource>
 
   <resource identifier="Standard Symbols PS" checksum="(null)">
+  </resource>
+
+  <resource identifier="Symbola Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Symbols Nerd Font" checksum="(null)">
   </resource>
 
   <resource identifier="TAMu_Kadambri" checksum="(null)">

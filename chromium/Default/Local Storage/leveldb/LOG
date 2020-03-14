@@ -1,52 +1,17 @@
-2020/03/04-07:55:18.001 6f2 Reusing MANIFEST /home/hine/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2020/03/04-07:55:18.001 6f2 Recovering log #1942
-2020/03/04-07:55:18.002 6f2 Reusing old log /home/hine/.config/chromium/Default/Local Storage/leveldb/001942.log 
-2020/03/04-10:11:16.415 9c1 Level-0 table #1946: started
-2020/03/04-10:11:16.425 9c1 Level-0 table #1946: 19435 bytes OK
-2020/03/04-10:11:16.427 9c1 Delete type=0 #1942
-2020/03/04-16:25:21.127 9c1 Level-0 table #1948: started
-2020/03/04-16:25:21.129 9c1 Level-0 table #1948: 14929 bytes OK
-2020/03/04-16:25:21.131 9c1 Delete type=0 #1945
-2020/03/04-18:55:32.930 9c1 Level-0 table #1950: started
-2020/03/04-18:55:32.932 9c1 Level-0 table #1950: 19780 bytes OK
-2020/03/04-18:55:32.933 9c1 Delete type=0 #1947
-2020/03/04-18:55:32.934 9c1 Compacting 4@0 + 2@1 files
-2020/03/04-18:55:32.967 9c1 Generated table #1951@0: 2670 keys, 2115793 bytes
-2020/03/04-18:55:32.987 9c1 Generated table #1952@0: 1282 keys, 1441630 bytes
-2020/03/04-18:55:32.987 9c1 Compacted 4@0 + 2@1 files => 3557423 bytes
-2020/03/04-18:55:32.989 9c1 compacted to: files[ 0 2 1 0 0 0 0 ]
-2020/03/04-18:55:32.989 9c1 Delete type=2 #1948
-2020/03/04-18:55:32.989 9c1 Delete type=2 #1943
-2020/03/04-18:55:32.989 9c1 Delete type=2 #1950
-2020/03/04-18:55:32.989 9c1 Delete type=2 #1940
-2020/03/04-18:55:32.989 9c1 Delete type=2 #1946
-2020/03/04-18:55:32.989 9c1 Delete type=2 #1941
-2020/03/04-19:24:10.179 9c1 Level-0 table #1954: started
-2020/03/04-19:24:10.234 9c1 Level-0 table #1954: 138439 bytes OK
-2020/03/04-19:24:10.236 9c1 Delete type=0 #1949
-2020/03/04-19:29:17.958 9c1 Level-0 table #1956: started
-2020/03/04-19:29:17.983 9c1 Level-0 table #1956: 219499 bytes OK
-2020/03/04-19:29:17.985 9c1 Delete type=0 #1953
-2020/03/04-20:09:36.740 9c1 Level-0 table #1958: started
-2020/03/04-20:09:36.759 9c1 Level-0 table #1958: 260700 bytes OK
-2020/03/04-20:09:36.761 9c1 Delete type=0 #1955
-2020/03/04-20:12:43.816 9c1 Level-0 table #1960: started
-2020/03/04-20:12:43.826 9c1 Level-0 table #1960: 31840 bytes OK
-2020/03/04-20:12:43.828 9c1 Delete type=0 #1957
-2020/03/04-20:12:43.829 9c1 Compacting 4@0 + 2@1 files
-2020/03/04-20:12:43.885 9c1 Generated table #1961@0: 2671 keys, 2115820 bytes
-2020/03/04-20:12:43.907 9c1 Generated table #1962@0: 1313 keys, 1699140 bytes
-2020/03/04-20:12:43.907 9c1 Compacted 4@0 + 2@1 files => 3814960 bytes
-2020/03/04-20:12:43.908 9c1 compacted to: files[ 0 2 1 0 0 0 0 ]
-2020/03/04-20:12:43.908 9c1 Delete type=2 #1952
-2020/03/04-20:12:43.908 9c1 Delete type=2 #1956
-2020/03/04-20:12:43.908 9c1 Delete type=2 #1958
-2020/03/04-20:12:43.908 9c1 Delete type=2 #1951
-2020/03/04-20:12:43.908 9c1 Delete type=2 #1954
-2020/03/04-20:12:43.908 9c1 Delete type=2 #1960
-2020/03/04-20:13:39.540 9c1 Level-0 table #1964: started
-2020/03/04-20:13:39.544 9c1 Level-0 table #1964: 31464 bytes OK
-2020/03/04-20:13:39.546 9c1 Delete type=0 #1959
-2020/03/04-20:31:44.564 9c1 Level-0 table #1966: started
-2020/03/04-20:31:44.613 9c1 Level-0 table #1966: 32021 bytes OK
-2020/03/04-20:31:44.614 9c1 Delete type=0 #1963
+2020/03/15-04:51:55.720 f437 Reusing MANIFEST /home/hine/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2020/03/15-04:51:55.721 f437 Recovering log #2605
+2020/03/15-04:51:55.721 f437 Reusing old log /home/hine/.config/chromium/Default/Local Storage/leveldb/002605.log 
+2020/03/15-04:53:30.813 f5f6 Level-0 table #2609: started
+2020/03/15-04:53:30.862 f5f6 Level-0 table #2609: 33202 bytes OK
+2020/03/15-04:53:30.864 f5f6 Delete type=0 #2605
+2020/03/15-04:53:30.864 f5f6 Compacting 4@0 + 2@1 files
+2020/03/15-04:53:30.923 f5f6 Generated table #2610@0: 3358 keys, 2114192 bytes
+2020/03/15-04:53:30.951 f5f6 Generated table #2611@0: 1728 keys, 2121098 bytes
+2020/03/15-04:53:30.951 f5f6 Compacted 4@0 + 2@1 files => 4235290 bytes
+2020/03/15-04:53:30.952 f5f6 compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/03/15-04:53:30.953 f5f6 Delete type=2 #2602
+2020/03/15-04:53:30.953 f5f6 Delete type=2 #2604
+2020/03/15-04:53:30.953 f5f6 Delete type=2 #2599
+2020/03/15-04:53:30.953 f5f6 Delete type=2 #2600
+2020/03/15-04:53:30.953 f5f6 Delete type=2 #2606
+2020/03/15-04:53:30.953 f5f6 Delete type=2 #2609

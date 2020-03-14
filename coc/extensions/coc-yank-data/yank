@@ -549,3 +549,2367 @@ f79a6106d9ed2b3ec9fd49eb04c95d22|file:///home/hine/Workspace/StudyNote/Introduct
 	稍加改变有无其他用处  
 f5a80980d0fab40e1789b8f57ff18c39|file:///home/hine/.config/i3/config|80|1|v|conf
 	exec synclient
+4c0e11f6dce0da059255805881c3539e|file:///home/hine/.config/i3/config|82|1|v|conf
+	exec synclient 
+5c72153e59df5d47b25892bb6e9dcd4d|file:///home/hine/.config/i3/config|82|1|V|conf
+	exec syndaemon -m 200 -i -d
+2a213d29381654e1a0df39836af9e860|file:///home/hine/Workspace/StudyNote/AdvancedMath/4kongjianquxianAndItsEquation.md|3|1|V|markdown
+	>F(x,y,z)=0  
+	G(x,y,z)=0  
+d89b52bfa8717d526c78a018e08063cc|file:///home/hine/Workspace/StudyNote/AdvancedMath/4kongjianquxianAndItsEquation.md|16|26|v|markdown
+	其他两个坐标面同理 
+c23de46e1d4350e3077d530d43981600|file:///home/hine/Workspace/StudyNote/AdvancedMath/4kongjianquxianAndItsEquation.md|17|1|V|markdown
+	>H(x,y)=0  
+	z=0  
+eebe76c1cc68225b001b4b0820d95a04|file:///home/hine/Workspace/StudyNote/AdvancedMath/4kongjianquxianAndItsEquation.md|21|5|V|markdown
+	z=0  
+	H
+2e017bfacf9c63911b3bed53d60f1915|file:///home/hine/Workspace/test/c.c|1|1|V|c
+	#include<stdio.h>
+138d58fe90ae074d635bb9cb9b72effb|file:///home/hine/Workspace/test/c.c|1|1|V|c
+	int main(void)
+	{
+	        printf("%.3f",3.1415);
+	}4
+4dba57b65e6a408ec797cafd2c09b037|file:///home/hine/Workspace/test/c.c|4|1|V|c
+	    int a=123,b=0123,c=0x123;
+3bfc5bf43708c29507ca27da6887f4d1|file:///home/hine/Workspace/test/c.c|4|5|V|c
+	    printf("%d,%d,%d\n",a,b,c);
+623ffcb002eef7242d6eec7cb4e12907|file:///home/hine/.vim/vimrc|192|1|V|vim
+	'whatyouhide/vim-gotham'
+58d41880cde6924b73ddf3343d126fd8|file:///home/hine/.vim/vimrc|21|1|V|vim
+	set termguicolors
+d2e770f2d14609af791c884afcc2847e|file:///home/hine/.vim/vimrc|21|1|V|vim
+	if (has("termguicolors"))
+	    set termguicolors
+	endif
+12c4b1727d6782390ea498e6f8e74715|file:///home/hine/.vim/vimrc|203|1|V|vim
+	let g:oceanic_next_terminal_bold=1
+69dcab4a73aeec2113f69b61e6263da8|file:///home/hine/.vim/vimrc|204|29|v|vim
+	bold
+eae64d8aedc126c129a9a64a32ad4804|file:///home/hine/.vim/vimrc|203|1|V|vim
+	let g:oceanic_next_terminal_bold=1
+	let g:oceanic_next_terminal_italic=1
+8bebbca153fd33f7d4a7a8ecf0f4df11|file:///home/hine/.vim/vimrc|198|1|V|vim
+	Plug 'liuchengxu/space-vim-dark'
+5be3da5c201329f9cc74fe7fdbc34244|file:///home/hine/.vim/vimrc|206|1|V|vim
+	let g:airline_theme="oceanicnext"
+5bc9b8fed151844e8350bbae3d586a91|file:///home/hine/.vim/vimrc|218|19|V|vim
+	let g:molokai_original = 1
+	let g:rehash256 = 1
+600b19385c014981acbabc7cb8c1eabe|file:///home/hine/.config/i3/screencut/cut_all_tmp.sh|2|1|V|sh
+	          mkdir /myfolder
+773994e21acc3baae616007dcb6add49|file:///home/hine/.config/i3/screencut/cut_all_tmp.sh|1|1|V|sh
+	if [ ! -d "/myfolder" ]; then
+11493416f3e9d1db7a29197f558134f8|file:///home/hine/.config/i3/screencut/cut_all_tmp.sh|1|55|v|sh
+	&& mv $f ~/Picture/ScreenShortcut/%Y-%m-%d_%Hh%mm%Ss_desktop.png
+aa3531fdb8ace6c218b3fcc41bba76bf|file:///home/hine/.config/i3/config|33|1|V|conf
+	bindsym --release Print exec "sh ~/.config/i3/screencut/cut_all.sh"
+4b25e424d7a4d178796fc4fe762a8d5a|file:///home/hine/.config/i3/config|37|1|V|conf
+	bindsym --release $mod+Shift+Print exec "sh ~/.config/i3/screencut/cut_sel.sh"
+3c337d10858ccd71c28d9d71ef85eacc|file:///home/hine/.config/i3/screencut/cut_sel_tmp.sh|2|64|v|sh
+	&& mv $f ~/Picture/ScreenShortcut/%Y-%m-%d_%Hh%mm%Ss_select.png
+c9e95fb733949e12128bfeeb0ee5a677|file:///home/hine/Workspace/test/c.c|4|13|V|c
+	    int x1=32767;
+	    short x2=x1+1;
+	    unsigned short x3=-1*x1;
+	
+	    printf("x1=%d,x2=%d,x3=%d\n",x1,x2,x3);
+	    return 0;
+b6dc6ca17bbc92238abfac5474cb403f|file:///home/hine/Workspace/test/c.c|4|1|V|c
+	    char c1='A',c2='a',c3='\102',c4='\x62';
+	    printf("%d,%d,%d,%d\n",c1,c2,c3,c4);
+	    printf("%c,%c,%c,%c\n",c1,c2,c3,c4);
+	    putchar(c1+6);
+	    putchar('U');
+	    putchar(c1+4);
+	    putchar(c1+25-6);
+	    putchar('\n');
+	    printf("test\n");
+	return 0;
+249eccb8ea6c90bb62975a4bd2bc88b4|file:///home/hine/Workspace/test/c.c|6|1|V|c
+	    printf();
+8c8610ece2c94d6e83d0d4ecb4e68840|file:///home/hine/Workspace/test/c.c|5|5|V|c
+	    atan();
+99e33550081e17cc933723f4dd461308|file:///home/hine/Workspace/test/c.c|14|13|V|c
+	    printf();
+	    printf();
+5721cf00bfcddb70f906465d9cad4b95|file:///home/hine/Workspace/test/c.c|14|5|V|c
+	    printf();
+	    return 0;
+13c4834e950fa8981fd587f355981ec0|file:///home/hine/Workspace/test/c.c|13|1|V|c
+	    printf("圆的周长为%f",circle_c);
+42c6afa130428d44025e1e3b60b8d07f|file:///home/hine/Workspace/test/c.c|15|25|v|c
+	圆的周长
+c4e3faf93ce8a5da8fbe68582ea40df6|file:///home/hine/Workspace/test/c.c|12|3|V|c
+	    printf("当半径r=%.2f时\n",r);
+c329e72e754cf11eac808d0b92fa2a8c|file:///home/hine/.config/nvim/init.vim|40|5|V|vim
+	    exec "!g % -o %<"
+2dd0e9d9bf2c1e6b6364718f30d537b9|file:///home/hine/.config/i3/screencut/cut_sel_tmp.sh|2|1|V|sh
+	scrot -s -b -m -e 'xclip -selection clipoard -t "image/png" $f '
+ceb577a46ca9bf0c8d8d9bcb7e4708f6|file:///home/hine/.config/i3/screencut/cut_sel_tmp.sh|1|11|v|sh
+	/tmp/
+99804d2ee45cb99db14d1ecbc5e0be24|file:///home/hine/.config/i3/screencut/cut_sel_tmp.sh|1|11|v|sh
+	/tmp/ScreenShortcut/
+dd0654b10fce968b58f9ceb7c888b116|file:///home/hine/.config/i3/screencut/cut_sel_tmp.sh|1|1|V|sh
+	#/usr/bin/bash
+3de053fda3ee74024ab8adc260b8ebf9|untitled:1|1|1|V|
+	专门为健忘的人设计：物品存放管理系统
+82c9ba548c83ba7ef45cf73b329430c8|file:///home/hine/.config/nvim/init.vim|18|1|V|vim
+	set ts=4
+9d859eff98b9910a56f7b85816a87f45|file:///home/hine/.vim/vimrc|17|1|v|vim
+	set smartcase
+	set tabstop=4
+	set softtabstop=4
+5ad1d9c9f80b076f650fda66414a798a|file:///home/hine/.vim/vimrc|17|1|v|vim
+	
+	set shiftwidth=4
+	set expandtab
+3f322940e3f0452b859ba595b68d32c1|file:///home/hine/Applications/weibo_auto_sign/config.py|23|20|v|python
+	smtp.qq.com'
+10daa4b37406c5276893dd1eb19a7ec5|file:///home/hine/Applications/weibosignin/weibosign.py|20|22|v|python
+	qq1337735344@sina.com
+a31788968d5f76ec051189352539004c|file:///home/hine/Applications/weibosignin/weibosign.py|21|22|v|python
+	8832139dnf
+cb2696ee2398c81154a8157b65f19434|file:///home/hine/Applications/weibosignin/weibosign.py|163|25|v|python
+	bocookie', 'w') as f:
+	            f.write(tempCookie)
+	            f.close
+7b41c62b96bc5398cbb98de31fb0c687|file:///home/hine/Applications/weibosignin/weibosign.py|163|22|v|python
+	weibocookie
+df1533dd6a659e7ce6a097f19cdb4af1|file:///home/hine/Applications/weibosignin/weibosign.py|163|20|v|python
+	~/Workspace/f
+8c1101c2939b36260527c04661f5ac85|file:///home/hine/Applications/weibosignin/weibosign.py|163|19|v|python
+	'~/Applications/weibosignin/weibocookie
+e81216ebbaf9c7de602aca651c8118bc|file:///home/hine/Workspace/test/b.c|2|1|V|c
+	文 2020-3-7 22:40:03
+c4aeee5ba065f911660ccb10a52d6f71|file:///home/hine/Workspace/test/b.c|1|1|V|c
+	
+	#include<stdio.h>
+	int main()
+	{
+	      float r,s,s2,c,v;
+	      r=1.5;   /*scanf("r=%.f\n");*/
+	        c=2*3.14*r;
+	          s=3.14*r*r;
+	            s2=4*3.14*r*r;
+	              v=(4.0/3)*3.14*r*r*r;
+	                printf("周长=%.2f\n,面积=%.2fn,表面积=%.2f\n,体积=%.2f\n",c,s,s2,v);
+	                  return 0;
+	}
+7115e0513ff64e4e9a99cd203b7e513e|file:///home/hine/Workspace/test/b.c|2|1|V|c
+	苏涛文 2020-3-7 22:40:03
+a658279f9b983958149f31e4d8487673|file:///home/hine/Workspace/StudyNote/Homework/English/20200308.md|6|362|v|markdown
+	skills
+7cae06a18a0190e0ff773e2010ca24b4|file:///home/hine/.config/polybar/config|16|1|V|conf
+	height = 30
+bfeb5d306268b9de6fe1bd40186aff00|file:///home/hine/.config/polybar/modules2.ini|151|1|V|dosini
+	ws-icon-7 = 8;8
+a5cf65cd26e37a58ab2f53ee08a72b16|file:///home/hine/.config/polybar/config|23|19|V|conf
+	border-top-size = 2
+	border-bottom-size = 3 
+0818d36c9a36577e6f36040607a8eede|file:///home/hine/.config/polybar/config|24|22|v|conf
+	4 
+	border-right-size = 0
+	border-left-size = 0
+	
+	# bottom = true
+6bf4fdb2304a7a38cce76d945f2cc01c|file:///home/hine/.config/polybar/config|12|1|V|conf
+	background = ${colors.xbg}
+a7869fe63819ae804f0a2ec03c43bc05|file:///home/hine/.config/polybar/%5BCommand%20Line%5D|64|1|V|vim
+	colorscheme snazzy
+	colorscheme pablo
+	colorscheme slate
+	59
+	'<,'>norm I exec
+	<11,12>
+	<11,12>norm I exec
+	60,62Iexec synclient 
+	60,62normIexec synclient 
+	60,62norm Iexec synclient 
+	6768norm Iexec synclient 
+	67,68,74,75norm Iexec synclient 
+	67,68&74,75norm Iexec synclient 
+	67,68norm Iexec synclient 
+	74:75norm Iexec synclient 
+	74norm Iexec synclient 
+	75norm Iexec synclient 
+	79,80norm Iexec synclient 
+	257
+	help g
+	CocFix
+	:CocInstall coc-git
+	:CocAction CocCommand CocConfig CocDisable CocEnable CocFix CocInfo CocInstall CocList CocListResume CocLocalConfig CocNext CococInstall coc-git
+	CocInstall coc-git
+	menss
+	messages
+	196
+	airline
+	let g:airline_theme='oceanicnext'
+	mess
+	source %MYVIMRC
+	edit ~/Workspace/test/c.c
+	r !cat cut_all.sh
+	r !cat cut_sel.sh
+	!q
+	97
+	20
+	12
+	terminal
+	wq!
+	Q
+	source $MYVIMRC
+	PlugInstall
+	wq\
+	q!
+	Wq
+	W
+	q
+	wq
+	w
+	
+32e2266f03e26dd9e7a0a8d2feb7ec79|file:///home/hine/.config/polybar/%5BCommand%20Line%5D|43|1|V|vim
+	workspace.clearWatchman	run watch-del-all for watchman to free up memory.
+	workspace.workspaceFolders	show opened workspaceFolders.
+	workspace.renameCurrentFile	change current filename to a new name and reload it.
+	extensions.toggleAutoUpdate	toggle auto update of extensions.
+	workspace.diagnosticRelated	jump to related locations of current diagnostic.
+	workspace.showOutput	open output buffer to show output from languageservers or extensions.
+	document.renameCurrentWord	rename word under cursor in current buffer by use multiple cursors.
+	document.jumpToNextSymbol	Jump to next symbol highlight position.
+	explorer	Open explorer
+	flutter.run	Run flutter server
+	flutter.create	Create flutter project using: flutter create project-name
+	flutter.doctor	flutter doctor
+	flutter.upgrade	flutter upgrade
+	flutter.pub.get	flutter pub get
+	flutter.devices	open devices list
+	flutter.emulators	open emulators list
+	git.chunkInfo	Show chunk info under cursor
+	git.chunkStage	Stage current chunk.
+	git.chunkUndo	Undo current chunk.
+	git.showCommit	Show commit of current chunk.
+	git.browserOpen	Open current line in browser, github url supported.
+	git.copyUrl	Copy url of current line to clipboard, github url supported.
+	git.diffCached	Show cached diff in preview window.
+	git.foldUnchanged	Fold unchanged lines of current buffer.
+	git.toggleGutters	Toggle git gutters in sign column.
+	session.save	Save current vim state to session file.
+	session.load	Load session by name.
+	session.restart	Restart vim with current session.
+	mru.validate	Validate mru files list, which remove files that doesn't exist.
+	pyright.organizeimports	Organize Imports
+	pyright.createtypestub	Creates Type Stubs with given module name
+	python.enableSourceMapSupport	Enable source map support for extension debugging
+	python.sortImports	Sort Imports
+	python.startREPL	Start REPL
+	python.createTerminal	Create Terminal
+	python.buildWorkspaceSymbols	Build Workspace Symbols
+	python.execInTerminal	Run Python File in Terminal
+	python.setInterpreter	Select Interpreter
+	python.upgradePythonLanguageServer	Upgrade MPLS to latest stable version, restart coc.nvim required to take effect.
+	python.viewOutput	Show output
+	python.goToPythonObject	Go to Python Object
+	python.setLinter	Select Linter
+	python.enableLinting	Enable Linting
+	python.runLinting	Run Linting
+	tslint.fixAllProblems	Fix all auto-fixable problems
+	tslint.createConfig	Create a 'tslint.json' file
+	tslint.lintProject	Lint current project
+	tailwindCSS.headwind.sortTailwindClasses	Headwind: Sort Tailwind CSS Classes
+	tailwindCSS.headwind.sortTailwindClassesOnWorkspace	Headwind: Sort Tailwind CSS Classes on Entire Workspace
+	translator.popup	display translation
+	translator.echo	Echo translation
+	translator.replace	replace word with translation
+	translator.exportHistory	open history file
+	tsserver.reloadProjects	Reload current project
+	tsserver.openTsServerLog	Open log file of tsserver.
+	tsserver.goToProjectConfig	Open project config file.
+	tsserver.restart	Restart tsserver
+	tsserver.watchBuild	Run `tsc --watch` for current project by use vim's job feature.
+	tsserver.executeAutofix	Fix autofixable problems of current document.
+	editor.action.organizeImport	run organize import code action.
+	extensions.forceUpdateAll
+	tags.generate
+	yank.clean
+f573012cf9462ab229ac11d66b5bd60a|file:///home/hine/.config/polybar/%5BCommand%20Line%5D|21|1|V|vim
+	session.load	Load session by name.
+	session.save	Save current vim state to session file.
+	session.restart	Restart vim with current session.
+	git.chunkStage	Stage current chunk.
+	tsserver.openTsServerLog	Open log file of tsserver.
+	document.jumpToNextSymbol	Jump to next symbol highlight position.
+	python.buildWorkspaceSymbols	Build Workspace Symbols
+	python.enableSourceMapSupport	Enable source map support for extension debugging
+	git.showCommit	Show commit of current chunk.
+	python.upgradePythonLanguageServer	Upgrade MPLS to latest stable version, restart coc.nvim required to take effect.
+	python.setLinter	Select Linter
+	python.startREPL	Start REPL
+	python.sortImports	Sort Imports
+	workspace.showOutput	open output buffer to show output from languageservers or extensions.
+	python.setInterpreter	Select Interpreter
+	tailwindCSS.headwind.sortTailwindClasses	Headwind: Sort Tailwind CSS Classes
+	tailwindCSS.headwind.sortTailwindClassesOnWorkspace	Headwind: Sort Tailwind CSS Classes on Entire Workspace
+	tags.generate
+	git.browserOpen	Open current line in browser, github url supported.
+	translator.echo	Echo translation
+	flutter.devices	open devices list
+	translator.popup	display translation
+	tsserver.restart	Restart tsserver
+	flutter.emulators	open emulators list
+	git.toggleGutters	Toggle git gutters in sign column.
+	translator.replace	replace word with translation
+	tslint.lintProject	Lint current project
+	tslint.createConfig	Create a 'tslint.json' file
+	tsserver.watchBuild	Run `tsc --watch` for current project by use vim's job feature.
+	tslint.fixAllProblems	Fix all auto-fixable problems
+	pyright.createtypestub	Creates Type Stubs with given module name
+	pyright.organizeimports	Organize Imports
+	tsserver.reloadProjects	Reload current project
+	tsserver.executeAutofix	Fix autofixable problems of current document.
+	workspace.clearWatchman	run watch-del-all for watchman to free up memory.
+	translator.exportHistory	open history file
+	extensions.forceUpdateAll
+	workspace.workspaceFolders	show opened workspaceFolders.
+	tsserver.goToProjectConfig	Open project config file.
+	extensions.toggleAutoUpdate	toggle auto update of extensions.
+	workspace.diagnosticRelated	jump to related locations of current diagnostic.
+	workspace.renameCurrentFile	change current filename to a new name and reload it.
+fc1143cbc1f2f68d45514e836a5ce3bd|file:///home/hine/.config/polybar/%5BCommand%20Line%5D|43|1|V|vim
+	python.sortImports	Sort Imports
+	python.setInterpreter	Select Interpreter
+	session.load	Load session by name.
+	session.save	Save current vim state to session file.
+	session.restart	Restart vim with current session.
+	extensions.forceUpdateAll
+	extensions.toggleAutoUpdate	toggle auto update of extensions.
+	python.setLinter	Select Linter
+	git.showCommit	Show commit of current chunk.
+	tailwindCSS.headwind.sortTailwindClasses	Headwind: Sort Tailwind CSS Classes
+	tailwindCSS.headwind.sortTailwindClassesOnWorkspace	Headwind: Sort Tailwind CSS Classes on Entire Workspace
+	tslint.lintProject	Lint current project
+	tslint.createConfig	Create a 'tslint.json' file
+	tslint.fixAllProblems	Fix all auto-fixable problems
+	workspace.diagnosticRelated	jump to related locations of current diagnostic.
+	tsserver.watchBuild	Run `tsc --watch` for current project by use vim's job feature.
+	translator.exportHistory	open history file
+	tsserver.executeAutofix	Fix autofixable problems of current document.
+	workspace.renameCurrentFile	change current filename to a new name and reload it.
+	tsserver.goToProjectConfig	Open project config file.
+b6d4921c059333fa2b9a05dd56f44bd0|file:///home/hine/.config/polybar/%5BCommand%20Line%5D|11|1|V|vim
+	session.save	Save current vim state to session file.
+	python.enableSourceMapSupport	Enable source map support for extension debugging
+	session.load	Load session by name.
+	session.restart	Restart vim with current session.
+	tsserver.restart	Restart tsserver
+	tsserver.watchBuild	Run `tsc --watch` for current project by use vim's job feature.
+	tsserver.executeAutofix	Fix autofixable problems of current document.
+	tsserver.reloadProjects	Reload current project
+	tsserver.openTsServerLog	Open log file of tsserver.
+	tsserver.goToProjectConfig	Open project config file.
+	tailwindCSS.headwind.sortTailwindClasses	Headwind: Sort Tailwind CSS Classes
+	tailwindCSS.headwind.sortTailwindClassesOnWorkspace	Headwind: Sort Tailwind CSS Classes on Entire Workspace
+	python.buildWorkspaceSymbols	Build Workspace Symbols
+	workspace.showOutput	open output buffer to show output from languageservers or extensions.
+	python.sortImports	Sort Imports
+	extensions.forceUpdateAll
+	extensions.toggleAutoUpdate	toggle auto update of extensions.
+	workspace.workspaceFolders	show opened workspaceFolders.
+	translator.exportHistory	open history file
+	workspace.diagnosticRelated	jump to related locations of current diagnostic.
+	tslint.fixAllProblems	Fix all auto-fixable problems
+3b2eff7990793e4120def32bf0972bed|file:///home/hine/.config/polybar/%5BCommand%20Line%5D|6|1|V|vim
+	session.load	Load session by name.
+	session.save	Save current vim state to session file.
+	session.restart	Restart vim with current session.
+	tsserver.openTsServerLog	Open log file of tsserver.
+	tailwindCSS.headwind.sortTailwindClasses	Headwind: Sort Tailwind CSS Classes
+	tailwindCSS.headwind.sortTailwindClassesOnWorkspace	Headwind: Sort Tailwind CSS Classes on Entire Workspace
+	tsserver.restart	Restart tsserver
+	tsserver.reloadProjects	Reload current project
+	python.buildWorkspaceSymbols	Build Workspace Symbols
+	workspace.workspaceFolders	show opened workspaceFolders.
+156845275ea04493d2c83ab7d93e9c51|file:///home/hine/.config/polybar/%5BCommand%20Line%5D|3|1|V|vim
+	session.save	Save current vim state to session file.
+	tsserver.openTsServerLog	Open log file of tsserver.
+	session.restart	Restart vim with current session.
+	tailwindCSS.headwind.sortTailwindClasses	Headwind: Sort Tailwind CSS Classes
+	tailwindCSS.headwind.sortTailwindClassesOnWorkspace	Headwind: Sort Tailwind CSS Classes on Entire Workspace
+fb6082b6625c542c84fedd6e2c166d93|file:///home/hine/.config/polybar/%5BCommand%20Line%5D|3|1|V|vim
+	tailwindCSS.headwind.sortTailwindClasses	Headwind: Sort Tailwind CSS Classes
+	tailwindCSS.headwind.sortTailwindClassesOnWorkspace	Headwind: Sort Tailwind CSS Classes on Entire Workspace
+3dda0367d2276654915ef3ff1bc656a4|file:///home/hine/.config/polybar/%5BCommand%20Line%5D|64|1|V|vim
+	git.diffCached	Show cached diff in preview window.
+	git.showCommit	Show commit of current chunk.
+	tslint.createConfig	Create a 'tslint.json' file
+	document.renameCurrentWord	rename word under cursor in current buffer by use multiple cursors.
+	tsserver.goToProjectConfig	Open project config file.
+	workspace.renameCurrentFile	change current filename to a new name and reload it.
+	yank.clean
+	git.copyUrl	Copy url of current line to clipboard, github url supported.
+	git.chunkInfo	Show chunk info under cursor
+	git.chunkUndo	Undo current chunk.
+	flutter.create	Create flutter project using: flutter create project-name
+	git.chunkStage	Stage current chunk.
+	tailwindCSS.headwind.sortTailwindClasses	Headwind: Sort Tailwind CSS Classes
+	python.createTerminal	Create Terminal
+	pyright.createtypestub	Creates Type Stubs with given module name
+	workspace.clearWatchman	run watch-del-all for watchman to free up memory.
+	tailwindCSS.headwind.sortTailwindClassesOnWorkspace	Headwind: Sort Tailwind CSS Classes on Entire Workspace
+	flutter.doctor	flutter doctor
+	flutter.devices	open devices list
+	translator.echo	Echo translation
+	git.foldUnchanged	Fold unchanged lines of current buffer.
+	translator.replace	replace word with translation
+	tslint.lintProject	Lint current project
+	tsserver.watchBuild	Run `tsc --watch` for current project by use vim's job feature.
+	workspace.showOutput	open output buffer to show output from languageservers or extensions.
+	python.execInTerminal	Run Python File in Terminal
+	python.goToPythonObject	Go to Python Object
+	tsserver.reloadProjects	Reload current project
+	tsserver.executeAutofix	Fix autofixable problems of current document.
+	document.jumpToNextSymbol	Jump to next symbol highlight position.
+	extensions.forceUpdateAll
+	workspace.workspaceFolders	show opened workspaceFolders.
+	workspace.diagnosticRelated	jump to related locations of current diagnostic.
+	editor.action.organizeImport	run organize import code action.
+	python.buildWorkspaceSymbols	Build Workspace Symbols
+	python.enableSourceMapSupport	Enable source map support for extension debugging
+e8b4a5c48bcf7cde4c59a7c97e804c2c|file:///home/hine/.config/polybar/%5BCommand%20Line%5D|37|1|V|vim
+	git.diffCached	Show cached diff in preview window.
+	document.renameCurrentWord	rename word under cursor in current buffer by use multiple cursors.
+	git.chunkUndo	Undo current chunk.
+	tailwindCSS.headwind.sortTailwindClasses	Headwind: Sort Tailwind CSS Classes
+	workspace.diagnosticRelated	jump to related locations of current diagnostic.
+	tailwindCSS.headwind.sortTailwindClassesOnWorkspace	Headwind: Sort Tailwind CSS Classes on Entire Workspace
+	git.foldUnchanged	Fold unchanged lines of current buffer.
+	tsserver.watchBuild	Run `tsc --watch` for current project by use vim's job feature.
+	extensions.forceUpdateAll
+	workspace.workspaceFolders	show opened workspaceFolders.
+809d75808c6f91624dee5ee97e523fa0|file:///home/hine/.config/polybar/launchi3.sh|20|12|v|sh
+	xi3m
+7857ca47d55969eb9e0388d269d66065|file:///home/hine/.config/polybar/config_back|65|23|v|conf
+	xbg}
+	foreground = ${colors.xfg}
+	
+e6cb405a5084d8b52ed206a51c633d45|file:///home/hine/.config/polybar/config|51|2|v|dosini
+	border-color 
+707692a1fdbeb733814f429cb37b36d3|file:///home/hine/.config/polybar/config|19|1|^v|dosini
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+ad43f838d9b165b9131b3bc95b639aa4|file:///home/hine/.config/polybar/config|1|1|V|dosini
+	;==========================================================
+	;;
+	;;
+	;;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+	;;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+	;;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+	;;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+	;;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+	;;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+	;;
+	;;
+	;;   To learn more about how to configure Polybar
+	;;   go to https://github.com/jaagr/polybar
+	;;
+	;;   The README contains alot of information
+	;;
+	;;==========================================================
+	
+	[colors]
+	;background = ${xrdb:color0:#222}
+	background = #222
+	background-alt = #444
+	;foreground = ${xrdb:color7:#222}
+	foreground = #dfdfdf
+	foreground-alt = #555
+	primary = #ffb52a
+	secondary = #e60053
+	alert = #bd2c40
+	
+	[bar/example]
+	;monitor = ${env:MONITOR:HDMI-1}
+	width = 100%
+	height = 27
+	;offset-x = 1%
+	;offset-y = 1%
+	radius = 6.0
+	fixed-center = false
+	
+	background = ${colors.background}
+	foreground = ${colors.foreground}
+	
+	line-size = 3
+	line-color = #f00
+	
+	border-size = 4
+	border-color = #00000000
+	
+	padding-left = 0
+	padding-right = 2
+	
+	module-margin-left = 1
+	module-margin-right = 2
+	
+	font-0 = fixed:pixelsize=10;1
+	font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
+	font-2 = siji:pixelsize=10;1
+	
+	modules-left = bspwm i3
+	modules-center = mpd
+	modules-right = filesystem xbacklight alsa pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
+	
+	tray-position = right
+	tray-padding = 2
+	;tray-background = #0063ff
+	
+	;wm-restack = bspwm
+	;wm-restack = i3
+	
+	;override-redirect = true
+	
+	;scroll-up = bspwm-desknext
+	;scroll-down = bspwm-deskprev
+	
+	;scroll-up = i3wm-wsnext
+	;scroll-down = i3wm-wsprev
+	
+	cursor-click = pointer
+	cursor-scroll = ns-resize
+	
+	[module/xwindow]
+	type = internal/xwindow
+	label = %title:0:30:...%
+	
+	[module/xkeyboard]
+	type = internal/xkeyboard
+	blacklist-0 = num lock
+	
+	format-prefix = " "
+	format-prefix-foreground = ${colors.foreground-alt}
+	format-prefix-underline = ${colors.secondary}
+	
+	label-layout = %layout%
+	label-layout-underline = ${colors.secondary}
+	
+	label-indicator-padding = 2
+	label-indicator-margin = 1
+	label-indicator-background = ${colors.secondary}
+	label-indicator-underline = ${colors.secondary}
+	
+	[module/filesystem]
+	type = internal/fs
+	interval = 25
+	
+	mount-0 = /
+	
+	label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
+	label-unmounted = %mountpoint% not mounted
+	label-unmounted-foreground = ${colors.foreground-alt}
+	
+	[module/bspwm]
+	type = internal/bspwm
+	
+	label-focused = %index%
+	label-focused-background = ${colors.background-alt}
+	label-focused-underline= ${colors.primary}
+	label-focused-padding = 2
+	
+	label-occupied = %index%
+	label-occupied-padding = 2
+	
+	label-urgent = %index%!
+	label-urgent-background = ${colors.alert}
+	label-urgent-padding = 2
+	
+	label-empty = %index%
+	label-empty-foreground = ${colors.foreground-alt}
+	label-empty-padding = 2
+	
+	; Separator in between workspaces
+	; label-separator = |
+	
+	[module/i3]
+	type = internal/i3
+	format = <label-state> <label-mode>
+	index-sort = true
+	wrapping-scroll = false
+	
+	; Only show workspaces on the same output as the bar
+	;pin-workspaces = true
+	
+	label-mode-padding = 2
+	label-mode-foreground = #000
+	label-mode-background = ${colors.primary}
+	
+	; focused = Active workspace on focused monitor
+	label-focused = %index%
+	label-focused-background = ${module/bspwm.label-focused-background}
+	label-focused-underline = ${module/bspwm.label-focused-underline}
+	label-focused-padding = ${module/bspwm.label-focused-padding}
+	
+	; unfocused = Inactive workspace on any monitor
+	label-unfocused = %index%
+	label-unfocused-padding = ${module/bspwm.label-occupied-padding}
+	
+	; visible = Active workspace on unfocused monitor
+	label-visible = %index%
+	label-visible-background = ${self.label-focused-background}
+	label-visible-underline = ${self.label-focused-underline}
+	label-visible-padding = ${self.label-focused-padding}
+	
+	; urgent = Workspace with urgency hint set
+	label-urgent = %index%
+	label-urgent-background = ${module/bspwm.label-urgent-background}
+	label-urgent-padding = ${module/bspwm.label-urgent-padding}
+	
+	; Separator in between workspaces
+	; label-separator = |
+	
+	
+	[module/mpd]
+	type = internal/mpd
+	format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
+	
+	icon-prev = 
+	icon-stop = 
+	icon-play = 
+	icon-pause = 
+	icon-next = 
+	
+	label-song-maxlen = 25
+	label-song-ellipsis = true
+	
+	[module/xbacklight]
+	type = internal/xbacklight
+	
+	format = <label> <bar>
+	label = BL
+	
+	bar-width = 10
+	bar-indicator = |
+	bar-indicator-foreground = #fff
+	bar-indicator-font = 2
+	bar-fill = ─
+	bar-fill-font = 2
+	bar-fill-foreground = #9f78e1
+	bar-empty = ─
+	bar-empty-font = 2
+	bar-empty-foreground = ${colors.foreground-alt}
+	
+	[module/backlight-acpi]
+	inherit = module/xbacklight
+	type = internal/backlight
+	card = intel_backlight
+	
+	[module/cpu]
+	type = internal/cpu
+	interval = 2
+	format-prefix = " "
+	format-prefix-foreground = ${colors.foreground-alt}
+	format-underline = #f90000
+	label = %percentage:2%%
+	
+	[module/memory]
+	type = internal/memory
+	interval = 2
+	format-prefix = " "
+	format-prefix-foreground = ${colors.foreground-alt}
+	format-underline = #4bffdc
+	label = %percentage_used%%
+	
+	[module/wlan]
+	type = internal/network
+	interface = net1
+	interval = 3.0
+	
+	format-connected = <ramp-signal> <label-connected>
+	format-connected-underline = #9f78e1
+	label-connected = %essid%
+	
+	format-disconnected =
+	;format-disconnected = <label-disconnected>
+	;format-disconnected-underline = ${self.format-connected-underline}
+	;label-disconnected = %ifname% disconnected
+	;label-disconnected-foreground = ${colors.foreground-alt}
+	
+	ramp-signal-0 = 
+	ramp-signal-1 = 
+	ramp-signal-2 = 
+	ramp-signal-3 = 
+	ramp-signal-4 = 
+	ramp-signal-foreground = ${colors.foreground-alt}
+	
+	[module/eth]
+	type = internal/network
+	interface = eno1
+	interval = 3.0
+	
+	format-connected-underline = #55aa55
+	format-connected-prefix = " "
+	format-connected-prefix-foreground = ${colors.foreground-alt}
+	label-connected = %local_ip%
+	
+	format-disconnected =
+	;format-disconnected = <label-disconnected>
+	;format-disconnected-underline = ${self.format-connected-underline}
+	;label-disconnected = %ifname% disconnected
+	;label-disconnected-foreground = ${colors.foreground-alt}
+	
+	[module/date]
+	type = internal/date
+	interval = 5
+	
+	date =
+	date-alt = " %Y-%m-%d"
+	
+	time = %H:%M
+	time-alt = %H:%M:%S
+	
+	format-prefix = 
+	format-prefix-foreground = ${colors.foreground-alt}
+	format-underline = #0a6cf5
+	
+	label = %date% %time%
+	
+	[module/pulseaudio]
+	type = internal/pulseaudio
+	
+	format-volume = <label-volume> <bar-volume>
+	label-volume = VOL %percentage%%
+	label-volume-foreground = ${root.foreground}
+	
+	label-muted = 🔇 muted
+	label-muted-foreground = #666
+	
+	bar-volume-width = 10
+	bar-volume-foreground-0 = #55aa55
+	bar-volume-foreground-1 = #55aa55
+	bar-volume-foreground-2 = #55aa55
+	bar-volume-foreground-3 = #55aa55
+	bar-volume-foreground-4 = #55aa55
+	bar-volume-foreground-5 = #f5a70a
+	bar-volume-foreground-6 = #ff5555
+	bar-volume-gradient = false
+	bar-volume-indicator = |
+	bar-volume-indicator-font = 2
+	bar-volume-fill = ─
+	bar-volume-fill-font = 2
+	bar-volume-empty = ─
+	bar-volume-empty-font = 2
+	bar-volume-empty-foreground = ${colors.foreground-alt}
+	
+	[module/alsa]
+	type = internal/alsa
+	
+	format-volume = <label-volume> <bar-volume>
+	label-volume = VOL
+	label-volume-foreground = ${root.foreground}
+	
+	format-muted-prefix = " "
+	format-muted-foreground = ${colors.foreground-alt}
+	label-muted = sound muted
+	
+	bar-volume-width = 10
+	bar-volume-foreground-0 = #55aa55
+	bar-volume-foreground-1 = #55aa55
+	bar-volume-foreground-2 = #55aa55
+	bar-volume-foreground-3 = #55aa55
+	bar-volume-foreground-4 = #55aa55
+	bar-volume-foreground-5 = #f5a70a
+	bar-volume-foreground-6 = #ff5555
+	bar-volume-gradient = false
+	bar-volume-indicator = |
+	bar-volume-indicator-font = 2
+	bar-volume-fill = ─
+	bar-volume-fill-font = 2
+	bar-volume-empty = ─
+	bar-volume-empty-font = 2
+	bar-volume-empty-foreground = ${colors.foreground-alt}
+	
+	[module/battery]
+	type = internal/battery
+	battery = BAT0
+	adapter = ADP1
+	full-at = 98
+	
+	format-charging = <animation-charging> <label-charging>
+	format-charging-underline = #ffb52a
+	
+	format-discharging = <animation-discharging> <label-discharging>
+	format-discharging-underline = ${self.format-charging-underline}
+	
+	format-full-prefix = " "
+	format-full-prefix-foreground = ${colors.foreground-alt}
+	format-full-underline = ${self.format-charging-underline}
+	
+	ramp-capacity-0 = 
+	ramp-capacity-1 = 
+	ramp-capacity-2 = 
+	ramp-capacity-foreground = ${colors.foreground-alt}
+	
+	animation-charging-0 = 
+	animation-charging-1 = 
+	animation-charging-2 = 
+	animation-charging-foreground = ${colors.foreground-alt}
+	animation-charging-framerate = 750
+	
+	animation-discharging-0 = 
+	animation-discharging-1 = 
+	animation-discharging-2 = 
+	animation-discharging-foreground = ${colors.foreground-alt}
+	animation-discharging-framerate = 750
+	
+	[module/temperature]
+	type = internal/temperature
+	thermal-zone = 0
+	warn-temperature = 60
+	
+	format = <ramp> <label>
+	format-underline = #f50a4d
+	format-warn = <ramp> <label-warn>
+	format-warn-underline = ${self.format-underline}
+	
+	label = %temperature-c%
+	label-warn = %temperature-c%
+	label-warn-foreground = ${colors.secondary}
+	
+	ramp-0 = 
+	ramp-1 = 
+	ramp-2 = 
+	ramp-foreground = ${colors.foreground-alt}
+	
+	[module/powermenu]
+	type = custom/menu
+	
+	expand-right = true
+	
+	format-spacing = 1
+	
+	label-open = 
+	label-open-foreground = ${colors.secondary}
+	label-close =  cancel
+	label-close-foreground = ${colors.secondary}
+	label-separator = |
+	label-separator-foreground = ${colors.foreground-alt}
+	
+	menu-0-0 = reboot
+	menu-0-0-exec = menu-open-1
+	menu-0-1 = power off
+	menu-0-1-exec = menu-open-2
+	
+	menu-1-0 = cancel
+	menu-1-0-exec = menu-open-0
+	menu-1-1 = reboot
+	menu-1-1-exec = sudo reboot
+	
+	menu-2-0 = power off
+	menu-2-0-exec = sudo poweroff
+	menu-2-1 = cancel
+	menu-2-1-exec = menu-open-0
+	
+	[settings]
+	screenchange-reload = true
+	;compositing-background = xor
+	;compositing-background = screen
+	;compositing-foreground = source
+	;compositing-border = over
+	;pseudo-transparency = false
+	
+	[global/wm]
+	margin-top = 5
+	margin-bottom = 5
+	
+	; vim:ft=dosini
+44e09c49d3968de43ceb8439382d3c53|file:///home/hine/.config/polybar/config|18|1|^v|dosini
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+8168ff380b9c877059a74ae1a145043c|file:///home/hine/.config/polybar/config|18|1|^v|dosini
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+	;
+714c5e0727697ffc0bc3c018e57eba2a|file:///home/hine/Workspace/StudyNotes/AdvancedMath/6MultivariateCalculus.md|2|1|V|markdown
+	
+	~
+	~
+	~
+	~
+	~
+	~
+	~
+	~
+	~
+	~
+	~
+	~
+	~
+	~
+	~
+	~
+	~
+	~
+	~
+	~
+	~
+	~
+	~
+	~
+	~
+	~
+	~
+	~
+ce3f372a94d179db0a781f6d6df6f98c|file:///home/hine/Workspace/StudyNotes/IntroductionToEngineering/5_2.md|49|1|v|markdown
+	<++>
+ea5bd5d2a613deb975a9c22d8d6a0c02|file:///home/hine/Workspace/StudyNotes/IntroductionToEngineering/5_2.md|70|1|V|markdown
+	### (二)
+fe442e3c9851ea43673a4e33a5ad9157|file:///home/hine/Workspace/StudyNotes/IntroductionToEngineering/5_2.md|68|1|V|markdown
+	设计一种什么样的新产品?
+7d332194b9ddc36ac947297e5d44827e|file:///home/hine/Workspace/StudyNotes/IntroductionToEngineering/5_2.md|67|1|V|markdown
+	什么东西社会需求大,而且人们舍得花钱去买.  
+1c6121c6533955e144f348ff692de502|file:///home/hine/Workspace/StudyNotes/IntroductionToEngineering/5_2.md|66|1|V|markdown
+	### (一)提出开发的创新问题  
+5e98b28105b0be42e9be14dda53067b7|file:///etc/resolv.conf|2|1|V|resolv
+	nameserver 208.67.222.222
+c04a8630776e9205f6da5e34689bc79e|file:///home/hine/Workspace/lanqiao/2.c|10|13|V|c
+	            printf("%d\n",n);
+95b9c85a9159571a2ac69c5ea6e3dfec|file:///home/hine/Workspace/lanqiao/4.c|8|1|V|c
+	        if((i-9)%10==0)
+	        {
+	            num++;
+	            break;
+a0d33d6736459de264bf5f6e0f919fe4|file:///home/hine/Workspace/lanqiao/4.c|8|1|V|c
+	        if((i-9)%10==0)
+	        {
+	            num++;
+	            break;
+	        }
+43719e5bd85722dc2c96b67a6c7b77ed|file:///home/hine/Workspace/lanqiao/4.c|8|1|V|c
+	        if((i-9)%10==0)
+	        {
+	            num++;
+	            break;
+	        }
+	        break;
+caaaf24efc5ef9976cd3898993b277bc|file:///home/hine/Workspace/lanqiao/4.c|32|9|V|c
+	        break;
+dda4cb474f8b4490d483c6e4cd164ce2|file:///home/hine/Workspace/lanqiao/6.c|7|1|v|c
+	                       
+2f976cfd24ad77dcd446fe1865cf30cb|file:///home/hine/Workspace/lanqiao/6.c|9|1|v|c
+	                                }
+48aa00c92a200842cbbc3c5edb461fc9|file:///home/hine/Workspace/lanqiao/6.c|11|1|V|c
+	            case:'a'
+a9473ded85aa51851deb4859cdd53f98|file:///home/hine/Workspace/lanqiao/6.c|20|16|V|c
+	                
+2927b654608494e07c10f69787a113d8|file:///home/hine/Workspace/lanqiao/6.c|24|25|v|c
+	//若上个字母为元音，则检测到辅音多一段
+cd1affc069c14d693a93fb3d6647e5ae|file:///home/hine/Workspace/lanqiao/6.c|27|17|V|c
+	                else if()
+a63a9f8f6065b8df18f780233eb9d546|file:///home/hine/Workspace/lanqiao/6.c|27|17|V|c
+	                {
+81789648c34c70b46164eb7a6f015c95|file:///home/hine/Workspace/lanqiao/6.c|27|17|V|c
+	                }
+d013c2314ca5036fd9ecdc97602bf7ba|file:///home/hine/Workspace/lanqiao/6.c|35|17|V|c
+	                be_v=0;
+cb042a62a8aa770b99cf7667477cfdd3|file:///home/hine/Workspace/lanqiao/6.c|32|17|V|c
+	                else
+f74ff4658458cd1c85c5174be90d9c33|file:///home/hine/Workspace/lanqiao/6.c|32|17|V|c
+	                {
+	                }
+2d2d7179d09f8d083d987f7aed2f5154|file:///home/hine/Workspace/lanqiao/6.c|21|21|V|c
+	                    v++;
+bf5608d75340741691ba76f13d6f9d6d|file:///home/hine/Workspace/lanqiao/6.c|30|17|V|c
+	                be_v=1;
+626a204c9c025a56f84b7f281b01bfa2|file:///home/hine/Workspace/lanqiao/6.c|21|19|v|c
+	跳到下一段
+c397fc234e216a599c94a4c53fb85dba|file:///home/hine/Workspace/lanqiao/6.c|37|23|v|c
+	若上个字母为元音，则检测到辅音多一段
+7bd40f024bf461e738a32199ed2ceb9c|file:///home/hine/Workspace/lanqiao/6.c|21|17|V|c
+	                //新的一段元音
+7bc1be694e088fb0bd327c16548c09ef|file:///home/hine/Workspace/lanqiao/6.c|28|20|V|c
+	                    
+7c2cabad83adab8d3bf2c4061eac2347|file:///home/hine/Workspace/lanqiao/6.c|24|25|V|c
+	                        printf("%c",str[i]);
+a56b2fc89249359455f4abe443313a17|file:///home/hine/Workspace/lanqiao/6.c|13|9|v|c
+	              p
+82deec7ac239f144a4b817c5384c428d|file:///home/hine/Workspace/lanqiao/6.c|22|21|v|c
+	//如果这是第一个字母
+	                    if(c==-1)
+	                    {
+	                        printf("no");
+	                        return 0;//第一个是元音，输出结束
+	                    }
+54aacca72cc0a1d45d15779e5e130421|file:///home/hine/Workspace/lanqiao/6.c|22|16|^v|c
+	     
+	     
+	     
+	     
+82efa6f3a9a4668d5a8fd7340e1fcc4c|file:///home/hine/Workspace/lanqiao/6.c|35|20|V|c
+	                if(be_v=-1)
+	                {
+	
+	                }
+0c5339c52f9321ddc84d61e3bd576fa6|file:///home/hine/Workspace/lanqiao/6.c|35|17|v|c
+	else 
+11321f3d79dd7b097a8c7a135dec085f|file:///home/hine/Workspace/lanqiao/6.c|20|17|V|c
+	                //如果这是第一个字母
+b0e85227934dcea951ce1aa770ad984f|file:///home/hine/Workspace/lanqiao/6.c|7|5|V|c
+	    scanf("%s",str);
+affcd8e5516d780cc7ea35d54074a1f1|file:///home/hine/Workspace/lanqiao/6.c|12|5|V|c
+	        printf("%d-%c-",i,str[i]);
+7e8857946efa44a2b02fd80712be653e|file:///home/hine/Workspace/lanqiao/6.c|43|38|v|c
+	,那么输出no
+051552f5ebcc003b7e2ada0f43b743ef|file:///home/hine/Workspace/lanqiao/6.c|26|21|V|c
+	                    printf("===%c===",str[i]);
+c41540245308b9d151f272406d3679b9|file:///home/hine/Workspace/lanqiao/6.c|9|13|v|c
+	str[i]
+7674d5811e7a631c3b08aed1081b3252|file:///home/hine/Workspace/lanqiao/6.c|43|13|V|c
+	            printf("???");
+b320f0562499ebb01207c5b7e9a64201|file:///home/hine/Workspace/lanqiao/6.c|48|5|V|c
+	    printf("++%c++",str[i]);
+59fa543b11177aa6d976b8241ad84dda|file:///home/hine/Workspace/lanqiao/6.c|57|5|V|c
+	    printf("%d %d\n",v,c);
+c676ffa3fe01ec4bee33339511a3b107|file:///home/hine/Workspace/lanqiao/7.c|6|5|V|c
+	    printf("%d",power(10,2));
+249d6009228244e9a7afbfa96882b800|file:///home/hine/Workspace/lanqiao/7.c|25|12|v|c
+	(i/power(10,i-1)
+670813b2ed7b876617d78b3db41ed79a|file:///home/hine/Workspace/lanqiao/7.c|29|13|V|c
+	            printf("\n%d %d\n",left,right);
+f4f3d583fc152b7e4f16b525563107cf|file:///home/hine/Workspace/lanqiao/7.c|26|17|v|c
+	pdower
+1baa57752e543ed3fc76715e946b0719|file:///home/hine/Workspace/lanqiao/7.c|6|5|V|c
+	    printf("%d",judge(121));
+15fc28b35b87d23cf3ef0b252e4129c6|file:///home/hine/Workspace/lanqiao/7.c|8|5|V|c
+	    printf("%ld",n);
+97dcb4a52fedc14c03e4e7804e949025|file:///home/hine/Workspace/lanqiao/7.c|10|9|v|c
+	pirntf
+b58d7da5875b9f0538c6cb236add2657|file:///home/hine/Workspace/lanqiao/7.c|27|9|V|c
+	        printf("\n%d %d\n",left,right);
+9745a98ec7989eb27d4f6298194ec53d|file:///home/hine/Workspace/lanqiao/7.c|10|9|V|c
+	        printf("%ld",i);
+1b97e0609a6d15abbd2f926ba72cdaaf|file:///home/hine/Workspace/lanqiao/8.c|13|1|v|c
+	    for(i=0;i<n;i++)
+	    {
+	        for(j=0;j<n;j++)
+	        {
+	            do{
+	                b=getchar();
+	                //跳过换行符
+	            }while(b=='\n');
+	            a[i][j]=b;
+	        }
+	    }
+	
+	
+5a2f61d9c2f0db1f4faa602108d9ad55|file:///home/hine/Workspace/lanqiao/8.c|30|13|V|c
+	            }while(b=='\n');
+a8238dfa34641ab99835b2c4d35a1aa1|file:///home/hine/Workspace/lanqiao/8.c|29|13|V|c
+	                //跳过换行符
+bfa6fdf0cb76a6945fa09c603cec87ae|file:///home/hine/Workspace/lanqiao/8.c|28|13|V|c
+	                b=getchar();
+ac584f8eff26158cd47afe090e10f920|file:///home/hine/Workspace/lanqiao/8.c|27|13|V|c
+	            do{
+4957450b19889d1b71e242026f5b974d|file:///home/hine/Workspace/lanqiao/8.c|27|13|V|c
+	            a[i][j]=b;
+17e85de7616393dbf1c1d56ed34f463a|file:///home/hine/Workspace/lanqiao/8.c|23|1|v|c
+	     for(i=0;i<n;i++)
+	    {
+	        for(j=0;j<n;j++)
+	        {
+	            printf("%c",a[i][j]);
+	        }
+	        putchar('\n');
+	        
+	    }
+	
+	
+803b9b63d9790298c2882e6106df2d35|file:///home/hine/Workspace/lanqiao/8.c|24|1|V|c
+	    for(i=0;i<n;i++)
+	    {
+	        for(j=0;j<n;j++)
+	        {
+	            printf("%c",a[i][j]);
+	        }
+	        putchar('\n');
+23f69d2c80c9658bfc2b783ad5062e2d|file:///home/hine/Workspace/lanqiao/8.c|24|8|V|c
+	        
+	    }
+18d6865cfa44082c93706e068c57a725|file:///home/hine/Workspace/lanqiao/8.c|11|1|V|c
+	    scanf("%d %d",&n,&m);
+a45a604a8a6a42a0995ca4508557d9b9|file:///home/hine/Workspace/lanqiao/8.c|13|1|v|c
+	    for(i=0;i<n;i++)
+	    {
+	        for(j=0;j<n;j++)
+	        {
+	            do{
+	                b=getchar();
+	                //跳过换行符
+	            }while(b=='\n');
+	            a[i][j]=b;
+	        }
+	    }
+	 
+d40b2afb2768cfe5e780bf6e15403ba9|file:///home/hine/Workspace/lanqiao/8.c|34|20|V|c
+	                 do{
+	                     b=getchar();
+	                     //跳过换行符
+	                 }while(b=='\n');
+c368275250c1814e8c32fd332582d9b3|file:///home/hine/Workspace/lanqiao/8.c|34|18|V|c
+	                 a[i][j]=b;
+0500a125f3044d83261301a9dcbda43a|file:///home/hine/Workspace/lanqiao/8.c|34|1|V|c
+	                 //上
+	                 if(i-1>=0&&i+1<n&&a[i-1][j]='g')
+347aa23ba928ba4f0389e08cf72fef2c|file:///home/hine/Workspace/lanqiao/8.c|37|25|v|c
+	&&(a[i-1][j]=='g'|
+af46cbc872b86c42cc7afe1b00fb25e0|file:///home/hine/Workspace/lanqiao/8.c|40|25|v|c
+	i+1<n
+49db6b569aed11f4f42561a6ec727a43|file:///home/hine/Workspace/lanqiao/8.c|41|25|V|c
+	                        a[i+1][j]='g'))
+	                {
+	                    a[i][j]='n';//长新草
+	                }
+	                
+	                //左
+	                //右
+	             }
+	         }
+	    
+	    }
+	}
+012e74d3fcf7c3311626afceb762a3a1|file:///home/hine/Workspace/lanqiao/8.c|41|25|v|c
+	a[i+1][j]='
+73b8d076389c2d82c10ff95723b719b7|file:///home/hine/Workspace/lanqiao/8.c|41|25|v|c
+	a[i+1][j]='g')
+41f5bc320b3d4acddb70a40308717f91|file:///home/hine/Workspace/lanqiao/8.c|45|17|V|c
+	                    a[i][j]='n';//长新草
+2688b47b88b607581d586e8f973ea946|file:///home/hine/Workspace/lanqiao/8.c|45|16|V|c
+	                        
+f0439d0d88060084f6b5800568f76465|file:///home/hine/Workspace/lanqiao/8.c|40|1|V|c
+	                if(i+1<n&&a[i+1][j]=='g')
+	                {
+	                    a[i][j]='n';//长新草
+	                }
+29f8626bd34e7410a55148156c7a748a|file:///home/hine/Workspace/lanqiao/8.c|30|14|V|c
+	         for(i=0;i<n;i++)
+	         {
+	             for(j=0;j<n;j++)
+	             {
+55c5ab88fb45d8530b8fbff4d40e61c7|file:///home/hine/Workspace/lanqiao/8.c|69|5|^v|c
+	     
+	     
+	     
+	     
+	     
+	     
+	     
