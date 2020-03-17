@@ -1,3 +1,5 @@
+原链接https://github.com/theniceboy/.config/tree/master/polybar  
+这是CW大佬的polybar  
 说明：
 - 边框是 border 字体，位于 fonts/border.otf
 
