@@ -1,0 +1,17 @@
+2020/03/15-04:51:55.720 f437 Reusing MANIFEST /home/hine/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2020/03/15-04:51:55.721 f437 Recovering log #2605
+2020/03/15-04:51:55.721 f437 Reusing old log /home/hine/.config/chromium/Default/Local Storage/leveldb/002605.log 
+2020/03/15-04:53:30.813 f5f6 Level-0 table #2609: started
+2020/03/15-04:53:30.862 f5f6 Level-0 table #2609: 33202 bytes OK
+2020/03/15-04:53:30.864 f5f6 Delete type=0 #2605
+2020/03/15-04:53:30.864 f5f6 Compacting 4@0 + 2@1 files
+2020/03/15-04:53:30.923 f5f6 Generated table #2610@0: 3358 keys, 2114192 bytes
+2020/03/15-04:53:30.951 f5f6 Generated table #2611@0: 1728 keys, 2121098 bytes
+2020/03/15-04:53:30.951 f5f6 Compacted 4@0 + 2@1 files => 4235290 bytes
+2020/03/15-04:53:30.952 f5f6 compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/03/15-04:53:30.953 f5f6 Delete type=2 #2602
+2020/03/15-04:53:30.953 f5f6 Delete type=2 #2604
+2020/03/15-04:53:30.953 f5f6 Delete type=2 #2599
+2020/03/15-04:53:30.953 f5f6 Delete type=2 #2600
+2020/03/15-04:53:30.953 f5f6 Delete type=2 #2606
+2020/03/15-04:53:30.953 f5f6 Delete type=2 #2609

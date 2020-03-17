@@ -1,0 +1,103 @@
+{
+   "checksum": "c7b9db529dbdfaaa51c618868f0b1b34",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13226680791333899",
+            "guid": "1587e8b2-eef3-44ca-b0d7-efc2c2c7f2af",
+            "id": "8",
+            "name": "ORG-POLICY/StartWithGit.md at master · sanyuankexie/ORG-POLICY",
+            "type": "url",
+            "url": "https://github.com/sanyuankexie/ORG-POLICY/blob/master/mdflies/StartWithGit/StartWithGit.md"
+         }, {
+            "date_added": "13227030609869600",
+            "guid": "c647f32e-932c-47a3-aa96-cf0a485bac14",
+            "id": "10",
+            "name": "Witeboard",
+            "type": "url",
+            "url": "https://witeboard.com/34213fc0-5717-11ea-bf75-ff15bf3fed67"
+         }, {
+            "date_added": "13227031434951905",
+            "guid": "5acb2342-2a3a-491f-bea0-c381df6e858e",
+            "id": "11",
+            "name": "Untitled, Online Whiteboard for Visual Collaboration",
+            "type": "url",
+            "url": "https://miro.com/app/board/o9J_kvVC4Qw=/"
+         }, {
+            "date_added": "13227032838365995",
+            "guid": "09847022-2e69-402a-9eb0-834fc65feeb7",
+            "id": "12",
+            "name": "桌面 - 测试",
+            "type": "url",
+            "url": "https://desktop.huiyizhuo.com/1231966960817799169"
+         }, {
+            "date_added": "13227148931224248",
+            "guid": "91bd666a-c95d-4386-bfe4-ab20a730884b",
+            "id": "14",
+            "name": "Julia 语言入门指引 - 综合讨论区 / Julia入门 - Julia中文社区",
+            "type": "url",
+            "url": "https://discourse.juliacn.com/t/topic/159/12"
+         }, {
+            "date_added": "13227150721996250",
+            "guid": "1dfa30e0-9ad4-4390-a284-9a926f4d60c5",
+            "id": "15",
+            "name": "虚拟机随谈（一）：解释器，树遍历解释器，基于栈与基于寄存器，大杂烩 - Script Ahead, Code Behind - ITeye博客",
+            "type": "url",
+            "url": "https://www.iteye.com/blog/rednaxelafx-492667"
+         }, {
+            "date_added": "13227722824732322",
+            "guid": "134d2f2d-0f0d-4d1d-b328-61f01d3d30e8",
+            "id": "17",
+            "name": "Linux下Synaptics笔记本触摸板的配置_运维_工长山的专栏-CSDN博客",
+            "type": "url",
+            "url": "https://blog.csdn.net/xuanwu_yan/article/details/8512201"
+         }, {
+            "date_added": "13228330282175694",
+            "guid": "4704bbdb-45c2-4aa2-a162-35890aa00d4a",
+            "id": "19",
+            "name": "shadowsocks/ChinaDNS: Protect yourself against DNS poisoning in China.",
+            "type": "url",
+            "url": "https://github.com/shadowsocks/ChinaDNS"
+         }, {
+            "date_added": "13228641422558900",
+            "guid": "034e1a85-d7ff-417a-aa69-f63b41dac2af",
+            "id": "21",
+            "name": "颜色代码与名称转换工具",
+            "type": "url",
+            "url": "https://www.sunzhongwei.com/translate-color-code-to-name"
+         }, {
+            "date_added": "13228677989849636",
+            "guid": "06ce958b-6568-4bbe-996d-e01b21ba0810",
+            "id": "23",
+            "name": "chrome插件/扩展,chrome商店,谷歌浏览器插件,谷歌商店插件推荐与下载-扩展迷",
+            "type": "url",
+            "url": "https://www.extfans.com/"
+         } ],
+         "date_added": "13226390097942093",
+         "date_modified": "13228677989849636",
+         "guid": "00000000-0000-4000-A000-000000000002",
+         "id": "1",
+         "name": "书签栏",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13226390097942098",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-A000-000000000003",
+         "id": "2",
+         "name": "其他书签",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13226390097942099",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-A000-000000000004",
+         "id": "3",
+         "name": "移动设备书签",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
