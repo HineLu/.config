@@ -2913,3 +2913,5 @@ f0439d0d88060084f6b5800568f76465|file:///home/hine/Workspace/lanqiao/8.c|40|1|V|
 	     
 	     
 	     
+970ecf2dea874cffe7ec6d91af103adc|file:///home/hine/.config/picom.conf|24|2|v|conf
+	vsync = "opengl";

@@ -375,7 +375,7 @@
     "position": {
       "y": 32, 
       "h": 1036, 
-      "w": 943, 
+      "w": 1898, 
       "x": 10
     }, 
     "floating": [], 
@@ -413,13 +413,14 @@
   "brushmanager.selected_brush": "classic/kabura", 
   "ui.support_smooth_scrolling": true, 
   "input.devices": {
-    "MSFT0004:01 06CB:7F90 Mouse:mouse:4": {}, 
-    "HUION Huion Tablet Pad:tablet-pad:7": {}, 
     "HUION Huion Tablet Pen Pen (0):pen:3": {}, 
+    "HUION Huion Tablet Pad:tablet-pad:7": {}, 
+    "MSFT0004:01 06CB:7F90 Mouse:mouse:4": {}, 
     "Virtual core XTEST pointer:mouse:2": {}, 
     "MSFT0004:01 06CB:7F90 Touchpad:mouse:5": {}
   }, 
   "view.real_alpha_checks": true, 
   "document.autosave_interval": 10, 
-  "scratchpad.last_opened_scratchpad": "/home/hine/.local/share/mypaint/scratchpads/autosave.ora"
+  "scratchpad.last_opened_scratchpad": "/home/hine/.local/share/mypaint/scratchpads/autosave.ora", 
+  "devbrush.last_used": "HUION Huion Tablet Pen Pen (0)"
 }
