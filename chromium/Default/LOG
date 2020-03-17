@@ -1,5 +1,4 @@
-2020/03/15-02:08:20.510 aad8 Recovering log #368
-2020/03/15-02:08:20.510 aad8 Level-0 table #370: started
-2020/03/15-02:08:20.512 aad8 Level-0 table #370: 9168 bytes OK
-2020/03/15-02:08:20.515 aad8 Delete type=3 #366
-2020/03/15-02:08:20.515 aad8 Delete type=0 #368
+2020/03/17-17:49:08.825 5c3 Delete type=3 #1
+2020/03/17-17:50:01.905 929 Level-0 table #5: started
+2020/03/17-17:50:01.907 929 Level-0 table #5: 8015 bytes OK
+2020/03/17-17:50:01.910 929 Delete type=0 #3

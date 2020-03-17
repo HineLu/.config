@@ -1,4 +1,8 @@
+/etc/resolv.conf
 /home/hine/.config/.gitignore
+/home/hine/.config/polybar/Readme.org
+/home/hine/.config/polybar/readme.md
+/home/hine/.config/ranger/rc.conf
 /home/hine/.config/picom.conf
 /home/hine/.config/compton.conf
 /opt/deepinwine/apps/Deepin-TIM/deepin.com.qq.office.desktop
@@ -30,7 +34,6 @@
 /home/hine/桌面/chrome-eigpmdhekjlgjgcppnanaanbdmnlnagl-Default.desktop
 /usr/share/applications/sunlogin.desktop
 /home/hine/.Xresources
-/etc/resolv.conf
 /home/hine/Workspace/StudyNotes/IntroductionToEngineering/5_2.md
 /home/hine/Workspace/StudyNotes/IntroductionToEngineering/\
 /home/hine/Workspace/StudyNotes/IntroductionToEngineering/5.2
@@ -53,7 +56,6 @@
 /home/hine/.config/polybar/modules.ini
 /home/hine/.config/polybar/scripts/battery-state.sh
 /home/hine/.config/polybar/scripts/touchpad
-/home/hine/.config/polybar/Readme.org
 /home/hine/Applications/prettyi3/light/config/polybar/launchi3.sh
 /home/hine/Applications/prettyi3/light/config/i3/i3blocks.conf
 /home/hine/Applications/prettyi3/light/config/i3/config
