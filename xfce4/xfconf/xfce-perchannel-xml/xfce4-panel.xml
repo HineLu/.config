@@ -58,6 +58,7 @@
       </property>
       <property name="show-frame" type="bool" value="false"/>
       <property name="names-ordered" type="array">
+        <value type="string" value="free download manager"/>
         <value type="string" value="variety"/>
         <value type="string" value="任务管理器"/>
         <value type="string" value="hexchat"/>
@@ -82,7 +83,7 @@
     </property>
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="audacious;netease-cloud-music"/>
+      <property name="mpris-players" type="string" value="audacious;chromium.instance7040;netease-cloud-music"/>
     </property>
     <property name="plugin-8" type="string" value="whiskermenu"/>
     <property name="plugin-5" type="string" value="clock"/>

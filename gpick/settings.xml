@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding='UTF-8'?><root>
 <gpick type="dynv">
 <generate_scheme type="dynv">
+<hsv_shift type="float" list="true"><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li></hsv_shift>
+<hue type="float">180</hue>
+<lightness type="float">0</lightness>
+<saturation type="float">100</saturation>
+<type type="int32">0</type>
+<wheel_locked type="bool">true</wheel_locked>
+<wheel_type type="int32">0</wheel_type>
 </generate_scheme>
 <layout_preview type="dynv">
 <css_selectors type="dynv">
@@ -31,7 +38,7 @@
 <vertical_paned_position type="int32">0</vertical_paned_position>
 <window type="dynv">
 <height type="int32">1036</height>
-<width type="int32">468</width>
+<width type="int32">943</width>
 <x type="int32">965</x>
 <y type="int32">32</y>
 </window>

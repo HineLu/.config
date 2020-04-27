@@ -1,0 +1,76 @@
+22时56分08秒.547: CPU Name: Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
+22时56分08秒.547: CPU Speed: 1765.087MHz
+22时56分08秒.547: Physical Cores: 4, Logical Cores: 8
+22时56分08秒.547: Physical Memory: 7716MB Total, 4702MB Free
+22时56分08秒.547: Kernel Version: Linux 5.4.33-3-MANJARO
+22时56分08秒.548: Distribution: "Manjaro Linux" Unknown
+22时56分08秒.548: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.8
+22时56分08秒.549: Portable mode: false
+22时56分08秒.617: OBS 25.0.4-1 (linux)
+22时56分08秒.617: ---------------------------------
+22时56分08秒.617: ---------------------------------
+22时56分08秒.617: audio settings reset:
+22时56分08秒.617: 	samples per sec: 44100
+22时56分08秒.617: 	speakers:        2
+22时56分08秒.623: ---------------------------------
+22时56分08秒.623: Initializing OpenGL...
+22时56分08秒.722: Loading up OpenGL on adapter Intel Mesa Intel(R) UHD Graphics 620 (WHL GT2)
+22时56分08秒.722: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 20.0.4, shading language 4.60
+22时56分08秒.734: ---------------------------------
+22时56分08秒.734: video settings reset:
+22时56分08秒.734: 	base resolution:   1080x1920
+22时56分08秒.734: 	output resolution: 720x1280
+22时56分08秒.734: 	downscale filter:  Bicubic
+22时56分08秒.734: 	fps:               30/1
+22时56分08秒.734: 	format:            NV12
+22时56分08秒.734: 	YUV mode:          601/Partial
+22时56分08秒.734: NV12 texture support not available
+22时56分08秒.735: Audio monitoring device:
+22时56分08秒.735: 	name: 默认
+22时56分08秒.735: 	id: default
+22时56分08秒.735: ---------------------------------
+22时56分08秒.736: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+22时56分08秒.790: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+22时56分08秒.790: No blackmagic support
+22时56分08秒.799: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: 无法打开共享对象文件: 没有那个文件或目录
+22时56分08秒.799: 
+22时56分08秒.799: FFMPEG VAAPI supported
+22时56分08秒.808: VLC found, VLC video source enabled
+22时56分08秒.808: ---------------------------------
+22时56分08秒.808:   Loaded Modules:
+22时56分08秒.808:     vlc-video.so
+22时56分08秒.808:     text-freetype2.so
+22时56分08秒.808:     rtmp-services.so
+22时56分08秒.808:     obs-x264.so
+22时56分08秒.808:     obs-transitions.so
+22时56分08秒.808:     obs-outputs.so
+22时56分08秒.808:     obs-libfdk.so
+22时56分08秒.808:     obs-filters.so
+22时56分08秒.808:     obs-ffmpeg.so
+22时56分08秒.808:     linux-v4l2.so
+22时56分08秒.808:     linux-pulseaudio.so
+22时56分08秒.808:     linux-jack.so
+22时56分08秒.808:     linux-decklink.so
+22时56分08秒.808:     linux-capture.so
+22时56分08秒.808:     linux-alsa.so
+22时56分08秒.808:     image-source.so
+22时56分08秒.808:     frontend-tools.so
+22时56分08秒.808:     decklink-ouput-ui.so
+22时56分08秒.808: ---------------------------------
+22时56分08秒.808: ==== Startup complete ===============================================
+22时56分08秒.808: Service '' not found
+22时56分08秒.810: All scene data cleared
+22时56分08秒.810: ------------------------------------------------
+22时56分08秒.812: pulse-input: Server name: 'pulseaudio 13.0'
+22时56分08秒.813: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+22时56分08秒.813: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+22时56分08秒.813: pulse-input: Server name: 'pulseaudio 13.0'
+22时56分08秒.813: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+22时56分08秒.813: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+22时56分08秒.814: xshm-input: Geometry 1920x1080 @ 0,0
+22时56分08秒.815: Switched to scene '场景'
+22时56分08秒.815: ------------------------------------------------
+22时56分08秒.815: Loaded scenes:
+22时56分08秒.815: - scene '场景':
+22时56分08秒.815:     - source: '屏幕捕获(XSHM)' (xshm_input)
+22时56分08秒.815: ------------------------------------------------

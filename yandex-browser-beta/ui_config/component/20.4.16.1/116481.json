@@ -1,0 +1,19 @@
+{
+  "style_sheet":
+  [
+    {
+      "selector": [
+        "#top_container[state=ntp]:degradation",
+        "#top_container:sly_zen:degradation",
+      ],
+      "background !imp": ["#ffffffa8"],
+    },
+    {
+      "selector": [
+        "#top_container[state=ntp]:degradation:dark_wp_top",
+        "#top_container:sly_zen:degradation:dark_wp_top",
+      ],
+      "background !imp": ["#00000054"],
+    },
+  ]
+}

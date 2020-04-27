@@ -1,0 +1,2055 @@
+{
+  "variables" : {
+    // KONORUL PALETTE
+    // Strict
+    "strict_white":"rgba(255, 255, 255, 1)",
+    "strict_black":"rgba(0, 0, 0, 1)",
+    "strict_red":"rgba(236, 28, 36, 1)",
+    "strict_invisible": "rgba(0, 0, 0, 0)",
+    // Normal
+    "normal_text_primary": "rgba(0, 0, 0, 1)",
+    "normal_icon_primary": "rgba(0, 0, 0, 1)",
+    // Inverted
+    "inverted_text_primary":"rgba(255, 255, 255, 1)",
+    "inverted_icon_primary": "rgba(255, 255, 255, 1)",
+    // TABSTRIPS
+    "inverted_tabstrip": "#242630",
+    "incognito_tabstrip": "#414141",
+    "full_tabstrip": "#2b2b2b",
+    "aqua_light_tabstrip": "#DAF1F6",
+    "blue_light_tabstrip": "#E2EEFD",
+    "green_light_tabstrip": "#E1F1C2",
+    "yellow_light_tabstrip": "#F9EEBF",
+    "orange_light_tabstrip": "#FFE7D6",
+    "red_light_tabstrip": "#FBDADA",
+    "purple_light_tabstrip": "#F5E3FB",
+    "aqua_half_tabstrip": "#9EDEEE",
+    "blue_half_tabstrip": "#6CA9EF",
+    "green_half_tabstrip": "#B8D47F",
+    "yellow_half_tabstrip": "#FFD633",
+    "orange_half_tabstrip": "#F5A141",
+    "red_half_tabstrip": "#F68585",
+    "purple_half_tabstrip": "#CE97E2",
+    "aqua_color_tabstrip": "#1F8FAB",
+    "blue_color_tabstrip": "#296CB8",
+    "green_color_tabstrip": "#658724",
+    "yellow_color_tabstrip": "#F4A825",
+    "orange_color_tabstrip": "#D1661A",
+    "red_color_tabstrip": "#BF4848",
+    "purple_color_tabstrip": "#935EA8",
+    // KONORUL PALETTE END
+    "top_light_background": "#fff",
+    "top_dark_background": "#45464F",
+    "top_protect_background": "#747474",
+    // Dark button foreground colors.
+    "dark_fg_normal" : "#000",
+    "dark_fg_hovered" : "#000",
+    "dark_fg_pressed" : "#000",
+    "dark_fg_disabled" : "color(#000 a(.35))",
+    // Dark button background colors.
+    "dark_bg_normal" : "#0000",
+    "dark_bg_hovered" : "color(#000 a(.1))",
+    "dark_bg_pressed" : "color(#000 a(.4))",
+    // Light button foreground colors.
+    "light_fg_normal" : "#fff",
+    "light_fg_hovered" : "#fff",
+    "light_fg_pressed" : "#fff",
+    "light_fg_disabled" : "4DFFFFFF",
+    // Light button background colors.
+    "light_bg_normal" : "#0000",
+    "light_bg_hovered" : "color(#fff a(.15))",
+    "light_bg_pressed" : "color(#fff a(.2))",
+    // Smartbox background colors.
+    "sb_light_hover" : "color(#fff a(.17))",
+    "sb_dark_hover" : "color(#000 a(.05))",
+
+    "full_aqua": "#56B9D1",
+    "full_blue": "#4794EB",
+    "full_green": "#7EAE1F",
+    "full_orange": "#F38A12",
+    "color_purple": "#C27DDB",
+    "full_purple": "#BC5EDF",
+    "full_red": "#F46666",
+    "full_yellow": "#FFCC00",
+  },
+  "style_sheet":
+  [
+    /*****************************  b2020 common  *****************************/
+    {
+      "selector":":b2020_hide_omni#toolbar_panel:not(:active_smartbox, [popup], [state=zen]) *",
+      "no_subpixel_rendering": true,
+    },
+    {
+      "selector":":b2020_hide_omni#smartbox_arrow:not(:active_smartbox, [popup], [state=zen], :sly_zen)",
+      "icon": "",
+    },
+    {
+      "selector":":b2020_hide_omni#smartbox_arrow:is(:active_smartbox):not([popup], [state=zen], :sly_zen)",
+      "animation_duration" : 150,
+    },
+    {
+      "selector":":b2020#toolbar_panel > separator",
+      "foreground": "#0000",
+      "background": "#0000",
+      "thickness": 2,
+      "height": 16,
+    },
+    {
+      "selector":":b2020#toolbar_panel > #extensions_resizer",
+      "thickness": 1,
+      "foreground": [],
+    },
+    {
+      "selector":":b2020_hide_omni#toolbar_panel > #extensions_resizer",
+      "thickness": 1,
+      "foreground !imp": "rgba(0, 0, 0, .1)",
+    },
+    {
+      "selector":":b2020_hide_omni#toolbar_panel > #extensions_resizer",
+      "meta_selector": [
+          ":is([tint=color], [tint=full]):not([theme=yellow])",
+          "[state=protected]",
+          "[theme=dark]",
+      ],
+      "foreground !imp": "rgba(255, 255, 255, .2)",
+    },
+    {
+      "selector":":b2020_hide_omni#toolbar_panel:is(:webapp_window, :active_smartbox, [popup], [state=zen], :sly_zen) > #extensions_resizer#extensions_resizer",
+      "foreground !imp": "#0000",  // Hide in active smartbox.
+    },
+    {
+      "selector": ":b2020#toolbar_panel > button:not(#ya_logo)",
+      "radius": 6,
+      "border_width": [6],  // trbl
+    },
+    {
+      "selector": ":b2020_low_omni#toolbar_panel > button:not(#ya_logo)",
+      "radius": 6,
+      "border_width": [4, 6],
+    },
+    {
+      "selector": ":b2020#toolbar_panel > button:is(#back_button, #eback_button)",
+      "border_left_width": 10,
+    },
+    {
+      "selector": ":b2020#toolbar_panel > button:is(:webapp_window)",
+      "border_width !imp": [4, 6],
+    },
+    {
+      "selector": ":b2020#toolbar_panel > button#back_button:is(:webapp_window)",
+      "border_width !imp": [4, 8],
+    },
+    {
+      "selector": ":b2020#window_controls > button",
+      "radius": 6,
+      "border_width !imp": [4, 6],
+    },
+    {
+      "selector": ":b2020#window_controls > button#win_close",
+      "border_width !imp": [4, 8],
+    },
+    {
+      "selector": ":b2020#window_controls > button:is(:bottom_tabs, :popup_window)",
+      "border_width !imp": [6],
+    },
+    {
+      "selector": ":b2020#window_controls > button#win_close:is(:bottom_tabs, :popup_window)",
+      "border_width !imp": [6, 8],
+    },
+    {
+      "selector": [
+        ":b2020#toolbar_panel > button#download_button",
+        ":b2020#window_controls > button#win_close",
+        ":b2020#window_controls > button#menu_button[platform=macosx]",
+      ],
+      "border_right_width": 10,
+    },
+    {
+      "selector": ":b2020#web_app_title",
+      "use_custom_background": true,
+      "text_color !imp": "#000",
+    },
+    {
+      "selector": [
+        ":b2020#web_app_title:is([tint=color], [tint=full], [theme=dark]):not([theme=yellow])",
+        ":b2020#web_app_title:is([state=protected])",
+      ],
+      "use_custom_background": true,
+      "text_color !imp": "#fff",
+    },
+    {
+      "selector" : [
+        ":b2020#smartbox > button",
+        ":b2020#smartbox > #clicable_domain",
+        ":b2020#smartbox > #searchness",
+        ":b2020#protect_container > animation_button",
+        ":b2020#protect_container > #protect_button",
+      ],
+      "radius !imp": 6
+    },
+    {
+      "selector" : ":b2020#smartbox > button",
+      "border_width !imp": [2, 0, 2, 0],
+    },
+    {
+      "selector" : ":b2020#protect_container > animation_button",
+      "border_width !imp": [2, 0, 2, 4],
+    },
+    {
+      "selector": ":b2020#protect_container > #protect_button",
+      "border_width !imp": [2, 0, 2, 2],
+    },
+    {
+      "selector" : ":b2020#smartbox > :is(#star_button, #starred_star_button)",
+      "border_width !imp": [2, 3, 2, 3],
+    },
+    {
+      "selector": ":b2020#smartbox > :is(#clicable_domain, #regular_domain)" ,
+      "border_width !imp": [2, 2, 2, 0],
+    },
+    {
+      "selector": ":b2020#tabs_top_panel",
+      "background": "#0000",
+    },
+    {
+      "selector": ":b2020#top_container#top_container",
+      "use_blur": false,
+      "background": "#0000",
+    },
+    {
+      "selector": ":b2020#toolbar_panel",
+      // Enables tab hover hover animation in toolbar corner.
+      "enable_corner_hover": true,
+      // Rounds top corners, at least one nonzero value disables gradient:
+      "top_left_radius": 8,
+      "top_right_radius": 8,
+    },
+    {
+      "selector": ":b2020#toolbar_panel:is(:bottom_tabs, :popup_window)",
+      "top_left_radius": 0,
+      "top_right_radius": 0,
+    },
+    {
+      "selector": ":b2020#toolbar_panel:is([state=ntp], :sly_zen, :bottom_tabs, :popup_window, [platform=macosx])",
+      "enable_corner_hover": false,
+    },
+    {
+      "selector": ":b2020#tab_close_button",
+      "radius !imp": 20,
+    },
+
+    /****************************  b2020 redesign  ****************************/
+    {
+      "selector": ":b2020#tabs_top_panel#tabs_top_panel",
+      "background": "#0000",
+    },
+    {
+      "selector": ":b2020#top_container#top_container",
+      "use_blur": false,
+      "background": "#0000",
+    },
+    {
+      "selector": ":b2020#smartbox_arrow",
+      "foreground !imp": "#0000",
+    },
+    {
+      "selector": ":b2020#smartbox_arrow:active_smartbox:where(:not([state=ntp], :sly_zen, [state=protected]))",
+      "foreground !imp": ["var(sb_dark_hover)"],
+    },
+    {
+      "selector": [
+        ":b2020#smartbox_arrow[theme=dark]:active_smartbox",
+        ":b2020#smartbox_arrow:active_smartbox:where([state=protected])",
+      ],
+      "foreground !imp": ["var(sb_light_hover)"],
+    },
+    {
+      "selector": ":b2020#smartbox_arrow:is([state=ntp], [state=zen], :sly_zen, :incognito[state=ntp])",
+      "foreground !imp": "#FFF",
+    },
+    {
+      "selector": [
+        ":b2020#toolbar_panel",
+        ":b2020#bookmarks_panel",
+        ":b2020#infobar_panel",
+      ],
+      "background !imp": ["var(top_light_background)"],
+    },
+    {
+      "selector": ":b2020#toolbar_panel#toolbar_panel:is(:popup_window[state=protected][tint])",
+      "background !imp": ["#747474"],
+    },
+    {
+      "selector": [
+        ":b2020#toolbar_panel:where([theme=dark]:not([state=ntp][popup=tablo]))",
+        ":b2020#bookmarks_panel:where([theme=dark]:not([state=ntp][popup=tablo]))",
+        ":b2020#infobar_panel:where([theme=dark]:not([state=ntp][popup=tablo]))",
+      ],
+      "background !imp": ["var(top_dark_background)"],
+    },
+
+    /***********************  HeadPanels color theme  *****************************/
+    {
+      "selector": [
+        ":b2020#toolbar_panel[theme=aqua]:where([tint=color], [tint=full])",
+        ":b2020#bookmarks_panel[theme=aqua]:where([tint=color], [tint=full])",
+        ":b2020#infobar_panel[theme=aqua]:where([tint=color], [tint=full])",
+      ],
+      "background !imp": "var(full_aqua)",
+    },
+    {
+      "selector": [
+        ":b2020#toolbar_panel[theme=blue]:where([tint=color], [tint=full])",
+        ":b2020#bookmarks_panel[theme=blue]:where([tint=color], [tint=full])",
+        ":b2020#infobar_panel[theme=blue]:where([tint=color], [tint=full])",
+      ],
+      "background !imp": "var(full_blue)",
+    },
+    {
+      "selector": [
+        ":b2020#toolbar_panel[theme=green]:where([tint=color], [tint=full])",
+        ":b2020#bookmarks_panel[theme=green]:where([tint=color], [tint=full])",
+        ":b2020#infobar_panel[theme=green]:where([tint=color], [tint=full])",
+      ],
+      "background !imp": "var(full_green)",
+    },
+    {
+      "selector": [
+        ":b2020#toolbar_panel[theme=orange]:where([tint=color], [tint=full])",
+        ":b2020#bookmarks_panel[theme=orange]:where([tint=color], [tint=full])",
+        ":b2020#infobar_panel[theme=orange]:where([tint=color], [tint=full])",
+      ],
+      "background !imp": "var(full_orange)",
+    },
+    {
+      "selector": [
+        ":b2020#toolbar_panel[theme=purple]:where([tint=color], [tint=full])",
+        ":b2020#bookmarks_panel[theme=purple]:where([tint=color], [tint=full])",
+        ":b2020#infobar_panel[theme=purple]:where([tint=color], [tint=full])",
+      ],
+      "background !imp": "var(full_purple)",
+    },
+    {
+      "selector": [
+        ":b2020#toolbar_panel[theme=red]:where([tint=color], [tint=full])",
+        ":b2020#bookmarks_panel[theme=red]:where([tint=color], [tint=full])",
+        ":b2020#infobar_panel[theme=red]:where([tint=color], [tint=full])",
+      ],
+      "background !imp": "var(full_red)",
+    },
+    {
+      "selector": [
+        ":b2020#toolbar_panel[theme=yellow]:where([tint=color], [tint=full])",
+        ":b2020#bookmarks_panel[theme=yellow]:where([tint=color], [tint=full])",
+        ":b2020#infobar_panel[theme=yellow]:where([tint=color], [tint=full])",
+      ],
+      "background !imp": "var(full_yellow)",
+    },
+    /***********************  Popup head color theme  *****************************/
+    {
+      "selector": ":b2020#toolbar_panel:popup_window[theme=blue][tint=light]",
+      "background !imp": "#E2EEFD",
+    },
+    {
+      "selector": ":b2020#toolbar_panel:popup_window[theme=blue][tint=half]",
+      "background !imp": "#6CA9EF",
+    },
+    {
+      "selector": ":b2020#toolbar_panel:popup_window[theme=aqua][tint=light]",
+      "background !imp": "#DAF1F6",
+    },
+    {
+      "selector": ":b2020#toolbar_panel:popup_window[theme=aqua][tint=half]",
+      "background !imp": "#9EDEEE",
+    },
+    {
+      "selector": ":b2020#toolbar_panel:popup_window[theme=green][tint=light]",
+      "background !imp": "#E1F1C2",
+    },
+    {
+      "selector": ":b2020#toolbar_panel:popup_window[theme=green][tint=half]",
+      "background !imp": "#B8D47F",
+    },
+    {
+      "selector": ":b2020#toolbar_panel:popup_window[theme=yellow][tint=light]",
+      "background !imp": "#F9EEBF",
+    },
+    {
+      "selector": ":b2020#toolbar_panel:popup_window[theme=yellow][tint=half]",
+      "background !imp": "#FFD633",
+    },
+    {
+      "selector": ":b2020#toolbar_panel:popup_window[theme=orange][tint=light]",
+      "background !imp": "#FFE7D6",
+    },
+    {
+      "selector": ":b2020#toolbar_panel:popup_window[theme=orange][tint=half]",
+      "background !imp": "#F5A141",
+    },
+    {
+      "selector": ":b2020#toolbar_panel:popup_window[theme=red][tint=light]",
+      "background !imp": "#FBDADA",
+    },
+    {
+      "selector": ":b2020#toolbar_panel:popup_window[theme=red][tint=half]",
+      "background !imp": "#F68585",
+    },
+    {
+      "selector": ":b2020#toolbar_panel:popup_window[theme=purple][tint=light]",
+      "background !imp": "#F5E3FB",
+    },
+    {
+      "selector": ":b2020#toolbar_panel:popup_window[theme=purple][tint=half]",
+      "background !imp": "#CE97E2",
+    },
+    {
+      "selector": [
+        ":b2020#toolbar_panel:is([state=ntp], :sly_zen)",
+        ":b2020#bookmarks_panel:is([state=ntp], :sly_zen)",
+        ":b2020#infobar_panel:is([state=ntp], :sly_zen)",
+      ],
+      "background !imp": ["#0000"],
+    },
+    {
+      "selector": [
+        ":b2020#flute",
+        ":b2020#flute:where([state=ntp], :sly_zen, [state=protected])",
+      ],
+      "background !imp": "#0000",
+    },
+    {
+      "selector": ":b2020#smartbox_arrow:not([tint], [state=ntp], [state=zen], :incognito):active_smartbox",
+      "foreground !imp": ["var(sb_light_hover)"],
+    },
+    {
+      "selector": ":b2020#smartbox > #connection_button.conn_https_error:is([tint=color], [tint=full]):not(:narrow_suggest[popup])",
+      "foreground !imp":["#fff"],
+      "background !imp": ["#e6333a"],
+    },
+    {
+      "selector": ":b2020#smartbox > #connection_stub:is([tint=color], [tint=full]):not([theme=yellow], :narrow_suggest[popup])",
+      "foreground !imp":["color(#fff a(.8))"],
+    },
+    {
+      "selector": ":b2020#smartbox > #connection_stub:is(:popup_window[tint=half]):not([theme=yellow], [theme=green], [theme=aqua])",
+      "foreground !imp":["color(#fff a(.8))"],
+    },
+    {
+      "selector": ":b2020#smartbox > #connection_button:is([tint=color], [tint=full]):not([theme=yellow], :sly_zen, [state=zen], :narrow_suggest[popup])",
+      "foreground !imp": "color(#fff a(.6))",
+      "background !imp": ["color(#000 a(.07))", "color(#000 a(.2))", "color(#000 a(.1))"],
+    },
+    {
+      "selector": ":b2020#smartbox > #connection_button[tint=color][tint=full]:is(.conn_https_gost, .conn_https.conn_ev):not(:narrow_suggest[popup])",
+      "foreground !imp":["#0DA909"],
+      "background !imp": ["#FFF"],
+    },
+    {
+      "selector": ":b2020#smartbox > #connection_button:is(:popup_window[tint=half]):not([theme=yellow], [theme=green], [theme=aqua])",
+      "foreground !imp":["color(#fff a(.8))"],
+    },
+    {
+      "selector": ":b2020#smartbox > #connection_button.conn_http_warning:is([tint=color], [tint=full]):not(:narrow_suggest[popup])",
+      "foreground !imp":["#FFA3A7"],
+      "background !imp": ["color(#fff a(.3))"],
+    },
+    {
+      "selector": [
+        ":b2020#smartbox > #connection_button.conn_http_warning[theme=yellow][tint=full]:not(:narrow_suggest[popup])",
+        ":b2020#smartbox > #connection_button.conn_http_warning[theme=yellow][tint=color]:not(:narrow_suggest[popup])",
+      ],
+      "foreground !imp":["#FFA3A7"],
+      "background !imp": ["color(#fff a(.5))"],
+    },
+    {
+      "selector": ":b2020#smartbox > *:is(#title, #regular_domain):is([tint=color], [tint=full]):not([theme=yellow])",
+      "text_color !imp": "#FFF",
+    },
+    {
+      "selector": ":b2020#smartbox > *:is(#title, #regular_domain):is(:popup_window[tint=half]):not([theme=yellow], [theme=green], [theme=aqua])",
+      "text_color !imp": "#FFF",
+    },
+    {
+      "selector": ":b2020#smartbox > #clicable_domain:is([tint=color], [tint=full]):not([theme=yellow])",
+      "text_color !imp": ["color(#fff a(0.6))", "#fff"],
+    },
+    {
+      "selector": ":b2020#smartbox > #clicable_domain:is(:popup_window[tint=half]):not([theme=yellow], [theme=green], [theme=aqua])",
+      "text_color !imp": ["color(#fff a(0.6))", "#fff"],
+    },
+    {
+      "selector": [
+        ":b2020#smartbox > #clicable_domain.conn_ev[tint=color][theme=yellow]",
+        ":b2020#smartbox > #clicable_domain.conn_ev[tint=full][theme=yellow]",
+      ],
+      "text_color !imp": ["color(#000 a(0.6))", "#000"],
+    },
+    {
+      "selector": [
+        ":b2020#smartbox > #edit_field:is([tint=color], [tint=full]):not([theme=yellow], [state=ntp], :sly_zen, [state=zen], :narrow_suggest[popup])",
+        ":b2020#smartbox > #edit_field[theme=dark]:not([state=ntp], :narrow_suggest[popup])",
+      ],
+      "selection_color": "color(#fff a(0.2))",
+      "text_color": "#FFF",
+      "selected_text_color": "#fff",
+      "placeholder_text_color": ["color(#fff a(0.6))"],
+      "url_colors": ["color(#fff a(0.6))", "#fff"],
+    },
+    {
+      "selector": ":b2020#smartbox > #edit_field.permanent:is([tint=color], [tint=full]):not(:narrow_suggest[popup], [theme=yellow])",
+      "url_colors !imp": ["color(#fff a(0.6))", "#fff"],
+    },
+    {
+      "selector": ".context_panel > button",
+      "meta_selector": [
+        ":not(:narrow_suggest)[tint=full]:not([theme=yellow]):not([state=ntp], [state=zen], [state=protected])",
+        ":narrow_suggest[tint=full]:not([theme=yellow]):not([state=ntp], [state=zen], [state=protected], [popup])",
+        ":not(:narrow_suggest)[tint=color]:not([theme=yellow]):not([state=ntp], [state=zen], [state=protected])",
+        ":narrow_suggest[tint=color]:not([theme=yellow]):not([state=ntp], [state=zen], [state=protected], [popup])",
+        "[state=protected]",
+        "[theme=dark]",
+      ],
+      "foreground !imp": ["#fff", "#fff", "#fff", "4DFFFFFF"],
+      "text_color !imp": ["#fff", "#fff", "#fff", "4DFFFFFF"],
+      "background !imp": ["color(#fff alpha(.1))", "color(#fff alpha(.2))", "color(#fff alpha(.3))"],
+    },
+    {
+      "selector": [
+        ".context_panel > #context_panel_menu_button",
+        ".context_panel > #share_panel_copied_button",
+      ],
+      "background !imp": ["#0000"],
+    },
+    {
+      "selector": [
+        "#star_button:is([tint=color], [tint=full]):not([theme=yellow], [state=ntp], :sly_zen, :narrow_suggest[popup])",
+        "#star_button[state=protected]",
+        "#star_button[theme=dark]",
+        "#starred_star_button:is([tint=color], [tint=full]):not([theme=yellow], [state=ntp], :sly_zen, :narrow_suggest[popup])",
+        "#starred_star_button[state=protected]",
+        "#starred_star_button[theme=dark]",
+      ],
+      "foreground": "color(#FFF a(.4))",
+      "background": ["color(#FFF alpha(0))", "color(#FFF alpha(.2))", "color(#FFF alpha(.2))"],
+    },
+    {
+      "selector": ":b2020#context_panel_menu_button:is([tint=color][tint=full]):not([state=ntp], :narrow_suggest[popup], [theme=yellow])",
+      "foreground": ["#FFFFFF"],
+    },
+    {
+      "selector": ":b2020#protect_container > animation_button",
+      "background !imp": ["color(#000 alpha(0))", "color(#000 alpha(.1))", "color(#000 alpha(.1))"],
+      "foreground !imp": ["color(#000 alpha(0.4))"],
+    },
+    {
+      "selector": [
+        ":b2020#smartbox > #protect_container > animation_button:not([theme=yellow]):is([tint=full], [tint=color])",
+        ":b2020#smartbox > #protect_container > animation_button:is([theme=dark], [state=protected])",
+      ],
+      "no_subpixel_rendering": true,
+      "background !imp": ["color(#FFF alpha(0))", "color(#FFF alpha(.2))", "color(#FFF alpha(.2))"],
+      "foreground !imp": ["color(#fff alpha(0.5))"],
+      "text_color !imp": "#fff",
+    },
+    {
+      "selector": [
+        ":b2020 animation_button:webapp_window:is([tint=color], [tint=full]):not([theme=yellow])",
+        ":b2020 animation_button:webapp_window:is([theme=dark], [state=protected])",
+      ],
+      "no_subpixel_rendering": true,
+      "background !imp": ["color(#FFF alpha(0))", "color(#FFF alpha(.2))", "color(#FFF alpha(.2))"],
+      "foreground !imp": "#fff",
+      "text_color !imp": "#fff",
+    },
+    {
+      "selector": [
+        ":b2020#smartbox > #protect_container:is([tint=full], [tint=color]):not([theme=yellow]) > animation_button.active",
+        ":b2020#smartbox > #protect_container[state=protected] > animation_button.active",
+        ":b2020#smartbox > #protect_container:is([tint=full], [tint=color]) > animation_button.active",
+        ":b2020#smartbox > #protect_container[theme=dark] > animation_button.active",
+      ],
+      "no_subpixel_rendering": true,
+      "background": ["color(#FFF alpha(.2))", "color(#FFF alpha(.3))", "color(#FFF alpha(.3))"],
+      "foreground": "#FFF"
+    },
+    /**************************  WebAppPanel  *********************************/
+    {
+      "selector": ":b2020#web_app_panel",
+      "background !imp": ["color(#000 alpha(.08))"],
+      "radius" : 6,
+    },
+    {
+      "selector": ":b2020#web_app_panel > button",
+      "foreground !imp": "#000",
+    },
+    {
+      "selector": ":b2020#web_app_panel > button#web_app_panel_menu_button",
+      "foreground !imp": "#000",
+    },
+    {
+      "selector": ":b2020#web_app_panel > separator",
+      "background !imp": "color(#000 alpha(0.2))",
+    },
+    {
+      "selector": [
+        ":b2020#web_app_panel:not([theme=yellow]):is([tint=full], [tint=color])",
+        ":b2020#web_app_panel:is([state=protected], [theme=dark])",
+        ":b2020#web_app_panel:is(:popup_window[tint=half]):not([theme=aqua], [theme=green], [theme=yellow])",
+      ],
+      "background !imp": ["color(#FFF alpha(.2))"],
+    },
+    {
+      "selector": [
+        ":b2020#web_app_panel > button:not([theme=yellow]):is([tint=full], [tint=color])",
+        ":b2020#web_app_panel > button:is([state=protected], [theme=dark])",
+        ":b2020#web_app_panel > button:is(:popup_window[tint=half]):not([theme=aqua], [theme=green], [theme=yellow])",
+      ],
+      "text_color !imp": "#fff",
+    },
+    {
+      "selector": [
+        ":b2020#web_app_panel > separator:not([theme=yellow]):is([tint=full], [tint=color])",
+        ":b2020#web_app_panel > separator:is([state=protected], [theme=dark])",
+        ":b2020#web_app_panel > separator:is(:popup_window[tint=half]):not([theme=aqua], [theme=green], [theme=yellow])",
+      ],
+      "background !imp": "color(#fff alpha(0.2))",
+    },
+    {
+      "selector": [
+        ":b2020#web_app_panel > button#web_app_panel_menu_button:not([theme=yellow]):is([tint=full], [tint=color])",
+        ":b2020#web_app_panel > button#web_app_panel_menu_button:is([state=protected], [theme=dark])",
+        ":b2020#web_app_panel > button#web_app_panel_menu_button:is(:popup_window[tint=half]):not([theme=aqua], [theme=green], [theme=yellow])",
+      ],
+      "foreground !imp": "#fff",
+    },
+    {
+      "selector": ":b2020#protect_container > #protect_button",
+      "meta_selector": [
+        ":is([tint=color], [tint=full]):not([theme=yellow])",
+        "[state=protected]",
+      ],
+      "background": ["color(#FFF alpha(0))", "color(#FFF alpha(.2))", "color(#FFF alpha(.2))"],
+    },
+    {
+      "selector": ":b2020#protect_button > img",
+      "foreground !imp": ["color(#000 alpha(.4))"],
+      "text_color !imp": ["#fff"],
+    },
+    {
+      "selector": ":b2020#protect_button:is([tint=full], [tint=color], [theme=dark], [state=protected]):not([theme=yellow]) > img",
+      "foreground !imp": ["color(#FFF alpha(.4))"],
+      "background !imp": ["color(#FFF alpha(0))", "color(#FFF alpha(.2))", "color(#FFF alpha(.2))"],
+      "text_color !imp": ["#fff"],
+    },
+    {
+      "selector": ":b2020#protect_button:is([tint=full][tint=color]):not([theme=yellow]) > #main_icon",
+      "foreground": ["#fff"],
+      "background": ["color(#FFF alpha(0))", "color(#FFF alpha(.2))", "color(#FFF alpha(.2))"],
+    },
+    {
+      "selector": ":b2020#protect_button:is([tint=color][tint=full]):not([theme=yellow]) > #main_icon.error_look",
+      "foreground": ["#d20000ff"],
+      "background": ["#FFF"],
+    },
+    {
+      "selector": ":b2020#protect_button:is([tint=full][tint=color]):not([theme=yellow]) > #status_text",
+      "no_subpixel_rendering": false,
+      "text_color": "#FFF",
+    },
+    {
+      "selector": ":b2020#protect_button:is([tint=color], [tint=full]):not([theme=yellow]) > #status_text.error_look",
+      "text_color": "#FFF",
+      "no_subpixel_rendering": true,
+    },
+    {
+      "selector": "#protect_button > #status_text.success_look",
+      "text_color !imp": "#51E460",
+    },
+    {
+      "selector": ":b2020#bookmarks_panel > button:is([tint=full], [tint=color]):not([theme=yellow], [state=ntp], :sly_zen)",
+      "foreground": ["#fff"],
+      "text_color": ["color(#fff alpha(1))"],
+    },
+    {
+      "selector": ":b2020#bookmarks_panel > #bookmark_instruction:is([tint=full], [tint=color]):not([theme=yellow],[state=ntp], :popup_window, :sly_zen)",
+      "text_color":["#fff"],
+    },
+    {
+      "selector": ":b2020#bookmarks_panel > #bookmark_link",
+      "text_color !imp": "#0078D7",
+    },
+    {
+      "selector": [
+        ":b2020#bookmarks_panel > #bookmark_link:is([theme=dark]):not([state=ntp], :sly_zen)",
+        ":b2020#bookmarks_panel > #bookmark_link:is([tint=color], [tint=full]):not([theme=yellow], [state=ntp], :sly_zen)",
+        ":b2020#bookmarks_panel > #bookmark_link:is([state=protected], :incognito[state=ntp])",
+        ":b2020#bookmarks_panel > #bookmark_link:is(:dark_wp_top[state=ntp])",
+        ":b2020#bookmarks_panel > #bookmark_link:is(:dark_wp_top:sly_zen)"
+      ],
+      "text_color !imp": "color(#fff a(.5))",
+    },
+    {
+      "selector": [
+        ":b2020#bookmarks_panel > #bookmark_link:where([state=ntp], :sly_zen)",
+        ":b2020#bookmarks_panel > #bookmark_link:where([tint=color][theme=yellow])",
+        ":b2020#bookmarks_panel > #bookmark_link:where([tint=full][theme=yellow])",
+      ],
+      "text_color !imp": "color(#000 a(.5))",
+    },
+    {
+      "selector": ":b2020#infobar_title:is([tint=full][tint=color]):not([state=ntp], :sly_zen, [theme=yellow])",
+      "text_color": "#FFF",
+    },
+    {
+      "selector": ":b2020.infobar_button:is([tint=full][tint=color]):not([state=ntp], :sly_zen, [theme=yellow])",
+      "text_color": "#FFF",
+      "background": ["color(#fff a(.2))", "color(#fff a(.3))", "color(#fff a(.5))"],
+      "foreground": "#FFF",
+    },
+    {
+      "selector": ":b2020#infobar_close:is([tint=full][tint=color]):not([state=ntp], :sly_zen, [theme=yellow])",
+      "background": ["color(#fff a(.2))", "color(#fff a(.3))", "color(#fff a(.5))"],
+      "foreground": "#FFF",
+    },
+    {
+      "selector": [
+        ":b2020#smartbox[theme=dark]:not(:narrow_suggest[popup]) > #edit_field",
+        ":b2020#smartbox[theme=dark]:sly_zen > #edit_field",
+      ],
+      "text_color": "#000",
+      "placeholder_text_color": "#00000083",
+      "selection_color": "#3390ff",
+      "selected_text_color": "#fff",
+    },
+    {
+      "selector": ":b2020#smartbox > #edit_field",
+      "meta_selector":[
+        ":is([tint=color], [tint=full]):not(:narrow_suggest[popup])",
+        ":is(:popup_window[tint=half]):not([theme=yellow], [theme=green], [theme=aqua])"
+      ],
+      "url_other_color": "color(#fff a(.5))",
+      "url_scheme_color": "color(#fff a(.5))",
+      "url_host_color": "#fff",
+    },
+    {
+      "selector": [
+        ":b2020#smartbox:is([tint=color][theme=yellow]):not(:narrow_suggest[popup], [state=protected]) > #edit_field",
+        ":b2020#smartbox:is([tint=full][theme=yellow]):not(:narrow_suggest[popup], [state=protected]) > #edit_field",
+      ],
+      "url_other_color": "color(#000 a(.4))",
+      "url_scheme_color": "color(#000 a(.4))",
+      "url_host_color": "#000",
+    },
+    {
+      "selector": ":b2020#smartbox:is([state=protected], [theme=dark]):not(:narrow_suggest[popup], :sly_zen, [state=zen]) > #edit_field",
+      "text_color !imp": "#fff",
+      "url_other_color !imp": "color(#fff a(.6))",
+      "url_host_color !imp": "#fff",
+    },
+    {
+      "selector": [
+        "#smartbox > #edit_field.permanent.conn_https_error:not([tint=color][theme=red], [tint=full][theme=red])",
+        "#smartbox > #edit_field.permanent.conn_https_error:is([theme=dark])",
+      ],
+      "url_scheme_color !imp": "var(conn_red_dark)",
+    },
+    {
+      "selector": [
+        "#smartbox > #edit_field.permanent.conn_ev:is([theme=dark], [state=protected])",
+        "#smartbox > #edit_field.permanent.conn_ev:is([tint=color], [tint=full]):not([theme=yellow])",
+      ],
+      "url_scheme_color !imp": "var(conn_green_dark)",
+    },
+    {
+      "selector": "#smartbox > #edit_field.permanent.conn_ev:is([tint=color][theme=yellow], [tint=full][theme=yellow])",
+      "url_scheme_color !imp": "var(conn_green)",
+    },
+
+    //************************  Omnibox Protected  *************************************/
+    {
+      "selector": [
+        ":b2020#toolbar_panel[state=protected]",
+        ":b2020#bookmarks_panel[state=protected]",
+        ":b2020#infobar_panel[state=protected]",
+      ],
+      "background !imp": ["var(top_protect_background)"],
+    },
+    {
+      "selector": ":b2020#smartbox > #connection_stub#connection_stub[state=protected]",
+      "foreground !imp":["color(#fff a(.8))"],
+    },
+    {
+      "selector": ":b2020#smartbox > #connection_button#connection_button[state=protected]",
+      "foreground !imp": "color(#fff a(0.6))",
+      "background !imp": ["color(#000 a(.2))", "color(#000 a(.4))", "color(#000 a(.2))"],
+    },
+    {
+      "selector": ":b2020#smartbox > *:is(#title, #regular_domain)[state=protected]",
+      "text_color !imp": "#fff",
+    },
+    {
+      "selector":":b2020#smartbox > #clicable_domain#clicable_domain:is([state=protected])",
+      "text_color !imp": ["color(#fff a(0.6))", "#51b1fd"],
+      "background !imp": ["color(#000 a(.2))", "color(#000 a(.4))", "color(#000 a(.2))"],
+    },
+    {
+      "selector": ":b2020#smartbox > #clicable_domain#clicable_domain.conn_https.conn_ev[state=protected]",
+      "text_color !imp": ["#51E460", "#51b1fd"],
+    },
+    {
+      "selector": ":b2020#smartbox > #clicable_domain#clicable_domain.conn_https.conn_ev[state=protected]",
+      "text_color !imp": ["#51E460", "#51b1fd"],
+    },
+    {
+      "selector": ":b2020#smartbox > #connection_button#connection_button.conn_ev",
+      "foreground !imp": ["#fff"],
+      "background !imp": ["#1fa71e", "#18901B"],
+    },
+
+    //************************  Flute button  *************************************/
+    {
+      "selector": ":b2020#flute > button",
+      "border_width !imp": [0, 6, 0, 6],
+      "paint_on_border !imp" : false,
+    },
+    {
+      "selector": ":b2020#flute > #flute_login_button:not(.signed_in, .plus_subscription)",
+      "foreground !imp": ["#666666", "#373737", "#373737", "#0000"],
+      "background !imp": ["#0000"]
+    },
+    {
+      "selector": [
+        ":b2020#window_controls > button",
+        ":b2020#bookmarks_panel > button",
+        ":b2020#toolbar_panel > button",
+        ":b2020#flute > button",
+      ],
+      "background !imp": ["var(dark_bg_normal)", "var(dark_bg_hovered)", "var(dark_bg_pressed)", "#0000"],
+      "foreground !imp": ["var(dark_fg_normal)", "var(dark_fg_hovered)", "var(dark_fg_pressed)", "var(dark_fg_disabled)"],
+    },
+    {
+      "selector": [
+        ":b2020#bookmarks_panel > button",
+        ":b2020#toolbar_panel > button",
+      ],
+      "background !imp": ["var(dark_bg_normal)", "var(dark_bg_hovered)", "var(dark_bg_pressed)", "#0000"],
+      "foreground !imp": ["color(#000 a(.8))", "color(#000 a(.8))", "color(#000 a(.8))", "var(dark_fg_disabled)"],
+    },
+    {
+      "selector": [
+        ":b2020#window_controls > button:where(:dark_wp_top, :incognito[state=ntp], :incognito)",
+        ":b2020#window_controls > button:where([theme=dark]:not([state=ntp], :sly_zen))",
+        ":b2020#toolbar_panel > button:where(:dark_wp_top:is([state=ntp], :sly_zen))",
+        ":b2020#toolbar_panel > button:where([theme=dark]:not([state=ntp], :sly_zen))",
+        ":b2020#bookmarks_panel > button:where(:dark_wp_top:is([state=ntp], :sly_zen))",
+        ":b2020#bookmarks_panel > button:where([theme=dark]:not([state=ntp], :sly_zen))",
+        ":b2020#flute > button:where(:dark_wp_top, :incognito[state=ntp], :incognito)",
+        ":b2020#flute > button:where([theme=dark]:not([state=ntp], :sly_zen))",
+      ],
+      "background !imp": ["var(light_bg_normal)", "var(light_bg_hovered)", "var(light_bg_pressed)", "#0000"],
+      "foreground !imp": ["var(light_fg_normal)", "var(light_fg_hovered)", "var(light_fg_pressed)", "var(light_fg_disabled)"],
+    },
+    {
+      "selector": "#window_controls > #incognito_profile",
+      "foreground !imp": "#000",
+    },
+    {
+      "selector": "#window_controls > #incognito_profile",
+      "meta_selector": [
+        ":not(:popup_window, :bottom_tabs, [state=ntp], :sly_zen, [state=protected])[tint=full]",
+        ":not(:popup_window, :bottom_tabs, [state=ntp], :sly_zen, [state=protected])[tint=color]:not([theme=yellow])",
+        ":not(:popup_window, :bottom_tabs, [state=ntp], :sly_zen, [state=protected])[tint=half]:not([theme=yellow], [theme=green], [theme=aqua])",
+        ":dark_wp_top:where([state=ntp][popup=tablo], :sly_zen)",
+        "[theme=dark]:not([state=ntp], :sly_zen)",
+        ":is(:incognito[state=ntp])",
+        ":is(:incognito):not([tint], :bottom_tabs)",
+        ":not(:narrow_suggest)[theme=dark]:where([state=ntp][popup=suggest])",
+        ":is(:popup_window, :bottom_tabs):is([tint=full], [tint=color]):not([theme=yellow], [state=ntp], :sly_zen)",
+        ":narrow_suggest:dark_wp_top:where([state=ntp], :sly_zen)",
+        ":is([state=protected][tint=half]):not([theme=aqua], [theme=yellow], [theme=green])",
+        ":is([state=protected][tint=color]):not([theme=yellow])",
+        ":is([state=protected][tint=full])",
+      ],
+      "foreground !imp": "#fff",
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper",
+      "use_custom_background": true, // If true, draw wallpaper blured images and switch off |background| color.
+      "blur_radius": 10,
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper:is([state=ntp], :sly_zen):not(:incognito)",
+      "use_custom_background !imp": true,
+      "blur_radius": 10,
+      "background !imp": "#0000",
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper:where(:incognito)",
+      "use_custom_background": false,
+      "background": "#414141",
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper:where([theme=dark])",
+      "use_custom_background": false,
+      "background": "#242630",
+    },
+    //************************  Window controls button  *************************************/
+
+    {
+      "selector": ":b2020#window_controls > button",
+      "meta_selector": [
+        ":popup_window:not([theme=dark], [tint=half], [tint=color])",
+        ":bottom_tabs:not([theme], [state=protected], [state=ntp], :sly_zen)",
+        ":bottom_tabs:is([tint=half]):not([state=protected], [state=ntp], :sly_zen, :popup_window)",
+        ":bottom_tabs:is([tint=half], [theme=yellow]):not([tint=half], [state=protected], [state=ntp], :sly_zen, :popup_window)",
+      ],
+      "background !imp": ["var(dark_bg_normal)", "var(dark_bg_hovered)", "var(dark_bg_pressed)", "#0000"],
+      "foreground !imp": ["var(dark_fg_normal)", "var(dark_fg_hovered)", "var(dark_fg_pressed)", "var(dark_fg_disabled)"],
+    },
+    {
+      "selector": ":b2020#window_controls > button",
+      "meta_selector": [
+        ":popup_window[tint=full]:not([theme=yellow], [state=ntp])",
+        ":bottom_tabs[state=protected]",
+      ],
+      "background !imp": ["var(light_bg_normal)", "var(light_bg_hovered)", "var(light_bg_pressed)", "#0000"],
+      "foreground !imp": ["var(light_fg_normal)", "var(light_fg_hovered)", "var(light_fg_pressed)", "var(light_fg_disabled)"],
+    },
+    {
+      "selector": ":b2020#toolbar_panel > button.styled_button:is(:popup_window[tint=half]):not([theme=yellow], [theme=green], [theme=aqua])",
+      "background !imp": ["var(light_bg_normal)", "var(light_bg_hovered)", "var(light_bg_pressed)", "#0000"],
+      "foreground !imp": ["var(light_fg_normal)", "var(light_fg_hovered)", "var(light_fg_pressed)", "var(light_fg_disabled)"],
+    },
+    {
+      "selector": ":b2020#window_controls > #win_close",
+      "foreground !imp": ["#fff", "#fff", "#fff"],
+      "background !imp": ["#0000","ff4d4d", "ff0000"],
+    },
+    {
+      "selector": ":b2020#window_controls > #win_close",
+      "meta_selector": [
+        ":popup_window[theme=yellow][tint=full]",
+        ":dark_wp_top:popup_window:not([theme])",
+        ":bottom_tabs:not([theme]):not([state=protected], [state=ntp], :sly_zen)",
+        ":bottom_tabs[tint=half]:not([state=protected], [state=ntp], :sly_zen, :popup_window)",
+        ":bottom_tabs[theme=yellow][tint=full]:not(:incognito[state=ntp])",
+        ":dark_wp_top[tint=light]:not([state=ntp], :sly_zen)",
+        ":dark_wp_top[tint=half]:is([theme=aqua], [theme=green], [theme=yellow]):not([state=ntp], :sly_zen)",
+        ":dark_wp_top[tint=color][theme=yellow]:not([state=ntp], :sly_zen)",
+        ":not(:dark_wp_top):not([theme]):not(:incognito)",
+        ":not(:dark_wp_top)[theme=dark]:not(:incognito):is([state=ntp], :sly_zen)",
+        ":not(:dark_wp_top)[tint=light]:not(:incognito[state=ntp])",
+        ":not(:dark_wp_top)[tint=half]:is(:not(:incognito):is([state=ntp],:bottom_tabs:not([state=protected], :popup_window)), :sly_zen)",
+        ":not(:dark_wp_top)[tint=half]:is([theme=aqua], [theme=green], [theme=yellow]):not(:incognito[state=ntp])",
+        ":not(:dark_wp_top)[tint=color]:is(:not(:incognito)[state=ntp], :sly_zen)",
+        ":not(:dark_wp_top)[tint=color][theme=yellow]:not(:incognito[state=ntp])",
+        ":not(:dark_wp_top)[tint=full]:is(:not(:incognito)[state=ntp], :sly_zen)",
+      ],
+      "foreground !imp": ["#000", "#fff", "#fff"],
+    },
+    {
+      "selector": ":b2020#window_controls > #win_close#win_close",
+      "meta_selector": ":bottom_tabs[state=protected]",
+      "foreground !imp": ["#fff", "#fff", "#fff"],
+    },
+
+  //*******************  Flute buttons colored theme    **************************/
+    {
+      "selector": [
+        ":b2020#flute > button:is([tint=color], [tint=half], [tint=light]):where(:not([state=ntp], :sly_zen))",
+        ":b2020#window_controls > button:is([tint=color], [tint=half], [tint=light]):where(:not([state=ntp], :sly_zen))",
+      ],
+      "background !imp": ["var(dark_bg_normal)", "var(dark_bg_hovered)", "var(dark_bg_pressed)", "#0000"],
+      "foreground !imp": ["var(dark_fg_normal)", "var(dark_fg_hovered)", "var(dark_fg_pressed)", "var(dark_fg_disabled)"],
+    },
+    {
+      "selector": [
+        ":b2020#flute > button[tint=full]:where(:not([state=ntp], :sly_zen))",
+        ":b2020#flute > button[tint=color]:where(:not([state=ntp], :sly_zen, [theme=yellow]))",
+        ":b2020#flute > button[tint=half]:where(:not([state=ntp], :sly_zen, [theme=aqua], [theme=green], [theme=yellow]))",
+        ":b2020#window_controls > button[tint=full]:where(:not([state=ntp], :sly_zen))",
+        ":b2020#window_controls > button[tint=color]:where(:not([state=ntp], :sly_zen, [theme=yellow]))",
+        ":b2020#window_controls > button[tint=half]:where(:not([state=ntp], :sly_zen, [theme=aqua], [theme=green], [theme=yellow]))",
+      ],
+      "background !imp": ["var(light_bg_normal)", "var(light_bg_hovered)", "var(light_bg_pressed)", "#0000"],
+      "foreground !imp": ["var(light_fg_normal)", "var(light_fg_hovered)", "var(light_fg_pressed)", "var(light_fg_disabled)"],
+    },
+    {
+      "selector": [
+        ":b2020#bookmarks_panel > button[tint=full]:where(:not([state=ntp], :sly_zen))",
+        ":b2020#bookmarks_panel > button[tint=color]:where(:not([state=ntp], :sly_zen))",
+        ":b2020#toolbar_panel > button[tint=full]:where(:not([state=ntp], :sly_zen))",
+        ":b2020#toolbar_panel > button[tint=color]:where(:not([state=ntp], :sly_zen))",
+      ],
+      "foreground !imp": "#fff",
+    },
+    {
+      "selector": [
+        ":b2020#bookmarks_panel > button:is([tint=full], [tint=color])[theme=yellow]:where(:not([state=ntp], :sly_zen, [state=protected]))",
+        ":b2020#toolbar_panel > button:is([tint=full], [tint=color])[theme=yellow]:where(:not([state=ntp], :sly_zen, [state=protected]))",
+      ],
+      "foreground !imp":  ["var(dark_fg_normal)", "var(dark_fg_hovered)", "var(dark_fg_pressed)", "var(dark_fg_disabled)"],
+    },
+    {
+      "selector": [
+        ":b2020#bookmarks_panel > button[state=protected]",
+        ":b2020#toolbar_panel > button[state=protected]",
+        ":b2020#bookmarks_panel > button:incognito[state=ntp]",
+        ":b2020#toolbar_panel > button:incognito[state=ntp]",
+      ],
+      "background !imp": ["var(light_bg_normal)", "var(light_bg_hovered)", "var(light_bg_pressed)", "#0000"],
+      "foreground !imp": ["var(light_fg_normal)", "var(light_fg_hovered)", "var(light_fg_pressed)", "var(light_fg_disabled)"],
+    },
+    {
+      "selector": ":b2020#toolbar_panel > #ya_logo",
+      "background !imp": [],
+    },
+    {
+      "selector": [
+        ":b2020#bookmarks_panel > button:is([tint=color], [tint=full]):not([theme=yellow], [state=ntp], :sly_zen)",
+        ":b2020#toolbar_panel > button:is([tint=color], [tint=full]):not([theme=yellow], [state=ntp], :sly_zen)",
+      ],
+      "background !imp": ["var(light_bg_normal)", "var(light_bg_hovered)", "var(light_bg_pressed)", "#0000"],
+      "foreground !imp": ["var(light_fg_normal)", "var(light_fg_hovered)", "var(light_fg_pressed)", "var(light_fg_disabled)"],
+    },
+    {
+      "selector": ":b2020#toolbar_panel > button.styled_button#forward_button:where(:not([state=ntp], :sly_zen, [state=protected]))",
+      "foreground !imp": ["var(dark_fg_normal)", "var(dark_fg_hovered)", "var(dark_fg_pressed)", "#0000"],
+    },
+    {
+      "selector": ":b2020#toolbar_panel > button.styled_button#forward_button:is([tint=full], [tint=color], [theme=dark], [state=protected]):where(:not([state=ntp], :sly_zen, [theme=yellow]))",
+      "foreground !imp": ["var(light_fg_normal)", "var(light_fg_hovered)", "var(light_fg_pressed)", "#0000"],
+    },
+
+
+    /**************************  Flute login button  **************************/
+    {
+      "selector": ":b2020#flute > #flute_login_button > label",
+      "offset": [0, 22],
+    },
+
+    /*********************  Flute Yandex services button  *********************/
+    {
+      "selector": ":b2020#flute > #flute_ya_services",
+      "border_width !imp": [4, 10, 4, 10],
+    },
+
+    /*********************  Blurred wallpaper: Color theme  *******************/
+    {
+      "selector": [
+        ":b2020#blurred_wallpaper[tint=full]:where(:not([state=ntp], :sly_zen, [state=protected]))",
+        ":b2020#blurred_wallpaper[tint=color]:where(:not([state=ntp], :sly_zen, [state=protected]))",
+        ":b2020#blurred_wallpaper[tint=half]:where(:not([state=ntp], :sly_zen, [state=protected]))",
+        ":b2020#blurred_wallpaper[tint=light]:where(:not([state=ntp], :sly_zen, [state=protected]))",
+        ":b2020#blurred_wallpaper[tint]:where([state=protected])",
+      ],
+      "use_custom_background": false,
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper[tint=full]",
+      "background": "#2B2B2B"
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper[theme=aqua][tint=light]",
+      "background": "#DAF1F6",
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper[theme=blue][tint=light]",
+      "background": "#E2EEFD",
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper[theme=green][tint=light]",
+      "background": "#E1F1C2",
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper[theme=orange][tint=light]",
+      "background": "#FFE7D6",
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper[theme=purple][tint=light]",
+      "background": "#F5E3FB",
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper[theme=red][tint=light]",
+      "background": "#FBDADA",
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper[theme=yellow][tint=light]",
+      "background": "#F9EEBF",
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper[theme=aqua][tint=half]",
+      "background": "#9EDEEE",
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper[theme=blue][tint=half]",
+      "background": "#6CA9EF",
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper[theme=green][tint=half]",
+      "background": "#B8D47F",
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper[theme=orange][tint=half]",
+      "background": "#F5A141",
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper[theme=purple][tint=half]",
+      "background": "#CE97E2",
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper[theme=red][tint=half]",
+      "background": "#F68585",
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper[theme=yellow][tint=half]",
+      "background": "#FFD633",
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper[theme=aqua][tint=color]",
+      "background": "#1F8FAB"
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper[theme=blue][tint=color]",
+      "background": "#296CB8"
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper[theme=orange][tint=color]",
+      "background": "#D1661A"
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper[theme=green][tint=color]",
+      "background": "#658724"
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper[theme=purple][tint=color]",
+      "background": "#935EA8"
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper[theme=red][tint=color]",
+      "background": "#BF4848"
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper[theme=yellow][tint=color]",
+      "background": "#F4A825"
+    },
+    {
+      "selector": ":b2020#blurred_wallpaper:incognito[state=ntp]",
+      "use_custom_background": false,
+      "background !imp": "#515151",
+    },
+    {
+      "selector": ":b2020#flute:is(:incognito[state=ntp])",
+      "background !imp": "#414141",
+    },
+
+    /*******************************  Tab strip     ***************************/
+    {
+      "selector": ":b2020#custo_tab",
+      // [background_color, background_color, hover_color, fill_color]
+      "background !imp": ["#0000", "#0000", "color(#fff a(0.4))", "#0000"],
+      "border_color !imp": "color(#000 a(.1))",
+    },
+    {
+      "selector": ":b2020#custo_tab:where(:dark_wp_top, :incognito)",
+      // [background_color, background_color, hover_color, fill_color]
+      "background !imp": ["#0000", "#0000", "color(#fff a(0.25))", "#0000"],
+      "border_color !imp": "color(#fff a(.2))",
+    },
+    {
+      "selector": ":b2020#custo_tab:is([tint=light], [tint=half], [tint=color]):where(:not([state=ntp], :sly_zen))",
+      "border_color !imp": "color(#000 a(.1))",
+    },
+    {
+      "selector": [
+        ":b2020#custo_tab:is([tint=full]):where(:not([state=ntp], :sly_zen))",
+        ":b2020#custo_tab:is([tint=color]):where(:not([state=ntp], :sly_zen, [theme=yellow]))",
+      ],
+      "background !imp": ["#0000", "#0000", "color(#fff a(0.2))", "#0000"],
+      "border_color !imp": "color(#fff a(.2))",
+    },
+    {
+      "selector": [
+        ":b2020#custo_tab:is([tint=light]):where(:not([state=ntp], :sly_zen))",
+        ":b2020#custo_tab:is([tint=half]):where(:not([state=ntp], :sly_zen, [theme=red], [theme=blue], [theme=orange], [theme=purple]))",
+        ":b2020#custo_tab:is([tint=color][theme=yellow]):where(:not([state=ntp], :sly_zen))",
+      ],
+      "background !imp": ["#0000", "#0000", "color(#000 a(0.1))", "#0000"],
+    },
+    {
+      "selector": [
+        ":b2020#custo_tab:is([tint=half][theme=red]):where(:not([state=ntp], :sly_zen))",
+        ":b2020#custo_tab:is([tint=half][theme=orange]):where(:not([state=ntp], :sly_zen))",
+        ":b2020#custo_tab:is([tint=half][theme=blue]):where(:not([state=ntp], :sly_zen))",
+        ":b2020#custo_tab:is([tint=half][theme=purple]):where(:not([state=ntp], :sly_zen))",
+      ],
+      "border_color !imp": "color(#fff a(.3))",
+    },
+    {
+      "selector": ":b2020#custo_tab:where([theme=dark]:not([state=ntp], :sly_zen))",
+      // [background_color, background_color, hover_color, fill_color]
+      "background !imp": ["#0000", "#0000", "color(#fff a(0.2))", "#0000"],
+      "border_color !imp": "color(#fff a(.2))",
+    },
+    {
+      "selector": ":b2020#custo_tab:is(:incognito[state=ntp], :incognito[theme=light])",
+      "border_color !imp": "color(#fff a(.2))",
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look",
+      // [background_color, background_color, hover_color, fill_color]
+      "background !imp": ["var(top_light_background)", "var(top_light_background)", "#0000", "#0000"],
+    },
+
+    /***********************  Active tab color theme  *************************/
+    {
+      "selector": ":b2020#custo_tab.active_look:where([theme=dark])",
+      // [background_color, background_color, hover_color, fill_color]
+      "background !imp": ["#51525A", "var(top_dark_background)", "#0000", "#0000"],
+    },
+
+    {
+      "selector": ":b2020#custo_tab.active_look[theme=aqua]:where([tint=color], [tint=full])",
+      // [background_color, background_color, hover_color, fill_color]
+      "background !imp": ["var(full_aqua)", "var(full_aqua)", "#0000", "#0000"],
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look[theme=blue]:where([tint=color], [tint=full])",
+      // [background_color, background_color, hover_color, fill_color]
+      "background !imp": ["var(full_blue)", "var(full_blue)", "#0000", "#0000"],
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look[theme=green]:where([tint=color], [tint=full])",
+      // [background_color, background_color, hover_color, fill_color]
+      "background !imp": ["var(full_green)", "var(full_green)", "#0000", "#0000"],
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look[theme=orange]:where([tint=color], [tint=full])",
+      // [background_color, background_color, hover_color, fill_color]
+      "background !imp": ["var(full_orange)", "var(full_orange)", "#0000", "#0000"],
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look[theme=purple]:where([tint=color], [tint=full])",
+      // [background_color, background_color, hover_color, fill_color]
+      "background !imp": ["var(full_purple)", "var(full_purple)", "#0000", "#0000"],
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look[theme=red]:where([tint=color], [tint=full])",
+      // [background_color, background_color, hover_color, fill_color]
+      "background !imp": ["var(full_red)", "var(full_red)", "#0000", "#0000"],
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look[theme=yellow]:where([tint=color], [tint=full])",
+      // [background_color, background_color, hover_color, fill_color]
+      "background !imp": ["var(full_yellow)", "var(full_yellow)", "#0000", "#0000"],
+    },
+
+    {
+      "selector": ":b2020#custo_tab.active_look[state=protected]",
+      // [background_color, background_color, hover_color, fill_color]
+      "background !imp": ["var(top_protect_background)", "var(top_protect_background)", "#0000", "#0000"],
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look:sly_zen",
+      // [background_color, background_color, hover_color, fill_color]
+      "background !imp": ["color(#000 a(.07))", "color(#000 a(.07))", "color(#000 a(.07))", "var(tab_background_color)"],
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look:sly_zen:dark_wp_top",
+      // [background_color, background_color, hover_color, fill_color]
+      "background !imp": ["color(#fff a(.1))", "color(#fff a(.1))", "color(#fff a(.05))", "var(tab_background_color)"],
+    },
+    {
+      "selector": ":b2020#tab_label",
+      "foreground !imp": "#000"
+    },
+    {
+      "selector": [
+        ":b2020#tab_label:is([tint=light], [tint=half]):where(:not([state=ntp], :sly_zen))",
+        ":b2020#tab_label:is([tint=color][theme=yellow]):where(:not([state=ntp], :sly_zen))",
+      ],
+      "foreground !imp": "color(#000 a(0.75))",
+    },
+
+    {
+      "selector": ":b2020#tab_label",
+      "meta_selector":[
+        ":where(:dark_wp_top, :incognito)",
+        ":where(:incognito[state=ntp])",
+        ":where([theme=dark]:not([state=ntp], :sly_zen))",
+        "[tint=full]:where(:not([state=ntp], :sly_zen))",
+        "[tint=half]:where(:not([state=ntp], :sly_zen, [theme=aqua], [theme=green], [theme=yellow]))",
+        "[tint=color]:where(:not([state=ntp], :sly_zen, [theme=yellow]))",
+      ],
+      "foreground !imp": "color(#fff a(0.75))",
+    },
+    {
+      "selector": ":b2020#tab_label[tint=half]:where(:not([state=ntp], :sly_zen, [theme=aqua], [theme=green], [theme=yellow]))",
+      "foreground !imp": "#fff",
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #tab_label",
+      "foreground !imp": "#000",
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #tab_label:where([theme=dark], [state=protected])",
+      "foreground !imp": "#fff",
+    },
+    {
+      "selector": [
+        ":b2020#custo_tab.active_look > #tab_label[tint=full]:where(:not([state=ntp], :sly_zen))",
+        ":b2020#custo_tab.active_look > #tab_label[tint=color]:where(:not([state=ntp], :sly_zen))",
+      ],
+      "foreground !imp": "#fff",
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #tab_label:is([tint=full], [tint=color])[theme=yellow]:where(:not([state=ntp], :sly_zen, [state=protected]))",
+      "foreground !imp": "#000",
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #tab_label:incognito[state=ntp]",
+      "foreground !imp": "#000",
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #tab_label:sly_zen",
+      "foreground !imp": "#000",
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #tab_label:sly_zen:dark_wp_top",
+      "foreground !imp": "#fff",
+    },
+    {
+      "selector": ":b2020#tab_close_button",
+      "foreground !imp": ["#1B2733", "#1B2733", "#1B2733", "#0000"],
+      "background !imp": ["#0000", "color(#000 a(.2))", "color(#000 a(.2))", "#0000"]
+    },
+    {
+      "selector": [
+        ":b2020#tab_close_button:where(:dark_wp_top)",
+        ":b2020#tab_close_button:where([theme=dark]:not([state=ntp], :sly_zen))",
+      ],
+      "foreground !imp": ["#F3F3F4", "#F3F3F4", "#F3F3F4", "#0000"],
+      "background !imp": ["#0000", "color(#fff a(.2))", "color(#fff a(.2))", "#0000"]
+    },
+    {
+      "selector": ":b2020#tab_close_button:is([tint=half], [tint=light], [tint=color]):where(:not([state=ntp], :sly_zen))",
+      "foreground !imp": ["#1B2733", "#1B2733", "#1B2733", "#0000"],
+      "background !imp": ["#0000", "color(#000 a(.2))", "color(#000 a(.2))", "#0000"]
+    },
+    {
+      "selector": [
+        ":b2020#tab_close_button[tint=full]:where(:not([state=ntp], :sly_zen))",
+        ":b2020#tab_close_button[tint=color]:where(:not([state=ntp], :sly_zen, [theme=yellow]))",
+        ":b2020#tab_close_button[tint=half]:where(:not([state=ntp], :sly_zen, [theme=aqua], [theme=green], [theme=yellow]))",
+      ],
+      "foreground !imp": ["#F3F3F4", "#F3F3F4", "#F3F3F4", "#0000"],
+      "background !imp": ["#0000", "color(#fff a(.2))", "color(#fff a(.2))", "#0000"]
+    },
+    {
+      "selector": ":b2020#tab_close_button:incognito[state=ntp]",
+      "foreground !imp": ["#F3F3F4", "#F3F3F4", "#F3F3F4", "#0000"],
+      "background !imp": ["#0000", "color(#fff a(.2))", "color(#fff a(.2))", "#0000"]
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #tab_close_button",
+      "foreground !imp": ["#1B2733", "#1B2733", "#1B2733", "#0000"],
+      "background !imp": ["#0000", "color(#000 a(.2))", "color(#000 a(.2))", "#0000"]
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #tab_close_button:where([theme=dark])",
+      "foreground !imp": ["#fff", "#fff", "#fff", "#0000" ],
+      "background !imp": ["#0000", "color(#fff a(.2))", "color(#fff a(.2))", "#0000"]
+    },
+    {
+      "selector": [
+        ":b2020#custo_tab.active_look > #tab_close_button[tint=full]:where(:not([state=ntp], :sly_zen, [state=protected]))",
+        ":b2020#custo_tab.active_look > #tab_close_button[tint=color]:where(:not([state=ntp], :sly_zen, [state=protected]))",
+      ],
+      "foreground !imp": ["#fff", "#fff", "#fff", "#0000" ],
+      "background !imp": ["#0000", "color(#fff a(.2))", "color(#fff a(.2))", "#0000"]
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #tab_close_button:is([tint=full], [tint=color])[theme=yellow]:where(:not([state=ntp], :sly_zen, [state=protected]))",
+      "foreground !imp": ["#1B2733", "#1B2733", "#1B2733", "#0000"],
+      "background !imp": ["#0000", "color(#000 a(.2))", "color(#000 a(.2))", "#0000"]
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #tab_close_button:incognito[state=ntp]",
+      "foreground !imp": ["#1B2733", "#1B2733", "#1B2733", "#0000"],
+      "background !imp": ["#0000", "color(#000 a(.4))", "color(#000 a(.4))", "#0000"]
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #tab_close_button:sly_zen",
+      "foreground !imp": ["#1B2733", "#1B2733", "#1B2733", "#0000"],
+      "background !imp": ["#0000", "color(#000 a(.4))", "color(#000 a(.4))", "#0000"]
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #tab_close_button:sly_zen:dark_wp_top",
+      "foreground !imp": ["#F3F3F4", "#F3F3F4", "#F3F3F4", "#0000"],
+      "background !imp": ["#0000", "color(#fff a(.2))", "color(#fff a(.2))", "#0000"]
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #tab_close_button[state=protected]",
+      "foreground !imp": ["#fff", "#fff", "#fff", "#0000" ],
+      "background !imp": ["#0000", "color(#fff a(.2))", "color(#fff a(.2))", "#0000"]
+    },
+
+    {
+      "selector": ":b2020#tab_icon",
+      "foreground !imp": "#000",
+      // [unread_indicator, spining_throbber, waiting_throbber]
+      "background !imp": ["#000", "#000 ", "#000"]
+    },
+    {
+      "selector": [
+        ":b2020#tab_icon:where(:dark_wp_top)",
+        ":b2020#tab_icon:where([theme=dark]:not([state=ntp], :sly_zen))",
+      ],
+      "foreground !imp": "#F3F3F4",
+      "background !imp": ["#F3F3F4", "#F3F3F4 ", "#F3F3F4"]
+    },
+    {
+      "selector": ":b2020#tab_icon:is([tint=half], [tint=light], [tint=color]):where(:not([state=ntp], :sly_zen, [state=protected]))",
+      "foreground !imp": "#1B2733",
+      "background !imp": ["#1B2733", "#1B2733 ", "#1B2733"]
+    },
+    {
+      "selector": [
+        ":b2020#tab_icon[tint=full]:where(:not([state=ntp], :sly_zen, [state=protected]))",
+        ":b2020#tab_icon[tint=color]:where(:not([state=ntp], :sly_zen, [state=protected], [theme=yellow]))",
+        ":b2020#tab_icon[tint=half]:where(:not([state=ntp], :sly_zen, [state=protected], [theme=aqua], [theme=green],[theme=yellow]))",
+      ],
+      "foreground !imp": "#F3F3F4",
+      "background !imp": ["#F3F3F4", "#F3F3F4 ", "#F3F3F4"]
+    },
+    {
+      "selector": [":b2020#tab_icon:incognito[state=ntp]"],
+      "foreground !imp": "#F3F3F4",
+      "background !imp": ["#F3F3F4", "#F3F3F4 ", "#F3F3F4"]
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #tab_icon",
+      "foreground !imp": "#1B2733",
+      "background !imp": ["#1B2733", "#1B2733 ", "#1B2733"]
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #tab_icon:where([theme=dark])",
+      "foreground !imp": "#fff",
+      "background !imp": ["#fff", "#fff ", "#fff"]
+    },
+    {
+      "selector": [
+        ":b2020#custo_tab.active_look > #tab_icon[tint=full]:where(:not([state=ntp], :sly_zen, [state=protected]))",
+        ":b2020#custo_tab.active_look > #tab_icon[tint=color]:where(:not([state=ntp], :sly_zen, [state=protected]))",
+      ],
+      "foreground !imp": "#fff",
+      "background !imp": ["#fff", "#fff ", "#fff"]
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #tab_icon:is([tint=full], [tint=color])[theme=yellow]:where(:not([state=ntp], :sly_zen, [state=protected]))",
+      "foreground !imp": "#1B2733",
+      "background !imp": ["#1B2733", "#1B2733 ", "#1B2733"]
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #tab_icon:incognito[state=ntp]",
+      "foreground !imp": "#1B2733",
+      "background !imp": ["#1B2733", "#1B2733 ", "#1B2733"]
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #tab_icon[state=protected]",
+      "foreground !imp": "#fff",
+      "background !imp": ["#fff", "#fff ", "#fff"]
+    },
+    {
+      "selector": ":b2020#unread_indicator",
+      "foreground !imp": "#000",
+    },
+    {
+      "selector": [
+        ":b2020#unread_indicator:where(:dark_wp_top)",
+        ":b2020#unread_indicator:where([theme=dark]:not([state=ntp], :sly_zen))",
+      ],
+      "foreground !imp": "#F3F3F4",
+    },
+    {
+      "selector": ":b2020#unread_indicator:is([tint=half], [tint=light], [tint=color]):where(:not([state=ntp], :sly_zen, [state=protected]))",
+      "foreground !imp": "#1B2733",
+    },
+    {
+      "selector": [
+        ":b2020#unread_indicator[tint=full]:where(:not([state=ntp], :sly_zen, [state=protected]))",
+        ":b2020#unread_indicator[tint=color]:where(:not([state=ntp], :sly_zen, [state=protected], [theme=yellow]))",
+        ":b2020#unread_indicator[tint=half]:where(:not([state=ntp], :sly_zen, [state=protected], [theme=aqua], [theme=green],[theme=yellow]))",
+      ],
+      "foreground !imp": "#F3F3F4",
+    },
+    {
+      "selector": ":b2020#unread_indicator:incognito[state=ntp]",
+      "foreground !imp": "#F3F3F4",
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #unread_indicator",
+      "foreground !imp": "#1B2733",
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #unread_indicator:where([theme=dark])",
+      "foreground !imp": "#F3F3F4",
+    },
+    {
+      "selector": [
+        ":b2020#custo_tab.active_look > #unread_indicator[tint=full]:where(:not([state=ntp], :sly_zen, [state=protected]))",
+        ":b2020#custo_tab.active_look > #unread_indicator[tint=color]:where(:not([state=ntp], :sly_zen, [state=protected]))",
+      ],
+      "foreground !imp": "#F3F3F4",
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #unread_indicator:is([tint=full], [tint=color])[theme=yellow]:where(:not([state=ntp], :sly_zen, [state=protected]))",
+      "foreground !imp": "#1B2733",
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #unread_indicator:incognito[state=ntp]",
+      "foreground !imp": "#1B2733",
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #unread_indicator[state=protected]",
+      "foreground !imp": "#F3F3F4",
+    },
+    {
+      "selector": ":b2020#media_indicator",
+      "foreground !imp": ["#1B2733", "#1B2733", "#1B2733", "#0000"],
+      "custo_hover_color !imp": "color(#000 a(.1))",
+    },
+    {
+      "selector": [
+        ":b2020#media_indicator:where(:dark_wp_top)",
+        ":b2020#media_indicator:where([theme=dark]:not([state=ntp], :sly_zen))",
+        ":b2020#media_indicator:incognito[state=ntp]",
+      ],
+      "foreground !imp": ["#F3F3F4", "#F3F3F4", "#F3F3F4", "#0000"],
+      "custo_hover_color !imp": "color(#fff a(.2))",
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #media_indicator",
+      "foreground !imp": ["#1B2733", "#1B2733", "#1B2733", "#0000"],
+      "custo_hover_color !imp": "color(#000 a(.4))",
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #media_indicator:where([theme=dark])",
+      "foreground !imp": ["#F3F3F4", "#F3F3F4", "#F3F3F4", "#0000"],
+      "custo_hover_color !imp": "color(#fff a(.2))",
+    },
+    {
+      "selector": ":b2020#media_indicator:is([tint=half], [tint=light], [tint=color]):where(:not([state=ntp], :sly_zen, [state=protected]))",
+      "foreground !imp": ["#1B2733", "#1B2733", "#1B2733", "#0000"],
+      "custo_hover_color !imp": "color(#000 a(.4))",
+    },
+    {
+      "selector": [
+        ":b2020#media_indicator[tint=full]:where(:not([state=ntp], :sly_zen, [state=protected]))",
+        ":b2020#media_indicator[tint=color]:where(:not([state=ntp], :sly_zen, [state=protected], [theme=yellow]))",
+        ":b2020#media_indicator[tint=half]:where(:not([state=ntp], :sly_zen, [state=protected], [theme=aqua], [theme=green],[theme=yellow]))",
+      ],
+      "foreground !imp": ["#F3F3F4", "#F3F3F4", "#F3F3F4", "#0000"],
+      "custo_hover_color !imp": "color(#fff a(.2))",
+    },
+    {
+      "selector": ":b2020#media_indicator:incognito[state=ntp]",
+      "foreground !imp": ["#F3F3F4", "#F3F3F4", "#F3F3F4", "#0000"],
+      "custo_hover_color !imp": "color(#fff a(.2))",
+    },
+    {
+      "selector": [
+        ":b2020#custo_tab.active_look > #media_indicator[tint=full]:where(:not([state=ntp], :sly_zen, [state=protected]))",
+        ":b2020#custo_tab.active_look > #media_indicator[tint=color]:where(:not([state=ntp], :sly_zen, [state=protected]))",
+      ],
+      "foreground !imp": ["#F3F3F4", "#F3F3F4", "#F3F3F4", "#0000"],
+      "custo_hover_color !imp": "color(#fff a(.2))",
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #media_indicator:is([tint=full], [tint=color])[theme=yellow]:where(:not([state=ntp], :sly_zen, [state=protected]))",
+      "foreground !imp": ["#1B2733", "#1B2733", "#1B2733", "#0000"],
+      "custo_hover_color !imp": "color(#000 a(.4))",
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #media_indicator:incognito",
+      "foreground !imp": ["#1B2733", "#1B2733", "#1B2733", "#0000"],
+      "custo_hover_color !imp": "color(#000 a(.4))",
+    },
+    {
+      "selector": ":b2020#custo_tab.active_look > #media_indicator[state=protected]",
+      "foreground !imp": ["#F3F3F4", "#F3F3F4", "#F3F3F4", "#0000"],
+      "custo_hover_color !imp": "color(#fff a(.2))",
+    },
+    {
+      "selector": ":b2020#tab_label:bottom_tabs:is([state=ntp], :sly_zen)[theme=dark]",
+      "foreground !imp": "color(#fff a(0.7))",
+    },
+    {
+      "selector": ":b2020#tab_close_button:bottom_tabs:is([state=ntp], :sly_zen)[theme=dark]",
+      "foreground !imp": ["#F3F3F4", "#F3F3F4", "#F3F3F4", "#0000"],
+      "background !imp": ["#0000", "color(#fff a(.2))", "color(#fff a(.2))", "#0000"]
+    },
+    {
+      "selector": ":b2020#tab_icon:bottom_tabs:is([state=ntp], :sly_zen)[theme=dark]",
+      "foreground !imp": "#F3F3F4",
+      "background !imp": ["#F3F3F4", "#F3F3F4 ", "#F3F3F4"]
+    },
+    {
+      "selector": ":b2020#unread_indicator:bottom_tabs:is([state=ntp], :sly_zen)[theme=dark]",
+      "foreground !imp": "#F3F3F4",
+    },
+    {
+      "selector": ":b2020#media_indicator:bottom_tabs:is([state=ntp], :sly_zen)[theme=dark]",
+      "foreground !imp": ["#F3F3F4", "#F3F3F4", "#F3F3F4", "#0000"],
+      "custo_hover_color !imp": "color(#fff a(.2))",
+    },
+    {
+      "selector": ":b2020#custo_tab:bottom_tabs:is([state=ntp], :sly_zen)[theme=dark]",
+      "background !imp": ["#0000", "#0000", "color(#fff a(0.2))", "#0000"],
+      "border_color !imp": "color(#fff a(.1))",
+    },
+    {
+      "selector":  ":b2020#custo_dock",
+      "background !imp": ["#D6DAE0"],
+    },
+    {
+      "selector":  ":b2020#custo_dock:dark_wp_top",
+      "background !imp": ["#242630"],
+    },
+    {
+      "selector":  ":b2020#custo_dock:is(:incognito)",
+      "background !imp": ["#414141"],
+    },
+        {
+      "selector":  ":b2020#custo_dock[theme=dark]",
+      "background !imp": ["#242630"],
+    },
+    {
+      "selector":  ":b2020#custo_dock:is(:incognito[state=ntp])",
+      "background !imp": ["#515151"],
+    },
+    {
+      "selector": ":b2020#new_tab_button",
+      "radius !imp": 20,
+      "border_width !imp": [8, 8, 7, 7],
+      "paint_on_border !imp" : false,
+      "icon !imp": "custo_enter_new_tab",
+      "foreground !imp": ["#1B2733", "#000", "#000", "#0000"],
+      "background !imp": ["color(#fff a(.8))", "color(#fff a(1))", "color(#fff a(.8))", "#0000"],
+    },
+    {
+      "selector": ":b2020#custo_dock > button.active_look#new_tab_button",
+      "icon !imp": "custo_exit_new_tab",
+      "foreground !imp": ["#1B2733", "#000", "#000", "#0000"],
+      "background !imp": ["color(#fff a(.8))", "color(#fff a(1))", "color(#fff a(.8))", "#0000"],
+    },
+    {
+      "selector": ":b2020#new_tab_button:where([theme=dark]:not([state=ntp]))",
+      "foreground !imp": ["#F3F3F4", "#000", "#000", "#0000"],
+      "background !imp": ["var(top_dark_background)", "#fff", "#fff", "#0000"],
+    },
+    {
+      "selector": ":b2020#new_tab_button[theme=aqua]:where([tint=color], [tint=full])",
+      "foreground !imp": ["#fff", "#000", "#fff", "#fff"],
+      "background !imp": ["var(full_aqua)", "#fff"],
+    },
+    {
+      "selector": ":b2020#new_tab_button[theme=blue]:where([tint=color], [tint=full])",
+      "foreground !imp": ["#fff", "#000", "#fff", "#fff"],
+      "background !imp": ["var(full_blue)", "#fff"],
+    },
+    {
+      "selector": ":b2020#new_tab_button[theme=green]:where([tint=color], [tint=full])",
+      "foreground !imp": ["#fff", "#000", "#fff", "#fff"],
+      "background !imp": ["var(full_green)", "#fff"],
+    },
+    {
+      "selector": ":b2020#new_tab_button[theme=orange]:where([tint=color], [tint=full])",
+      "foreground !imp": ["#fff", "#000", "#fff", "#fff"],
+      "background !imp": ["var(full_orange)", "#fff"],
+    },
+    {
+      "selector": ":b2020#new_tab_button[theme=purple]:where([tint=color], [tint=full])",
+      "foreground !imp": ["#fff", "#000", "#fff", "#fff"],
+      "background !imp": ["var(full_purple)", "#fff"],
+    },
+    {
+      "selector": ":b2020#new_tab_button[theme=red]:where([tint=color], [tint=full])",
+      "foreground !imp": ["#fff", "#000", "#fff", "#fff"],
+      "background !imp": ["var(full_red)", "#fff"],
+    },
+    {
+      "selector": ":b2020#new_tab_button[theme=yellow]:where([tint=color], [tint=full])",
+      "foreground !imp": ["#000", "#000", "#fff", "#fff"],
+      "background !imp": ["var(full_yellow)", "#fff"],
+    },
+    {
+      "selector": ":b2020#new_tab_button:incognito[state=ntp]",
+      "foreground !imp": ["#1B2733", "#fff", "#fff", "#0000"],
+      "background !imp": ["var(top_light_background)", "color(#000 a(.8))", "color(#000 a(.8))", "#0000"],
+    },
+    {
+      "selector": ":b2020#new_tab_button[state=protected]",
+      "foreground !imp": ["#F3F3F4", "#000", "#000", "#0000"],
+      "background !imp": ["var(top_protect_background)", "#fff", "#fff", "#0000"],
+    },
+    {
+      "selector": ":b2020#new_tab_button:is([state=ntp], :sly_zen)",
+      "foreground !imp": ["#1B2733", "#fff", "#fff", "#0000"],
+      "background !imp": ["var(top_light_background)", "color(#000 a(.8))", "color(#000 a(.8))", "#0000"],
+    },
+    {
+      "selector": [
+        ":b2020#dock_scroll_left",
+        ":b2020#dock_scroll_right",
+      ],
+      "foreground !imp": ["#000", "#000"],
+    },
+    {
+      "selector": [
+        ":b2020#dock_scroll_left:where(:dark_wp_top)",
+        ":b2020#dock_scroll_right:where(:dark_wp_top)",
+      ],
+      "foreground !imp": ["#fff", "#fff"],
+    },
+    {
+      "selector": [
+        ":b2020#dock_scroll_left:where([theme=dark]:not([state=ntp], :sly_zen))",
+        ":b2020#dock_scroll_right:where([theme=dark]:not([state=ntp], :sly_zen))",
+      ],
+      "foreground !imp": ["#fff", "#fff"],
+    },
+    {
+      "selector": [
+        ":b2020#dock_scroll_left:is([tint=half], [tint=light], [tint=color]):where(:not([state=ntp], :sly_zen, [state=protected]))",
+        ":b2020#dock_scroll_right:is([tint=half], [tint=light], [tint=color]):where(:not([state=ntp], :sly_zen, [state=protected]))",
+      ],
+      "foreground !imp": ["#000", "#000"],
+    },
+    {
+      "selector": [
+        ":b2020#dock_scroll_left[tint=full]:where(:not([state=ntp], :sly_zen, [state=protected]))",
+        ":b2020#dock_scroll_left[tint=color]:where(:not([state=ntp], :sly_zen, [state=protected], [theme=yellow]))",
+        ":b2020#dock_scroll_left[tint=half]:where(:not([state=ntp], :sly_zen, [state=protected], [theme=aqua], [theme=green],[theme=yellow]))",
+        ":b2020#dock_scroll_right[tint=full]:where(:not([state=ntp], :sly_zen, [state=protected]))",
+        ":b2020#dock_scroll_right[tint=color]:where(:not([state=ntp], :sly_zen, [state=protected], [theme=yellow]))",
+        ":b2020#dock_scroll_right[tint=half]:where(:not([state=ntp], :sly_zen, [state=protected], [theme=aqua], [theme=green],[theme=yellow]))",
+      ],
+      "foreground !imp": ["#fff", "#fff"],
+    },
+    {
+      "selector": [
+        ":b2020#dock_scroll_left:incognito",
+        ":b2020#dock_scroll_right:incognito",
+      ],
+      "foreground !imp": ["#fff", "#fff"],
+    },
+
+    /*******************************  Custo dock color themes  ********************************/
+
+    {
+      "selector":  ":b2020#custo_dock[tint=full]:not([state=ntp], :sly_zen)",
+      "background !imp": ["#2B2B2B"],
+    },
+    {
+      "selector":  ":b2020#custo_dock[theme=blue][tint=light]:not([state=ntp], :sly_zen)",
+      "background !imp": ["#E2EEFD"],
+    },
+    {
+      "selector":  ":b2020#custo_dock[theme=aqua][tint=light]:not([state=ntp], :sly_zen)",
+      "background !imp": ["#DAF1F6"],
+    },
+    {
+      "selector":  ":b2020#custo_dock[theme=green][tint=light]:not([state=ntp], :sly_zen)",
+      "background !imp": ["#E1F1C2"],
+    },
+    {
+      "selector":  ":b2020#custo_dock[theme=yellow][tint=light]:not([state=ntp], :sly_zen)",
+      "background !imp": ["#F9EEBF"],
+    },
+    {
+      "selector":  ":b2020#custo_dock[theme=orange][tint=light]:not([state=ntp], :sly_zen)",
+      "background !imp": ["#FFE7D6"],
+    },
+    {
+      "selector":  ":b2020#custo_dock[theme=red][tint=light]:not([state=ntp], :sly_zen)",
+      "background !imp": ["#FBDADA"],
+    },
+    {
+      "selector":  ":b2020#custo_dock[theme=purple][tint=light]:not([state=ntp], :sly_zen)",
+      "background !imp": ["#F5E3FB"],
+    },
+    {
+      "selector":  ":b2020#custo_dock[theme=blue][tint=half]:not([state=ntp], :sly_zen)",
+      "background !imp": ["#6CA9EF"],
+    },
+    {
+      "selector":  ":b2020#custo_dock[theme=aqua][tint=half]:not([state=ntp], :sly_zen)",
+      "background !imp": ["#9EDEEE"],
+    },
+    {
+      "selector":  ":b2020#custo_dock[theme=green][tint=half]:not([state=ntp], :sly_zen)",
+      "background !imp": ["#B8D47F"],
+    },
+    {
+      "selector":  ":b2020#custo_dock[theme=yellow][tint=half]:not([state=ntp], :sly_zen)",
+      "background !imp": ["#FFD633"],
+    },
+    {
+      "selector":  ":b2020#custo_dock[theme=orange][tint=half]:not([state=ntp], :sly_zen)",
+      "background !imp": ["#F5A141"],
+    },
+    {
+      "selector":  ":b2020#custo_dock[theme=red][tint=half]:not([state=ntp], :sly_zen)",
+      "background !imp": ["#F68585"],
+    },
+    {
+      "selector":  ":b2020#custo_dock[theme=purple][tint=half]:not([state=ntp], :sly_zen)",
+      "background !imp": ["#CE97E2"],
+    },
+    {
+      "selector":  ":b2020#custo_dock[theme=blue][tint=color]:not([state=ntp], :sly_zen)",
+      "background !imp": ["#296CB8"],
+    },
+    {
+      "selector":  ":b2020#custo_dock[theme=aqua][tint=color]:not([state=ntp], :sly_zen)",
+      "background !imp": ["#1F8FAB"],
+    },
+    {
+      "selector":  ":b2020#custo_dock[theme=green][tint=color]:not([state=ntp], :sly_zen)",
+      "background !imp": ["#658724"],
+    },
+    {
+      "selector":  ":b2020#custo_dock[theme=yellow][tint=color]:not([state=ntp], :sly_zen)",
+      "background !imp": ["#F4A825"],
+    },
+    {
+      "selector":  ":b2020#custo_dock[theme=orange][tint=color]:not([state=ntp], :sly_zen)",
+      "background !imp": ["#D1661A"],
+    },
+    {
+      "selector":  ":b2020#custo_dock[theme=red][tint=color]:not([state=ntp], :sly_zen)",
+      "background !imp": ["#BF4848"],
+    },
+    {
+      "selector":  ":b2020#custo_dock[theme=purple][tint=color]:not([state=ntp], :sly_zen)",
+      "background !imp": ["#935EA8"],
+    },
+
+    /*******************************  Site rating  ********************************/
+    {
+        "selector": "#smartbox > #site_rating",
+        "background": ["#0000", "color(#000 a(.1))"],
+        "default_color !imp": "color(#000 a(.4))",
+    },
+    {
+        "selector": "#smartbox > #site_rating",
+        "meta_selector":[
+          ":is([tint=color], [tint=full]):not([theme=yellow])",
+          "[theme=dark]",
+          "[state=protected]",
+        ],
+        "background": ["#0000", "color(#fff a(.2))"],
+        "default_color !imp": "color(#fff a(.4))",
+    },
+    {
+      "selector": "#smartbox > #site_rating",
+      "meta_selector": [
+        ":is([theme=red], [theme=orange]):is([tint=color], [tint=full]):not([state=protected])",
+      ],
+      "default_color !imp": "color(#fff a(.4))",
+      "negative_color": ["#A51B1B"],
+    },
+    {
+      "selector": [
+        "#site_rating > :is(label, img)",
+      ],
+      "meta_selector": [
+        "[state=protected]",
+        "[tint=color]:not([theme=yellow])",
+      ],
+      "foreground": ["#fff"],
+      "text_color": ["#fff"],
+    },
+
+    /*******************************  МЕНЕДЖЕР ТАБОВ Текст в кнопке управления табами - Белый  ********************************/
+    {
+      "selector": ":b2020#flute > #flute_tab_manager > label",
+      "meta_selector": [
+        ":where([tint=light]):not([state=ntp], :sly_zen)",
+        ":where([tint=half]):not([theme=blue],[theme=orange],[theme=red],[theme=purple],[state=ntp], :sly_zen)",
+        ":where([theme=yellow]):is([tint=half],[tint=color]):not([state=ntp], :sly_zen)",
+        ":where([theme=light],[state=protected])",
+      ],
+      "text_color !imp" : "var(normal_text_primary)",
+      "no_subpixel_rendering !imp": true,
+    },
+    {
+      "selector": ":b2020#flute > #flute_tab_manager.active > label",
+      "meta_selector": [
+        ":where([tint=light]):not([state=ntp], :sly_zen)",
+        ":where([tint=half]):not([theme=blue],[theme=orange],[theme=red],[theme=purple],[state=ntp], :sly_zen)",
+        ":where([theme=yellow]):is([tint=half],[tint=color]):not([state=ntp], :sly_zen)",
+        ":where([theme=light],[state=protected])",
+      ],
+      "text_color !imp" : "var(inverted_text_primary)",
+    },
+    /*******************************  МЕНЕДЖЕР ТАБОВ Текст в кнопке управления табами - Черный - Исключения для темной и цветных тем  ********************************/
+    {
+      "selector": ":b2020#flute > #flute_tab_manager > label",
+      "meta_selector": [
+        ":where(:dark_wp_top)",
+        ":where([theme=dark]):not([state=ntp], :sly_zen)",
+        ":where([tint=half]):is([theme=blue],[theme=orange],[theme=red],[theme=purple]):not([state=ntp], :sly_zen)",
+        ":where([tint=color]):not([theme=yellow],[state=ntp], :sly_zen)",
+        ":where([tint=full]):not([state=ntp], :sly_zen)",
+      ],
+      "text_color !imp" : "var(inverted_text_primary)",
+    },
+    {
+      "selector": ":b2020#flute > #flute_tab_manager.active > label",
+      "meta_selector": [
+        ":where(:dark_wp_top)",
+        ":where([theme=dark]):not([state=ntp], :sly_zen)",
+        ":where([tint=half]):is([theme=blue],[theme=orange],[theme=red],[theme=purple]):not([state=ntp], :sly_zen)",
+        ":where([tint=color]):not([theme=yellow],[state=ntp], :sly_zen)",
+        ":where([tint=full]):not([state=ntp], :sly_zen)",
+      ],
+      "text_color !imp" : "var(normal_text_primary)",
+    },
+    /*******************************  МЕНЕДЖЕР ТАБОВ Активный лейбл в цветных темах  ********************************/
+    {
+      "selector": ":b2020#flute > #flute_tab_manager.active > label:is([tint=light]):is([theme=blue]):not([state=ntp], :sly_zen)",
+      "text_color !imp" : "var(blue_light_tabstrip)",
+    },
+    {
+      "selector": ":b2020#flute > #flute_tab_manager.active > label:is([tint=light]):is([theme=aqua]):not([state=ntp], :sly_zen)",
+      "text_color !imp" : "var(aqua_light_tabstrip)",
+    },
+    {
+      "selector": ":b2020#flute > #flute_tab_manager.active > label:is([tint=light]):is([theme=green]):not([state=ntp], :sly_zen)",
+      "text_color !imp" : "var(green_light_tabstrip)",
+    },
+    {
+      "selector": ":b2020#flute > #flute_tab_manager.active > label:is([tint=light]):is([theme=yellow]):not([state=ntp], :sly_zen)",
+      "text_color !imp" : "var(yellow_light_tabstrip)",
+    },
+    {
+      "selector": ":b2020#flute > #flute_tab_manager.active > label:is([tint=light]):is([theme=orange]):not([state=ntp], :sly_zen)",
+      "text_color !imp" : "var(orange_light_tabstrip)",
+    },
+    {
+      "selector": ":b2020#flute > #flute_tab_manager.active > label:is([tint=light]):is([theme=red]):not([state=ntp], :sly_zen)",
+      "text_color !imp" : "var(red_light_tabstrip)",
+    },
+    {
+      "selector": ":b2020#flute > #flute_tab_manager.active > label:is([tint=light]):is([theme=purple]):not([state=ntp], :sly_zen)",
+      "text_color !imp" : "var(purple_light_tabstrip)",
+    },
+    {
+      "selector": ":b2020#flute > #flute_tab_manager.active > label:is([tint=half]):is([theme=blue]):not([state=ntp], :sly_zen)",
+      "text_color !imp" : "var(blue_half_tabstrip)",
+    },
+    {
+      "selector": ":b2020#flute > #flute_tab_manager.active > label:is([tint=half]):is([theme=aqua]):not([state=ntp], :sly_zen)",
+      "text_color !imp" : "var(aqua_half_tabstrip)",
+    },
+    {
+      "selector": ":b2020#flute > #flute_tab_manager.active > label:is([tint=half]):is([theme=green]):not([state=ntp], :sly_zen)",
+      "text_color !imp" : "var(green_half_tabstrip)",
+    },
+    {
+      "selector": ":b2020#flute > #flute_tab_manager.active > label:is([tint=half]):is([theme=yellow]):not([state=ntp], :sly_zen)",
+      "text_color !imp" : "var(yellow_half_tabstrip)",
+    },
+    {
+      "selector": ":b2020#flute > #flute_tab_manager.active > label:is([tint=half]):is([theme=orange]):not([state=ntp], :sly_zen)",
+      "text_color !imp" : "var(orange_half_tabstrip)",
+    },
+    {
+      "selector": ":b2020#flute > #flute_tab_manager.active > label:is([tint=half]):is([theme=red]):not([state=ntp], :sly_zen)",
+      "text_color !imp" : "var(red_half_tabstrip)",
+    },
+    {
+      "selector": ":b2020#flute > #flute_tab_manager.active > label:is([tint=half]):is([theme=purple]):not([state=ntp], :sly_zen)",
+      "text_color !imp" : "var(purple_half_tabstrip)",
+    },
+    {
+      "selector": ":b2020#flute > #flute_tab_manager.active > label:is([tint=color]):is([theme=blue]):not([state=ntp], :sly_zen)",
+      "text_color !imp" : "var(blue_color_tabstrip)",
+    },
+    {
+      "selector": ":b2020#flute > #flute_tab_manager.active > label:is([tint=color]):is([theme=aqua]):not([state=ntp], :sly_zen)",
+      "text_color !imp" : "var(aqua_color_tabstrip)",
+    },
+    {
+      "selector": ":b2020#flute > #flute_tab_manager.active > label:is([tint=color]):is([theme=green]):not([state=ntp], :sly_zen)",
+      "text_color !imp" : "var(green_color_tabstrip)",
+    },
+    {
+      "selector": ":b2020#flute > #flute_tab_manager.active > label:is([tint=color]):is([theme=yellow]):not([state=ntp], :sly_zen)",
+      "text_color !imp" : "var(yellow_color_tabstrip)",
+    },
+    {
+      "selector": ":b2020#flute > #flute_tab_manager.active > label:is([tint=color]):is([theme=orange]):not([state=ntp], :sly_zen)",
+      "text_color !imp" : "var(orange_color_tabstrip)",
+    },
+    {
+      "selector": ":b2020#flute > #flute_tab_manager.active > label:is([tint=color]):is([theme=red]):not([state=ntp], :sly_zen)",
+      "text_color !imp" : "var(red_color_tabstrip)",
+    },
+    {
+      "selector": ":b2020#flute > #flute_tab_manager.active > label:is([tint=color]):is([theme=purple]):not([state=ntp], :sly_zen)",
+      "text_color !imp" : "var(purple_color_tabstrip)",
+    },
+    {
+      "selector": ":b2020#flute > #flute_tab_manager.active > label:is([tint=full]):not([state=ntp], :sly_zen)",
+      "text_color !imp" : "var(normal_text_primary)",
+    },
+    /*******************************  МЕНЕДЖЕР ТАБОВ конец  ********************************/
+    {
+      "selector": "#smartbox > separator",
+      "foreground !imp": ["color(#000 a(.1))"],
+    },
+    {
+      "selector": "#smartbox > separator",
+      "meta_selector": [
+        ":is([tint=color], [tint=full]):not([theme=yellow])",
+        "[state=protected]",
+        "[theme=dark]",
+      ],
+      "foreground !imp": ["color(#fff a(.2))"],
+    },
+    /*******************************  Launcher and launcher buttons hover ********************************/
+    {
+      "selector": ":b2020#flute > #flute_middle_buttons_panel",
+      "radius !imp": 10,
+      "background !imp" : "color(#fff a(.25))",
+    },
+    {
+      "selector": ":b2020#flute > #flute_middle_buttons_panel",
+      "meta_selector":  "[tint=light]:not(:incognito[state=ntp], [state=ntp], :sly_zen, :dark_wp_top)",
+      "background !imp" : "color(#fff a(.6))",
+    },
+    {
+      "selector": ":b2020#flute > #flute_launcher_button",
+      "radius !imp": 8,
+      "background !imp": ["var(dark_bg_normal)", "color(#fff a(.25))", "color(#fff a(.25))", "#0000"],
+    },
+    {
+      "selector": ":b2020#flute > #flute_launcher_button",
+      "meta_selector": [
+        ":not([theme], :dark_wp_top)",
+        "[tint=light]",
+        "[tint=half]:is([theme=aqua],[theme=green],[theme=yellow])",
+        "[tint=color]:is([theme=yellow])"
+      ],
+      "background !imp": ["var(dark_bg_normal)", "color(#000 a(.15))", "color(#000 a(.15))", "#0000"],
+    },
+  ],
+  "browser_ui_config":
+  {
+    "tab_vertical_border_offset": 8,
+  },
+}
+

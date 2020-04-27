@@ -1,5 +1,5 @@
 {
-   "checksum": "c7b9db529dbdfaaa51c618868f0b1b34",
+   "checksum": "b07dc6f4b52990e1f48618cadc482720",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -72,10 +72,59 @@
             "name": "chrome插件/扩展,chrome商店,谷歌浏览器插件,谷歌商店插件推荐与下载-扩展迷",
             "type": "url",
             "url": "https://www.extfans.com/"
+         }, {
+            "date_added": "13229360060537245",
+            "guid": "7efecb87-6b5b-40c7-9d98-35f094c58229",
+            "id": "25",
+            "name": "高效做笔记:vim + markdown - 知乎",
+            "type": "url",
+            "url": "https://zhuanlan.zhihu.com/p/84773275"
+         }, {
+            "date_added": "13229700453941654",
+            "guid": "13296707-092f-4b74-a2e2-2893e3fb4abb",
+            "id": "27",
+            "name": "vim替换命令_运维_glorin的专栏-CSDN博客",
+            "type": "url",
+            "url": "https://blog.csdn.net/glorin/article/details/6317098"
+         }, {
+            "date_added": "13229803883247006",
+            "guid": "92de2a4a-32a7-4deb-90b3-65957ab5e5a5",
+            "id": "29",
+            "name": "",
+            "type": "url",
+            "url": "https://vim.fandom.com/"
+         }, {
+            "date_added": "13229804348220707",
+            "guid": "658d2af4-60b9-47a2-a90b-ba8bb862f47c",
+            "id": "30",
+            "name": "Vim Tips Wiki | Fandom",
+            "type": "url",
+            "url": "https://vim.fandom.com/wiki/Vim_Tips_Wiki"
+         }, {
+            "date_added": "13230479125692012",
+            "guid": "7aef875a-c8a6-4be8-8798-ad5224b8421b",
+            "id": "32",
+            "name": "易班 - 轻博客",
+            "type": "url",
+            "url": "https://www.yiban.cn/blog/index/index/userid/32515966"
+         }, {
+            "date_added": "13231089708705178",
+            "guid": "ebecbb36-3291-4b74-a13e-0da26649b66b",
+            "id": "34",
+            "name": "Emoji Homepage 👀 - Copy and paste emoji. 💨 Fast and 👌 Simple.",
+            "type": "url",
+            "url": "http://emojihomepage.com/"
+         }, {
+            "date_added": "13232256083125886",
+            "guid": "13c16a31-578b-4b9a-ad33-8a5e7c5543c3",
+            "id": "36",
+            "name": "Dns检测|Dns查询 - 站长工具",
+            "type": "url",
+            "url": "http://tool.chinaz.com/dns"
          } ],
          "date_added": "13226390097942093",
-         "date_modified": "13228677989849636",
-         "guid": "00000000-0000-4000-A000-000000000002",
+         "date_modified": "13232256083125886",
+         "guid": "00000000-0000-4000-a000-000000000002",
          "id": "1",
          "name": "书签栏",
          "type": "folder"
@@ -84,7 +133,7 @@
          "children": [  ],
          "date_added": "13226390097942098",
          "date_modified": "0",
-         "guid": "00000000-0000-4000-A000-000000000003",
+         "guid": "00000000-0000-4000-a000-000000000003",
          "id": "2",
          "name": "其他书签",
          "type": "folder"
@@ -93,7 +142,7 @@
          "children": [  ],
          "date_added": "13226390097942099",
          "date_modified": "0",
-         "guid": "00000000-0000-4000-A000-000000000004",
+         "guid": "00000000-0000-4000-a000-000000000004",
          "id": "3",
          "name": "移动设备书签",
          "type": "folder"

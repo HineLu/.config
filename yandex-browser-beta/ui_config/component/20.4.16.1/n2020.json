@@ -1,0 +1,52 @@
+{
+  "style_sheet":
+  [
+    {
+      "selector": [
+        "#top_container#top_container[state=ntp]",
+        "#top_container#top_container:sly_zen",
+      ],
+      "background !imp": ["#0000"],
+    },
+    {
+      "selector": [
+        "#top_container#top_container[state=ntp]:incognito",
+      ],
+      "background !imp": ["#515151"],
+    },
+    {
+      "selector": [
+        "#top_container#top_container[state=ntp]:degradation",
+        "#top_container#top_container:sly_zen:degradation",
+      ],
+      "background !imp": ["#0000"],
+    },
+    {
+      "selector": [
+        "#top_container#top_container[state=ntp]:incognito:degradation",
+      ],
+      "background !imp": ["#515151"],
+    },
+    {
+      "selector": [
+        "#top_container[state=ntp]:degradation:dark_wp_top",
+        "#top_container:sly_zen:degradation:dark_wp_top",
+      ],
+      "background !imp": ["#0000"],
+    },
+    {
+      "selector": [
+        "#flute[state=ntp]:incognito",
+        "#flute:sly_zen:incognito",
+      ],
+      "background !imp": ["#515151"],
+    },
+    {
+      "selector": [
+        "#flute[state=ntp]:degradation:incognito",
+        "#flute:sly_zen:degradation:incognito",
+      ],
+      "background !imp": ["#515151"],
+    },
+  ]
+}

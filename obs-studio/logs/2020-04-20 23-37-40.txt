@@ -1,0 +1,128 @@
+23时37分40秒.485: CPU Name: Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
+23时37分40秒.485: CPU Speed: 3754.923MHz
+23时37分40秒.486: Physical Cores: 4, Logical Cores: 8
+23时37分40秒.486: Physical Memory: 7716MB Total, 4236MB Free
+23时37分40秒.486: Kernel Version: Linux 5.4.33-3-MANJARO
+23时37分40秒.486: Distribution: "Manjaro Linux" Unknown
+23时37分40秒.486: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.8
+23时37分40秒.487: Portable mode: false
+23时37分40秒.547: OBS 25.0.4-1 (linux)
+23时37分40秒.547: ---------------------------------
+23时37分40秒.548: ---------------------------------
+23时37分40秒.548: audio settings reset:
+23时37分40秒.548: 	samples per sec: 44100
+23时37分40秒.548: 	speakers:        2
+23时37分40秒.555: ---------------------------------
+23时37分40秒.555: Initializing OpenGL...
+23时37分40秒.645: Loading up OpenGL on adapter Intel Mesa Intel(R) UHD Graphics 620 (WHL GT2)
+23时37分40秒.645: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 20.0.4, shading language 4.60
+23时37分40秒.661: ---------------------------------
+23时37分40秒.661: video settings reset:
+23时37分40秒.661: 	base resolution:   1080x1920
+23时37分40秒.661: 	output resolution: 720x1280
+23时37分40秒.661: 	downscale filter:  Bicubic
+23时37分40秒.661: 	fps:               30/1
+23时37分40秒.661: 	format:            NV12
+23时37分40秒.661: 	YUV mode:          601/Partial
+23时37分40秒.661: NV12 texture support not available
+23时37分40秒.663: Audio monitoring device:
+23时37分40秒.663: 	name: 默认
+23时37分40秒.663: 	id: default
+23时37分40秒.664: ---------------------------------
+23时37分40秒.666: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+23时37分40秒.730: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+23时37分40秒.730: No blackmagic support
+23时37分40秒.756: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: 无法打开共享对象文件: 没有那个文件或目录
+23时37分40秒.756: 
+23时37分40秒.756: FFMPEG VAAPI supported
+23时37分40秒.772: VLC found, VLC video source enabled
+23时37分40秒.772: ---------------------------------
+23时37分40秒.773:   Loaded Modules:
+23时37分40秒.773:     vlc-video.so
+23时37分40秒.773:     text-freetype2.so
+23时37分40秒.773:     rtmp-services.so
+23时37分40秒.773:     obs-x264.so
+23时37分40秒.773:     obs-transitions.so
+23时37分40秒.773:     obs-outputs.so
+23时37分40秒.773:     obs-libfdk.so
+23时37分40秒.773:     obs-filters.so
+23时37分40秒.773:     obs-ffmpeg.so
+23时37分40秒.773:     linux-v4l2.so
+23时37分40秒.773:     linux-pulseaudio.so
+23时37分40秒.773:     linux-jack.so
+23时37分40秒.773:     linux-decklink.so
+23时37分40秒.773:     linux-capture.so
+23时37分40秒.773:     linux-alsa.so
+23时37分40秒.773:     image-source.so
+23时37分40秒.773:     frontend-tools.so
+23时37分40秒.773:     decklink-ouput-ui.so
+23时37分40秒.773: ---------------------------------
+23时37分40秒.773: ==== Startup complete ===============================================
+23时37分40秒.773: Service '' not found
+23时37分40秒.775: All scene data cleared
+23时37分40秒.775: ------------------------------------------------
+23时37分40秒.778: pulse-input: Server name: 'pulseaudio 13.0'
+23时37分40秒.778: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+23时37分40秒.778: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+23时37分40秒.779: pulse-input: Server name: 'pulseaudio 13.0'
+23时37分40秒.780: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+23时37分40秒.780: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+23时37分40秒.780: xshm-input: Geometry 1080x1920 @ 0,0
+23时37分40秒.781: Switched to scene '场景'
+23时37分40秒.781: ------------------------------------------------
+23时37分40秒.781: Loaded scenes:
+23时37分40秒.781: - scene '场景':
+23时37分40秒.781:     - source: '屏幕捕获(XSHM)' (xshm_input)
+23时37分40秒.781: ------------------------------------------------
+23时37分41秒.334: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds (source: 麦克风/Aux)
+23时37分41秒.334: 
+23时39分17秒.167: Starting recording due to hotkey
+23时39分17秒.176: ---------------------------------
+23时39分17秒.176: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+23时39分17秒.222: [x264 encoder: 'simple_h264_stream'] settings:
+23时39分17秒.222: 	rate_control: CBR
+23时39分17秒.222: 	bitrate:      2500
+23时39分17秒.222: 	buffer size:  2500
+23时39分17秒.222: 	crf:          0
+23时39分17秒.222: 	fps_num:      30
+23时39分17秒.222: 	fps_den:      1
+23时39分17秒.222: 	width:        720
+23时39分17秒.222: 	height:       1280
+23时39分17秒.222: 	keyint:       250
+23时39分17秒.222: 
+23时39分17秒.241: libfdk_aac encoder created
+23时39分17秒.241: libfdk_aac bitrate: 160, channels: 2
+23时39分17秒.248: ==== Recording Start ===============================================
+23时39分17秒.248: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/hine/2020-04-20 23-39-17.mkv'...
+23时40分24秒.134: Stopping recording due to hotkey
+23时40分25秒.090: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/hine/2020-04-20 23-39-17.mkv' stopped
+23时40分25秒.090: Output 'simple_file_output': stopping
+23时40分25秒.090: Output 'simple_file_output': Total frames output: 2008
+23时40分25秒.090: Output 'simple_file_output': Total drawn frames: 2035
+23时40分25秒.091: ==== Recording Stop ================================================
+23时40分25秒.107: libfdk_aac encoder destroyed
+23时44分29秒.659: Starting recording due to hotkey
+23时44分29秒.668: ---------------------------------
+23时44分29秒.668: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+23时44分29秒.668: [x264 encoder: 'simple_h264_stream'] settings:
+23时44分29秒.668: 	rate_control: CBR
+23时44分29秒.668: 	bitrate:      2500
+23时44分29秒.668: 	buffer size:  2500
+23时44分29秒.668: 	crf:          0
+23时44分29秒.668: 	fps_num:      30
+23时44分29秒.668: 	fps_den:      1
+23时44分29秒.668: 	width:        720
+23时44分29秒.668: 	height:       1280
+23时44分29秒.668: 	keyint:       250
+23时44分29秒.668: 
+23时44分29秒.676: libfdk_aac encoder created
+23时44分29秒.676: libfdk_aac bitrate: 160, channels: 2
+23时44分29秒.682: ==== Recording Start ===============================================
+23时44分29秒.682: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/hine/2020-04-20 23-44-29.mkv'...
+23时48分47秒.387: Stopping recording due to hotkey
+23时48分48秒.309: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/hine/2020-04-20 23-44-29.mkv' stopped
+23时48分48秒.309: Output 'simple_file_output': stopping
+23时48分48秒.309: Output 'simple_file_output': Total frames output: 7732
+23时48分48秒.309: Output 'simple_file_output': Total drawn frames: 7759
+23时48分48秒.309: ==== Recording Stop ================================================
+23时48分48秒.318: libfdk_aac encoder destroyed

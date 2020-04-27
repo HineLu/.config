@@ -1,0 +1,939 @@
+// Copyright (c) 2018 Yandex LLC. All rights reserved.
+
+// Overall comments:
+// * colors are strings "#rgb", "#argb", "#rrggbb" or "#aarrggbb".
+// * ranges are strings "n1,n2,n3-n4,n5" which mean a set
+//   [n1,n2,n3,n3+1,...,n4, n5]. n3 must be less or equal to n4.
+//   Also, length of n3 must be the same as length of n4.
+// * if you need to override payment system for a specific bank,
+//   just specify the full BIN in paymentSystems.
+{
+  // Common popup properties, that do not depend upon what cards are displayed.
+  "common": {
+    // When popup is below or above the <input> field, this represents the
+    // distance between <input> edge and the closest card.
+    "verticalInputOffset": 5,
+    // When popup is off to the side of the <input> field, this represents the
+    // distance between <input> edge and the closes card.
+    "horizontalInputOffset": 3,
+    "distanceFromInactive": 36,
+    "distanceFromActive": 118,
+    "focusRingColor": "#2c77d6",
+    "focusRingBackground": "#fff",
+    // DEPRECATED since 19.3.0.
+    // The values must match
+    // https://msdn.microsoft.com/en-us/library/system.windows.fontweights(v=vs.110).aspx
+    "defaultBankTextWeight": 700,
+    // Duration of all animations in ms.
+    "animationsDuration": 200,
+    // Delay before animations start in ms.
+    "animationsDelay": 150,
+    // Close animation duration in ms.
+    "closeAnimationDuration": 150,
+    "layout": {
+      "cardWidth": 180,
+      "cardHeight": 112,
+      "cornerRadius": 8,
+      "focusRingThickness": 2,
+      "focusRingInsets": 4,
+      "cardNumberTopRightXOffset": 15,
+      "cardNumberTopRightYOffset": 13,
+      "textFontSize": 13,
+      "cardTitleMinRightOffset": 15,
+      "cardTitleBottomLeftXOffset": 15,
+      "cardTitleBottomLeftYOffset": 50,
+      "cardHolderMinRightOffset": 15,
+      "cardHolderBottomLeftXOffset": 15,
+      "cardHolderBottomLeftYOffset": 31,
+      "cardExpirationDateBottomLeftXOffset": 15,
+      "cardExpirationDateBottomLeftYOffset": 14,
+      "paymentSystemBottomRightXOffset": 0,
+      "paymentSystemBottomRightYOffset": 0,
+      "paymentSystemWidth": 180,
+      "paymentSystemHeight": 48,
+      "bankTopLeftXOffset": 0,
+      "bankTopLeftYOffset": 0,
+      "bankWidth": 180,
+      "bankHeight": 48,
+      // DEPRECATED since 19.3.0.
+      "defaultBankTopLeftXOffset": 10,
+      // DEPRECATED since 19.3.0.
+      "defaultBankTopLeftYOffset": 9,
+      // DEPRECATED since 19.3.0.
+      "defaultBankTextSize": 14,
+      "shadow": [ { "blur": 16, "xOffset": 0, "yOffset": -4, "color": "#26000000", } ],
+    },
+    "scrollButton": {
+      "width": 196,
+      "height": 28,
+      "shadow": [ { "blur": 12, "xOffset": 0, "yOffset": 2, "color": "#33000000" }],
+      "cornerRadius": 6,
+      "backgroundColor": "#fff",
+      "markWidth": 20,
+      "markHeight": 20,
+      "markEnabledColor": "#cc000000",
+      "markDisabledColor": "#4c000000",
+      "outsideTopOffset": 8,
+      "outsideBottomOffset": 8,
+      "insideTopOffset": 4,
+      "insideBottomOffset": 4,
+      "animationVelocity": 40.0,
+    },
+  },
+  // Style for card info text.
+  "textStyles": {
+    "dark": {
+      "textColor": "#7f000000",
+      // DEPRECATED since 19.3.0.
+      "defaultBankTextColor": "#7f000000",
+    },
+    "light": {
+      "textColor": "#a5ffffff",
+      // DEPRECATED since 19.3.0.
+      "defaultBankTextColor": "#a5ffffff",
+    },
+  },
+  // Range of prefixes (up to 6 digits) that determine card's payment system.
+  // The exact same prefix cannot be used for two different payment systems,
+  // however, it's valid for one system to have prefix 5, and another 51.
+  // Given 51xxx the latter will be chosen.
+  // The payment system logos are comprised of two parts: name and theme.
+  // The latter is specified in bank theme entry in systemStyle. If theme
+  // is "", the logo is name; otherwise it's name_theme.
+  "paymentSystems": {
+    "mir": "2",
+    "visa": "4",
+    "dinnersclub": "30,36,38",
+    "jcb": "31,35",
+    "americanexpress": "34,37",
+    "maestro": "50,56-58,63,67",
+    "mastercard": "51-55",
+  },
+  "banks": {
+    // This is the default theme that's used when we can't determine the bank.
+    "default": {
+      "textStyle": "light",
+      "systemStyle": "light",
+      "backgroundTopLeft": "#4c5359",
+      "backgroundBottomRight": "#27333d",
+      "activeShade": "#1a000000",
+    },
+
+    // Below is the list of all the banks we can detect.
+    // Each entry is of the form:
+    // "bankname": {
+    //   "theme_1": {
+    //     "bins": "...",  // a range of BINs. BINs cannot intersect between
+    //                     // different banks and themes. Which entry will be
+    //                     // used for the BIN defined in two different places
+    //                     // is implementation defined.
+    //
+    //     "name": {       // Localized bank name. When there's no translation
+    //       "ru": "...",  // for current locale, the fallbacks are used:
+    //       "en": "...",  // "ru" -> "en"
+    //     },              // "en" -> "ru"
+    //                     // "be|uk|kk" -> "ru,en"
+    //                     // "_" -> "en,ru"
+    //
+    //     "logo": "...",  // *optional* field to override the default logo for
+    //                     // the bank. The default is bankname.
+    //     ...  // Other theming properties from the "default" clause above.
+    //   },
+    //   "theme_2": ...,
+    //   ...
+    // },
+
+    "akbars": {
+      "default": {
+        "bins": "220053,400079,424436-424440,520935,520985,528588,552958,677088",
+        "name": {
+          "ru": "Ак Барс",
+          "en": "Ak Bars Bank"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "alfabank": {
+      "default": {
+        "bins": "220015,408396,408397,409273,410243-410247,410584,415400,415428,415429,415481,415482,419540,420102-420106,420108,421118,422605,423719,426101,426102,426114,426738,426739,426903,426904,427218,427714,428804,428905,428906,429964,431416,431417,431727,434135,438138-438140,439000,439077,440237,458280,458410,458411,458443,458450,458520-458522,475791,477714,477932,477964,478752,479004,479087,510126,519747,519778,521178,522828,530331,530827,537643,543259,548601,548655,548673,548674,552175,552186,555928,555933,555947,555949,555957",
+        "name": {
+          "ru": "Альфа-Банк",
+          "en": "Alfa-Bank",
+        },
+        "textStyle": "light",
+        "systemStyle": "light_base",
+        "backgroundTopLeft": "#f7483b",
+        "backgroundBottomRight": "#b8241a",
+        "activeShade": "#1a000000",
+      }
+    },
+    "avangard": {
+      "default": {
+        "bins": "220023,403896-403898,404114,419163,470674,470675,478273,518681,522223,522224,533206,539673,558535,676463",
+        "name": {
+          "ru": "Авангард",
+          "en": "Avangard"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "az-to-bank": {
+      "default": {
+        "bins": "419149-419153,458488-458490,532947",
+        "name": {
+          "ru": "Азиатско-Тихоокеанский Банк",
+          "en": "Asian-Pacific Bank"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "baltinvestbank": {
+      "default": {
+        "bins": "428247-428249",
+        "name": {
+          "ru": "Балтинвестбанк",
+          "en": "Baltinvestbank"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "bank-moskvi": {
+      "default": {
+        "bins": "413064,424646,427275,427726,429158,431336,465206-465208,465218,541715",
+        "name": {
+          "ru": "Банк Москвы",
+          "en": "Bank of Moscow"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "binbank": {
+      "default": {
+        "bins": "402538,402948,425175,433920,462704,462716,464845,465004-465006,465008,465203,465204,514093,515853,518529,518961,519317,527554,531351,533151,538110,539962",
+        "name": {
+          "ru": "Бинбанк",
+          "en": "Binbank"
+        },
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#2f49a1",
+        "backgroundBottomRight": "#152a6e",
+        "activeShade": "#1a000000",
+      }
+    },
+    "center-invest": {
+      "default": {
+        "bins": "400648,411717,411718,430312,430314,458527",
+        "name": {
+          "ru": "Центр-инвест",
+          "en": "Bank center-invest"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "citibank": {
+      "default": {
+        "bins": "512762,515854,520306,525689,527594,531809,532974,533201,533681,539726,540788,545182,552573,555057,555058",
+        "name": {
+          "ru": "Ситибанк",
+          "en": "Citibank"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "crediteuropebank": {
+      "default": {
+        "bins": "408373,411647-411649,431099,432158,456587,512273,520957,520993,521144,521830,524665,525991,531034,532315,539114,541450,545251,547550,557056,557057,559813,676586",
+        "name": {
+          "ru": "Кредит Европа Банк",
+          "en": "Credit Europe Bank"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "expobank": {
+      "default": {
+        "bins": "404160,422081,427754,487432-487435,546855,554834",
+        "name": {
+          "ru": "Экспобанк",
+          "en": "Ekspobank"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "express-bank": {
+      "default": {
+        "bins": "220071,425534,425535,443886-443888,444094",
+        "name": {
+          "ru": "Восточный Экспресс Банк",
+          "en": "Vostochny Bank"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "finservice": {
+      "default": {
+        "bins": "220172,429907,429908",
+        "name": {
+          "ru": "Банк Финсервис",
+          "en": "Bank Fincervice"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "fnp-bank": {
+      "default": {
+        "bins": "403828-403830,478488",
+        "name": {
+          "ru": "Финпромбанк",
+          "en": "Finprombank"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "gasprom": {
+      "default": {
+        "bins": "220001,404270,424917,424975,427326,487415-487417,489354,514082,518228,518373,518704,518816,518902,521155,522193,522477,522826,522988,522989,525740,525780,525784,525833,526483,529278,530114,530993,531305,532684,534130,534196,536995,539839,540664,540708,542255,543672,543724,543762,544026,544561,545101,547348,548027,548999,549000,549098,549600,549654,552702,556052,558355,623371,676454,676990,677484,677585",
+        "name": {
+          "ru": "Газпромбанк",
+          "en": "Gazprombank"
+        },
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#1964d4",
+        "backgroundBottomRight": "#104087",
+        "activeShade": "#1a000000",
+      }
+    },
+    "globex": {
+      "default": {
+        "bins": "220179,406726,424547,424548,439245",
+        "name": {
+          "ru": "Глобэкс",
+          "en": "Bank globex"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "homecredit": {
+      "default": {
+        "bins": "220050,406364,445433-445435,446098,446915,449572,450726,472445,522199,524835,525933,536511,545762,548745,557734,559654",
+        "name": {
+          "ru": "Хоум Кредит Банк",
+          "en": "Homecredit Bank"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "intercommerz": {
+      "default": {
+        "bins": "406180-406182,460052,510170",
+        "name": {
+          "ru": "Интеркоммерц",
+          "en": "Intercommerz"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "inteza": {
+      "default": {
+        "bins": "402578,421169-421171,484891",
+        "name": {
+          "ru": "Банк Интеза",
+          "en": "Banca Intesa"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "jugra": {
+      "default": {
+        "bins": "406777,406778,406780,406781,549966,558385",
+        "name": {
+          "ru": "Банк Югра",
+          "en": "Yugra"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "leto-bank": {
+      "default": {
+        "bins": "405992",
+        "name": {
+          "ru": "Лето Банк",
+          "en": "Leto Bank"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "mdm": {
+      "default": {
+        "bins": "220022,515785,518586,518788,518876,520328,524860,524862,525742,525744,527448,527450,531425,532835,533614,539036,539600,540194,540455,540642,541152,541294,541587,542504,543038,543366,544117,547243,547377,547801,548092,548265,548270,549349,549512,549523,550025,552866,554372,554373,557976,558625,558636,676428,676934,676947,676998,677058,677275,677276,677358,677406,677505",
+        "name": {
+          "ru": "МДМ Банк",
+          "en": "MDM Bank"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "mfk": {
+      "default": {
+        "bins": "430112-430114,445636,445637,458449",
+        "name": {
+          "ru": "Международный финансовый клуб",
+          "en": "International financial club"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "mib": {
+      "default": {
+        "bins": "220020,402326-402328,402549,472480,480938,515587,516356,520113,527792,557071,557072,558462",
+        "name": {
+          "ru": "Московский Индустриальный Банк",
+          "en": "Minbank"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "moscredbank": {
+      "default": {
+        "bins": "403780,419292,443272-443274,515770,521801,532184,542033,543211,552680,676967",
+        "name": {
+          "ru": "Московский Кредитный Банк",
+          "en": "Credit Bank of Moscow"
+        },
+        "textStyle": "light",
+        "systemStyle": "light_base",
+        "backgroundTopLeft": "#e32255",
+        "backgroundBottomRight": "#94072d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "mts-bank": {
+      "default": {
+        "bins": "220028,404204,404224,404266-404269,406356,467756,517955,524602,531733,533736,536672,540616,541435,544123,550583,676884",
+        "name": {
+          "ru": "МТС-Банк",
+          "en": "MTS-Bank"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "novikombank": {
+      "default": {
+        "bins": "220156,402457,402909-402911,458559,471436",
+        "name": {
+          "ru": "Новикомбанк",
+          "en": "Novikom Bank"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "openrocket": {
+      // TODO(alshabalin): This appears to be the same bank as "rocketbank". Merge them?
+      "default": {
+        "bins": "532130",
+        "name": {
+          "ru": "Рокетбанк",
+          "en": "Rocketbank"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "otkritie": {
+      "default": {
+        "bins": "220029,401173,404586,405870,406790-406792,409701,409755,409756,413307,416038,417676,425181,425656,428165,429040,434146-434148,437351,446065,464843,474159,479716,479718,479777,485649,514017,515243,515668,515758,516354,518796,518803,520349,520634,524838,525719,529260,530183,530403,531674,532301,539714,539718,544218,544499,544962,547449,549024,549025,549848,558620,670518,676231,676697",
+        "name": {
+          "ru": "Банк «Открытие»",
+          "en": "Otkritie Bank"
+        },
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#02bee8",
+        "backgroundBottomRight": "#0086bf",
+        "activeShade": "#1a000000",
+      }
+    },
+    "probusiness": {
+      "default": {
+        "bins": "405844-405847,413229",
+        "name": {
+          "ru": "Пробизнесбанк",
+          "en": "ProbiznesBank"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "promsvyazbank": {
+      "default": {
+        "bins": "220003,426803,426804,447817,447818,447824,451382,472345,476207,476208,515848,516473,518486,518946,518951,518970,518977,518981,519333,520085,520088,520373,521124,525494,526280,526469,528701,529160,530441,531534,532421,534254,534495,539621,539704,539861,541269,542340,543874,544800,545350,546766,547329,548172,548308,548429,549425,549439,549524,554279,554759,554781,556046,557981,558254,558268,558516,558672,670508,670583,670611,670654,670661,676397,676444,677263,677356,677370-677372,677461,677462,677506",
+        "name": {
+          "ru": "Промсвязьбанк",
+          "en": "Psbank"
+        },
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#1f4ca1",
+        "backgroundBottomRight": "#15346e",
+        "activeShade": "#1a000000",
+      }
+    },
+    "raiffeisen": {
+      "default": {
+        "bins": "220030,404807,404885,411997,413062,414950-414952,418837,422287,425885,446916,446917,447603,447624,462729,462730,462758,467808,467809,508406,510069,510070,512070,515876,518158,528053,528808,528809,530867,533594,533616,535516,536392,537965,542772,543759,544237,545115,547613,548658,548968,553496,557881,558273,558536,676625",
+        "name": {
+          "ru": "Райффайзенбанк",
+          "en": "Raiffeisenbank"
+        },
+        "textStyle": "dark",
+        "systemStyle": "dark",
+        "backgroundTopLeft": "#e1e3e6",
+        "backgroundBottomRight": "#b6bcbf",
+        "activeShade": "#1a000000",
+      }
+    },
+    "rgs": {
+      "default": {
+        "bins": "416982-416984,431359,472489,521172,526818,677189",
+        "name": {
+          "ru": "Росгосстрах Банк",
+          "en": "Rosgosstrakh Bank"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "rocketbank": {
+      "default": {
+        "bins": "485078",
+        "name": {
+          "ru": "Рокетбанк",
+          "en": "Rocketbank"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "rosbank": {
+      "default": {
+        "bins": "220039,404862,404890,404892,406767,407564,412519,416956,421648,423169,425153,427715,432638,438933,438970,438971,440503,440505,440540,440541,459937,474218,477908,477986,499932,499966,510166,512756,512808,514930,515605,517583,518079,518580,518642,518714,518882,522705,522711,524001,524614,525936,526462,527640,528933,529100,530527,531222,532336,533925,534251,534297,539102,540035,541903,541904,545151,548249,548409,549475,550033,550165,550210,553690,554317,554761,554782,555079,557977,558480,558605,558673,559488,559969,670828,676347,676450,677360",
+        "name": {
+          "ru": "Росбанк",
+          "en": "Rosbank"
+        },
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4e4c4f",
+        "backgroundBottomRight": "#2f2b2c",
+        "activeShade": "#1a000000",
+      }
+    },
+    "rossiya": {
+      "default": {
+        "bins": "220008,419905,426809-426815,430708,430709,458722,458723",
+        "name": {
+          "ru": "Россия",
+          "en": "Rossia"
+        },
+        "textStyle": "dark",
+        "systemStyle": "dark",
+        "backgroundTopLeft": "#dae1e6",
+        "backgroundBottomRight": "#a8b7bf",
+        "activeShade": "#1a000000",
+      }
+    },
+    "rsb": {
+      "default": {
+        "bins": "220038,418384-418387,422608,436100,524448,525446,534162,536409,547601,548048,549715,623446",
+        "name": {
+          "ru": "Россельхозбанк",
+          "en": "Russian Agricultural Bank"
+        },
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#006933",
+        "backgroundBottomRight": "#00361a",
+        "activeShade": "#1a000000",
+      },
+    },
+    "russtandart": {
+      "default": {
+        "bins": "375117,375118,417250-417254,417291,483175,483176,486065,510047,510092,513691,522588,524381,533469,536401,542048,545160,547262,676565",
+        "name": {
+          "ru": "Русский Стандарт",
+          "en": "Russian Standard Bank"
+        },
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#7db332",
+        "backgroundBottomRight": "#598024",
+        "activeShade": "#1a000000",
+      }
+    },
+    "sberbank": {
+      "default": {
+        "bins": "220220,417398,419394,420363,426343,426344,426346,427400-427414,427416-427463,427465-427477,427491,427499,427600-427622,427624-427682,427684-427690,427692-427697,427699,427900-427980,427982-427984,427986,427988-427999,429017,437435,437985,442464,442477,446929,457832,481776,481779,485463,515842,516836,516837,525684,531310,531694,533208,533669,535468,536961,545037,545152,546901-546913,546916-546918,546920,546922,546925-546933,546935-546956,546959-546964,546966-546970,546972,546974,546975,546977,546998,546999,547902,547905,547906,547910,547912,547913,547920,547922,547926-547928,547930-547932,547936,547938,547940,547942-547945,547947,547949-547955,547960,547961,547966,547969,547972,547976,547998,548401-548403,548405-548407,548410-548413,548416,548420,548422,548425-548428,548430-548432,548435,548436,548438,548440,548442-548445,548447-548452,548454-548456,548459-548464,548466,548468-548470,548472,548476,548477,548498,548499,605461,639002,676195,676196,676280",
+        "name": {
+          "ru": "Сбербанк России",
+          "en": "Sberbank"
+        },
+        "textStyle": "light",
+        "systemStyle": "light_base",
+        "backgroundTopLeft": "#5dc253",
+        "backgroundBottomRight": "#388f38",
+        "activeShade": "#1a000000",
+      },
+      "gold": {
+        "bins": "557000",
+        "name": {
+          "ru": "Сбербанк России",
+          "en": "Sberbank"
+        },
+        "textStyle": "light",
+        "systemStyle": "light_base",
+        "backgroundTopLeft": "#5dc253",
+        "backgroundBottomRight": "#388f38",
+        "activeShade": "#1a000000",
+      }
+    },
+    "skb-bank": {
+      "default": {
+        "bins": "220048,410696,413877-413879,437524,459226,472879,488951,548386,549071",
+        "name": {
+          "ru": "СКБ-Банк",
+          "en": "SKB-bank"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "smp-bank": {
+      "default": {
+        "bins": "220488,520920,521326",
+        "name": {
+          "ru": "СМП Банк",
+          "en": "SMP bank"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "soyuz": {
+      "default": {
+        "bins": "220049,400287,400881,424352,432974,433710,433711,434381-434384,488967,488968,489008,489095,540670",
+        "name": {
+          "ru": "Союз",
+          "en": "Souz Bank"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "spb-bank": {
+      "default": {
+        "bins": "220033,407266,479770,479773,522620,522858,527269,530900,532186,541600,543101,549376,552669,559062,676948,677672",
+        "name": {
+          "ru": "Банк Санкт-Петербург",
+          "en": "Bank Saint-Petersburg"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "tatfondbank": {
+      "default": {
+        "bins": "417225-417227,423217,427871,445034,515783,677225",
+        "name": {
+          "ru": "Татфондбанк",
+          "en": "Tatfondbank"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "tinkoff": {
+      "default": {
+        "bins": "220070,437772,437773,470127,521324,524468,528041,538994,553420,553691",
+        "name": {
+          "ru": "Тинькофф Банк",
+          "en": "Tinkoff Bank"
+        },
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4d4d4a",
+        "backgroundBottomRight": "#262625",
+        "activeShade": "#1a000000",
+      }
+    },
+    "transcapital": {
+      "default": {
+        "bins": "220059,402877,431409,446950,473869,478474-478476,530145",
+        "name": {
+          "ru": "Транскапиталбанк",
+          "en": "TKB"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "unicredit": {
+      "default": {
+        "bins": "220084,430323,433300,433336,462776,469362,472446,485608,489042,489099,490818,490855,510074,518996,518997,522458,530172,531236,531344,547728,549302,676672",
+        "name": {
+          "ru": "ЮниКредит Банк",
+          "en": "Unicredit"
+        },
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#43464d",
+        "backgroundBottomRight": "#212326",
+        "activeShade": "#1a000000",
+      }
+    },
+    "vbrr": {
+      "default": {
+        "bins": "406140,406141,413203-413205,527093,528249,532356,542751,558713,677649",
+        "name": {
+          "ru": "Всероссийский банк развития регионов",
+          "en": "VBBR"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "visa-qiwi": {
+      "default": {
+        "bins": "417627-417629,426740,428122,469395,489049",
+        "name": {
+          "ru": "Киви Банк",
+          "en": "Qiwi Bank"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "vneshprombank": {
+      "default": {
+        "bins": "423649,478471,478472,488993",
+        "name": {
+          "ru": "Внешпромбанк",
+          "en": "Vneshprombank"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    },
+    "vtb24": {
+      "default": {
+        "bins": "220024,220065,409398,418261,427229,427230,429565,429749,448343,462235,464842,465206,465207,471487,489347-489350,510144,512303,512338,518033,518591,518640,519304,519998,522598,522876,527349,527785,527883,528096,528285,529025,529426,529460,529884,529938,531233,531317,531996,532330,534245,534526,534601,535082,536829,540154,540849,541162,541913,545224,548706,549223,549270,549309,549500,549866,554386,554393,558481,558518,676351,676421,676974,677428,677470,677471,677517,677681",
+        "name": {
+          "ru": "ВТБ 24",
+          "en": "VTB"
+        },
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#3656c9",
+        "backgroundBottomRight": "#22357d",
+        "activeShade": "#1a000000",
+      }
+    },
+    "ym": {
+      "default": {
+        "bins": "510621,518901,548387,559900",
+        "name": {
+          "ru": "Яндекс.Деньги",
+          "en": "Yandex.Money"
+        },
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#43434d",
+        "backgroundBottomRight": "#212126",
+        "activeShade": "#1a000000",
+      },
+    },
+    "zenit": {
+      "default": {
+        "bins": "220062,414656-414659,428266,470434,480232,512449,515760,516333,516358,517667,518647,518792,520341,521194,522456,522851,526891,532461,532463,539607,539613,539850,539898,541778,543236,543301,544025,544852,545896,545929,548767,548771,549411,549413,549882,549888,554780,557029,557030,557944,557960,558696",
+        "name": {
+          "ru": "Банк Зенит",
+          "en": "Zenit Bank"
+        },
+        // These are the default colors:
+        "textStyle": "light",
+        "systemStyle": "light",
+        "backgroundTopLeft": "#4c5359",
+        "backgroundBottomRight": "#27333d",
+        "activeShade": "#1a000000",
+      },
+    }
+  },
+}

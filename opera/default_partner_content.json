@@ -1,6 +1,6 @@
-// XcMhn982oU7JRn9kbF5oONsdPnAguE2ZJI1eeX6QBYH7SQwSv6ouoHx1r3kSiSH71riQMcAW3YG7hhpmFuLvnk9cPzSVwkCVPORwxLG8k/zspJylaf7FN/OMHcvTeIOBWYgnBoCeQrCOAGuaeo4WV14pApu7TSZ3+Sp7IsT9HdEMBXpO5nvbEbub5y+5HK7IfRMbDMUKlvYeFY6k1betzsjImJndDyJ4kGZH+xnvo1Z2xpg1f8wk2ULN/TySR6WKZIB//GywMs/wTrYzCWhSW5+Zmy1ULZ3ATz4qUCYnQ17gIhyTlTv3m2o+pJ8rosz5ZgYj+WFXICFpE4KF9ef57g==
+// OlubkAmKJqAiXgayUryMNf7D/EHZXcTmYiRV6BWb+SvnA2wC2PX+uZhqYAwEEAk8W73mFLh3eiWHoOJlV1dqGUXhIQ44ff4Ug1AA4Zw21DeyXqXisZiTDZ34BHIBi3AC/YUW1FCnI/cD1LVMe9qPwHNtDw9gBrSOXbAwYsxPgFhRAOq7gkBzB+NWBtB0IsC//KWK0FZ5E5lbnBWjvWzJtUT7PzqLUo50WvmyY5ojVJcdi+NeCkk+NhE2dDyl7UqbFoRmv+c0VW28yTGG72nc30iUHyE4vyAgUPetYEhLfTk2kepg9VGlosXpkmUiTot2pFftn/jVrrNyY62+qelF0Q==
 {
-  "version": 67,
+  "version": 71,
   "search_engines": {
     "location": {
       "at": {
@@ -711,6 +711,19 @@
           "speed_dial_index_list": [0, 1]
         }
       },
+      "us": {
+        "other": {
+          "list": [
+            "google_com",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing_us",
+            "wiki"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
       "za": {
         "other": {
           "list": [
@@ -893,6 +906,16 @@
       "post": false,
       "encoding": "UTF-8",
       "uuid": "1AF2CDD0-8BF3-11E2-9E96-0800200C9A66"
+    },
+    "bing_us": {
+      "name": "Bing",
+      "keyword": "b",
+      "favicon_url": "https://www.bing.com/s/a/bing_p.ico",
+      "search_url": "https://www.bing.com/search?q={searchTerms}&form=OSASSB&pc=OSAS",
+      "suggest_url": "https://api.bing.com/osjson.aspx?query={searchTerms}&language={language}&FORM=OPERAS",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "48B659F0-181C-483F-B0D7-CF781F49C965"
     },
     "duckduckgo": {
       "name": "DuckDuckGo",
@@ -1895,7 +1918,7 @@
       "name": "Yandex",
       "keyword": "y",
       "favicon_url": "https://yandex.st/morda-logo/i/favicon.ico",
-      "search_url": "https://yandex.ru/search/?clid=9582&text={searchTerms}&l10n={language}",
+      "search_url": "https://yandex.ru/search/?{yandex:referralID}text={searchTerms}&l10n={language}",
       "suggest_url": "https://suggest.yandex.ru/suggest-ya.cgi?v=4&part={searchTerms}&l10n={language}",
       "post": false,
       "encoding": "UTF-8",
@@ -1907,7 +1930,7 @@
       "name": "Yandex",
       "keyword": "yp",
       "favicon_url": "https://yandex.st/morda-logo/i/favicon.ico",
-      "search_url": "https://yandex.ru/search/?clid=2343200&text={searchTerms}&l10n={language}",
+      "search_url": "https://yandex.ru/search/?{yandex:referralID}text={searchTerms}&l10n={language}",
       "suggest_url": "https://suggest.yandex.ru/suggest-ya.cgi?v=4&part={searchTerms}&l10n={language}",
       "post": false,
       "encoding": "UTF-8",
@@ -1946,7 +1969,7 @@
       "name": "Яндекс",
       "keyword": "y",
       "favicon_url": "https://yandex.st/morda-logo/i/favicon.ico",
-      "search_url": "https://yandex.ru/search/?clid=9582&text={searchTerms}&l10n={language}",
+      "search_url": "https://yandex.ru/search/?{yandex:referralID}text={searchTerms}&l10n={language}",
       "suggest_url": "https://suggest.yandex.ru/suggest-ya.cgi?v=4&part={searchTerms}&l10n={language}",
       "post": false,
       "encoding": "UTF-8",
@@ -1958,7 +1981,7 @@
       "name": "Яндекс",
       "keyword": "yp",
       "favicon_url": "https://yandex.st/morda-logo/i/favicon.ico",
-      "search_url": "https://yandex.ru/search/?clid=2343200&text={searchTerms}&l10n={language}",
+      "search_url": "https://yandex.ru/search/?{yandex:referralID}text={searchTerms}&l10n={language}",
       "suggest_url": "https://suggest.yandex.ru/suggest-ya.cgi?v=4&part={searchTerms}&l10n={language}",
       "post": false,
       "encoding": "UTF-8",
@@ -1982,7 +2005,7 @@
       "name": "Яндекс",
       "keyword": "y",
       "favicon_url": "https://yandex.st/morda-logo/i/favicon.ico",
-      "search_url": "https://yandex.ua/search/?clid=9582&text={searchTerms}&l10n={language}",
+      "search_url": "https://yandex.ua/search/?{yandex:referralID}text={searchTerms}&l10n={language}",
       "suggest_url": "https://api.browser.yandex.ua/suggest/get?part={searchTerms}&l10n={language}",
       "post": false,
       "encoding": "UTF-8",
@@ -1994,7 +2017,7 @@
       "name": "Яндекс",
       "keyword": "y",
       "favicon_url": "https://yandex.st/morda-logo/i/favicon.ico",
-      "search_url": "https://yandex.fr/search/?clid=9582&text={searchTerms}&l10n={language}",
+      "search_url": "https://yandex.fr/search/?{yandex:referralID}text={searchTerms}&l10n={language}",
       "suggest_url": "https://api.browser.yandex.ua/suggest/get?part={searchTerms}&l10n={language}",
       "post": false,
       "encoding": "UTF-8",

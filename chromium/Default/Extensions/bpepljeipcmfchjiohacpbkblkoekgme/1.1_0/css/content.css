@@ -1,0 +1,68 @@
+.yhqlm-taobao-btn {
+  height: 38px;
+	line-height: 38px;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 0px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 134px;
+	background-color: #FFE4D0;
+    border: 1px solid #ff0036;
+    color: #E5511D !important;
+	border-radius: 2px;
+	font-family: "Hiragino Sans GB","microsoft yahei",sans-serif;
+}
+
+.yhqlm-taobao-btn1 {
+  height: 38px;
+	line-height: 38px;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 0px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 180px;
+	background-color: #F40;
+    border: 1px solid #ff0036;
+    color: #fff !important;
+	border-radius: 2px;
+	font-family: "Hiragino Sans GB","microsoft yahei",sans-serif;
+}
+
+
+
+.yhqlm-tianmao-btn {
+  height: 38px;
+	line-height: 38px;
+	text-align: center;
+	font-size: 10px;
+	margin-right: 0;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 178px;
+	background-color: ##ffeded !important;
+    border: 1px solid #ff0036;
+    color: #FF0036 !important;
+	border-radius: 2px;
+}
+
+.yhqlm-tianmao-btn1 {
+  height: 38px;
+	line-height: 38px;
+	text-align: center;
+	font-size: 10px;
+	margin-right: 0;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 178px;
+	background-color: #FF3333 !important;
+    border: 1px solid #ff0036;
+    color: #fff !important;
+	border-radius: 2px;
+}
+

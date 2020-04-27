@@ -1,0 +1,202 @@
+22时52分51秒.850: CPU Name: Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
+22时52分51秒.850: CPU Speed: 908.517MHz
+22时52分51秒.851: Physical Cores: 4, Logical Cores: 8
+22时52分51秒.851: Physical Memory: 7716MB Total, 5119MB Free
+22时52分51秒.851: Kernel Version: Linux 5.4.33-3-MANJARO
+22时52分51秒.851: Distribution: "Manjaro Linux" Unknown
+22时52分51秒.853: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.8
+22时52分51秒.856: Portable mode: false
+22时52分51秒.947: OBS 25.0.4-1 (linux)
+22时52分51秒.947: ---------------------------------
+22时52分51秒.947: ---------------------------------
+22时52分51秒.947: audio settings reset:
+22时52分51秒.947: 	samples per sec: 44100
+22时52分51秒.947: 	speakers:        2
+22时52分51秒.955: ---------------------------------
+22时52分51秒.955: Initializing OpenGL...
+22时52分52秒.041: Loading up OpenGL on adapter Intel Mesa Intel(R) UHD Graphics 620 (WHL GT2)
+22时52分52秒.041: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 20.0.4, shading language 4.60
+22时52分52秒.060: ---------------------------------
+22时52分52秒.060: video settings reset:
+22时52分52秒.060: 	base resolution:   1080x1920
+22时52分52秒.060: 	output resolution: 720x1280
+22时52分52秒.060: 	downscale filter:  Bicubic
+22时52分52秒.060: 	fps:               30/1
+22时52分52秒.060: 	format:            NV12
+22时52分52秒.060: 	YUV mode:          601/Partial
+22时52分52秒.060: NV12 texture support not available
+22时52分52秒.063: Audio monitoring device:
+22时52分52秒.063: 	name: 默认
+22时52分52秒.063: 	id: default
+22时52分52秒.063: ---------------------------------
+22时52分52秒.065: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+22时52分52秒.138: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+22时52分52秒.138: No blackmagic support
+22时52分52秒.162: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: 无法打开共享对象文件: 没有那个文件或目录
+22时52分52秒.162: 
+22时52分52秒.162: FFMPEG VAAPI supported
+22时52分52秒.180: VLC found, VLC video source enabled
+22时52分52秒.180: ---------------------------------
+22时52分52秒.180:   Loaded Modules:
+22时52分52秒.180:     vlc-video.so
+22时52分52秒.180:     text-freetype2.so
+22时52分52秒.180:     rtmp-services.so
+22时52分52秒.180:     obs-x264.so
+22时52分52秒.180:     obs-transitions.so
+22时52分52秒.180:     obs-outputs.so
+22时52分52秒.180:     obs-libfdk.so
+22时52分52秒.180:     obs-filters.so
+22时52分52秒.180:     obs-ffmpeg.so
+22时52分52秒.180:     linux-v4l2.so
+22时52分52秒.180:     linux-pulseaudio.so
+22时52分52秒.180:     linux-jack.so
+22时52分52秒.180:     linux-decklink.so
+22时52分52秒.180:     linux-capture.so
+22时52分52秒.180:     linux-alsa.so
+22时52分52秒.180:     image-source.so
+22时52分52秒.180:     frontend-tools.so
+22时52分52秒.180:     decklink-ouput-ui.so
+22时52分52秒.180: ---------------------------------
+22时52分52秒.180: ==== Startup complete ===============================================
+22时52分52秒.181: Service '' not found
+22时52分52秒.183: All scene data cleared
+22时52分52秒.183: ------------------------------------------------
+22时52分52秒.186: pulse-input: Server name: 'pulseaudio 13.0'
+22时52分52秒.186: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+22时52分52秒.186: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+22时52分52秒.187: pulse-input: Server name: 'pulseaudio 13.0'
+22时52分52秒.188: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+22时52分52秒.188: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+22时52分52秒.188: xshm-input: Geometry 1920x1080 @ 0,0
+22时52分52秒.189: Switched to scene '场景'
+22时52分52秒.189: ------------------------------------------------
+22时52分52秒.189: Loaded scenes:
+22时52分52秒.189: - scene '场景':
+22时52分52秒.189:     - source: '屏幕捕获(XSHM)' (xshm_input)
+22时52分52秒.189: ------------------------------------------------
+22时52分52秒.734: adding 23 milliseconds of audio buffering, total audio buffering is now 23 milliseconds (source: 麦克风/Aux)
+22时52分52秒.734: 
+22时52分52秒.757: adding 23 milliseconds of audio buffering, total audio buffering is now 46 milliseconds (source: 麦克风/Aux)
+22时52分52秒.757: 
+22时52分52秒.780: adding 23 milliseconds of audio buffering, total audio buffering is now 69 milliseconds (source: 麦克风/Aux)
+22时52分52秒.780: 
+22时52分52秒.804: adding 23 milliseconds of audio buffering, total audio buffering is now 92 milliseconds (source: 麦克风/Aux)
+22时52分52秒.804: 
+22时52分52秒.827: adding 23 milliseconds of audio buffering, total audio buffering is now 116 milliseconds (source: 麦克风/Aux)
+22时52分52秒.827: 
+22时52分52秒.851: adding 23 milliseconds of audio buffering, total audio buffering is now 139 milliseconds (source: 麦克风/Aux)
+22时52分52秒.851: 
+22时52分52秒.874: adding 23 milliseconds of audio buffering, total audio buffering is now 162 milliseconds (source: 麦克风/Aux)
+22时52分52秒.874: 
+22时52分52秒.897: adding 23 milliseconds of audio buffering, total audio buffering is now 185 milliseconds (source: 麦克风/Aux)
+22时52分52秒.897: 
+22时52分52秒.920: adding 23 milliseconds of audio buffering, total audio buffering is now 208 milliseconds (source: 麦克风/Aux)
+22时52分52秒.920: 
+22时52分52秒.944: adding 23 milliseconds of audio buffering, total audio buffering is now 232 milliseconds (source: 麦克风/Aux)
+22时52分52秒.944: 
+22时52分52秒.967: adding 23 milliseconds of audio buffering, total audio buffering is now 255 milliseconds (source: 麦克风/Aux)
+22时52分52秒.967: 
+22时52分52秒.990: adding 23 milliseconds of audio buffering, total audio buffering is now 278 milliseconds (source: 麦克风/Aux)
+22时52分52秒.990: 
+22时52分53秒.014: adding 23 milliseconds of audio buffering, total audio buffering is now 301 milliseconds (source: 麦克风/Aux)
+22时52分53秒.014: 
+22时52分53秒.037: adding 23 milliseconds of audio buffering, total audio buffering is now 325 milliseconds (source: 麦克风/Aux)
+22时52分53秒.037: 
+22时52分53秒.060: adding 23 milliseconds of audio buffering, total audio buffering is now 348 milliseconds (source: 麦克风/Aux)
+22时52分53秒.060: 
+22时52分53秒.084: adding 23 milliseconds of audio buffering, total audio buffering is now 371 milliseconds (source: 麦克风/Aux)
+22时52分53秒.084: 
+22时52分53秒.107: adding 23 milliseconds of audio buffering, total audio buffering is now 394 milliseconds (source: 麦克风/Aux)
+22时52分53秒.107: 
+22时52分53秒.130: adding 23 milliseconds of audio buffering, total audio buffering is now 417 milliseconds (source: 麦克风/Aux)
+22时52分53秒.130: 
+22时52分53秒.153: adding 23 milliseconds of audio buffering, total audio buffering is now 441 milliseconds (source: 麦克风/Aux)
+22时52分53秒.153: 
+22时52分53秒.177: adding 23 milliseconds of audio buffering, total audio buffering is now 464 milliseconds (source: 麦克风/Aux)
+22时52分53秒.177: 
+22时52分53秒.200: adding 23 milliseconds of audio buffering, total audio buffering is now 487 milliseconds (source: 麦克风/Aux)
+22时52分53秒.200: 
+22时52分53秒.223: adding 23 milliseconds of audio buffering, total audio buffering is now 510 milliseconds (source: 麦克风/Aux)
+22时52分53秒.223: 
+22时52分53秒.246: adding 23 milliseconds of audio buffering, total audio buffering is now 534 milliseconds (source: 麦克风/Aux)
+22时52分53秒.246: 
+22时52分53秒.270: adding 23 milliseconds of audio buffering, total audio buffering is now 557 milliseconds (source: 麦克风/Aux)
+22时52分53秒.270: 
+22时52分53秒.293: adding 23 milliseconds of audio buffering, total audio buffering is now 580 milliseconds (source: 麦克风/Aux)
+22时52分53秒.293: 
+22时52分53秒.317: adding 23 milliseconds of audio buffering, total audio buffering is now 603 milliseconds (source: 麦克风/Aux)
+22时52分53秒.317: 
+22时52分53秒.340: adding 23 milliseconds of audio buffering, total audio buffering is now 626 milliseconds (source: 麦克风/Aux)
+22时52分53秒.340: 
+22时52分53秒.363: adding 23 milliseconds of audio buffering, total audio buffering is now 650 milliseconds (source: 麦克风/Aux)
+22时52分53秒.363: 
+22时52分53秒.387: adding 23 milliseconds of audio buffering, total audio buffering is now 673 milliseconds (source: 麦克风/Aux)
+22时52分53秒.387: 
+22时52分53秒.410: adding 23 milliseconds of audio buffering, total audio buffering is now 696 milliseconds (source: 麦克风/Aux)
+22时52分53秒.410: 
+22时52分53秒.433: adding 23 milliseconds of audio buffering, total audio buffering is now 719 milliseconds (source: 麦克风/Aux)
+22时52分53秒.433: 
+22时52分53秒.538: Last log entry repeated for 4 more lines
+22时52分53秒.538: ==== Shutting down ==================================================
+22时52分53秒.545: Switched to scene '(null)'
+22时52分53秒.549: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+22时52分53秒.549: pulse-input: Got 0 packets with 0 frames
+22时52分53秒.549: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+22时52分53秒.549: pulse-input: Got 137 packets with 59824 frames
+22时52分53秒.550: All scene data cleared
+22时52分53秒.550: ------------------------------------------------
+22时52分53秒.642: Freeing OBS context data
+22时52分54秒.333: [Scripting] Total detached callbacks: 0
+22时52分54秒.341: == Profiler Results =============================
+22时52分54秒.341: run_program_init: 558.182 ms
+22时52分54秒.341:  ┣OBSApp::AppInit: 5.148 ms
+22时52分54秒.341:  ┃ ┗OBSApp::InitLocale: 3.601 ms
+22时52分54秒.341:  ┗OBSApp::OBSInit: 441.985 ms
+22时52分54秒.341:    ┣obs_startup: 22.826 ms
+22时52分54秒.341:    ┗OBSBasic::OBSInit: 328.476 ms
+22时52分54秒.341:      ┣OBSBasic::InitBasicConfig: 0.384 ms
+22时52分54秒.341:      ┣OBSBasic::ResetAudio: 0.081 ms
+22时52分54秒.341:      ┣OBSBasic::ResetVideo: 115.248 ms
+22时52分54秒.341:      ┣OBSBasic::InitOBSCallbacks: 0.005 ms
+22时52分54秒.341:      ┣OBSBasic::InitHotkeys: 0.037 ms
+22时52分54秒.341:      ┣obs_load_all_modules: 117.426 ms
+22时52分54秒.341:      ┃ ┣obs_init_module(decklink-ouput-ui.so): 0.691 ms
+22时52分54秒.341:      ┃ ┣obs_init_module(frontend-tools.so): 52.038 ms
+22时52分54秒.341:      ┃ ┣obs_init_module(image-source.so): 0.008 ms
+22时52分54秒.341:      ┃ ┣obs_init_module(linux-alsa.so): 0.001 ms
+22时52分54秒.341:      ┃ ┣obs_init_module(linux-capture.so): 0.71 ms
+22时52分54秒.341:      ┃ ┣obs_init_module(linux-decklink.so): 0.19 ms
+22时52分54秒.341:      ┃ ┣obs_init_module(linux-jack.so): 0.001 ms
+22时52分54秒.341:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.001 ms
+22时52分54秒.341:      ┃ ┣obs_init_module(linux-v4l2.so): 0.001 ms
+22时52分54秒.341:      ┃ ┣obs_init_module(obs-ffmpeg.so): 6.407 ms
+22时52分54秒.341:      ┃ ┃ ┗nvenc_check: 6.391 ms
+22时52分54秒.341:      ┃ ┣obs_init_module(obs-filters.so): 0.01 ms
+22时52分54秒.341:      ┃ ┣obs_init_module(obs-libfdk.so): 0 ms
+22时52分54秒.341:      ┃ ┣obs_init_module(obs-outputs.so): 0.001 ms
+22时52分54秒.341:      ┃ ┣obs_init_module(obs-transitions.so): 0.004 ms
+22时52分54秒.341:      ┃ ┣obs_init_module(obs-x264.so): 0.001 ms
+22时52分54秒.341:      ┃ ┣obs_init_module(rtmp-services.so): 0.879 ms
+22时52分54秒.341:      ┃ ┣obs_init_module(text-freetype2.so): 0.025 ms
+22时52分54秒.341:      ┃ ┗obs_init_module(vlc-video.so): 3.333 ms
+22时52分54秒.341:      ┣OBSBasic::ResetOutputs: 0.535 ms
+22时52分54秒.341:      ┣OBSBasic::CreateHotkeys: 0.16 ms
+22时52分54秒.341:      ┣OBSBasic::InitService: 1.437 ms
+22时52分54秒.341:      ┣OBSBasic::InitPrimitives: 0.138 ms
+22时52分54秒.341:      ┗OBSBasic::Load: 8.352 ms
+22时52分54秒.341: obs_hotkey_thread(25 ms): min=0.049 ms, median=0.573 ms, max=6.65 ms, 99th percentile=6.65 ms, 100% below 25 ms
+22时52分54秒.341: audio_thread(Audio): min=0.009 ms, median=0.07 ms, max=0.338 ms, 99th percentile=0.338 ms
+22时52分54秒.341: obs_graphics_thread(33.3333 ms): min=0.055 ms, median=5.817 ms, max=18.136 ms, 99th percentile=18.136 ms, 100% below 33.333 ms
+22时52分54秒.341:  ┣tick_sources: min=0 ms, median=4.3 ms, max=14.597 ms, 99th percentile=14.597 ms
+22时52分54秒.341:  ┣output_frame: min=0.025 ms, median=0.334 ms, max=12.417 ms, 99th percentile=12.417 ms
+22时52分54秒.341:  ┃ ┗gs_context(video->graphics): min=0.025 ms, median=0.333 ms, max=12.417 ms, 99th percentile=12.417 ms
+22时52分54秒.341:  ┃   ┣render_video: min=0.022 ms, median=0.241 ms, max=12.364 ms, 99th percentile=12.364 ms
+22时52分54秒.341:  ┃   ┃ ┗render_main_texture: min=0.017 ms, median=0.234 ms, max=12.359 ms, 99th percentile=12.359 ms
+22时52分54秒.341:  ┃   ┗gs_flush: min=0.001 ms, median=0.055 ms, max=1.508 ms, 99th percentile=1.508 ms
+22时52分54秒.341:  ┗render_displays: min=0.002 ms, median=1.035 ms, max=13.081 ms, 99th percentile=13.081 ms
+22时52分54秒.341: =================================================
+22时52分54秒.341: == Profiler Time Between Calls ==================
+22时52分54秒.341: obs_hotkey_thread(25 ms): min=25.11 ms, median=25.708 ms, max=31.781 ms, 25.3731% within ±2% of 25 ms (0% lower, 74.6269% higher)
+22时52分54秒.341: obs_graphics_thread(33.3333 ms): min=33.068 ms, median=33.335 ms, max=33.532 ms, 100% within ±2% of 33.333 ms (0% lower, 0% higher)
+22时52分54秒.341: =================================================
+22时52分54秒.342: Number of memory leaks: 0

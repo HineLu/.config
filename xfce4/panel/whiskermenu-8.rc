@@ -1,5 +1,5 @@
 favorites=
-recent=deepin.com.qq.office.desktop,xfce4-taskmanager.desktop,qv4l2.desktop,pavucontrol.desktop,chromium.desktop,org.manjaro.pamac.manager.desktop,io.github.Hexchat.desktop
+recent=deepin.com.qq.office.desktop,xterm.desktop,xfce-ui-settings.desktop,nm-connection-editor.desktop,chromium.desktop,xfce4-taskmanager.desktop,qv4l2.desktop,pavucontrol.desktop,org.manjaro.pamac.manager.desktop
 button-icon=/usr/share/icons/whiskermenu-manjaro.svg
 button-single-row=false
 show-button-title=false

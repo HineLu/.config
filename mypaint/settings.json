@@ -321,7 +321,7 @@
     ]
   }, 
   "ui.feedback.last_pos": false, 
-  "colors.current": "#292929", 
+  "colors.current": "#000000", 
   "view.default_zoom": 1.0, 
   "brushmanager.selected_groups": [], 
   "ui.toolbar_items": {
@@ -334,6 +334,10 @@
     "toolbar1_scrap": false, 
     "toolbar1_linemodes": true
   }, 
+  "brush_chooser.default.window_size": [
+    256, 
+    306
+  ], 
   "input.button_mapping": {
     "<Primary>Button1": "ColorPickMode", 
     "<Primary>Button2": "ZoomViewMode", 
@@ -349,6 +353,10 @@
   "ui.dark_theme_variant": true, 
   "misc.context_restores_color": true, 
   "document.autosave_backups": true, 
+  "color_chooser.default.window_size": [
+    282, 
+    316
+  ], 
   "ui.parts": {
     "main_toolbar": true, 
     "menubar": true
@@ -361,7 +369,7 @@
   "workspace.layout": {
     "fullscreen": false, 
     "left_sidebar": {
-      "h": 925, 
+      "h": 348, 
       "w": 8, 
       "groups": [
         {
@@ -373,14 +381,14 @@
     "autohide": true, 
     "maximized": false, 
     "position": {
-      "y": 32, 
-      "h": 1036, 
-      "w": 1898, 
-      "x": 10
+      "y": 196, 
+      "h": 450, 
+      "w": 500, 
+      "x": 1222
     }, 
     "floating": [], 
     "right_sidebar": {
-      "h": 925, 
+      "h": 348, 
       "w": 8, 
       "groups": [
         {
@@ -391,14 +399,15 @@
     }
   }, 
   "colors.history": [
-    "#ee3333", 
-    "#336699", 
-    "#44aa66", 
-    "#aa6633", 
-    "#292929"
+    "#00ffff", 
+    "#5e5e5e", 
+    "#d8d7c9", 
+    "#d9d8ca", 
+    "#000000"
   ], 
   "saving.scrap_prefix": "~/MyPaint/scrap", 
   "ui.hide_menubar_in_fullscreen": true, 
+  "brush_chooser.default.selected_group": "classic", 
   "input.global_pressure_mapping": [
     [
       0.0, 
@@ -413,12 +422,14 @@
   "brushmanager.selected_brush": "classic/kabura", 
   "ui.support_smooth_scrolling": true, 
   "input.devices": {
-    "HUION Huion Tablet Pen Pen (0):pen:3": {}, 
-    "HUION Huion Tablet Pad:tablet-pad:7": {}, 
-    "MSFT0004:01 06CB:7F90 Mouse:mouse:4": {}, 
     "Virtual core XTEST pointer:mouse:2": {}, 
-    "MSFT0004:01 06CB:7F90 Touchpad:mouse:5": {}
+    "MSFT0004:01 06CB:7F90 Mouse:mouse:4": {}, 
+    "MSFT0004:01 06CB:7F90 Touchpad:mouse:5": {}, 
+    "Virtual core pointer:mouse:5": {}, 
+    "HUION Huion Tablet Pen Pen (0):pen:3": {}, 
+    "HUION Huion Tablet Pad:tablet-pad:7": {}
   }, 
+  "color_chooser.default.selected_adjuster": "PaletteTool", 
   "view.real_alpha_checks": true, 
   "document.autosave_interval": 10, 
   "scratchpad.last_opened_scratchpad": "/home/hine/.local/share/mypaint/scratchpads/autosave.ora", 

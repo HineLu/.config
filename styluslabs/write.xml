@@ -2,7 +2,7 @@
 <map>
   <int name="mouseMode" value="0" />
   <int name="penType" value="11" />
-  <int name="strokeCounter" value="49" />
+  <int name="strokeCounter" value="950" />
   <int name="touchUI" value="1" />
   <float name="marginLeft" value="100" />
   <float name="pageHeight" value="1690" />
@@ -10,14 +10,14 @@
   <float name="preScale" value="1.12" />
   <string name="backupFilename" value="" />
   <string name="clippingDoc" value="" />
-  <string name="currFolder" value="/home/hine/文档" />
+  <string name="currFolder" value="/home/hine/文档/Homework/AdvancedMath" />
   <string name="docTags" value="" />
   <string name="docTitle" value="" />
   <string name="fileExt" value="html" />
   <string name="lastURL" value="" />
-  <string name="mainWindowGeometry" value="AdnQywADAAAAAAKFAAAACgAABPoAAAQXAAAAAAAAAAAAAALvAAABHAAAAAACAAAAB4AAAAKGAAAACwAABPkAAAQW" />
-  <string name="mainWindowState" value="AAAA/wAAAAD9AAAAAQAAAAAAAAEAAAAD3PwCAAAAAvsAAAAYAGIAbwBvAGsAbQBhAHIAawBEAG8AYwBrAQAAADAAAAPcAAAAUgD////7AAAAGABjAGwAaQBwAHAAaQBuAGcARABvAGMAawAAAAAA/////wAAAFcA////AAABZwAAA9wAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABAAdABvAG8AbABCAGEAcgAwAQAAAAD/////AAAAAAAAAAA=" />
-  <string name="recentDocs" value="/home/hine/文档/3月 06 7.43下午.html" />
+  <string name="mainWindowGeometry" value="AdnQywADAAAAAAAKAAAAIAAAB3UAAAIhAAAAAAAAABQAAALvAAABMAAAAAACAAAAB4AAAAALAAAAIQAAB3QAAAIg" />
+  <string name="mainWindowState" value="AAAA/wAAAAD9AAAAAQAAAAAAAAEAAAAB0PwCAAAAAvsAAAAYAGIAbwBvAGsAbQBhAHIAawBEAG8AYwBrAQAAADAAAAHQAAAAUgD////7AAAAGABjAGwAaQBwAHAAaQBuAGcARABvAGMAawAAAAAA/////wAAAFcA////AAAGXAAAAdAAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABAAdABvAG8AbABCAGEAcgAwAQAAAAD/////AAAAAAAAAAA=" />
+  <string name="recentDocs" value="/home/hine/文档/Homework/AdvancedMath/4_13.html:::/home/hine/文档/3月 06 7.43下午.html" />
   <string name="syncPass" value="" />
   <string name="syncServer" value="" />
   <string name="syncUser" value="" />

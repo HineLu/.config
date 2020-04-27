@@ -1,0 +1,29 @@
+{
+  "inbounds" : [
+    {
+      "listen" : "127.0.0.1",
+      "port" : 1099,
+      "protocol" : "http",
+      "tag" : "qq",
+      "settings" : {
+        "timeout" : 0
+      }
+    }
+  ],
+  "outbounds" : [
+    {
+            "protocol" : "freedom",
+            "tag" : "direct"
+    }
+  ],
+  "routing" : {
+    "domainStrategy" : "AsIs",
+    "rules" : [
+      {
+        "type" : "field",
+        "inboundTag" : "qq",
+        "outboundTag" : "direct"
+      }
+    ]
+  }
+}

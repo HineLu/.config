@@ -1,0 +1,10 @@
+[Default Values]
+X-pos=10
+Y-pos=33
+Decorations=1
+Expand=0
+tz=/etc/localtime
+
+[本地时间]
+name=本地时间
+tz=/etc/localtime

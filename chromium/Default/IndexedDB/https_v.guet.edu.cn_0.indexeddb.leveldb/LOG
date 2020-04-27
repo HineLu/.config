@@ -1,3 +1,5 @@
-2020/03/14-18:37:41.869 248a Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_v.guet.edu.cn_0.indexeddb.leveldb/MANIFEST-000001
-2020/03/14-18:37:41.870 248a Recovering log #14
-2020/03/14-18:37:41.873 248a Reusing old log /home/hine/.config/chromium/Default/IndexedDB/https_v.guet.edu.cn_0.indexeddb.leveldb/000014.log 
+2020/04/23-20:35:27.707 14d6b Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_v.guet.edu.cn_0.indexeddb.leveldb/MANIFEST-000001
+2020/04/23-21:00:08.141 13e8d Level-0 table #5: started
+2020/04/23-21:00:08.144 13e8d Level-0 table #5: 13329 bytes OK
+2020/04/23-21:00:08.145 13e8d Delete type=0 #3
+2020/04/23-21:00:08.146 13e8d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

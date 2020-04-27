@@ -3,6 +3,11 @@
 # This file holds a list of recently used colors.
 
 (color-history
-    (color-rgba 0 0 0 1))
+    (color-rgba 1 1 1 4.6398315375039353e-310)
+    (color-rgba 0.53801858425140381 0.56698298454284668 0.59562057256698608 1)
+    (color-rgba 0.67024374008178711 0.70019471645355225 0.72996878623962402 1)
+    (color-rgba 0.89411764705882357 0.92549019607843142 0.95686274509803926 1)
+    (color-rgba 0 0 0 1)
+    (color-rgba 1 1 1 1))
 
 # end of colorrc

@@ -1,0 +1,11 @@
+{
+   "description": {
+      "message": "Sends error reports in the beta version of Yandex Browser"
+   },
+   "name": {
+      "message": "Browser feedback (beta)"
+   },
+   "tooltip": {
+      "message": "Bug report"
+   }
+}

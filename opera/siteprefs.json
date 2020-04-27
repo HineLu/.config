@@ -1,326 +1,3986 @@
-// NjNIsfeHp7888BPhpeIzps0nFqUjuoSa08Vjk65esAN8PIizOyrgfoAsLi94N1oBkt8aHjjaLrxtIP96ZcP5INNAfC3ulTqQU5FsjD3bOSaOxM0azoJCxQB14zI3mdeOCZhCjnGFNEt6sjEaLjm0SO1mFjjO+n8Kx8SKlVu/A9Rs/m5RNlcE5BJ/4hezaXsE6j3YE8rTyjzyqNBF2axuAi/MPr76wAuHtGEjOjRT5cL5mkI30BO1VgyQrzSKuBZ7UxSla2Stx3jDjPWceTECZsNpxrnXaAMRBJC9rfg/ibyNR424NjwM/FWZCFwrofg+JUdSxVpt9X5NR8Thnl8Emw==
+// bfJLQFYol5DSm9eZYO0Q7FRKZn6BDJGMtr9AHgFK0zsFY88jjHmIP7hlhkhfB2j5Q6EvHxQxVEwy/WDnebO2+FLDmBmTVt9zSWwllFrcHHvMCNjlW28Dj7MUaUHbfedxiKAdt+y9oF2xOfMUN+7HKWPsYlv7ZXrHzfcv+IIyOG77r8urP7F+fhX/psUs9iMG9tAWvyhz4AA/nrU/CCfy6gAurFLuNO/is5nr03SdcFF/Pmz8r/OpnjpTA/hRQuqXCxtpn/+Ps9trrjanvqI/h9jjhzAdvOghNKmZ9Y5VRtRH/OzbY41Lg17bsCjYS3uOTxShOYiWn/f2uC6QlHBwzw==
 {
-  "@encoding": "UTF-8",
-  "@version": "1.0",
-  "preferences": {
-    "config": {
-      "useragent": [
-        {
-          "@value": "Mozilla/5.0 ($PLATFORM) AppleWebKit/537.36 (KHTML, like Gecko) $CHR Safari/537.36",
-          "@id": "35"
+   "@encoding": "UTF-8",
+   "@version": "1.0",
+   "preferences": {
+      "config": {
+         "useragent": [
+            {
+               "@value": "Mozilla/5.0 ($PLATFORM) AppleWebKit/537.36 (KHTML, like Gecko) $CHR Safari/537.36",
+               "@id": "35"
+            },
+            {
+               "@value": "Mozilla/5.0 ($PLATFORM) AppleWebKit/537.36 (KHTML, like Gecko) $CHR Safari/537.36 $OPR",
+               "@id": "36"
+            },
+            {
+               "@value": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0",
+               "@id": "37"
+            }
+         ]
+      },
+      "@clean_all": "1",
+      "host": [
+         {
+            "@name": "adp.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+        "@name": "youtubekids.com",
+        "section": {
+          "@name": "User Agent",
+          "pref": {
+            "@value": "37",
+            "@name": "Spoof UserAgent ID"
+           }
+         }
         },
         {
-          "@value": "Mozilla/5.0 ($PLATFORM) AppleWebKit/537.36 (KHTML, like Gecko) $CHR Safari/537.36 $OPR",
-          "@id": "36"
-        },
-        {
-          "@value": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0",
-          "@id": "37"
-        }
+            "@name": "alfabank.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "36",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "111.nhs.uk",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "bancopan.com.br",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "eu.yourcircuit.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "app.snapdocs.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "axn.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "support.goto.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "pay.google.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "1tv.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "77.rospotrebnadzor.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "abc3340.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "aeres-evaluation.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "aiuniv.edu",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "alabama.gov",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "alabamanews.net",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "alapark.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "alaska.gov",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "alea.gov",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "aliorbank.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "alipay.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "alsde.edu",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "amazon.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "ambafrance-au.org",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "ambafrance-uk.org",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "ambafrance-us.org",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "ambinde.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "ameli.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "americanexpress.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "ameritrade.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "angus.gov.uk",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "annistonstar.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "anpost.ie",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "ants.gouv.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "ardmediathek.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "ariane.group",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "asc.edu",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "asdk12.org",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "assemblee-nationale.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "ato.gov.au",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "atrium-sud.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "atttvnow.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "auswaertiges-amt.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "baden-baden.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "bancodevenezuela.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "bancosantander.es",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "bank.barclays.co.uk",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "bankmillennium.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "bankofamerica.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "bankofscotland.co.uk",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "banquepopulaire.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "barclays.co.uk",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "bayern.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "bbbank.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "bbc.co.uk/iplayer",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "bbva.es",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "berlin.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "bialystok.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "bmas.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "boe.es",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "brent.gov.uk",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "briz.ua",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "bund.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "bundesgesundheitsministerium.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "bundeskanzlerin.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "bundesregierung.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "bundestag.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "business.google.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "cablevision.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "caisse-epargne.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "caixabank.es",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "canada.ca",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "canalplus.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "capitalone.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "carlalbert.edu",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "cbs.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "cc.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "cda.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "cdc.gov",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "cga.ct.gov",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "channel4.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "chase.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "citi.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "citibankonline.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "citizensinformation.ie",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "classdojo.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "cnn.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "codecademy.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "collegeboard.org",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "colorado.gov",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "comdirect.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "consulat.grece.isere.free.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "consulfrance-vancouver.org",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "consulfrance-washington.org",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "consultant.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "coronavirus.gov",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "coursera.org",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "covid19.com.ua",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "cra-arc.gc.ca",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "crave.ca",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "credit-agricole.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "creditkarma.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "creditmutuel.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "dailymotion.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "daserste.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "data.gov.uk",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "defense.gouv.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "delo-press.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "deutschepost.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "dfa.ie",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "diplomatie.gouv.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "disneyplus.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "dogovor-urist.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "dom2.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "dom2best.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "dresden.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "ealing.gov.uk",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "eastmoney.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "easypay.ua",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "ecoledirecte.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "ed.gov",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "edu.google.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "eg-online.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "elysee.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "erfurt.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "eu.yourcircuit.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "europa.eu",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "famemma.tv",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "fidelity.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "film.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "filmaffinity.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "finviz.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "fivethirtyeight.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "flvs.net",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "fox10tv.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "foxbusiness.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "franceconnect.gouv.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "frankfurt.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "fssprus.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "garda.ie",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "gdansk.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "geekbrains.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "gencat.cat",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "generalassemb.ly",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "getinbank.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "giantbomb.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "gioc.kiev.ua",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "gkh.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "globalone.ey.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "gosuslugi.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "gouvernement.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "gov-murman.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "gov-zakupki.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "gov.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "gov.uk",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "grenoble-em.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "gu.nnov.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "hamburg.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "hangouts.google.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "hbogo.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "hbonow.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "hcbe.net",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "history.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "histrf.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "hmrc.gov.uk",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "hoopladigital.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "hulu.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "i.ua",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "icloud.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "imdb.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "impots.gouv.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "index-education.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "infektionsschutz.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "info.paymaster.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "ing.com.au",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "interieur.gouv.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "internet-law.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "interneturok.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "intuit.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "investing.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "investopedia.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "ipko.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "iqoption.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "irs.gov",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "isbank.com.tr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "itv.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "ivi.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "joyn.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "juresovet.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "kassel.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "khanacademy.org",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "kino-teatr.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "kinogo.by",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "kinopoisk.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "kinox.cx",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "kinox.top",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "klasnaocinka.com.ua",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "koeln.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "kprm.gov.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "krakow.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "krskstate.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "labanquepostale.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "laposte.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "lasvegasadvisor.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "lecturio.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "lee.k12.al.us",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "legalacts.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "lernsax.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "liveam.tv",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "lodz.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "logos-pravo.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "lubin.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "lublin.eu",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "lumni.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "maam.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "magdeburg.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "marketwatch.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "mastercard.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "mbank.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "mcpss.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "meet.google.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "megogo.net",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "middlesex.ca",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "migrantmedia.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "minfin.com.ua",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "minjust.gov.ua",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "minpromtorg.gov.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "mkrf.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "mon.gov.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "monday.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "money.cnn.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "moneycontrol.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "moneyforward.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "montgomeryadvertiser.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "moodle.org",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "mos.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "mosreg.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "movie.douban.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "movie4kstream.online",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "movistar.es",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "moz.gov.ua",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "mubi.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "muenchen.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "myskills.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "mz.mosreg.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "nalog.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "national-lottery.co.uk",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "naumburg.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "ncplusgo.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "netzkino.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "nhs.uk",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "nicovideo.jp",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "nsw.gov.au",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "ny.gov",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "nytimes.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "ocs.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "onemonth.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "onlime.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "online.eurobank.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "onlinesbi.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "ontario.ca",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "ontvtime.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "oschadbank.ua",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "pay.usbank.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "paypal.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "payu.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "pcbc.gov.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "pcbl.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "pedsovet.su",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "pekao.com.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "penzberg.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "pfrf.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "photos.google.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "pip.gov.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "pkobp.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "planningni.gov.uk",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "play.google.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "pnc.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "politeka.net",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "portal.librus.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "postupi.online",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "praca.gov.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "pravda.com.ua",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "pravo.gov.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "pravo.guru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "pravo.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "pravorub.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "pravovedus.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "rabota.ua",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "razviwaika.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "rbc.ua",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "rbcroyalbank.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "rbinternational.com.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "read.amazon.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "realeyz.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "regberry.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "ren.tv",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "resh.edu.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "revenue.ie",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "rkomi.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "rosdolgi.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "rostock.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "royalbank.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "rserial.su",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "rtve.es",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "rulaws.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "santander.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "sberbank.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "scottishspca.org",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "seasonvar.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "seg-social.es",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "sejm.gov.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "sellercentral.amazon.co.uk",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "sellercentral.amazon.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "sellercentral.amazon.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "service-public.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "showmax.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "sites.google.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "skatteetaten.no",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "skillshare.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "sky.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "sky.es",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "skype.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "skyticket.sky.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "slack.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "sling.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "societegenerale.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "sos.ca.gov",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "southampton.gov.uk",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "spk-suedholstein.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "splcenter.org",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "spotify.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "ssa.gov",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "stadt-kaisersesch.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "stan.com.au",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "state.gov",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "strana.ua",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "streamkiste.cx",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "study.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "subscene.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "tavriav.ua",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "teams.microsoft.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "teamtreehouse.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "telecinco.es",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "theatlantic.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "theguardian.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "thoughtco.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "timesdaily.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "tks.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "tradingview.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "tv.apple.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "tv.youtube.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "tvoemisto.tv",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "twitch.tv",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "uchi.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "udemy.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "uktvplay.uktv.co.uk",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "um.warszawa.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "unice.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "usatoday.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "usbank.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "uspto.gov",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "veleto.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "vesti.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "vie-publique.fr",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "vimeo.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "viu.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "vologda-oblast.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "vulcan.edu.pl",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "waaytv.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "waff.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "washingtonpost.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "wbhm.org",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "wbrc.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "weartv.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "weilheim.de",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "wellsfargo.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "weschool.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "whnt.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "wkrg.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "workforcewv.org",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "woserial.net",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "wsfa.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "wvtax.gov",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "wvtm13.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "xfinity.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "yahoo.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "yaklass.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "yukselish.az",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "zachestnyibiznes.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "zakonbase.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "zakonrf.info",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "zakupki.gov.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "zonazakona.ru",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         },
+         {
+            "@name": "primevideo.com",
+            "section": {
+               "@name": "User Agent",
+               "pref": {
+                  "@value": "35",
+                  "@name": "Spoof UserAgent ID"
+               }
+            }
+         }
       ]
-    },
-    "@clean_all": "1",
-    "host": [
-      {
-        "@name": "skype.com",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "monday.com",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "tv.youtube.com",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "twitch.tv",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "play.google.com",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "itv.com",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "ariane.group",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "ncplusgo.pl",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "icloud.com",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "hangouts.google.com",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "alfabank.ru",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "36",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "meet.google.com",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "giantbomb.com",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "slack.com",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "paypal.com",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "bank.barclays.co.uk",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "ing.com.au",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "read.amazon.com",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "sites.google.com",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "ivi.ru",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "online.eurobank.pl",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "sellercentral.amazon.com",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "teams.microsoft.com",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "globalone.ey.com",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "national-lottery.co.uk",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "business.google.com",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "pay.google.com",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "yukselish.az",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "pay.usbank.com",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      },
-      {
-        "@name": "isbank.com.tr",
-        "section": {
-          "@name": "User Agent",
-          "pref": {
-            "@value": "35",
-            "@name": "Spoof UserAgent ID"
-          }
-        }
-      }
-    ]
-  }
+   }
 }

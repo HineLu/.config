@@ -1,0 +1,31 @@
+{
+   "background": {
+      "scripts": [ "js/jquery.min.js", "js/background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "daohang.css", "css/nav.css" ],
+      "js": [ "js/jquery.min.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "js/js.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' https://hm.baidu.com; object-src 'self'",
+   "description": "支持爱奇艺，优酷，腾讯视频，芒果TV的一键VIP影片观看，交流QQ群：453482134",
+   "homepage_url": "http://tb.jad6.com",
+   "icons": {
+      "128": "icon_128x128.png",
+      "16": "icon_48x48.png",
+      "48": "icon_48x48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuwoEnRuWx9es3ECeH2KIWhSjHCqmH9exNDK3eohHy+KGMJHbkBRUiVEZtBC6KpxkRC0Gad/Rh9xmLs+PJFHDArVgewpDk2Qd6qgWJ6mNzGlPkAhJdn8tS4M6rcH1WspHxWtn/bSvQLiNpF6hoEIV84w3fbTawmfTvwXD+elosEXsNSSNgGeY+Hj/tgZvF/Hdv1YcHvpaG4YH1XqnOv7P6dsaHFc5zHstfYfcaMlfsNd4+eqCFIAeQv/T+/RLD+NmGOzIJOekJ0ttxt7IuWsqd1cwM2pudUOSmpMa61lxnZBdla8EgWDnOOZ4Ns4GXBwjn9BdcOui9ReCTXty2C1r4QIDAQAB",
+   "manifest_version": 2,
+   "name": "免费看VIP视频",
+   "permissions": [ "*://*/*", "webRequest", "webRequestBlocking" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}
