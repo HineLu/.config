@@ -1,0 +1,29 @@
+{
+ "baidu_active_uid": 752501887,
+ "baidu_user_list": [
+  {
+   "uid": 752501887,
+   "name": "1337735344LHY",
+   "sex": "♂",
+   "age": 7.5,
+   "bduss": "VVvdnR5Z2dTNzJwdDRoSnpneFF0QTIyeDY1UklTaXo2ODU5S1ZTZ0dyYlZQczVlSUFBQUFBJCQAAAAAAAAAAAEAAAB~RNosMTMzNzczNTM0NExIWQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANWxpl7VsaZeW",
+   "ptoken": "0d4e9bd147643330c77092b74d33431a",
+   "stoken": "96bed70251d4bfb636f85707da57df45402b33e22d6c562e1059da9a4156d8db",
+   "workdir": "/你的名字HD1280高清日语中字"
+  }
+ ],
+ "appid": 309847,
+ "cache_size": 65536,
+ "max_parallel": 8,
+ "max_upload_parallel": 8,
+ "max_download_load": 1,
+ "max_download_rate": 0,
+ "max_upload_rate": 0,
+ "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36",
+ "pcs_ua": "",
+ "pan_ua": "netdisk;2.2.51.6;netdisk;10.0.63;PC;android-android",
+ "savedir": "/home/hine/Downloads",
+ "enable_https": true,
+ "proxy": "",
+ "local_addrs": ""
+}

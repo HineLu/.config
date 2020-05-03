@@ -369,7 +369,7 @@
   "workspace.layout": {
     "fullscreen": false, 
     "left_sidebar": {
-      "h": 348, 
+      "h": 933, 
       "w": 8, 
       "groups": [
         {
@@ -381,14 +381,14 @@
     "autohide": true, 
     "maximized": false, 
     "position": {
-      "y": 196, 
-      "h": 450, 
-      "w": 500, 
-      "x": 1222
+      "y": 33, 
+      "h": 1035, 
+      "w": 367, 
+      "x": 1541
     }, 
     "floating": [], 
     "right_sidebar": {
-      "h": 348, 
+      "h": 933, 
       "w": 8, 
       "groups": [
         {
@@ -399,10 +399,10 @@
     }
   }, 
   "colors.history": [
-    "#00ffff", 
     "#5e5e5e", 
     "#d8d7c9", 
     "#d9d8ca", 
+    "#2eb398", 
     "#000000"
   ], 
   "saving.scrap_prefix": "~/MyPaint/scrap", 

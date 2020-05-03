@@ -58,6 +58,7 @@
       </property>
       <property name="show-frame" type="bool" value="false"/>
       <property name="names-ordered" type="array">
+        <value type="string" value="便笺"/>
         <value type="string" value="free download manager"/>
         <value type="string" value="variety"/>
         <value type="string" value="任务管理器"/>

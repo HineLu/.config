@@ -29966,3 +29966,786 @@ ca792065b2d22d85b96b3ac204995840|file:///home/hine/.config/polybar/config|91|1|V
 	label-disconnected-font = 2
 a4903fe538d2ffbed630e7b9b230a40e|file:///home/hine/.config/polybar/config|242|1|V|dosini
 	label-disconnected-font = 0
+e5f0e37ef0ef96d30d38dcc2559fa346|file:///home/hine/.config/polybar/config|239|1|V|dosini
+	upspeed-minwidth = 1
+1e35a24723cc615d4aed0c93268c1c6f|file:///home/hine/.config/polybar/config|239|1|V|dosini
+	upspeed-minwidth = 6
+6c1377d8aaf4ae40d2812d0ae6da5ede|file:///home/hine/.config/polybar/config|238|19|v|dosini
+	 %downspeed:9%
+2a07f08c684c8ed796100a1136c968b2|file:///home/hine/.config/polybar/config|239|1|V|dosini
+	label-connected-alt =  %downspeed:9%
+8bc623b537ceb7f9c35d4aa20de1079c|file:///home/hine/.config/polybar/config|236|22|v|dosini
+	#4bf
+a0e7a2bb48a6d959c5b43d39d63e4b76|file:///home/hine/.config/polybar/config|236|22|v|dosini
+	#4bff
+06911c13f06d4f0f576524a7854f9e83|file:///home/hine/.config/polybar/config|236|22|v|dosini
+	#4bffd
+667a16213c4ded238408fd92393c77ea|file:///home/hine/.config/polybar/config|236|22|v|dosini
+	#4bffdc
+59a84edca8f8bf3eafd00dcfb6d82499|file:///home/hine/.config/polybar/config|272|1|V|dosini
+	format-underline = #4bffdc
+83433fb1c0de89ed2aafaf1e319c63a8|file:///home/hine/.config/polybar/config|236|29|v|dosini
+	4bffdc
+216145c77a4e6702f71ae065c66edf63|file:///home/hine/.config/polybar/config|236|36|v|dosini
+	#04E474
+2f505b977896fc41877a3b4b2a0c0096|file:///home/hine/.config/polybar/config|236|36|v|dosini
+	#2CF404
+9dfa9b4d91d1f17a576407be9451620e|file:///home/hine/.config/polybar/config|236|36|v|dosini
+	#73B66B
+6f8d59861ce7e8fed8290b98222406a1|file:///home/hine/.config/polybar/config|242|1|V|dosini
+	label-connected =  %downspeed:9%   %upspeed:9%
+d8ee4b24eb09f5a978d2c814818ae009|file:///home/hine/.config/polybar/config|65|28|v|dosini
+	wireless-network 
+08a3df6ebd9279ce1e9c0a26a8906cc0|file:///home/hine/.config/polybar/config|65|1|V|dosini
+	modules-right = pulseaudio cpu temperature battery date padding 
+5f62483a188d1c0fef6b7be151751e10|file:///home/hine/.config/polybar/config|63|24|v|dosini
+	wireless
+56eb5c429be51e6f954a1a764769816c|file:///home/hine/Workspace/test/c.c|2|1|V|c
+	#include <stdlib.h>
+	#define MAXNUM 40
+	void inputScore(float score[], int N);
+	float avgScore(float score[], int N);
+	int main()
+	{
+		float score[MAXNUM],avg;
+		int N;
+		scanf("%d", &N);
+		if (N < 2|| N>40)
+		{
+			printf("输入错误");
+			return 0;
+		}
+		inputScore(score,N);
+		avg=avgScore(score,N);
+		printf("平均成绩为%.2f",avg);
+		return 0;
+	}
+	void inputScore(float score[],int N)
+	{
+		int i;
+		for(i=0;i<N;i++)
+		{
+			float s;
+			scanf("%d",&s);
+			if (s>=0&&s<=100)
+			{
+				score[i]=s;
+			}
+			else
+			{
+				printf("请重新输入\n");
+				i=i-1;
+			}
+	
+		}
+	}
+	float avgScore(float score[], int N)
+	{
+		float sum,avg;
+		sum=0;
+		int i;
+		for(i=0;i<N;i++)
+		{
+			sum=sum+score[i];
+		}
+		avg=sum/(N*1.0);
+		return avg;
+	}
+e98f5b57e6ab6f41559bf416d2359c6d|file:///home/hine/Workspace/test/c.c|1|1|V|c
+	{rxdcdrr}
+087779760ae25d6bfa71d407e5253c0a|file:///home/hine/Workspace/StudyNotes/English/3.md|1|1|V|markdown
+	### **7**  
+	criticism  blame  
+	thesis statement 论文观点  
+	proficiency 精通  
+	have little knowledge of 
+	fail to 可考虑代替do not  
+	Schools fail to adequately teach the essential framework of language, accurate grammar and proper vocabulary while they should take the responsibility oof pushing the yuong onto the path of competent communication.  
+	学校本应该教会学生足够的交流技能, 然而他们连基本的语法框架、准确的语法和合适的词汇都没充足地教好  
+	### 8  
+	I think it must be handled delicately, step by step.  
+	it 指 gramma  
+	delicately小心谨慎的, 精致的  
+	### 10  
+	out of curiousity出于好奇  
+	span 跨度  
+	### 11  
+	tune up 调整  
+	### 12  
+	enable 代替can make  
+	equipped with 具备  
+cbed24d9fd7757e6654289c7a3d456b3|file:///home/hine/Workspace/test/c.c|6|5|V|c
+	    printf("%d ",a[1][i]);
+fb7b8d99abca15051019367961f86bd8|file:///home/hine/Workspace/test/c.c|5|1|V|c
+	    for(int i=0;i<10;i++)
+c451f3e16fdf64596dd5b19e3e07cd76|file:///home/hine/Workspace/test/c.c|4|3|V|c
+	    int a[10][10] = {1,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,};
+3c959d65bd1a18691b73561314ea8b79|file:///home/hine/Workspace/test/c.c|5|5|V|c
+	    int * p = &i;
+18382903a221efd8b9fa2e7928cf11a9|file:///home/hine/Workspace/test/c.c|4|5|V|c
+	    int i = 5;
+7099b2c215af1525da7cc026a47aa002|file:///home/hine/Workspace/test/c.c|4|5|V|c
+	    printf("%d %p",*p,p);
+ba5a565d14afe8c36b80b3dce1f1db3e|file:///home/hine/Workspace/test/c.c|5|5|V|c
+	    int * p =(int *)(&a+1);
+c63bd32816f911010faf2b477c8a95ca|file:///home/hine/Workspace/test/c.c|4|5|V|c
+	    int a[2][2]={10,12,13,21};
+c9d6c30e053131fb0de9789846b21bfa|file:///home/hine/Workspace/test/c.c|4|5|V|c
+	    printf("%p %p",a,a[0]);
+ba70ac2a6edf058a885dbdd69b5e9e4c|file:///home/hine/Workspace/test/c.c|5|5|V|c
+	    printf("%d",**triangle);
+150346b30060e84e9776c713f05f4602|file:///home/hine/Workspace/test/c.c|7|1|V|c
+	    for(i=1;i<M;i++)
+	    {
+	        triangle[i][0]=1;
+	        for(j=1;j<=i;j++)
+061353d9b9a4e6c75c0c41ceaa01f865|file:///home/hine/Workspace/test/c.c|17|5|V|c
+	        triangle[i][0]=1;
+67d9a4bef4d443483427344fa59b0d07|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|9|32|V|c
+	    for(i=0;numStr[i]!='\0';i++)
+	    {
+	
+	    }
+0bf8bdfa39ff0910560675f3da2ea2d1|file:///home/hine/Workspace/StudyNotes/AdvancedMath/20AppOfCurveAndSurfaceIntegral.md|1|10|v|markdown
+	$\oint_{L}{(x^2+
+4f3067c67e6d830b6224bb083f1ba45e|file:///home/hine/Workspace/StudyNotes/AdvancedMath/20AppOfCurveAndSurfaceIntegral.md|3|2|v|markdown
+	\oint_{L}{x^2ds}=
+b482f51623f4b6c814ddb0f2185e88b5|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|7|5|V|c
+	    for(i;;)
+c97a0065341205e282715e070ed3b2f1|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|10|4|V|c
+	    for(i=0;numStr[i]!='\0';i++)
+0b4f08d244ed2b9768b77114e3b695de|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|16|13|v|c
+	numStr
+9229e584cd0154972948dac9ecddb6e2|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|13|28|v|c
+	pendingStr
+32ff3c06809abe418e9fac0098d2d84d|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|23|13|V|c
+	            dd
+819b783ed49958c8e27f351acfa4b3fd|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|11|1|V|c
+	        printf("%d ",separated[i]);
+9471ed19416b8099e51855cb0ef61ae3|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|24|26|v|c
+	separated
+1a79973dc4f4365f1b59703ec7090d46|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|24|13|V|c
+	            printf("%d ",adopter[count]);
+73c2427e5dfc8d765b90f8d82ed2276d|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|29|26|v|c
+	adopter
+e2942a04780e223b215eb8b663cf5353|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|29|26|v|c
+	count
+ebf3e49d19daffbb33056ec57dafd794|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|29|13|V|c
+	            printf("%d ",numReading);
+5a74d457159e96888e1e506fa1826a87|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|32|26|v|c
+	numReading
+568fd2705758185fc73326a3bda4862c|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|32|13|V|c
+	            printf("%d ",numTmp);
+3814d01998ce2a4597bb1fc87a7ca1d9|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|30|26|v|c
+	numTmp
+6ca1feef031b21e3c593c3731291c0bd|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|20|9|V|c
+	        printf("%d ",numReading);
+9334a3d0cc904dcc5b4a70463a49a976|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|20|9|V|c
+	        for(dd)
+3554baa939e41dc4e93cfef8848c7202|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|26|9|V|c
+	        else
+715424962a9332b9cfaa464d1b50056a|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|26|9|V|c
+	        {
+4e1ddba1c31545ee09fb38ae1fd79346|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|28|9|V|c
+	        }
+d0c2c5adc3f81b0855d2679d37bea304|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|22|11|V|c
+	            adopter[count]=adopter[count];
+e9a046045fb1b44aed2c5ace0ea75985|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|26|13|V|c
+	            break;
+e0901577d29a08d036f83343257a15e5|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|20|9|V|c
+	        printf("\n%d\n",count);
+8d5641df3b21b6635e24a84a26c58feb|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|29|9|V|c
+	        printf("%d ",adopter[count]);
+731dc363c13c908cca8fffba964a0c4d|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|28|9|V|c
+	        printf("%d d %d\n",count,adopter[count],numReading);
+9ac60415e88979b263144830e14bde5d|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|10|23|V|c
+	    for(int i=0;separated[i]!=0;i++)
+	        printf("%d ",separated[i]);
+ec111b98dc74d4907422c274d079977c|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|28|9|V|c
+	        printf("adopter[%d]=%d %d\n",count,adopter[count],numReading);
+c57594b33ad4d32c28230630cd3c3561|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|23|13|V|c
+	            adopter[count]=0;
+1f555ed2d5e0a2e6d2a599529f25521e|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|28|9|V|c
+	        printf("adopter[0]=%d %d\n",adopter[0],numReading);
+7538e1042b0014f2384166f0c049aedd|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|10|5|V|c
+	    for(int i=0;i<80;i++)
+1f982d988d45344bf00cd08220780a1e|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|9|5|v|c
+	segments
+edd50533b4ee17e526750b218a6e1bff|file:///home/hine/Workspace/QZone/send.py|10|1|V|python
+	syn_tweet_verson: 1
+cff0e2a53d5aec928a8a9324401a208e|file:///home/hine/Workspace/QZone/send.py|10|1|^v|python
+	s
+	p
+	p
+a151db5ea1a1d095af7a765516ee2f3f|file:///home/hine/Workspace/QZone/send.py|10|1|^v|python
+	s
+	p
+	p
+	r
+bf708be9ab1d55260352cdb37a593d52|file:///home/hine/Workspace/QZone/send.py|10|1|^v|python
+	s
+	p
+	p
+	r
+	r
+3430c79207a5df8da9a5b1c8fda4caf6|file:///home/hine/Workspace/QZone/send.py|10|1|^v|python
+	s
+	p
+	p
+	r
+	r
+	s
+	s
+3f43d35e22aa180e93bcf36d2422aff5|file:///home/hine/Workspace/QZone/send.py|10|1|^v|python
+	s
+	p
+	p
+	r
+	r
+	s
+ea17a9109aeb60c2c96fa22703def9f6|file:///home/hine/Workspace/QZone/send.py|10|1|^v|python
+	s
+	p
+	p
+	r
+	r
+	s
+	s
+	p
+	w
+	c
+4e9171eb559dc1494ca8bef94ac3fc4e|file:///home/hine/Workspace/QZone/send.py|10|1|^v|python
+	s
+	p
+	p
+	r
+	r
+	s
+	s
+	p
+ce6cd3651a6d77b8ebcaf69adca7075d|file:///home/hine/Workspace/QZone/send.py|10|1|^v|python
+	s
+	p
+	p
+	r
+	r
+	s
+	s
+	p
+	w
+	c
+	f
+b307ecca41d5e31f8802a0440202f676|file:///home/hine/Workspace/QZone/send.py|10|1|^v|python
+	s
+	p
+	p
+	r
+	r
+	s
+	s
+	p
+	w
+	c
+	f
+	v
+1308378e31f16d64fa27ea86d28c2816|file:///home/hine/Workspace/QZone/send.py|10|1|^v|python
+	s
+	p
+	p
+	r
+	r
+	s
+	s
+	p
+	w
+	c
+	f
+	v
+	u
+de324024ada779393895b756b114a0ec|file:///home/hine/Workspace/QZone/send.py|10|1|^v|python
+	s
+	p
+	p
+	r
+	r
+	s
+	s
+	p
+	w
+	c
+	f
+	v
+	u
+	t
+c7268a745426c8d332873ca08e1e3fab|file:///home/hine/Workspace/QZone/send.py|10|1|^v|python
+	s
+	p
+	p
+	r
+	r
+	s
+	s
+	p
+	w
+	c
+	f
+	v
+	u
+	t
+	h
+54dbe75aeb56b5a1e2601643ff69cb46|file:///home/hine/Workspace/QZone/send.py|10|1|^v|python
+	s
+	p
+	p
+	r
+	r
+	s
+	s
+	p
+	w
+	c
+	f
+	v
+	u
+	t
+	h
+	c
+457157dd05c04c0d93830f48bc6f4057|file:///home/hine/Workspace/QZone/send.py|10|1|^v|python
+	s
+	p
+	p
+	r
+	r
+	s
+	s
+	p
+	w
+	c
+	f
+	v
+	u
+	t
+	h
+	c
+	f
+e56b56087db714de9dc3f03ccc92300a|file:///home/hine/Workspace/QZone/send.py|10|1|^v|python
+	s
+	p
+	p
+	r
+	r
+	s
+	s
+	p
+	w
+	c
+	f
+	v
+	u
+	t
+	h
+	c
+	f
+	q
+34688a1f1528d3bb74fa53e07b632170|file:///home/hine/Workspace/QZone/send.py|10|1|^v|python
+	s
+	p
+	p
+	r
+	r
+	s
+	s
+	p
+	w
+	c
+	f
+	v
+	u
+	t
+	h
+	c
+	f
+	q
+	i
+7ad87bfe4fe2a2037ae9e4a2bff06fbe|file:///home/hine/Workspace/QZone/send.py|10|1|^v|python
+	s
+	p
+	p
+	r
+	r
+	s
+	s
+	p
+	w
+	c
+	f
+	v
+	u
+	t
+	h
+	c
+	f
+	q
+	i
+	 
+aed8d04811e788b1fa6ab77cd8c411f8|file:///home/hine/Workspace/QZone/send.py|10|1|^v|python
+	s
+	p
+	p
+	r
+	r
+	s
+	s
+	p
+	w
+	c
+	f
+	v
+	u
+	t
+	h
+	c
+	f
+	q
+	i
+	 
+	 
+a8f84b8292270663c6738d44ce9d8a6f|file:///home/hine/Workspace/QZone/send.py|10|1|^v|python
+	s
+	p
+	p
+	r
+	r
+	s
+	s
+	p
+	w
+8d1b68faa49608c455a77cfc3831d427|file:///home/hine/Workspace/QZone/send.py|12|1|V|python
+	            'pic_template': ,
+c4829ee0b7c8e33dc3aa829a7da58a91|file:///home/hine/Workspace/QZone/send.py|14|1|V|python
+	            'special_url': ,
+93473a7344419b15c4219cc2b6c64c6f|file:///home/hine/Workspace/QZone/send.py|2|1|v|python
+	import
+cae78934b196393f485745eda1dd1e52|file:///home/hine/%E6%96%87%E6%A1%A3/Tencent%20Files/1337735344/FileRecv/yiban.py|4|1|V|python
+	from fake_useragent import UserAgent
+030a465082d28c6bb7e1602be9ce5f44|file:///home/hine/%E6%96%87%E6%A1%A3/Tencent%20Files/1337735344/FileRecv/yiban.py|3|1|V|python
+	import random
+b6d39b6f718b932ba4da1abbed665865|file:///home/hine/Workspace/QZone/send.py|5|1|V|python
+	from lxml import etree
+3185c2d90cac44dc723e5a328bbf0046|file:///home/hine/Workspace/test/c.c|3|1|V|c
+	#define N 10
+e4cd548f740b606c2d6f6cb589d96de2|file:///home/hine/Workspace/test/c.c|2|1|V|c
+	#define M 10
+77c346093a7ee37d0e418da7a05eae41|file:///home/hine/Workspace/test/c.c|4|1|V|c
+	    int triangle[M][N]={1},i,j;
+909dd570f638ea1b0fdadd784c2ba0d3|file:///home/hine/Workspace/test/c.c|4|5|V|c
+	    for(i=1;i<M;i++)
+8ff28fa4f348936d48a3636bf719e037|file:///home/hine/Workspace/test/c.c|4|9|V|c
+	        for(j=1;j<=i;j++)
+c2ae1ecfca585134c5d7ff3c0da33ce1|file:///home/hine/Workspace/test/c.c|4|13|V|c
+	            triangle[i][j]=triangle[i-1][j-1]+triangle[i-1][j];
+197adb5ac6352e350c833fa9d60122b6|file:///home/hine/Workspace/test/c.c|4|5|V|c
+	    for(i=0;i<M;i++)
+3a259d155f48681aa3267dfe6bc25729|file:///home/hine/Workspace/test/c.c|4|9|V|c
+	        for(j=0;j<=i;j++)
+cb7b6c48023dd4f9abcec7e7deb0805d|file:///home/hine/Workspace/test/c.c|4|13|V|c
+	            printf("%d ",triangle[i][j]);
+355e41c46e18ef8f0da2fda572851a52|file:///home/hine/Workspace/QZone/send.py|41|30|v|python
+	headers=self.get_headers()).json()
+55743b28442645ff85cee52a1ac4980a|file:///home/hine/Workspace/QZone/send.py|40|64|v|python
+	).json() 
+ade8aa750ad4c8979bb85dcb5a5ca375|file:///home/hine/Workspace/QZone/send.py|19|212|v|python
+	https://user.qzone.qq.com/proxy/domain/taotao.qzone.qq.com/cgi-bin/emotion_cgi_publish_v6'
+d55b1f01227042a6deb584abcf661f86|file:///home/hine/Workspace/QZone/send.py|19|1|V|python
+	        url = 'https://user.qzone.qq.com/proxy/domain/taotao.qzone.qq.com/cgi-bin/emotion_cgi_publish_v6?qzonetoken=fe7eaebdf44167e94d668a95b89cb4f89cfb9472c62d51782b9528add35f167c5b9251507196422e&g_tk=873103560'
+20c1d18791a246001f5df7867d4e6bf5|file:///home/hine/.config/polybar/config|66|45|v|dosini
+	battery
+5001099264231014ee8fe10d116a6ce4|file:///home/hine/.config/polybar/config|66|45|v|dosini
+	battery 
+1afbdd62ff735c4eae689d1a7bfafa88|file:///home/hine/.config/polybar/config|66|18|v|dosini
+	pulseaudio 
+8bdbe78825b51494900ba8356801e128|file:///home/hine/Workspace/test/c.c|4|1|V|c
+	    int i=1;
+863d406da08bc7e10c2ce3addf01aa19|file:///home/hine/Workspace/test/c.c|4|5|V|c
+	    printf("%p %lu",p,sizeof(p));
+b9fb85c506bca865277631bba704fae3|file:///home/hine/Workspace/test/c.c|2|1|V|c
+	void f(int n);
+83aec970479975af5bf9820b983e9149|file:///home/hine/Workspace/test/c.c|5|1|V|c
+	    void f(int n);
+0c7e67033360d8fade3fb7984beac13b|file:///home/hine/Workspace/test/c.c|7|1|V|c
+	void f(int n){}
+5ff4220d012bc02edd93803da127a768|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|35|9|V|c
+	        if(a[i]<a[min])
+c40514bdb9d4d1ec537f6f60746fe17f|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|23|9|V|c
+	        numReading=pendingStr[i]-'0';
+2446503e1386e5607d4cef68faa4f516|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|23|9|v|c
+	numReading=pendingStr[i]-'0'
+029c474ae8e99bbbb20f159806d6de0a|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|23|9|V|c
+	        ;
+d0570ac677b046e9ee6e8c48b814cfb7|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|27|13|V|c
+	            count++;
+a10d698a36960e3b442c7e9c6364816a|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|27|13|V|c
+	            continue;
+433b0467922866e418a9b905a6f5dd41|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|24|9|V|c
+	        if(numReading==5)
+1db7becbccf1c65cf0824de936d5a227|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|13|8|V|c
+	    for(int i;i<segments;i++)
+	        printf("%d ",separated[i]);
+3824b5b297599914945b798e49213854|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|28|9|V|c
+	        printf("%d",count);
+327a6c4304ad5938eaf0efb6cc3e53dc|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|32|83|v|c
+	flag
+9b5c993c0a15523d12f61f1938827d26|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|33|9|V|c
+	        printf("-l-%d ",count);
+5af26b3a0b1f8425bfcd62bcfe8991cc|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|32|69|v|c
+	test()
+78d60edcd895daa2740e1a32233ececf|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|32|69|v|c
+	test()&&
+e797f1020000b7909fe8a67538daee15|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|32|56|v|c
+	for(;(numReading=pendingStr[i]-'0')==5 || test(test(
+fe95be5268c5cf8e236074b1b811c00c|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|32|56|v|c
+	(int a
+97335324e239a3840ad442d91e1444b9|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|32|56|v|c
+	int a
+5b231a4ee65abe3fcf435ed4b69d7b31|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|32|56|v|c
+	for(;(numReading=pendingStr[i]-'0')==5 || test(test(int a
+4c5f7fb3f8828a580c2739b90a1f6016|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|17|5|V|c
+	    for(int i=0;i<segments;i++)
+2e52dde48a07294c7ba562071ae64c03|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|17|9|V|c
+	        printf("-%d ",separated[i]);
+88b20ac52481cd3b29f08baa03fdb5b0|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|17|5|V|c
+	    putchar('\n');
+0eccda69cb459f3e14f0e7c875fdeba0|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|30|8|V|c
+	        // 将5看成空格,跳过,并转换到下一个数组储存下一个数字
+7c9cc9ec6f0d2670c382e379b4dc188b|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|43|12|V|c
+	            // 每一次寻找此次循环最小值,循环完之后将最小值放到未排序数据的首位
+f06b243920a767da14e55d50cc6c50e5|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|42|9|V|c
+	        // 每一次寻找此次循环最小值,循环完之后将最小值放到未排序数据的首位
+b20b26bfa16e99e4c5ea5e45116a4528|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|8|5|V|c
+	    printf("%d ",a);
+4071653b480e72354bcfb2b2e78f92fd|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|8|5|V|c
+	    return 1;
+bd5b521eab069b8fbaf99dd0fd98a73d|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|6|1|V|c
+	int test(int a)
+433c7ada9b32d597ef7cb5fdd3919968|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|26|9|V|c
+	        printf("^%d %d",count-1,numReading);
+222e04f8f32d2a3f0828c021dc4a72b2|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|31|17|V|c
+	                count++;
+f4141647d5de53368514d8704072cc5b|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|28|13|V|c
+	            if(mark==0)
+3f248cafdc449564b1d332d632d70fda|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|28|17|V|c
+	                mark = 1;    
+9134a62bd617e83d5e1c950a252a19d9|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|29|9|V|c
+	        else if(numReading==5)
+c176de1249b14b475defe7e0152dcb4d|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|29|9|V|c
+	        {mark=1;break;}
+2d048526b2867af1fbf9af900dafab56|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|31|9|V|c
+	        else 
+5ef29ed94b24adb9088759685b78af16|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|27|9|V|c
+	        if(numReading!=5 && mark == 1)
+a33c436907a3489c5d16d81b81750cb2|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|30|17|V|c
+	                break;dd
+1cbfb724ceee46cd879df7c7cfbe7dca|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|38|13|v|c
+	break
+d676675d81efb6dcf67814b2be42b3b8|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|31|17|v|c
+	count++
+85f6be54a97dee46eca603a71584156b|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|31|17|V|c
+	                ;
+7881d5a150c072a99d2b7ce7c50a392d|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|29|13|v|c
+	mark==1&&count++
+05c16ac16c9f74f914afdbe76bd96d23|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|28|9|V|c
+	        elsed
+5597a70884c918c22d6b178e8169f1e1|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|28|13|v|c
+	mark=1
+d1d8db81780e92790a2baccbfaa7caf3|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|28|13|V|c
+	            ;
+7aa28ed115707345d0274032757e8991|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|28|13|v|c
+	continue
+473cccdc1d1cc06522b8ea17a31398a8|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c|41|1|V|c
+	        printf("^[%d]=%d %d",count-1,adopter[count-1],numReading);
+d98a07f84921b24ee30f86fd8cd85c3c|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|7|43|v|c
+	from
+ac70b2522916ee58bfa7a441df1dab92|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|7|9|V|c
+	        printf("Please input number between 3 to 500");
+e6e69512ae54ec61251c1140f685e462|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|12|9|V|c
+	        printf("%d %d\n",i,count);
+d10b24f939fbf75e38d63a7c3cb02736|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|11|9|V|c
+	        count=(i-1)%3+1;
+e2609aeb231ec500b3efaf35dc93955f|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|13|4|V|c
+	    }
+	    
+d0128d540716fdd9c983102fd59d6f8a|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|12|5|V|c
+	        a[i]=i;
+	    // 报数重排
+80eb6fa91b812678dbe8b6b7ca162750|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|22|9|V|c
+	        a[i]
+f774e8146363fd561b3e343edfd216d2|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|10|1|V|c
+	    for(i=0;i<n;i++)
+	    {
+	        a[i]=i;
+	        printf("%d ",i);
+	    }
+c793fb08d36c8c628246f760e8340145|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|31|5|V|c
+	    for
+3deb75119481013c2b8a03566f7d645c|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|28|5|V|c
+	        a[i]=i;
+cbe2aeef150eab9816989c4955acaa89|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|13|9|V|c
+	        printf("%d ",i);
+8a46882e0145e8cc60ed96130f483b77|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|12|5|V|c
+	    printf("\n%d",i);
+d2d5eb78ae56b32177d9c7190eee99c1|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|27|5|V|c
+	    a[j]=-1;
+45f7c58c533afbeb44145330f23c913f|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|27|5|V|c
+	    for(i=0;i<n;i++)
+57118054462e1c04f22e0b4894b45ab4|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|24|9|V|c
+	        printf("%d %d %d\n",i,j,count);
+7d56d62f655be3b293ea82891a19d7e2|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|22|9|V|c
+	        if(count==2)
+6507a992ebc6652a5c4d516c3cac0c45|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|17|9|V|c
+	            printf("\n%d",a[k]);
+536c10ed3657d7077545abfda7103f79|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|16|9|V|c
+	        for(int k=0;a[k]!=-1;k++)
+447e246cd10333af43c52f84955a7878|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|21|1|v|c
+	printf(
+bb51a49e3340d8246b74d188eecde241|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|21|1|v|c
+	(const char *restrict __format, ...
+06a529ce06529c9edcbdaf861f622714|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|21|1|v|c
+	printf(const char *restrict __format, ...
+6893f0ff5ba17eca19c12a0644596f9e|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|21|1|v|c
+	const char *restrict __format, ...
+b9f85b2e6c32f1b6b7de9e8729ef55da|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|21|9|V|c
+	        printf("%d",a[j]);
+2fa8f19a0c40a7456ed48f4e911654ee|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|22|9|V|c
+	        printf("%d %d\n",j,a[j]);
+f71660bdda98813e41499c8ad73323bb|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|30|5|V|c
+	        if(i==4)
+2976cd6a884437071d5780bc1e9fdc46|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|28|5|V|c
+	            i=j=0;
+8f7be4ff0e1b3f21c2ce7130cc58271e|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|27|5|V|c
+	            a[j+1]=-1;
+5fdda83278dc2c5733139148b213f47b|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|25|5|V|c
+	        if(a[i+1]==-1)
+9f589c988bccfd40f41818b2d1805968|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|24|5|V|c
+	        printf("%d %d\n",i,a[i+1]);
+19ff8503862674ecb0ddd60f016c47b3|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|23|5|V|c
+	        j++;
+4a05ee4a5c61087862e3b56eecb8f6d8|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|21|5|V|c
+	        a[j]=a[i];
+30b2f44bcf3cdc3b0a0e03f4787432f4|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|20|5|V|c
+	            i++;
+67306fa2e3f468d4b62b8e498d786ec2|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|18|5|V|c
+	        count=(count+1)%3;
+43d36863bcf4b9b9e26123e7cf711bb0|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|16|5|V|c
+	        if(a[1]==-1)
+213deef2ff89d11541f9e1d385fc9c4d|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|21|1|V|c
+	        for(int k;k<n;k++)
+	            printf("%d\n",a[j]);
+5b8f2e252a11cf7cc7d4858f44a920fb|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|28|6|V|c
+	        printf("%d",a[0]);
+9ede908f5dcfd80a5d5c41c141b20513|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|28|1|^v|c
+	 
+	 
+	}
+8384c1392290171376fa1185098792e6|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|28|1|^v|c
+	 
+	 
+	 
+	}
+73528b86db74923cae7bdc47159dc2bc|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|28|1|^v|c
+	 
+	 
+	 
+	 
+	}
+827f4b3bbf599086075eea4cfa1d8960|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|28|1|^v|c
+	 
+	 
+	 
+	 
+	 
+	}
+20e4235fe779a345cc574786ae2f5d67|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|28|1|^v|c
+	 
+	 
+	 
+	 
+	 
+	 
+	}
+f6e0f76acf3de42e201fa7b9bce41d09|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|28|1|^v|c
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	}
+0d6b1fc37eb9474ebb1c3997454d0a71|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|28|1|^v|c
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	}
+11bc6ad310d648e0b029fa76d22a602e|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|28|1|^v|c
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	}
+99f640389c522fe147347409ee9a93a4|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|28|1|^v|c
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	}
+c3cfd99dc4a8155e357f7f45fc96bdf6|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|28|1|^v|c
+	{
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	}
+d51c1d9e44eac48fe9f14e276a88096c|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|28|1|^v|c
+	f
+	{
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	}
+d1f364acce78634fbfc4a97d47fc9bfa|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|21|13|V|c
+	            for(int k=0;k<=n;k++)
+07d2b5c37067a99d70db76550b70bc3a|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|23|17|V|c
+	                printf("+%d\n",a[k]);
+c5f48bf0725f3a412253e0344ab71b53|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|20|17|V|c
+	                i++;
+d31986360f61a3227d442d7aeadd1e7f|file:///home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c|21|13|V|c
+	            printf("%d %d\n",count,a[i]);

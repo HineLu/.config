@@ -30,3 +30,28 @@ INFO 2020/3/11 下午5:48:27  [Raven] userId = 77a7df68-3b9e-4627-a87c-57b88e2de
 INFO 2020/3/11 下午5:48:27  [focus] 1
 INFO 2020/3/11 下午5:49:13  ----------------before-quit-----------------
 INFO 2020/3/11 下午5:49:13  ------------------will-quit------------------
+INFO 2020/4/28 下午12:08:42  luanchFromDiffVersion, pre version is 0.9.85
+INFO 2020/4/28 下午12:08:42  overwriteThemeFolder
+INFO 2020/4/28 下午12:08:42  ------------------start------------------
+INFO 2020/4/28 下午12:08:42  typora version: 0.9.86
+DEBUG 2020/4/28 下午12:08:42  [ '/usr/share/typora/Typora' ]
+INFO 2020/4/28 下午12:08:42  [Raven] instanceKey = e77f3f68-b625-49e2-ac9b-b0e4a2e40394
+DEBUG 2020/4/28 下午12:08:42  app.openFile
+INFO 2020/4/28 下午12:08:46  [Raven] userId = 77a7df68-3b9e-4627-a87c-57b88e2de100
+INFO 2020/4/28 下午12:08:46  [focus] 1
+INFO 2020/4/28 下午12:08:47  [blur] 1
+INFO 2020/4/28 下午12:08:47  [focus] 1
+INFO 2020/4/28 下午12:08:48  [blur] 1
+INFO 2020/4/28 下午12:08:52  [focus] 1
+INFO 2020/4/28 下午12:08:52  [blur] 1
+INFO 2020/4/28 下午12:08:52  [focus] 1
+INFO 2020/4/28 下午12:08:53  [blur] 1
+INFO 2020/4/28 下午12:09:04  [focus] 1
+INFO 2020/4/28 下午12:09:22  [blur] 1
+INFO 2020/4/28 下午12:09:33  [focus] 1
+INFO 2020/4/28 下午12:09:40  [blur] 1
+INFO 2020/4/28 下午12:10:10  [focus] 1
+INFO 2020/4/28 下午12:10:12  [blur] 1
+INFO 2020/4/28 下午12:11:00  [focus] 1
+INFO 2020/4/28 下午12:11:03  ----------------before-quit-----------------
+INFO 2020/4/28 下午12:11:03  ------------------will-quit------------------

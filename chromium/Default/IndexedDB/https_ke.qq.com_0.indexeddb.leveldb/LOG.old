@@ -1,15 +1,8 @@
-2020/04/26-10:15:29.183 12b0e Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_ke.qq.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/04/26-10:15:29.183 12b0e Recovering log #20
-2020/04/26-10:15:29.183 12b0e Reusing old log /home/hine/.config/chromium/Default/IndexedDB/https_ke.qq.com_0.indexeddb.leveldb/000020.log 
-2020/04/26-12:09:13.383 146cc Level-0 table #24: started
-2020/04/26-12:09:13.384 146cc Level-0 table #24: 190 bytes OK
-2020/04/26-12:09:13.386 146cc Delete type=0 #20
-2020/04/26-12:09:13.386 146cc Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/04/26-12:09:13.386 146cc Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 146 : 1
-2020/04/26-12:09:13.386 146cc Compacting 1@1 + 1@2 files
-2020/04/26-12:09:13.388 146cc Generated table #25@1: 47 keys, 875 bytes
-2020/04/26-12:09:13.388 146cc Compacted 1@1 + 1@2 files => 875 bytes
-2020/04/26-12:09:13.389 146cc compacted to: files[ 0 0 1 0 0 0 0 ]
-2020/04/26-12:09:13.390 146cc Delete type=2 #24
-2020/04/26-12:09:13.390 146cc Delete type=2 #15
-2020/04/26-12:09:13.390 146cc Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 146 : 1 .. (end); will stop at (end)
+2020/04/29-10:10:20.898 2a030 Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_ke.qq.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/04/29-10:10:20.898 2a030 Recovering log #27
+2020/04/29-10:10:20.898 2a030 Reusing old log /home/hine/.config/chromium/Default/IndexedDB/https_ke.qq.com_0.indexeddb.leveldb/000027.log 
+2020/04/29-12:12:20.215 2a032 Level-0 table #32: started
+2020/04/29-12:12:20.215 2a032 Level-0 table #32: 0 bytes OK
+2020/04/29-12:12:20.224 2a032 Delete type=0 #27
+2020/04/29-12:12:20.224 2a032 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/04/29-12:12:20.224 2a032 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

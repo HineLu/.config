@@ -4,3 +4,164 @@
 [2020-04-07 01:59:41.247] [warn] openedAtLogin===> false
 [2020-04-16 09:16:03.868] [warn] [Motrix] Logger init
 [2020-04-16 09:16:04.050] [warn] openedAtLogin===> false
+[2020-04-27 15:03:02.563] [warn] [Motrix] Logger init
+[2020-04-27 15:31:02.996] [warn] [Motrix] Logger init
+[2020-04-27 16:53:03.900] [error] [Motrix] Uncaught exception: cb is not a function
+[2020-04-27 16:53:03.903] [error] TypeError: cb is not a function
+    at /usr/lib/motrix/app/node_modules/nat-api/index.js:305:7
+    at /usr/lib/motrix/app/node_modules/nat-api/lib/upnp/device.js:61:11
+    at Parser.<anonymous> (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:199:18)
+    at Parser.emit (events.js:210:5)
+    at SAXParser.saxParser.onclosetag (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:183:24)
+    at emit (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:624:35)
+    at emitNode (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:629:5)
+    at closeTag (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:889:7)
+    at SAXParser.write (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:1436:13)
+    at Parser.exports.Parser.Parser.parseString (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:211:31)
+[2020-04-27 16:53:41.512] [error] [Motrix] Uncaught exception: cb is not a function
+[2020-04-27 16:53:41.514] [error] TypeError: cb is not a function
+    at /usr/lib/motrix/app/node_modules/nat-api/index.js:305:7
+    at /usr/lib/motrix/app/node_modules/nat-api/lib/upnp/device.js:61:11
+    at Parser.<anonymous> (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:199:18)
+    at Parser.emit (events.js:210:5)
+    at SAXParser.saxParser.onclosetag (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:183:24)
+    at emit (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:624:35)
+    at emitNode (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:629:5)
+    at closeTag (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:889:7)
+    at SAXParser.write (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:1436:13)
+    at Parser.exports.Parser.Parser.parseString (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:211:31)
+[2020-04-27 16:53:43.149] [error] [Motrix] Uncaught exception: cb is not a function
+[2020-04-27 16:53:43.150] [error] TypeError: cb is not a function
+    at /usr/lib/motrix/app/node_modules/nat-api/index.js:305:7
+    at /usr/lib/motrix/app/node_modules/nat-api/lib/upnp/device.js:61:11
+    at Parser.<anonymous> (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:199:18)
+    at Parser.emit (events.js:210:5)
+    at SAXParser.saxParser.onclosetag (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:183:24)
+    at emit (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:624:35)
+    at emitNode (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:629:5)
+    at closeTag (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:889:7)
+    at SAXParser.write (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:1436:13)
+    at Parser.exports.Parser.Parser.parseString (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:211:31)
+[2020-04-27 16:53:44.358] [error] [Motrix] Uncaught exception: cb is not a function
+[2020-04-27 16:53:44.359] [error] TypeError: cb is not a function
+    at /usr/lib/motrix/app/node_modules/nat-api/index.js:305:7
+    at /usr/lib/motrix/app/node_modules/nat-api/lib/upnp/device.js:61:11
+    at Parser.<anonymous> (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:199:18)
+    at Parser.emit (events.js:210:5)
+    at SAXParser.saxParser.onclosetag (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:183:24)
+    at emit (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:624:35)
+    at emitNode (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:629:5)
+    at closeTag (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:889:7)
+    at SAXParser.write (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:1436:13)
+    at Parser.exports.Parser.Parser.parseString (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:211:31)
+[2020-04-27 18:43:04.105] [error] [Motrix] Uncaught exception: cb is not a function
+[2020-04-27 18:43:04.114] [error] TypeError: cb is not a function
+    at /usr/lib/motrix/app/node_modules/nat-api/index.js:305:7
+    at /usr/lib/motrix/app/node_modules/nat-api/lib/upnp/device.js:61:11
+    at Parser.<anonymous> (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:199:18)
+    at Parser.emit (events.js:210:5)
+    at SAXParser.saxParser.onclosetag (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:183:24)
+    at emit (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:624:35)
+    at emitNode (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:629:5)
+    at closeTag (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:889:7)
+    at SAXParser.write (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:1436:13)
+    at Parser.exports.Parser.Parser.parseString (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:211:31)
+[2020-04-27 18:48:33.563] [error] [Motrix] Uncaught exception: cb is not a function
+[2020-04-27 18:48:33.564] [error] TypeError: cb is not a function
+    at /usr/lib/motrix/app/node_modules/nat-api/index.js:305:7
+    at /usr/lib/motrix/app/node_modules/nat-api/lib/upnp/device.js:61:11
+    at Parser.<anonymous> (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:199:18)
+    at Parser.emit (events.js:210:5)
+    at SAXParser.saxParser.onclosetag (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:183:24)
+    at emit (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:624:35)
+    at emitNode (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:629:5)
+    at closeTag (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:889:7)
+    at SAXParser.write (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:1436:13)
+    at Parser.exports.Parser.Parser.parseString (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:211:31)
+[2020-04-27 18:48:34.906] [error] [Motrix] Uncaught exception: cb is not a function
+[2020-04-27 18:48:34.907] [error] TypeError: cb is not a function
+    at /usr/lib/motrix/app/node_modules/nat-api/index.js:305:7
+    at /usr/lib/motrix/app/node_modules/nat-api/lib/upnp/device.js:61:11
+    at Parser.<anonymous> (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:199:18)
+    at Parser.emit (events.js:210:5)
+    at SAXParser.saxParser.onclosetag (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:183:24)
+    at emit (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:624:35)
+    at emitNode (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:629:5)
+    at closeTag (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:889:7)
+    at SAXParser.write (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:1436:13)
+    at Parser.exports.Parser.Parser.parseString (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:211:31)
+[2020-04-27 18:48:35.545] [error] [Motrix] Uncaught exception: cb is not a function
+[2020-04-27 18:48:35.546] [error] TypeError: cb is not a function
+    at /usr/lib/motrix/app/node_modules/nat-api/index.js:305:7
+    at /usr/lib/motrix/app/node_modules/nat-api/lib/upnp/device.js:61:11
+    at Parser.<anonymous> (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:199:18)
+    at Parser.emit (events.js:210:5)
+    at SAXParser.saxParser.onclosetag (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:183:24)
+    at emit (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:624:35)
+    at emitNode (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:629:5)
+    at closeTag (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:889:7)
+    at SAXParser.write (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:1436:13)
+    at Parser.exports.Parser.Parser.parseString (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:211:31)
+[2020-04-27 20:04:03.986] [warn] [Motrix] Logger init
+[2020-04-27 20:06:13.268] [warn] [Motrix] Logger init
+[2020-04-27 21:25:22.990] [warn] [Motrix] Logger init
+[2020-04-27 21:56:14.744] [error] [Motrix] Uncaught exception: cb is not a function
+[2020-04-27 21:56:14.745] [error] TypeError: cb is not a function
+    at /usr/lib/motrix/app/node_modules/nat-api/index.js:305:7
+    at /usr/lib/motrix/app/node_modules/nat-api/lib/upnp/device.js:61:11
+    at Parser.<anonymous> (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:199:18)
+    at Parser.emit (events.js:210:5)
+    at SAXParser.saxParser.onclosetag (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:183:24)
+    at emit (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:624:35)
+    at emitNode (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:629:5)
+    at closeTag (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:889:7)
+    at SAXParser.write (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:1436:13)
+    at Parser.exports.Parser.Parser.parseString (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:211:31)
+[2020-04-27 22:31:20.400] [error] [Motrix] Uncaught exception: cb is not a function
+[2020-04-27 22:31:20.400] [error] TypeError: cb is not a function
+    at /usr/lib/motrix/app/node_modules/nat-api/index.js:305:7
+    at /usr/lib/motrix/app/node_modules/nat-api/lib/upnp/device.js:61:11
+    at Parser.<anonymous> (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:199:18)
+    at Parser.emit (events.js:210:5)
+    at SAXParser.saxParser.onclosetag (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:183:24)
+    at emit (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:624:35)
+    at emitNode (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:629:5)
+    at closeTag (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:889:7)
+    at SAXParser.write (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:1436:13)
+    at Parser.exports.Parser.Parser.parseString (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:211:31)
+[2020-04-27 22:31:21.762] [error] [Motrix] Uncaught exception: cb is not a function
+[2020-04-27 22:31:21.763] [error] TypeError: cb is not a function
+    at /usr/lib/motrix/app/node_modules/nat-api/index.js:293:16
+    at Request._callback (/usr/lib/motrix/app/node_modules/nat-api/lib/upnp/device.js:46:25)
+    at self.callback (/usr/lib/motrix/app/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:210:5)
+    at Request.onRequestError (/usr/lib/motrix/app/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:210:5)
+    at Socket.socketOnEnd (_http_client.js:440:9)
+    at Socket.emit (events.js:215:7)
+    at endReadableNT (_stream_readable.js:1183:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[2020-04-27 22:31:22.347] [error] [Motrix] Uncaught exception: cb is not a function
+[2020-04-27 22:31:22.348] [error] TypeError: cb is not a function
+    at /usr/lib/motrix/app/node_modules/nat-api/index.js:305:7
+    at /usr/lib/motrix/app/node_modules/nat-api/lib/upnp/device.js:61:11
+    at Parser.<anonymous> (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:199:18)
+    at Parser.emit (events.js:210:5)
+    at SAXParser.saxParser.onclosetag (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:183:24)
+    at emit (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:624:35)
+    at emitNode (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:629:5)
+    at closeTag (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:889:7)
+    at SAXParser.write (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:1436:13)
+    at Parser.exports.Parser.Parser.parseString (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:211:31)
+[2020-04-27 23:46:14.624] [error] [Motrix] Uncaught exception: cb is not a function
+[2020-04-27 23:46:14.625] [error] TypeError: cb is not a function
+    at /usr/lib/motrix/app/node_modules/nat-api/index.js:305:7
+    at /usr/lib/motrix/app/node_modules/nat-api/lib/upnp/device.js:61:11
+    at Parser.<anonymous> (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:199:18)
+    at Parser.emit (events.js:210:5)
+    at SAXParser.saxParser.onclosetag (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:183:24)
+    at emit (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:624:35)
+    at emitNode (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:629:5)
+    at closeTag (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:889:7)
+    at SAXParser.write (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:1436:13)
+    at Parser.exports.Parser.Parser.parseString (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:211:31)

@@ -1,0 +1,5 @@
+2020/04/29-15:17:40.192 2e29f Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_v.youku.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/04/29-15:44:40.491 2a032 Level-0 table #5: started
+2020/04/29-15:44:40.492 2a032 Level-0 table #5: 830 bytes OK
+2020/04/29-15:44:40.494 2a032 Delete type=0 #3
+2020/04/29-15:44:40.494 2a032 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

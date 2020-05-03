@@ -1,0 +1,5 @@
+2020/04/28-10:31:29.896 17962 Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_www.iclarified.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/04/28-10:31:40.186 17f2a Level-0 table #5: started
+2020/04/28-10:31:40.195 17f2a Level-0 table #5: 346 bytes OK
+2020/04/28-10:31:40.197 17f2a Delete type=0 #3
+2020/04/28-10:31:40.197 17f2a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

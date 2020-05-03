@@ -60,9 +60,10 @@ font-4 = FontAwesome:size=12;2
 font-5 = Symbola:size=11:style=Regular;1
 font-6 = Segoe MDL2 Assets:size=11;2
 
-modules-left = logo bspwm i3 xwindow
+modules-left = logo i3 xwindow
 modules-center = 
 modules-right = pulseaudio wireless-network cpu temperature battery date padding 
+;modules-right = pulseaudio cpu temperature battery date padding 
 ;modules-right = xbacklight alsa wireless-network cpu temperature battery date
 ;modules-right = xbacklight alsa network wireless-network cpu temperature battery date
 ;modules-right = filesystem xbacklight alsa pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
@@ -87,10 +88,10 @@ cursor-scroll = ns-resize
 
 [module/logo]
 type = custom/text
-content = "  "
+content = "   "
 ; "content" has the same properties as "format-NAME"
 ;content-foreground = #fff
-;content-padding = 0
+content-padding = 1
 
 ; "click-(left|middle|right)" will be executed using "/bin/sh -c $COMMAND"
 ;click-left = echo left
@@ -104,7 +105,7 @@ content = "  "
 [module/xwindow]
 type = internal/xwindow
 label-padding = 1
-label = " %title:0:100:...%"
+label = "  %title:0:100:...%"
 
 [module/xkeyboard]
 type = internal/xkeyboard
@@ -233,9 +234,15 @@ interval = 1.0
 ping-interval = 10
 
 format-connected = <label-connected>
+label-connected-underline = #9796ED
+;#3ac569
+;#3ac569
+;#73B66B
+;#2CF404
 ;format-connected = <ramp-signal> <label-connected>
 #label-connected = %local_ip%    %downspeed%    %upspeed%
-label-connected =  %downspeed%   %upspeed%
+label-connected =  %downspeed%
+;label-connected =  %downspeed%   %upspeed%
 ;label-connected = %local_ip%   ↓ %downspeed%   ↑ %upspeed%
 ;label-disconnected = not connected
 label-disconnected =  
@@ -247,9 +254,9 @@ ramp-signal-1 = 
 ramp-signal-2 = 
 ramp-signal-3 = 
 
-animation-packetloss-0 = 
+animation-packetloss-0 = ⚠
 animation-packetloss-0-foreground = #ffa64c
-animation-packetloss-1 = 
+animation-packetloss-1 = 📶
 animation-packetloss-1-foreground = ${bar/top.foreground}
 animation-packetloss-framerate = 500
 
@@ -261,7 +268,7 @@ format-prefix = ""
 ;format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #f90000
-label = %percentage:2%%
+label = %percentage%%
 
 [module/memory]
 type = internal/memory
@@ -313,7 +320,7 @@ format-disconnected =
 
 [module/date]
 type = internal/date
-interval = 5
+interval = 1
 date = " %m-%d %a "
 date-alt = " %Y-%m-%d %a "
 
@@ -324,7 +331,7 @@ time-alt = " %H:%M:%S "
 ;format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #0a6cf5
 
-label = %date% | %time% 
+label = "%date% %time%" 
 
 [module/pulseaudio]
 type = internal/pulseaudio
@@ -332,6 +339,7 @@ sink = alsa_output.pci-0000_00_1f.3.analog-stereo
 ;format-volume = <label-volume> <bar-volume>
 ;label-volume = VOL %percentage%%
 format-volume = <ramp-volume> <label-volume> 
+format-volume-underline = #47CFE5
 label-volume = %percentage%%
 label-volume-foreground = ${root.foreground}
 
@@ -489,7 +497,7 @@ ramp-foreground = ${colors.foreground-alt}
 
 [module/padding]
 type = custom/text
-content = "|"
+content = " "
 
 [module/powermenu]
 type = custom/menu

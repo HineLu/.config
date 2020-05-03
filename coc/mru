@@ -1,14 +1,36 @@
+/etc/pacman.conf
+/home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c
+/home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c
+/home/hine/Workspace/skkshu_config/vimium-c/keymap
+/home/hine/Workspace/skkshu_config/vimium-c/map
+/home/hine/Workspace/test/c.c
 /home/hine/.config/polybar/config
+/home/hine/Workspace/QZone/send.py
+/home/hine/send.py
+/home/hine/文档/Tencent Files/1337735344/FileRecv/Skey·¢ËµËµ(Õ¥¸É½Ó¿Ú).ec
+/home/hine/文档/Tencent Files/1337735344/FileRecv/yiban.py
+/home/hine/.config/i3/config
+/home/hine/.Xresources
+/home/hine/.icons/default/index.theme
+/home/hine/.xsettingsd
+/home/hine/.xsetting
+/home/hine/Workspace/StudyNotes/AdvancedMath/20AppOfCurveAndSurfaceIntegral.md
+/home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.md
+/home/hine/Workspace/StudyNotes/English/3.md
+/home/hine/Workspace/StudyNotes/English/2.md
+/home/hine/Workspace/StudyNotes/English/2
+/home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/7PascalsTriangle.c
+/home/hine/Workspace/StudyNotes/AdvancedMath/1HookFace.md
+/home/hine/Workspace/StudyNotes/Homework/English/20200401.md
+/home/hine/下载/752501887_1337735344LHY/你的名字HD1280高清日语中字/[101008][Overflow]SCHOOL DAYS HQ[汉化硬盘版+RR10]/SCHOOLDAYS HQ汉化硬盘版.part1.rar.BaiduPCS-Go-downloading
+/home/hine/Workspace/StudyNotes/ConspectusOfChineseModernHistory/1949-1978.md
 /home/hine/Workspace/StudyNotes/AdvancedMath/19CurveAndSurfaceIntegral.md
 /home/hine/文档/hulianwang+dasai/5.md
 /home/hine/文档/hulianwang+dasai/5.c
-/home/hine/.xsettingsd
 /home/hine/.vim/vimrc
-/home/hine/Workspace/StudyNotes/English/3.md
 /home/hine/.config/alacritty/alacritty.yml
 /home/hine/.config/picom_back.conf
 /home/hine/.config/picom.conf
-/home/hine/.config/i3/config
 /home/hine/Applications/prettyi3/light/config/polybar/modules.ini
 /home/hine/.local/share/fonts/fonts.dir
 /home/hine/.xinitrc
@@ -28,8 +50,6 @@
 /etc/resolv.conf
 /home/hine/Workspace/StudyNotes/ConspectusOfChineseModernHistory/9-1.md
 /home/hine/Workspace/StudyNotes/ConspectusOfChineseModernHistory/8-3.md
-/home/hine/Workspace/test/c.c
-/home/hine/Workspace/StudyNotes/English/2.md
 /home/hine/Workspace/StudyNotes/English/2.mld
 /home/hine/Workspace/StudyNotes/AdvancedMath/19
 /home/hine/.vim/plugged/vim-snazzy/colors/snazzy.vim
@@ -59,12 +79,10 @@
 /home/hine/Workspace/StudyNotes/AdvancedMath/12DirectionalDerivativeAndGradient.md
 /home/hine/Workspace/StudyNotes/AdvancedMath/11MutiFuncIntGeoApp.md
 /home/hine/Workspace/StudyNotes/AdvancedMath/3HookFaceAndItsEquation.md
-/home/hine/Workspace/StudyNotes/AdvancedMath/1HookFace.md
 /home/hine/Workspace/markdown-preview.nvim/README.md
 /home/hine/Workspace/StudyNotes/AdvancedMath/10ImplicitFunction.md
 /home/hine/Workspace/StudyNotes/AdvancedMath/1stSummary.md
 /usr/bin/tp
-/home/hine/.Xresources
 /home/hine/Workspace/yandextp/tp.sh
 /home/hine/Workspace/bing/bing.sh
 /home/hine/tp.sh
@@ -132,7 +150,6 @@
 /home/hine/文档/Tencent Files/1337735344/FileRecv/yiban(2).py
 /home/hine/.cache/yay/freedownloadmanager/PKGBUILD
 /home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/2/1900301517_4.c
-/home/hine/文档/Tencent Files/1337735344/FileRecv/yiban.py
 /home/hine/文档/Tencent Files/1337735344/FileRecv/yiban(1).py
 /home/hine/Workspace/Terslation/Makefile
 /home/hine/Workspace/Terslation/mak
@@ -159,7 +176,6 @@
 /usr/bin/xfce4-notifyd-config
 /home/hine/xfce4-notifyd-config
 /home/hine/Workspace/StudyNotes/AdvancedMath/9DerivativeRule.md
-/home/hine/Workspace/StudyNotes/Homework/English/20200401.md
 /home/hine/Workspace/StudyNotes/AdvancedMath/13
 /home/hine/.config/nvim/init.vim
 /home/hine/桌面/高级主播音效助手.desktop
@@ -246,8 +262,6 @@
 /home/hine/.config/chromium/Default/Extensions/hfjbmagddngcpeloejdejnfgbamkjaeg/1.80.3_0/README.md
 /home/hine/.config/chromium/Default/Extensions/hfjbmagddngcpeloejdejnfgbamkjaeg/1.80.3_0/readme.md
 /home/hine/Workspace/summary/3rdWeekSummary/3rdWeekSummary.md
-/home/hine/Workspace/skkshu_config/vimium-c/keymap
-/home/hine/Workspace/skkshu_config/vimium-c/map
 /home/hine/Workspace/skkshu_config/vimium-c/vimium_c-20200315_004202.json
 /home/hine/Workspace/summary/Github-Learn/readme.md
 /home/hine/Workspace/summary/3rdWeekSummary/readme.md
