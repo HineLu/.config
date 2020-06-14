@@ -1,0 +1,5 @@
+2020/05/28-20:01:21.048 2390 Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_www.cctv.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/28-20:01:30.650 242c Level-0 table #5: started
+2020/05/28-20:01:30.651 242c Level-0 table #5: 816 bytes OK
+2020/05/28-20:01:30.653 242c Delete type=0 #3
+2020/05/28-20:01:30.653 242c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

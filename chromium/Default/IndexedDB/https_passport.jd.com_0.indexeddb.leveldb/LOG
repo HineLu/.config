@@ -1,0 +1,15 @@
+2020/05/18-12:06:46.771 1f02 Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_passport.jd.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/18-12:06:46.772 1f02 Recovering log #4
+2020/05/18-12:06:46.773 1f02 Reusing old log /home/hine/.config/chromium/Default/IndexedDB/https_passport.jd.com_0.indexeddb.leveldb/000004.log 
+2020/05/18-12:06:55.604 184f Level-0 table #8: started
+2020/05/18-12:06:55.606 184f Level-0 table #8: 898 bytes OK
+2020/05/18-12:06:55.608 184f Delete type=0 #4
+2020/05/18-12:06:55.609 184f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/05/18-12:06:55.609 184f Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x10\x003\x00A\x00B\x009\x00D\x002\x003\x00F\x007\x00A\x004\x00B\x003\x00C\x009\x00B' @ 61 : 1
+2020/05/18-12:06:55.609 184f Compacting 1@1 + 1@2 files
+2020/05/18-12:06:55.611 184f Generated table #9@1: 20 keys, 715 bytes
+2020/05/18-12:06:55.611 184f Compacted 1@1 + 1@2 files => 715 bytes
+2020/05/18-12:06:55.612 184f compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/05/18-12:06:55.612 184f Delete type=2 #8
+2020/05/18-12:06:55.612 184f Delete type=2 #5
+2020/05/18-12:06:55.612 184f Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x10\x003\x00A\x00B\x009\x00D\x002\x003\x00F\x007\x00A\x004\x00B\x003\x00C\x009\x00B' @ 61 : 1 .. (end); will stop at (end)

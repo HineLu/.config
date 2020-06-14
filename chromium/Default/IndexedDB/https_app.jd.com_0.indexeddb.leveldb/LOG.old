@@ -1,0 +1,5 @@
+2020/05/09-19:11:23.146 37a8 Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_app.jd.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/09-19:11:28.303 356e Level-0 table #5: started
+2020/05/09-19:11:28.312 356e Level-0 table #5: 1161 bytes OK
+2020/05/09-19:11:28.314 356e Delete type=0 #3
+2020/05/09-19:11:28.315 356e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

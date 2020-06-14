@@ -165,3 +165,761 @@
     at closeTag (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:889:7)
     at SAXParser.write (/usr/lib/motrix/app/node_modules/sax/lib/sax.js:1436:13)
     at Parser.exports.Parser.Parser.parseString (/usr/lib/motrix/app/node_modules/xml2js/lib/xml2js.js:211:31)
+[2020-05-18 18:50:10.553] [warn] [Motrix] Logger init
+[2020-05-18 18:50:12.886] [warn] [Motrix] UPnPManager map 21301 failed, error:  {
+  constructor: 'Error',
+  stack: 'Error: UPnP port mapping failed\n' +
+    '    at /usr/lib/motrix/app/node_modules/nat-api/index.js:226:25\n' +
+    '    at /usr/lib/motrix/app/node_modules/nat-api/index.js:324:16\n' +
+    '    at /usr/lib/motrix/app/node_modules/nat-api/lib/upnp/index.js:24:23\n' +
+    '    at Timeout._onTimeout (/usr/lib/motrix/app/node_modules/nat-api/lib/upnp/index.js:193:7)\n' +
+    '    at listOnTimeout (internal/timers.js:531:17)\n' +
+    '    at processTimers (internal/timers.js:475:7)'
+}
+[2020-05-18 18:50:12.887] [warn] [Motrix] UPnPManager map 26701 failed, error:  {
+  constructor: 'Error',
+  stack: 'Error: UPnP port mapping failed\n' +
+    '    at /usr/lib/motrix/app/node_modules/nat-api/index.js:226:25\n' +
+    '    at /usr/lib/motrix/app/node_modules/nat-api/index.js:324:16\n' +
+    '    at /usr/lib/motrix/app/node_modules/nat-api/lib/upnp/index.js:24:23\n' +
+    '    at Timeout._onTimeout (/usr/lib/motrix/app/node_modules/nat-api/lib/upnp/index.js:193:7)\n' +
+    '    at listOnTimeout (internal/timers.js:531:17)\n' +
+    '    at processTimers (internal/timers.js:475:7)'
+}
+[2020-05-18 18:50:12.889] [warn] [Motrix] start UPnP mapping fail UPnP port mapping failed
+[2020-05-18 18:50:18.333] [warn] [Motrix] auto sync tracker data: [
+  'udp://93.158.213.92:1337/announce\n' +
+    '\n' +
+    'http://93.158.213.92:1337/announce\n' +
+    '\n' +
+    'udp://151.80.120.112:2710/announce\n' +
+    '\n' +
+    'udp://62.210.97.59:1337/announce\n' +
+    '\n' +
+    'udp://208.83.20.20:6969/announce\n' +
+    '\n' +
+    'udp://194.182.165.153:6969/announce\n' +
+    '\n' +
+    'udp://176.113.71.60:6961/announce\n' +
+    '\n' +
+    'udp://37.235.174.46:2710/announce\n' +
+    '\n' +
+    'udp://185.181.60.67:80/announce\n' +
+    '\n' +
+    'http://176.113.71.60:6961/announce\n' +
+    '\n' +
+    'udp://78.46.225.225:2710/announce\n' +
+    '\n' +
+    'udp://5.206.13.166:6969/announce\n' +
+    '\n' +
+    'udp://89.234.156.205:451/announce\n' +
+    '\n' +
+    'udp://154.46.204.21:6969/announce\n' +
+    '\n' +
+    'udp://207.241.231.226:6969/announce\n' +
+    '\n' +
+    'udp://207.241.226.111:6969/announce\n' +
+    '\n' +
+    'udp://51.15.40.114:80/announce\n' +
+    '\n' +
+    'udp://91.149.192.31:6969/announce\n' +
+    '\n' +
+    'udp://217.76.183.53:80/announce\n' +
+    '\n' +
+    'udp://184.105.151.164:6969/announce\n' +
+    '\n' +
+    'http://184.105.151.164:6969/announce\n' +
+    '\n' +
+    'udp://212.47.227.58:6969/announce\n' +
+    '\n' +
+    'udp://46.148.18.250:2710/announce\n' +
+    '\n' +
+    'udp://51.15.55.204:1337/announce\n' +
+    '\n' +
+    'udp://5.226.148.20:6969/announce\n' +
+    '\n' +
+    'udp://212.1.226.176:2710/announce\n' +
+    '\n' +
+    'udp://46.148.18.254:2710/announce\n' +
+    '\n' +
+    'http://51.15.55.204:1337/announce\n' +
+    '\n' +
+    'http://51.81.46.170:6969/announce\n' +
+    '\n' +
+    'udp://95.217.161.135:6969/announce\n' +
+    '\n' +
+    'udp://207.246.121.172:2000/announce\n' +
+    '\n' +
+    'udp://62.171.179.41:80/announce\n' +
+    '\n' +
+    'udp://51.81.46.170:6969/announce\n' +
+    '\n' +
+    'udp://173.82.240.104:6969/announce\n' +
+    '\n' +
+    'http://95.107.48.115:80/announce\n' +
+    '\n' +
+    'http://78.46.225.225:2710/announce\n' +
+    '\n' +
+    'udp://159.89.208.145:8866/announce\n' +
+    '\n' +
+    'http://179.113.209.48:6969/announce\n' +
+    '\n' +
+    'http://159.89.208.145:8866/announce\n' +
+    '\n' +
+    'udp://167.179.77.133:1/announce\n' +
+    '\n' +
+    'udp://51.254.249.186:6969/announce\n' +
+    '\n' +
+    'udp://94.224.67.24:6969/announce\n' +
+    '\n' +
+    'udp://52.58.128.163:6969/announce\n' +
+    '\n' +
+    'udp://45.86.70.181:6969/announce\n' +
+    '\n' +
+    'udp://103.196.36.31:6969/announce\n' +
+    '\n' +
+    'udp://78.30.254.12:2710/announce\n' +
+    '\n' +
+    'udp://217.160.246.211:6969/announce\n' +
+    '\n' +
+    'http://182.150.53.61:8080/announce\n' +
+    '\n' +
+    'http://122.116.144.108:80/announce\n' +
+    '\n' +
+    'http://47.240.12.145:6969/announce\n' +
+    '\n' +
+    'http://220.173.39.157:6969/announce\n' +
+    '\n' +
+    'http://125.227.84.110:6969/announce\n' +
+    '\n' +
+    'http://54.39.98.124:80/announce\n' +
+    '\n' +
+    'http://78.30.254.12:2710/announce\n' +
+    '\n' +
+    'http://54.37.106.164:80/announce\n' +
+    '\n' +
+    'udp://182.150.53.61:8080/announce\n' +
+    '\n' +
+    'udp://122.116.144.108:2710/announce\n' +
+    '\n' +
+    'udp://176.113.68.67:6961/announce\n' +
+    '\n' +
+    'udp://220.173.39.157:6969/announce\n' +
+    '\n' +
+    'udp://51.15.3.74:6969/announce\n' +
+    '\n' +
+    'udp://27.156.65.115:2710/announce\n' +
+    '\n' +
+    'udp://139.99.100.97:8080/announce\n' +
+    '\n' +
+    'http://176.113.68.67:6961/announce\n' +
+    '\n' +
+    'http://54.39.179.91:6699/announce\n' +
+    '\n',
+  'udp://tracker.opentrackr.org:1337/announce\n' +
+    '\n' +
+    'http://tracker.opentrackr.org:1337/announce\n' +
+    '\n' +
+    'udp://9.rarbg.to:2710/announce\n' +
+    '\n' +
+    'udp://9.rarbg.me:2710/announce\n' +
+    '\n' +
+    'udp://p4p.arenabg.com:1337/announce\n' +
+    '\n' +
+    'udp://exodus.desync.com:6969/announce\n' +
+    '\n' +
+    'udp://tracker.cyberia.is:6969/announce\n' +
+    '\n' +
+    'udp://tracker3.itzmx.com:6961/announce\n' +
+    '\n' +
+    'udp://retracker.lanta-net.ru:2710/announce\n' +
+    '\n' +
+    'udp://open.stealth.si:80/announce\n' +
+    '\n' +
+    'http://tracker3.itzmx.com:6961/announce\n' +
+    '\n' +
+    'http://tracker1.itzmx.com:8080/announce\n' +
+    '\n' +
+    'udp://tracker4.itzmx.com:2710/announce\n' +
+    '\n' +
+    'udp://tracker.tiny-vps.com:6969/announce\n' +
+    '\n' +
+    'udp://tracker.torrent.eu.org:451/announce\n' +
+    '\n' +
+    'udp://tracker.moeking.me:6969/announce\n' +
+    '\n' +
+    'udp://bt2.archive.org:6969/announce\n' +
+    '\n' +
+    'udp://bt1.archive.org:6969/announce\n' +
+    '\n' +
+    'udp://ipv4.tracker.harry.lu:80/announce\n' +
+    '\n' +
+    'udp://tracker.uw0.xyz:6969/announce\n' +
+    '\n' +
+    'udp://retracker.akado-ural.ru:80/announce\n' +
+    '\n' +
+    'udp://explodie.org:6969/announce\n' +
+    '\n' +
+    'http://explodie.org:6969/announce\n' +
+    '\n' +
+    'udp://zephir.monocul.us:6969/announce\n' +
+    '\n' +
+    'udp://valakas.rollo.dnsabr.com:2710/announce\n' +
+    '\n' +
+    'udp://tracker.zerobytes.xyz:1337/announce\n' +
+    '\n' +
+    'udp://tracker.ds.is:6969/announce\n' +
+    '\n' +
+    'udp://retracker.netbynet.ru:2710/announce\n' +
+    '\n' +
+    'udp://opentor.org:2710/announce\n' +
+    '\n' +
+    'http://tracker.zerobytes.xyz:1337/announce\n' +
+    '\n' +
+    'http://tracker.nyap2p.com:8080/announce\n' +
+    '\n' +
+    'http://opentracker.i2p.rocks:6969/announce\n' +
+    '\n' +
+    'udp://tracker.lelux.fi:6969/announce\n' +
+    '\n' +
+    'udp://tracker.kamigami.org:2710/announce\n' +
+    '\n' +
+    'udp://tracker.iamhansen.xyz:2000/announce\n' +
+    '\n' +
+    'udp://tracker-udp.gbitt.info:80/announce\n' +
+    '\n' +
+    'udp://opentracker.i2p.rocks:6969/announce\n' +
+    '\n' +
+    'udp://open.nyap2p.com:6969/announce\n' +
+    '\n' +
+    'https://tracker.lelux.fi:443/announce\n' +
+    '\n' +
+    'https://tracker.gbitt.info:443/announce\n' +
+    '\n' +
+    'http://vps02.net.orel.ru:80/announce\n' +
+    '\n' +
+    'http://tracker.lelux.fi:80/announce\n' +
+    '\n' +
+    'http://tracker.kamigami.org:2710/announce\n' +
+    '\n' +
+    'http://tracker.gbitt.info:80/announce\n' +
+    '\n' +
+    'http://h4.trakx.nibba.trade:80/announce\n' +
+    '\n' +
+    'udp://aaa.army:8866/announce\n' +
+    '\n' +
+    'https://tracker.sloppyta.co:443/announce\n' +
+    '\n' +
+    'https://tracker.nanoha.org:443/announce\n' +
+    '\n' +
+    'https://aaa.army:8866/announce\n' +
+    '\n' +
+    'http://tracker.bt4g.com:2095/announce\n' +
+    '\n' +
+    'http://t.overflow.biz:6969/announce\n' +
+    '\n' +
+    'http://aaa.army:8866/announce\n' +
+    '\n' +
+    'udp://u.wwwww.wtf:1/announce\n' +
+    '\n' +
+    'udp://tracker.yoshi210.com:6969/announce\n' +
+    '\n' +
+    'udp://tracker.teambelgium.net:6969/announce\n' +
+    '\n' +
+    'udp://tracker.filemail.com:6969/announce\n' +
+    '\n' +
+    'udp://tracker.dler.org:6969/announce\n' +
+    '\n' +
+    'udp://tracker.army:6969/announce\n' +
+    '\n' +
+    'udp://retracker.sevstar.net:2710/announce\n' +
+    '\n' +
+    'udp://chihaya.de:6969/announce\n' +
+    '\n' +
+    'https://w.wwwww.wtf:443/announce\n' +
+    '\n' +
+    'https://tracker.vectahosting.eu:2053/announce\n' +
+    '\n' +
+    'https://tracker.tamersunion.org:443/announce\n' +
+    '\n' +
+    'https://tracker.nitrix.me:443/announce\n' +
+    '\n' +
+    'https://tracker.imgoingto.icu:443/announce\n' +
+    '\n' +
+    'https://tr.ready4.icu:443/announce\n' +
+    '\n' +
+    'https://tk.mabo.ltd:443/announce\n' +
+    '\n' +
+    'https://t3.leech.ie:443/announce\n' +
+    '\n' +
+    'https://t2.leech.ie:443/announce\n' +
+    '\n' +
+    'https://t1.leech.ie:443/announce\n' +
+    '\n' +
+    'https://1337.abcvg.info:443/announce\n' +
+    '\n' +
+    'http://www.loushao.net:8080/announce\n' +
+    '\n' +
+    'http://trun.tom.ru:80/announce\n' +
+    '\n' +
+    'http://tracker4.itzmx.com:2710/announce\n' +
+    '\n' +
+    'http://tracker2.dler.org:80/announce\n' +
+    '\n' +
+    'http://tracker.yoshi210.com:6969/announce\n' +
+    '\n' +
+    'http://tracker.ygsub.com:6969/announce\n' +
+    '\n' +
+    'http://tracker.skyts.net:6969/announce\n' +
+    '\n' +
+    'http://tracker.dler.org:6969/announce\n' +
+    '\n' +
+    'http://t3.leech.ie:80/announce\n' +
+    '\n' +
+    'http://t2.leech.ie:80/announce\n' +
+    '\n' +
+    'http://t1.leech.ie:80/announce\n' +
+    '\n' +
+    'http://t.nyaatracker.com:80/announce\n' +
+    '\n' +
+    'http://retracker.sevstar.net:2710/announce\n' +
+    '\n' +
+    'http://pow7.com:80/announce\n' +
+    '\n' +
+    'http://open.acgnxtracker.com:80/announce\n' +
+    '\n' +
+    'udp://www.loushao.net:8080/announce\n' +
+    '\n' +
+    'udp://tracker6.dler.org:2710/announce\n' +
+    '\n' +
+    'udp://tracker2.itzmx.com:6961/announce\n' +
+    '\n' +
+    'udp://tracker.skyts.net:6969/announce\n' +
+    '\n' +
+    'udp://tr.bangumi.moe:6969/announce\n' +
+    '\n' +
+    'udp://qg.lorzl.gq:2710/announce\n' +
+    '\n' +
+    'udp://bt2.54new.com:8080/announce\n' +
+    '\n' +
+    'http://tracker2.itzmx.com:6961/announce\n' +
+    '\n' +
+    'http://t.acg.rip:6699/announce\n' +
+    '\n'
+]
+[2020-05-25 17:02:32.631] [warn] [Motrix] Logger init
+[2020-05-25 17:02:34.946] [warn] [Motrix] UPnPManager map 21301 failed, error:  {
+  constructor: 'Error',
+  stack: 'Error: UPnP port mapping failed\n' +
+    '    at /usr/lib/motrix/app/node_modules/nat-api/index.js:226:25\n' +
+    '    at /usr/lib/motrix/app/node_modules/nat-api/index.js:324:16\n' +
+    '    at /usr/lib/motrix/app/node_modules/nat-api/lib/upnp/index.js:24:23\n' +
+    '    at Timeout._onTimeout (/usr/lib/motrix/app/node_modules/nat-api/lib/upnp/index.js:193:7)\n' +
+    '    at listOnTimeout (internal/timers.js:531:17)\n' +
+    '    at processTimers (internal/timers.js:475:7)'
+}
+[2020-05-25 17:02:34.950] [warn] [Motrix] UPnPManager map 26701 failed, error:  {
+  constructor: 'Error',
+  stack: 'Error: UPnP port mapping failed\n' +
+    '    at /usr/lib/motrix/app/node_modules/nat-api/index.js:226:25\n' +
+    '    at /usr/lib/motrix/app/node_modules/nat-api/index.js:324:16\n' +
+    '    at /usr/lib/motrix/app/node_modules/nat-api/lib/upnp/index.js:24:23\n' +
+    '    at Timeout._onTimeout (/usr/lib/motrix/app/node_modules/nat-api/lib/upnp/index.js:193:7)\n' +
+    '    at listOnTimeout (internal/timers.js:531:17)\n' +
+    '    at processTimers (internal/timers.js:475:7)'
+}
+[2020-05-25 17:02:34.952] [warn] [Motrix] start UPnP mapping fail UPnP port mapping failed
+[2020-05-25 17:02:35.205] [warn] [Motrix] auto sync tracker data: [
+  'udp://93.158.213.92:1337/announce\n' +
+    '\n' +
+    'http://93.158.213.92:1337/announce\n' +
+    '\n' +
+    'udp://151.80.120.115:2710/announce\n' +
+    '\n' +
+    'udp://151.80.120.114:2710/announce\n' +
+    '\n' +
+    'udp://163.172.217.67:1337/announce\n' +
+    '\n' +
+    'udp://208.83.20.20:6969/announce\n' +
+    '\n' +
+    'udp://194.182.165.153:6969/announce\n' +
+    '\n' +
+    'udp://185.181.60.67:80/announce\n' +
+    '\n' +
+    'udp://5.206.13.166:6969/announce\n' +
+    '\n' +
+    'udp://37.235.174.46:2710/announce\n' +
+    '\n' +
+    'udp://89.234.156.205:451/announce\n' +
+    '\n' +
+    'udp://154.46.204.21:6969/announce\n' +
+    '\n' +
+    'udp://176.113.71.60:6961/announce\n' +
+    '\n' +
+    'http://176.113.71.60:6961/announce\n' +
+    '\n' +
+    'udp://51.15.40.114:80/announce\n' +
+    '\n' +
+    'udp://207.241.231.226:6969/announce\n' +
+    '\n' +
+    'udp://207.241.226.111:6969/announce\n' +
+    '\n' +
+    'udp://212.47.227.58:6969/announce\n' +
+    '\n' +
+    'udp://46.148.18.250:2710/announce\n' +
+    '\n' +
+    'udp://51.15.55.204:1337/announce\n' +
+    '\n' +
+    'udp://91.149.192.31:6969/announce\n' +
+    '\n' +
+    'udp://5.226.148.20:6969/announce\n' +
+    '\n' +
+    'udp://217.76.183.53:80/announce\n' +
+    '\n' +
+    'udp://51.81.46.170:6969/announce\n' +
+    '\n' +
+    'udp://46.148.18.254:2710/announce\n' +
+    '\n' +
+    'udp://184.105.151.164:6969/announce\n' +
+    '\n' +
+    'http://51.15.55.204:1337/announce\n' +
+    '\n' +
+    'http://51.81.46.170:6969/announce\n' +
+    '\n' +
+    'http://184.105.151.164:6969/announce\n' +
+    '\n' +
+    'udp://95.217.161.135:6969/announce\n' +
+    '\n' +
+    'udp://78.46.225.225:2710/announce\n' +
+    '\n' +
+    'udp://207.246.121.172:2000/announce\n' +
+    '\n' +
+    'udp://103.196.36.31:6969/announce\n' +
+    '\n' +
+    'udp://62.171.179.41:80/announce\n' +
+    '\n' +
+    'udp://212.1.226.176:2710/announce\n' +
+    '\n' +
+    'udp://173.82.240.104:6969/announce\n' +
+    '\n' +
+    'udp://159.89.208.145:8866/announce\n' +
+    '\n' +
+    'http://95.107.48.115:80/announce\n' +
+    '\n' +
+    'http://78.46.225.225:2710/announce\n' +
+    '\n' +
+    'http://159.89.208.145:8866/announce\n' +
+    '\n' +
+    'udp://167.179.77.133:1/announce\n' +
+    '\n' +
+    'http://179.113.209.48:6969/announce\n' +
+    '\n' +
+    'udp://182.150.53.61:8080/announce\n' +
+    '\n' +
+    'udp://176.113.68.67:6961/announce\n' +
+    '\n' +
+    'udp://51.254.249.186:6969/announce\n' +
+    '\n' +
+    'udp://94.224.67.24:6969/announce\n' +
+    '\n' +
+    'udp://75.127.14.224:2710/announce\n' +
+    '\n' +
+    'udp://220.173.38.176:6969/announce\n' +
+    '\n' +
+    'udp://5.135.177.153:6969/announce\n' +
+    '\n' +
+    'udp://52.58.128.163:6969/announce\n' +
+    '\n' +
+    'udp://125.227.84.110:6969/announce\n' +
+    '\n' +
+    'udp://27.156.64.169:2710/announce\n' +
+    '\n' +
+    'udp://217.160.246.211:6969/announce\n' +
+    '\n' +
+    'http://182.150.53.61:8080/announce\n' +
+    '\n' +
+    'http://78.30.254.12:2710/announce\n' +
+    '\n' +
+    'http://176.113.68.67:6961/announce\n' +
+    '\n' +
+    'http://163.172.209.40:80/announce\n' +
+    '\n' +
+    'http://51.254.249.186:6969/announce\n' +
+    '\n' +
+    'http://47.240.12.145:6969/announce\n' +
+    '\n' +
+    'http://220.173.38.176:6969/announce\n' +
+    '\n' +
+    'http://116.203.120.203:6969/announce\n' +
+    '\n' +
+    'http://54.39.98.124:80/announce\n' +
+    '\n' +
+    'http://51.79.71.167:80/announce\n' +
+    '\n' +
+    'http://54.37.106.164:80/announce\n' +
+    '\n' +
+    'http://91.207.136.85:80/announce\n' +
+    '\n' +
+    'udp://193.16.10.60:2710/announce\n' +
+    '\n' +
+    'udp://51.15.3.74:6969/announce\n' +
+    '\n' +
+    'udp://62.234.156.195:39652/announce\n' +
+    '\n' +
+    'udp://139.99.100.97:8080/announce\n' +
+    '\n' +
+    'http://54.39.179.91:6699/announce\n' +
+    '\n',
+  'udp://tracker.opentrackr.org:1337/announce\n' +
+    '\n' +
+    'http://tracker.opentrackr.org:1337/announce\n' +
+    '\n' +
+    'udp://tracker.leechers-paradise.org:6969/announce\n' +
+    '\n' +
+    'udp://9.rarbg.to:2710/announce\n' +
+    '\n' +
+    'udp://9.rarbg.me:2710/announce\n' +
+    '\n' +
+    'udp://p4p.arenabg.com:1337/announce\n' +
+    '\n' +
+    'udp://exodus.desync.com:6969/announce\n' +
+    '\n' +
+    'udp://tracker.cyberia.is:6969/announce\n' +
+    '\n' +
+    'udp://open.stealth.si:80/announce\n' +
+    '\n' +
+    'udp://tracker.tiny-vps.com:6969/announce\n' +
+    '\n' +
+    'udp://retracker.lanta-net.ru:2710/announce\n' +
+    '\n' +
+    'udp://tracker.torrent.eu.org:451/announce\n' +
+    '\n' +
+    'udp://tracker.moeking.me:6969/announce\n' +
+    '\n' +
+    'udp://tracker3.itzmx.com:6961/announce\n' +
+    '\n' +
+    'http://tracker3.itzmx.com:6961/announce\n' +
+    '\n' +
+    'http://tracker1.itzmx.com:8080/announce\n' +
+    '\n' +
+    'udp://ipv4.tracker.harry.lu:80/announce\n' +
+    '\n' +
+    'udp://bt2.archive.org:6969/announce\n' +
+    '\n' +
+    'udp://bt1.archive.org:6969/announce\n' +
+    '\n' +
+    'udp://zephir.monocul.us:6969/announce\n' +
+    '\n' +
+    'udp://valakas.rollo.dnsabr.com:2710/announce\n' +
+    '\n' +
+    'udp://tracker.zerobytes.xyz:1337/announce\n' +
+    '\n' +
+    'udp://tracker.uw0.xyz:6969/announce\n' +
+    '\n' +
+    'udp://tracker.ds.is:6969/announce\n' +
+    '\n' +
+    'udp://retracker.akado-ural.ru:80/announce\n' +
+    '\n' +
+    'udp://opentracker.i2p.rocks:6969/announce\n' +
+    '\n' +
+    'udp://opentor.org:2710/announce\n' +
+    '\n' +
+    'udp://explodie.org:6969/announce\n' +
+    '\n' +
+    'http://tracker.zerobytes.xyz:1337/announce\n' +
+    '\n' +
+    'http://tracker.nyap2p.com:8080/announce\n' +
+    '\n' +
+    'http://opentracker.i2p.rocks:6969/announce\n' +
+    '\n' +
+    'http://h4.trakx.nibba.trade:80/announce\n' +
+    '\n' +
+    'http://explodie.org:6969/announce\n' +
+    '\n' +
+    'udp://tracker.lelux.fi:6969/announce\n' +
+    '\n' +
+    'udp://tracker.kamigami.org:2710/announce\n' +
+    '\n' +
+    'udp://tracker.iamhansen.xyz:2000/announce\n' +
+    '\n' +
+    'udp://tracker.army:6969/announce\n' +
+    '\n' +
+    'udp://tracker-udp.gbitt.info:80/announce\n' +
+    '\n' +
+    'udp://retracker.netbynet.ru:2710/announce\n' +
+    '\n' +
+    'udp://open.nyap2p.com:6969/announce\n' +
+    '\n' +
+    'udp://aaa.army:8866/announce\n' +
+    '\n' +
+    'https://tracker.lelux.fi:443/announce\n' +
+    '\n' +
+    'https://tracker.gbitt.info:443/announce\n' +
+    '\n' +
+    'https://aaa.army:8866/announce\n' +
+    '\n' +
+    'http://vps02.net.orel.ru:80/announce\n' +
+    '\n' +
+    'http://tracker.lelux.fi:80/announce\n' +
+    '\n' +
+    'http://tracker.kamigami.org:2710/announce\n' +
+    '\n' +
+    'http://tracker.gbitt.info:80/announce\n' +
+    '\n' +
+    'http://aaa.army:8866/announce\n' +
+    '\n' +
+    'udp://u.wwwww.wtf:1/announce\n' +
+    '\n' +
+    'udp://tracker4.itzmx.com:2710/announce\n' +
+    '\n' +
+    'https://w.wwwww.wtf:443/announce\n' +
+    '\n' +
+    'http://tracker.bt4g.com:2095/announce\n' +
+    '\n' +
+    'http://t.overflow.biz:6969/announce\n' +
+    '\n' +
+    'udp://www.loushao.net:8080/announce\n' +
+    '\n' +
+    'udp://tracker2.itzmx.com:6961/announce\n' +
+    '\n' +
+    'udp://tracker.yoshi210.com:6969/announce\n' +
+    '\n' +
+    'udp://tracker.teambelgium.net:6969/announce\n' +
+    '\n' +
+    'udp://tracker.swateam.org.uk:2710/announce\n' +
+    '\n' +
+    'udp://tracker.skyts.net:6969/announce\n' +
+    '\n' +
+    'udp://tracker.jae.moe:6969/announce\n' +
+    '\n' +
+    'udp://tracker.filemail.com:6969/announce\n' +
+    '\n' +
+    'udp://tracker.dler.org:6969/announce\n' +
+    '\n' +
+    'udp://retracker.sevstar.net:2710/announce\n' +
+    '\n' +
+    'udp://qg.lorzl.gq:2710/announce\n' +
+    '\n' +
+    'udp://chihaya.de:6969/announce\n' +
+    '\n' +
+    'https://tracker.vectahosting.eu:2053/announce\n' +
+    '\n' +
+    'https://tracker.tamersunion.org:443/announce\n' +
+    '\n' +
+    'https://tracker.sloppyta.co:443/announce\n' +
+    '\n' +
+    'https://tracker.nitrix.me:443/announce\n' +
+    '\n' +
+    'https://tracker.nanoha.org:443/announce\n' +
+    '\n' +
+    'https://tracker.jae.moe:443/announce\n' +
+    '\n' +
+    'https://tracker.imgoingto.icu:443/announce\n' +
+    '\n' +
+    'https://tk.mabo.ltd:443/announce\n' +
+    '\n' +
+    'https://t1.leech.ie:443/announce\n' +
+    '\n' +
+    'https://1337.abcvg.info:443/announce\n' +
+    '\n' +
+    'http://www.loushao.net:8080/announce\n' +
+    '\n' +
+    'http://tracker4.itzmx.com:2710/announce\n' +
+    '\n' +
+    'http://tracker2.itzmx.com:6961/announce\n' +
+    '\n' +
+    'http://tracker2.dler.org:80/announce\n' +
+    '\n' +
+    'http://tracker.yoshi210.com:6969/announce\n' +
+    '\n' +
+    'http://tracker.ygsub.com:6969/announce\n' +
+    '\n' +
+    'http://tracker.skyts.net:6969/announce\n' +
+    '\n' +
+    'http://tracker.dler.org:6969/announce\n' +
+    '\n' +
+    'http://t1.leech.ie:80/announce\n' +
+    '\n' +
+    'http://t.nyaatracker.com:80/announce\n' +
+    '\n' +
+    'http://retracker.sevstar.net:2710/announce\n' +
+    '\n' +
+    'http://pow7.com:80/announce\n' +
+    '\n' +
+    'http://open.acgnxtracker.com:80/announce\n' +
+    '\n' +
+    'http://mail2.zelenaya.net:80/announce\n' +
+    '\n' +
+    'udp://tracker6.dler.org:2710/announce\n' +
+    '\n' +
+    'udp://tr.bangumi.moe:6969/announce\n' +
+    '\n' +
+    'udp://cx42light.cn:39652/announce\n' +
+    '\n' +
+    'udp://bt2.54new.com:8080/announce\n' +
+    '\n' +
+    'https://tr.ready4.icu:443/announce\n' +
+    '\n' +
+    'https://t3.leech.ie:443/announce\n' +
+    '\n' +
+    'https://t2.leech.ie:443/announce\n' +
+    '\n' +
+    'http://trun.tom.ru:80/announce\n' +
+    '\n' +
+    'http://t3.leech.ie:80/announce\n' +
+    '\n' +
+    'http://t2.leech.ie:80/announce\n' +
+    '\n' +
+    'http://t.acg.rip:6699/announce\n' +
+    '\n'
+]
+[2020-05-25 20:36:11.237] [warn] [Motrix] Logger init
+[2020-05-26 00:32:50.665] [warn] [Motrix] Logger init
+[2020-05-26 11:32:00.410] [warn] [Motrix] Logger init
+[2020-05-26 11:32:00.981] [error] [Motrix] Uncaught exception: App version is not a valid semver version: "v1.5.13.r0.g402185e"
+[2020-05-26 11:32:00.981] [error] Error: App version is not a valid semver version: "v1.5.13.r0.g402185e"
+    at newError (/usr/lib/motrix/app/node_modules/builder-util-runtime/out/index.js:212:17)
+    at new AppUpdater (/usr/lib/motrix/app/node_modules/electron-updater/out/AppUpdater.js:236:48)
+    at new BaseUpdater (/usr/lib/motrix/app/node_modules/electron-updater/out/BaseUpdater.js:20:5)
+    at new AppImageUpdater (/usr/lib/motrix/app/node_modules/electron-updater/out/AppImageUpdater.js:78:5)
+    at doLoadAutoUpdater (/usr/lib/motrix/app/node_modules/electron-updater/out/main.js:133:20)
+    at Object.get [as autoUpdater] (/usr/lib/motrix/app/node_modules/electron-updater/out/main.js:142:28)
+    at new a (/usr/lib/motrix/app/electron/main.js:1:164032)
+    at m.value (/usr/lib/motrix/app/electron/main.js:1:197364)
+    at m.value (/usr/lib/motrix/app/electron/main.js:1:187347)
+    at new m (/usr/lib/motrix/app/electron/main.js:1:186837)
+[2020-05-26 11:32:05.466] [warn] [Motrix] UPnPManager map 21301 failed, error:  Error: UPnP port mapping failed
+    at /usr/lib/motrix/app/node_modules/nat-api/index.js:226:25
+    at /usr/lib/motrix/app/node_modules/nat-api/index.js:324:16
+    at /usr/lib/motrix/app/node_modules/nat-api/lib/upnp/index.js:24:23
+    at Timeout._onTimeout (/usr/lib/motrix/app/node_modules/nat-api/lib/upnp/index.js:193:7)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+[2020-05-26 11:32:05.469] [warn] [Motrix] UPnPManager map 26701 failed, error:  Error: UPnP port mapping failed
+    at /usr/lib/motrix/app/node_modules/nat-api/index.js:226:25
+    at /usr/lib/motrix/app/node_modules/nat-api/index.js:324:16
+    at /usr/lib/motrix/app/node_modules/nat-api/lib/upnp/index.js:24:23
+    at Timeout._onTimeout (/usr/lib/motrix/app/node_modules/nat-api/lib/upnp/index.js:193:7)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+[2020-05-26 11:32:05.470] [warn] [Motrix] start UPnP mapping fail UPnP port mapping failed
+[2020-05-26 11:32:08.393] [warn] [Motrix] Logger init
+[2020-05-26 11:32:08.674] [error] [Motrix] Uncaught exception: Cannot read property 'showPage' of undefined
+[2020-05-26 11:32:08.674] [error] TypeError: Cannot read property 'showPage' of undefined
+    at App.<anonymous> (/usr/lib/motrix/app/electron/main.js:1:203302)
+    at App.emit (events.js:210:5)
+[2020-05-26 11:32:16.342] [warn] [Motrix] Logger init
+[2020-05-26 11:32:16.626] [error] [Motrix] Uncaught exception: Cannot read property 'showPage' of undefined
+[2020-05-26 11:32:16.627] [error] TypeError: Cannot read property 'showPage' of undefined
+    at App.<anonymous> (/usr/lib/motrix/app/electron/main.js:1:203302)
+    at App.emit (events.js:210:5)
+[2020-05-26 11:46:37.369] [warn] [Motrix] Logger init
+[2020-05-26 11:46:37.660] [error] [Motrix] Uncaught exception: Cannot read property 'showPage' of undefined
+[2020-05-26 11:46:37.661] [error] TypeError: Cannot read property 'showPage' of undefined
+    at App.<anonymous> (/usr/lib/motrix/app/electron/main.js:1:203302)
+    at App.emit (events.js:210:5)
+[2020-05-26 11:49:32.518] [warn] [Motrix] Logger init
+[2020-05-26 11:49:32.801] [error] [Motrix] Uncaught exception: Cannot read property 'showPage' of undefined
+[2020-05-26 11:49:32.802] [error] TypeError: Cannot read property 'showPage' of undefined
+    at App.<anonymous> (/usr/lib/motrix/app/electron/main.js:1:203302)
+    at App.emit (events.js:210:5)

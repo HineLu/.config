@@ -31,13 +31,15 @@ exec --no-startup-id xfce4-clipman
 exec --no-startup-id variety
 
 # Hotkey
-## screenshot
+# screenshot
 bindsym --release Print exec "sh ~/.config/i3/screencut/cut_all.sh"
 # cut current window
 bindsym --release $mod+Print exec "sh ~/.config/i3/screencut/cut_cur.sh"
-# cut selection 
-bindsym --release $mod+Shift+Print exec "sh ~/.config/i3/screencut/cut_sel.sh"
-bindsym --release $mod+Shift+S exec "sh ~/.config/i3/screencut/cut_sel_tmp.sh"
+## cut selection 
+#bindsym --release $mod+Shift+Print exec "sh ~/.config/i3/screencut/cut_sel.sh"
+bindsym --release $mod+Shift+Print exec "flameshot gui"
+#bindsym --release $mod+Shift+S exec "sh ~/.config/i3/screencut/cut_sel_tmp.sh"
+bindsym --release $mod+Shift+S exec "flameshot gui"
 
 
 # TouchPad setting
@@ -212,7 +214,6 @@ set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
-
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
 bindsym $mod+2 workspace number $ws2

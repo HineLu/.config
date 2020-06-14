@@ -1,0 +1,29 @@
+ls
+cd ..
+ls
+cd office2010/
+ls
+help
+--help
+ls
+d Office2010官方正版.iso 
+lt
+lt Office2010官方正版.iso 
+ls
+d Office2010官方正版.iso 
+ls
+d Office2010官方正版.iso 
+ls
+cd ..
+exit
+ls
+config
+ls
+config
+config set --appid  266719
+config
+ls
+cd 电子书
+ls
+d 0
+d 700764\ Julia语言程序设计.pdf 

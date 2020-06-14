@@ -1,0 +1,7 @@
+[MainWindow]
+Height 1080=700
+Width 1920=1024
+
+[Open-with settings]
+CompletionMode=1
+History=/bin/alacritty,alac,alacr

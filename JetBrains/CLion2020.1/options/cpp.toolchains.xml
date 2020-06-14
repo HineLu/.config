@@ -1,0 +1,8 @@
+<application>
+  <component name="CPPToolchains" version="4">
+    <toolchains detectedVersion="5">
+      <toolchain name="GCC" toolSetKind="SYSTEM_UNIX_TOOLSET" debuggerKind="BUNDLED_GDB" />
+      <toolchain name="LLVM" toolSetKind="SYSTEM_UNIX_TOOLSET" customCCompilerPath="/usr/bin/clang" customCXXCompilerPath="/usr/bin/clang++" debuggerKind="BUNDLED_LLDB" />
+    </toolchains>
+  </component>
+</application>

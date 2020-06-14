@@ -1,8 +1,7 @@
 {
   "allowed_origins": [
     "chrome-extension:\/\/ahmpjcflkgiildlgicmcieglgoilbfdp\/",
-    "chrome-extension:\/\/mdfcjfioplkdchnhcpcobaheocanedjg\/",
-    "chrome-extension:\/\/gkeidkgccologebpfihomcamndpafjgc\/"
+    "chrome-extension:\/\/mdfcjfioplkdchnhcpcobaheocanedjg\/"
   ],
   "description": "Free Download Manager",
   "name": "org.freedownloadmanager.fdm5.cnh",

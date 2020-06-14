@@ -1,2 +1,5 @@
 package wttr
+theme bobthefish
+theme dangerous
 theme default
+theme emoji-powerline

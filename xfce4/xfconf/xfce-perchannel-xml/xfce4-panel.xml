@@ -7,13 +7,11 @@
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="8"/>
         <value type="int" value="3"/>
         <value type="int" value="7"/>
         <value type="int" value="1"/>
         <value type="int" value="4"/>
         <value type="int" value="6"/>
-        <value type="int" value="9"/>
         <value type="int" value="5"/>
         <value type="int" value="2"/>
       </property>
@@ -58,6 +56,8 @@
       </property>
       <property name="show-frame" type="bool" value="false"/>
       <property name="names-ordered" type="array">
+        <value type="string" value="kgpg"/>
+        <value type="string" value="steam"/>
         <value type="string" value="便笺"/>
         <value type="string" value="free download manager"/>
         <value type="string" value="variety"/>

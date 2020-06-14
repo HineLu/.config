@@ -1,5 +1,38 @@
-2020/04/23-20:35:27.707 14d6b Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_v.guet.edu.cn_0.indexeddb.leveldb/MANIFEST-000001
-2020/04/23-21:00:08.141 13e8d Level-0 table #5: started
-2020/04/23-21:00:08.144 13e8d Level-0 table #5: 13329 bytes OK
-2020/04/23-21:00:08.145 13e8d Delete type=0 #3
-2020/04/23-21:00:08.146 13e8d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/05/11-16:39:20.203 d7b Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_v.guet.edu.cn_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/11-16:39:20.203 d7b Recovering log #265
+2020/05/11-16:39:20.203 d7b Reusing old log /home/hine/.config/chromium/Default/IndexedDB/https_v.guet.edu.cn_0.indexeddb.leveldb/000265.log 
+2020/05/11-16:39:49.997 7f0 Level-0 table #305: started
+2020/05/11-16:39:50.016 7f0 Level-0 table #305: 1463704 bytes OK
+2020/05/11-16:39:50.018 7f0 Delete type=0 #265
+2020/05/11-16:39:52.815 7f0 Compacting 1@0 + 0@1 files
+2020/05/11-16:39:52.817 7f0 Generated table #306@0: 64 keys, 832 bytes
+2020/05/11-16:39:52.847 7f0 Generated table #307@0: 37 keys, 1461799 bytes
+2020/05/11-16:39:52.847 7f0 Compacted 1@0 + 0@1 files => 1462631 bytes
+2020/05/11-16:39:52.848 7f0 compacted to: files[ 0 2 35 0 0 0 0 ]
+2020/05/11-16:39:53.001 7f0 Compacting 1@1 + 1@2 files
+2020/05/11-16:39:53.044 7f0 Generated table #308@1: 25 keys, 3015310 bytes
+2020/05/11-16:39:53.045 7f0 Generated table #309@1: 1222 keys, 25025 bytes
+2020/05/11-16:39:53.045 7f0 Compacted 1@1 + 1@2 files => 3040335 bytes
+2020/05/11-16:39:53.047 7f0 compacted to: files[ 0 1 36 0 0 0 0 ]
+2020/05/11-16:39:53.047 7f0 Delete type=2 #307
+2020/05/11-16:41:52.162 7f0 Level-0 table #311: started
+2020/05/11-16:41:52.176 7f0 Level-0 table #311: 982762 bytes OK
+2020/05/11-16:41:52.178 7f0 Delete type=2 #305
+2020/05/11-16:41:52.178 7f0 Delete type=2 #302
+2020/05/11-16:41:52.178 7f0 Delete type=0 #304
+2020/05/11-16:42:07.372 7f0 Level-0 table #313: started
+2020/05/11-16:42:07.394 7f0 Level-0 table #313: 1396226 bytes OK
+2020/05/11-16:42:07.395 7f0 Delete type=0 #310
+2020/05/11-16:43:12.627 7f0 Compacting 2@0 + 1@1 files
+2020/05/11-16:43:12.674 7f0 Generated table #314@0: 282 keys, 2830 bytes
+2020/05/11-16:43:12.700 7f0 Generated table #315@0: 43 keys, 2368572 bytes
+2020/05/11-16:43:12.701 7f0 Generated table #316@0: 86 keys, 1655 bytes
+2020/05/11-16:43:12.701 7f0 Compacted 2@0 + 1@1 files => 2373057 bytes
+2020/05/11-16:43:12.703 7f0 compacted to: files[ 0 3 36 0 0 0 0 ]
+2020/05/11-16:43:12.703 7f0 Delete type=2 #306
+2020/05/11-16:43:12.703 7f0 Delete type=2 #313
+2020/05/11-16:43:12.703 7f0 Delete type=2 #311
+2020/05/11-16:43:18.670 7f0 Compacting 1@1 + 1@2 files
+2020/05/11-16:43:18.672 7f0 Generated table #317@1: 1308 keys, 26383 bytes
+2020/05/11-16:43:18.672 7f0 Compacted 1@1 + 1@2 files => 26383 bytes
+2020/05/11-16:43:18.673 7f0 compacted to: files[ 0 2 36 0 0 0 0 ]

@@ -8,10 +8,11 @@
 	"hide-app-menu": true,
 	"keep-window-state": false,
 	"last-check-update-time": 0,
-	"last-sync-tracker-time": 1587989095344,
+	"last-sync-tracker-time": 1590397355219,
 	"locale": "zh-CN",
 	"log-path": "/home/hine/.config/motrix/logs/main.log",
 	"new-task-show-downloading": true,
+	"no-confirm-before-delete-task": false,
 	"open-at-login": false,
 	"protocols": {
 		"magnet": true,

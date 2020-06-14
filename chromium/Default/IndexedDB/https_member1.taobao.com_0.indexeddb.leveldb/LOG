@@ -1,0 +1,8 @@
+2020/06/11-00:19:48.069 1c2c Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_member1.taobao.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/11-00:19:48.070 1c2c Recovering log #7
+2020/06/11-00:19:48.070 1c2c Reusing old log /home/hine/.config/chromium/Default/IndexedDB/https_member1.taobao.com_0.indexeddb.leveldb/000007.log 
+2020/06/11-00:19:52.218 1c43 Level-0 table #11: started
+2020/06/11-00:19:52.218 1c43 Level-0 table #11: 0 bytes OK
+2020/06/11-00:19:52.228 1c43 Delete type=0 #7
+2020/06/11-00:19:52.228 1c43 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/11-00:19:52.228 1c43 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

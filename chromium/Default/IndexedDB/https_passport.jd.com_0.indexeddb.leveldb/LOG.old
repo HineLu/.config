@@ -1,0 +1,5 @@
+2020/05/09-19:04:31.460 33e9 Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_passport.jd.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/09-19:04:36.191 356e Level-0 table #5: started
+2020/05/09-19:04:36.192 356e Level-0 table #5: 1169 bytes OK
+2020/05/09-19:04:36.194 356e Delete type=0 #3
+2020/05/09-19:04:36.194 356e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

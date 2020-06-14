@@ -1,0 +1,5 @@
+2020/05/24-01:08:59.224 1a52 Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_www.yanxishe.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/24-01:09:39.306 21a8 Level-0 table #5: started
+2020/05/24-01:09:39.308 21a8 Level-0 table #5: 820 bytes OK
+2020/05/24-01:09:39.310 21a8 Delete type=0 #3
+2020/05/24-01:09:39.310 21a8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

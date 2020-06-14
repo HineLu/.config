@@ -1,36 +1,198 @@
+/home/hine/.local/share/omf/themes/dangerous/key_bindings.fish
+/home/hine/.config/fish/fish_variables
+/home/hine/.config/fish/config.fish
+/home/hine/.local/share/omf/bin/install
+/home/hine/.oh-my-fish/oh-my-fish.fish
+/home/hine/.config/omf/channel
+/home/hine/.config/omf/bundle
+/home/hine/.config/omf/theme
+/home/hine/.local/share/omf/init.fish
+/home/hine/.config/fish/conf.d/omf.fish
+/home/hine/.config/fish/conf.d/omf
+/home/hine/.config/fish/conf.d/pm
+/home/hine/.config/fish/conf
+/etc/resolv.conf
+/home/hine/Workspace/summary/5thSummary/5thSummary.md
+/home/hine/Workspace/summary/README.md
+/home/hine/Workspace/summary/5thSummary/4thSummary.md
+/home/hine/.config/fish/functions/fish_prompt.fish
+/home/hine/.config/fish/functions/sudo.fish
+/home/hine/文档/Tencent Files/1337735344/FileRecv/history/bigin.py
+/etc/pacman.d/mirrorlist
+/home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/6/2.c
+/home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/6/1.c
+/etc/fstab
+/boot/grub/grub.cfg
+/opt/anaconda/bin/activate
+/home/hine/.gradle/init.gradle
+/home/hine/.gradle/init.grandle
+/home/hine/.config/i3/config
+/home/hine/.vim/vimrc
+/opt/anaconda/bin/deactivate
+/home/hine/.config/picom.conf
+/opt/anaconda/etc/profile.d/conda.sh
+/home/hine/文档/Tencent Files/1337735344/FileRecv/history/1920217-期中测试1.csv
+/home/hine/文档/Tencent Files/1337735344/FileRecv/history/下篇1.csv
+/home/hine/文档/Tencent Files/1337735344/FileRecv/history/score.txt
+/home/hine/文档/Tencent Files/1337735344/FileRecv/history/KTPScript.py
+/home/hine/文档/Tencent Files/1337735344/FileRecv/history/202001.csv
+/home/hine/Workspace/StudyNotes/AdvancedMath/17TripleIntegral.md
+/home/hine/文档/Tencent Files/1337735344/FileRecv/meizi.py
+/home/hine/Workspace/summary/1stSummary/1stSummary.md
+/usr/bin/d
+/home/hine/Workspace/test/c.c
+/home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/5/3/myString.c
+/home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/5/3/main.c
+/usr/include/string.h
+/home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/5/2/main.c
+/home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/5/myfun.c
+/home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/5/2/myfun.c
+/home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/main.c
+/home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/5/1/myfun.c
+/home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/5/1/mycal.c
+/home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/5/m
+/home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/5/mycal
+/home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/5/1/m
+/usr/bin/mycal
+/usr/bin/mycal.c
+/home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/5/1/main.c
+/home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/5/1.c
 /etc/pacman.conf
-/home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c
+/home/hine/文档/data.md
+/home/hine/文档/president-trump-evolution-coronavirus-response-jm-orig.cnn_3194991_ios__en.vtt
+/home/hine/文档/xdg-open_back
+/home/hine/Workspace/StudyNotes/Ferryman/Book1.md
+/home/hine/Workspace/StudyNotes/Homework/English/June2nd.md
+/home/hine/Workspace/StudyNotes/TheFirstCode-guolin/3UI.md
+/home/hine/.config/XMind ZEN/Electron v3/vana/state/activation.json
+/home/hine/文档/Tencent Files/1337735344/FileRecv/yiban.py
+/home/hine/Workspace/summary/4thSummary/README.md
+/home/hine/Workspace/summary/2ndSummary/README.md
+/home/hine/Workspace/summary/3rdSummary/README.md
+/home/hine/Workspace/summary/4thsummary/3rdSummary.md
+/home/hine/Workspace/summary/3rdSummary/3rdSummary.md
+/home/hine/Workspace/StudyNotes/TheFirstCode-guolin/2Activity.md
+/home/hine/Workspace/StudyNotes/ExpPhysics/1_4Uncertainty.md
+/home/hine/Workspace/StudyNotes/ConspectusOfChineseModernHistory/10-1.md
+/home/hine/.local/share/applications/playonlinux-Microsoft Word 2010.desktop
+/opt/deepinwine/apps/Deepin-TIM/deepin.com.qq.office.desktop
+/home/hine/.local/share/applications/rofi.desktop
+/usr/share/applications/Alacritty.desktop
+/opt/deepinwine/apps/Microsoft-Office/Office.sh
+/usr/share/applications/xfce-workspaces-settings.desktop
+/home/hine/Applications/prettyi3/dark/config/rofi/config
+/home/hine/.config/rofi/themes/default.rasi
+/home/hine/.config/rofi/themes/colors.rasi
+/home/hine/.config/nvim/init.vim
+/home/hine/.config/rofi/config
+/usr/share/applications/PlayOnLinux.desktop
+/usr/share/applications/chromium.desktop
+/opt/deepinwine/apps/Microsoft-Office/Office.desktop
+/home/hine/.local/share/applications/playonlinux-Microsoft OneNote 2010.desktop
+/usr/share/applications/firefox.desktop
+/home/hine/.PlayOnLinux/shortcuts/Microsoft Word 2010
+/home/hine/桌面/QQ.desktop
+/home/hine/.local/share/applications/playonlinux-Microsoft Powerpoint 2010.desktop
+/home/hine/.PlayOnLinux/shortcuts/Microsoft Excel  2010
+/home/hine/.local/share/applications/playonlinux-Microsoft Excel 2010.desktop
+/opt/deepinwine/apps/Microsoft-Office/runWord.sh
+/opt/deepinwine/apps/Deepin-TIM/run.sh
+/home/hine/.config/mimeapps.list
+/usr/bin/xdg-open
+/etc/skel/.config/mimeapps.list
+/usr/bin/xdg-mime
+/home/hine/.config/ranger/rc.conf
+/home/hine/文档/president-trump-evolution-coronavirus-response-jm-orig.cnn_3194991_ios__en.srt
+/usr/share/doc/ranger/config/rifle.conf
+/usr/share/applications/com.teamviewer.TeamViewer.desktop
+/usr/share/applications/xfce4-mime-settings.desktop
+/home/hine/.local/share/applications/mimeapps.list
+/run/media/hine/Windows-SSD/Users/Hine/Desktop/desktop.ini
+/home/hine/Workspace/StudyNotes/AdvancedMath/22EighthExercises.md
+/home/hine/1.dot
+/home/hine/.cache/yay/freedownloadmanager/PKGBUILD
+/home/hine/.PlayOnLinux/wine/linux-x86/wine-1.7.55/dlls/ntdll/directory.c
+/home/hine/Workspace/StudyNotes/ConspectusOfChineseModernHistory/ChroniclesVolume3Review.md
+/home/hine/Workspace/StudyNotes/ConspectusOfChineseModernHistory/1949-1978.md
+/home/hine/.PlayOnLinux/wine/linux-x86/wine-1.7.55/README
+/home/hine/Applications/douyin_live_url/live.ts
+/home/hine/Applications/douyin_live_url/douyin.py
+/home/hine/Workspace/StudyNotes/QueryRecord/README.md
+/home/hine/Workspace/StudyNotes/TheFirstCode-guolin/3UI.c
+/home/hine/Workspace/StudyNotes/CoreJavaVolumeFundamentals/1.md
+/home/hine/文档/ÍøÉÏÊéµêËØ²Ä/index.html
+/home/hine/Workspace/StudyNotes/CoreJavaVolumeFundamentals/1
+/home/hine/文档/ÍøÉÏÊéµêËØ²Ä/example/BeijingCitizens.html
+/home/hine/文档/ÍøÉÏÊéµêËØ²Ä/example/citizens.css
+/home/hine/文档/ÍøÉÏÊéµêËØ²Ä/html/《界面设计技术》.html
+/home/hine/文档/ÍøÉÏÊéµêËØ²Ä/html/《界面设计技术》
+/home/hine/.config/polybar/config
+/home/hine/Workspace/StudyNotes/TheFirstCode-guolin/2.c
+/home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/5/4.c
+/home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/5/3.c
+/home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/5/2.c
+/home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/3/1900301517_3.c
+/home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/5/1.c
+/home/hine/Workspace/StudyNotes/AdvancedMath/19CurveAndSurfaceIntegral.md
+/home/hine/Workspace/StudyNotes/AdvancedMath/18AppOfMultiIntegrals.md
+/home/hine/Applications/QtScrcpy/README.md
+/home/hine/.cache/yay/qt-scrcpy/PKGBUILD
+/home/hine/AndroidStudioProjects/ActivityLifeCycleTest/app/src/main/java/com/example/activitylifecycletest/MainActivity.java
+/home/hine/AndroidStudioProjects/ActivityLifeCycleTest/app/src/main/AndroidManifest.xml
+/home/hine/Workspace/StudyNotes/AdvancedMath/8PerfectDifferential.md
+/home/hine/Workspace/StudyNotes/AdvancedMath/12DirectionalDerivativeAndGradient.md
+/home/hine/Workspace/StudyNotes/AdvancedMath/9DerivativeRule.md
+/home/hine/Workspace/summary/readme.md
+/home/hine/Workspace/summary/2ndSummary/2ndSummary.md
+/home/hine/文档/Tencent Files/1337735344/FileRecv/社会实践ppt大纲.txt
+/home/hine/Workspace/StudyNotes/DiscreteMath/PrincipalNormalForm.md
+/home/hine/.xsettingsd
+/home/hine/AndroidStudioProjects/ActivityLifeCycleTest/app/src/main/res/layout/normal_layout.xml
+/home/hine/Workspace/StudyNotes/CProgrammingLanguage/12StoreClassLinkAndMemoryManagement.md
+/home/hine/Workspace/StudyNotes/ConspectusOfChineseModernHistory/9-1.md
+/home/hine/Workspace/StudyNotes/AdvancedMath/21Mid-termExam.md
+/home/hine/.config/alacritty/alacritty.yml
+/etc/hosts
+/home/hine/Workspace/StudyNotes/Ferryman/Book1
+/home/hine/Workspace/StudyNotes/ExpPhysics/1_3Deviation.md
+/home/hine/Workspace/StudyNotes/ExpPhysics/1_2MeasureAndSignificantFigures.md
+/home/hine/Workspace/StudyNotes/ExpPhysics/1_3
+/home/hine/.Xresources
+/home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/4/Formal/1900301517_2_3.c
 /home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.c
+/home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber
+/home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/7PascalsTriangle.c
+/home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/7PascalsTriangle
+/home/hine/文档/Tencent Files/1337735344/FileRecv/yiban
+/home/hine/Workspace/StudyNotes/CProgrammingLanguage/FunctionAndPointer.md
+/home/hine/Workspace/StudyNotes/ExpPhysics/1_1MeasureAndSignificantFigures.md
+/home/hine/Workspace/StudyNotes/AdvancedMath/20AppOfCurveAndSurfaceIntegral.md
+/home/hine/Workspace/StudyNotes/ConspectusOfChineseModernHistory/SpecialSubject_ResistPandemic.md
+/home/hine/Workspace/StudyNotes/Homework/English/4_28.md
+/home/hine/Workspace/StudyNotes/ConspectusOfChineseModernHistory/SpecialSubject
+/home/hine/Workspace/StudyNotes/AdvancedMath/19
+/home/hine/Workspace/StudyNotes/English/3.md
+/home/hine/Workspace/StudyNotes/AdvancedMath/10ImplicitFunction.md
+/home/hine/Workspace/StudyNotes/AdvancedMath/6MultivariateCalculus.md
+/home/hine/Workspace/StudyNotes/AdvancedMath/2SpaceLine.md
+/home/hine/Workspace/StudyNotes/AdvancedMath/1HookFace.md
+/home/hine/文档/Tencent Files/1337735344/FileRecv/歌词分配.txt
+/home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/9CountingGame.c
 /home/hine/Workspace/skkshu_config/vimium-c/keymap
 /home/hine/Workspace/skkshu_config/vimium-c/map
-/home/hine/Workspace/test/c.c
-/home/hine/.config/polybar/config
 /home/hine/Workspace/QZone/send.py
 /home/hine/send.py
 /home/hine/文档/Tencent Files/1337735344/FileRecv/Skey·¢ËµËµ(Õ¥¸É½Ó¿Ú).ec
-/home/hine/文档/Tencent Files/1337735344/FileRecv/yiban.py
-/home/hine/.config/i3/config
-/home/hine/.Xresources
 /home/hine/.icons/default/index.theme
-/home/hine/.xsettingsd
 /home/hine/.xsetting
-/home/hine/Workspace/StudyNotes/AdvancedMath/20AppOfCurveAndSurfaceIntegral.md
 /home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/8SeparateNumber.md
-/home/hine/Workspace/StudyNotes/English/3.md
 /home/hine/Workspace/StudyNotes/English/2.md
 /home/hine/Workspace/StudyNotes/English/2
-/home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/7PascalsTriangle.c
-/home/hine/Workspace/StudyNotes/AdvancedMath/1HookFace.md
 /home/hine/Workspace/StudyNotes/Homework/English/20200401.md
 /home/hine/下载/752501887_1337735344LHY/你的名字HD1280高清日语中字/[101008][Overflow]SCHOOL DAYS HQ[汉化硬盘版+RR10]/SCHOOLDAYS HQ汉化硬盘版.part1.rar.BaiduPCS-Go-downloading
-/home/hine/Workspace/StudyNotes/ConspectusOfChineseModernHistory/1949-1978.md
-/home/hine/Workspace/StudyNotes/AdvancedMath/19CurveAndSurfaceIntegral.md
 /home/hine/文档/hulianwang+dasai/5.md
 /home/hine/文档/hulianwang+dasai/5.c
-/home/hine/.vim/vimrc
-/home/hine/.config/alacritty/alacritty.yml
 /home/hine/.config/picom_back.conf
-/home/hine/.config/picom.conf
 /home/hine/Applications/prettyi3/light/config/polybar/modules.ini
 /home/hine/.local/share/fonts/fonts.dir
 /home/hine/.xinitrc
@@ -46,21 +208,14 @@
 /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:19/PNP0C0A:00/power_supply/BAT1/power_now
 /home/hine/.config/polybar/power.sh
 /home/hine/Workspace/i3-polybar-config/polybar/power.sh
-/etc/hosts
-/etc/resolv.conf
-/home/hine/Workspace/StudyNotes/ConspectusOfChineseModernHistory/9-1.md
 /home/hine/Workspace/StudyNotes/ConspectusOfChineseModernHistory/8-3.md
 /home/hine/Workspace/StudyNotes/English/2.mld
-/home/hine/Workspace/StudyNotes/AdvancedMath/19
 /home/hine/.vim/plugged/vim-snazzy/colors/snazzy.vim
-/home/hine/Workspace/StudyNotes/DiscreteMath/PrincipalNormalForm.md
 /home/hine/Workspace/StudyNotes/DiscreteMath/Mn.md
 /home/hine/Workspace/StudyNotes/CProgrammingLanguage/pointer.md
 /home/hine/Workspace/StudyNotes/Homework/CProgrammingLanguage/3/3.c
 /home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/4/Formal/1900301517_2_2.c
-/home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/4/Formal/1900301517_2_3.c
 /home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/4/Formal/1900301517_2_1.c
-/home/hine/Workspace/StudyNotes/AdvancedMath/18AppOfMultiIntegrals.md
 /home/hine/Workspace/StudyNotes/CProgrammingLanguage/9Function.md
 /home/hine/文档/Tencent Files/1337735344/FileRecv/MobileFile/《登鹳雀楼》-陆洪业-1900301517-18877710342/url.txt
 /home/hine/文档/Tencent Files/1337735344/FileRecv/MobileFile/《等鹳雀楼》-陆洪业-1900301517-18877710342/读后感.txt
@@ -73,30 +228,19 @@
 /home/hine/Workspace/StudyNotes/Physics/16ElectromagneticInductionLaw.md
 /etc/sensors3.conf
 /proc/cpuinfo
-/home/hine/文档/data.md
 /usr/bin/vim
 /home/hine/Workspace/StudyNotes/AdvancedMath/13MutiFuncExtreme.md
-/home/hine/Workspace/StudyNotes/AdvancedMath/12DirectionalDerivativeAndGradient.md
 /home/hine/Workspace/StudyNotes/AdvancedMath/11MutiFuncIntGeoApp.md
 /home/hine/Workspace/StudyNotes/AdvancedMath/3HookFaceAndItsEquation.md
 /home/hine/Workspace/markdown-preview.nvim/README.md
-/home/hine/Workspace/StudyNotes/AdvancedMath/10ImplicitFunction.md
 /home/hine/Workspace/StudyNotes/AdvancedMath/1stSummary.md
 /usr/bin/tp
 /home/hine/Workspace/yandextp/tp.sh
 /home/hine/Workspace/bing/bing.sh
 /home/hine/tp.sh
-/home/hine/Workspace/summary/README.md
-/home/hine/Workspace/summary/1stSummary/1stSummary.md
-/home/hine/Workspace/StudyNotes/AdvancedMath/17TripleIntegral.md
-/home/hine/Workspace/StudyNotes/ConspectusOfChineseModernHistory/ChroniclesVolume3Review.md
-/home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/3/1900301517_3.c
 /home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/2/1900301517_2_5.c
 /opt/deepinwine/apps/Deepin-TIM/run_1_0_4.sh
-/opt/deepinwine/apps/Deepin-TIM/run.sh
 /home/hine/Workspace/StudyNotes/CProgrammingLanguage/12StoreClass.md
-/boot/grub/grub.cfg
-/etc/fstab
 /home/hine/Workspace/StudyNotes/AdvancedMath/I.md
 /home/hine/文档/1.txt
 /home/hine/文档/1.txg
@@ -116,7 +260,6 @@
 /home/hine/Workspace/summary/3rdWeekSummary/readmu.md
 /home/hine/Workspace/summary/4thWeekSummary/README.md
 /home/hine/Workspace/StudyNotes/AdvancedMath/16PolarDoubleIntegral.md
-/home/hine/.config/ranger/rc.conf
 /home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/3/1900301517_2_2.c
 /home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/3/1900301517_2_1.c
 /home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/3/1900301517_1.c
@@ -143,12 +286,10 @@
 /home/hine/文档/Tencent Files/1337735344/FileRecv/易班助手2.8.9.exe
 /home/hine/Workspace/StudyNotes/AdvancedMath/14MultipleIntegral.md
 /home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/2/1900301517_6.c
-/home/hine/文档/Tencent Files/1337735344/FileRecv/meizi.py
 /home/hine/文档/Tencent Files/1337735344/FileRecv/py.py
 /home/hine/Workspace/StudyNotes/Physics/9AplicationOfGaussLaw.md
 /home/hine/Workspace/YiBanTools/main.py
 /home/hine/文档/Tencent Files/1337735344/FileRecv/yiban(2).py
-/home/hine/.cache/yay/freedownloadmanager/PKGBUILD
 /home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/2/1900301517_4.c
 /home/hine/文档/Tencent Files/1337735344/FileRecv/yiban(1).py
 /home/hine/Workspace/Terslation/Makefile
@@ -157,7 +298,6 @@
 /home/hine/Workspace/summary/6rdWeekSummary/readme.md
 /home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/2/1900301517_52.c
 /home/hine/Workspace/summary/5rdWeekSummary/README.md
-/home/hine/文档/Tencent Files/1337735344/FileRecv/yiban
 /home/hine/Workspace/test/py.py
 /home/hine/Workspace/StudyNotes/CProgrammingLanguage/10ArraysAndPointers.md
 /home/hine/.vim/plugged/onedark.vim/colors/onedark.vim
@@ -169,15 +309,12 @@
 /home/hine/Applications/MZcatscratch/manifest.json
 /home/hine/Applications/MZ/css/pop.css
 /home/hine/SoftMaker/自述文件.txt
-/home/hine/Workspace/StudyNotes/AdvancedMath/6MultivariateCalculus.md
 /home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/1900301517_1.c
 /home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/1900301517_2.c
 /home/hine/Workspace/StudyNotes/ExpCProgrammingLanguage/1900301517_3.c
 /usr/bin/xfce4-notifyd-config
 /home/hine/xfce4-notifyd-config
-/home/hine/Workspace/StudyNotes/AdvancedMath/9DerivativeRule.md
 /home/hine/Workspace/StudyNotes/AdvancedMath/13
-/home/hine/.config/nvim/init.vim
 /home/hine/桌面/高级主播音效助手.desktop
 /home/hine/.bash_profile
 /home/hine/.bash_history
@@ -207,9 +344,7 @@
 /home/hine/文档/新视野大学英语2读写教程(1).pdf
 /home/hine/.deepinwine/Deepin-TIM/drive_c/Program Files/Tencent/TIM/Bin/LICENSE/chromium
 /usr/share/applications/deepin.com.qq.office.desktop
-/opt/deepinwine/apps/Deepin-TIM/deepin.com.qq.office.desktop
 /home/hine/文档/Tencent Files/1337735344/FileRecv/picom.conf
-/home/hine/.config/fish/config.fish
 /home/hine/Applications/deepin.com.qq.office-1.0.4deepin4/usr/share/applications/deepin.com.qq.office.desktop
 /usr/bin/debtap_ustc
 /usr/bin/debtap
@@ -240,7 +375,6 @@
 /home/hine/Workspace/TIMlog/TIM_log_2020_3_21
 /home/hine/Workspace/summary/4rdWeekSummery/4rdWeekSummary.md
 /home/hine/桌面/DingTalk.desktop
-/home/hine/Workspace/StudyNotes/AdvancedMath/8PerfectDifferential.md
 /home/hine/.PlayOnLinux/wineprefix/Windows/drive_c/windows/Fonts/modify_font.reg
 /home/hine/Workspace/StudyNotes/Homework/IntroductionToEngineering/3rdHomework.md
 /home/hine/package-lock.json
@@ -300,7 +434,6 @@
 /home/hine/Workspace/StudyNotes/IntroductionToEngineering/1.md
 /home/hine/Workspace/StudyNotes/IntroductionToEngineering/2.md
 /home/hine/Workspace/StudyNotes/AdvancedMath/5HomeworkAnalize.md
-/home/hine/Workspace/StudyNotes/AdvancedMath/2SpaceLine.md
 /home/hine/Homework1.md
 /home/hine/Workspace/StudyNote/Homework/IntroductionToEngineering/Homework1.md
 /home/hine/.config/i3/screencut/cut_all.sh

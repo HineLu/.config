@@ -1,0 +1,111 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="$Delete">
+        <ActionSummary times="1" last="1591418832035" />
+      </entry>
+      <entry key="$SelectAll">
+        <ActionSummary times="2" last="1589968591938" />
+      </entry>
+      <entry key="CPP.ImportCMakeProject">
+        <ActionSummary times="1" last="1589968798308" />
+      </entry>
+      <entry key="CloseProject">
+        <ActionSummary times="2" last="1591418860259" />
+      </entry>
+      <entry key="EditorBackSpace">
+        <ActionSummary times="217" last="1591419022207" />
+      </entry>
+      <entry key="EditorCut">
+        <ActionSummary times="1" last="1589967763177" />
+      </entry>
+      <entry key="EditorDeleteToWordStart">
+        <ActionSummary times="1" last="1591419022848" />
+      </entry>
+      <entry key="EditorDown">
+        <ActionSummary times="1" last="1589968917877" />
+      </entry>
+      <entry key="EditorLeftWithSelection">
+        <ActionSummary times="2" last="1589968916967" />
+      </entry>
+      <entry key="EditorPaste">
+        <ActionSummary times="4" last="1591419019766" />
+      </entry>
+      <entry key="EditorRight">
+        <ActionSummary times="5" last="1590027986245" />
+      </entry>
+      <entry key="EditorUp">
+        <ActionSummary times="3" last="1589968918297" />
+      </entry>
+      <entry key="Run">
+        <ActionSummary times="4" last="1591417552560" />
+      </entry>
+      <entry key="SelectNextOccurrence">
+        <ActionSummary times="6" last="1591416650924" />
+      </entry>
+      <entry key="ShowIntentionActions">
+        <ActionSummary times="2" last="1591416841372" />
+      </entry>
+      <entry key="ShowSettings">
+        <ActionSummary times="3" last="1591418842898" />
+      </entry>
+      <entry key="Tree-selectChild">
+        <ActionSummary times="11" last="1591417689171" />
+      </entry>
+      <entry key="Tree-selectNext">
+        <ActionSummary times="100" last="1591417699149" />
+      </entry>
+      <entry key="Tree-selectParent">
+        <ActionSummary times="2" last="1591417594839" />
+      </entry>
+      <entry key="Tree-selectPrevious">
+        <ActionSummary times="73" last="1591418835374" />
+      </entry>
+      <entry key="Vcs.VcsClone">
+        <ActionSummary times="1" last="1589968822387" />
+      </entry>
+      <entry key="WelcomeScreen.ManageLicense">
+        <ActionSummary times="1" last="1591418880480" />
+      </entry>
+      <entry key="WelcomeScreen.OpenProject">
+        <ActionSummary times="3" last="1589968803152" />
+      </entry>
+      <entry key="WelcomeScreen.RemoveSelected">
+        <ActionSummary times="1" last="1590028294089" />
+      </entry>
+      <entry key="WelcomeScreen.Settings">
+        <ActionSummary times="3" last="1589968941744" />
+      </entry>
+      <entry key="com.intellij.execution.impl.ConsoleViewImpl$EnterHandler">
+        <ActionSummary times="1" last="1591417562502" />
+      </entry>
+      <entry key="com.intellij.ide.lightEdit.actions.LightEditExitAction">
+        <ActionSummary times="1" last="1589968930050" />
+      </entry>
+      <entry key="com.intellij.openapi.actionSystem.EmptyAction$MyDelegatingAction">
+        <ActionSummary times="66" last="1591418809379" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.welcomeScreen.FlatWelcomeFrame$FlatWelcomeScreen$5">
+        <ActionSummary times="10" last="1591418876355" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.welcomeScreen.FlatWelcomeFrame$FlatWelcomeScreen$6">
+        <ActionSummary times="2" last="1591416594556" />
+      </entry>
+      <entry key="com.intellij.ui.CommonActionsPanel$1">
+        <ActionSummary times="2" last="1589967154657" />
+      </entry>
+      <entry key="com.intellij.ui.CommonActionsPanel$AddButton">
+        <ActionSummary times="10" last="1591417674969" />
+      </entry>
+      <entry key="com.intellij.ui.CommonActionsPanel$RemoveButton">
+        <ActionSummary times="2" last="1591417731436" />
+      </entry>
+      <entry key="com.jetbrains.cidr.cpp.toolchains.CPPToolchainsPanel$AddToolchainAction">
+        <ActionSummary times="4" last="1591417678126" />
+      </entry>
+      <entry key="com.maddyhome.idea.vim.ui.ExShortcutKeyAction">
+        <ActionSummary times="1" last="1590028192052" />
+      </entry>
+    </data>
+  </component>
+</application>

@@ -1,0 +1,15 @@
+2020/05/29-20:18:16.147 eef6 Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_m.weibo.cn_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/29-20:18:16.147 eef6 Recovering log #7
+2020/05/29-20:18:16.147 eef6 Reusing old log /home/hine/.config/chromium/Default/IndexedDB/https_m.weibo.cn_0.indexeddb.leveldb/000007.log 
+2020/05/29-20:18:44.336 ef22 Level-0 table #12: started
+2020/05/29-20:18:44.338 ef22 Level-0 table #12: 1029 bytes OK
+2020/05/29-20:18:44.340 ef22 Delete type=0 #7
+2020/05/29-20:18:44.340 ef22 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/05/29-20:18:44.340 ef22 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x01\x1f\x03\x00\x80\x10\xe7\x05&wB\x00\x011\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00h\x005\x00.\x00s\x00i\x00n\x00a\x00i\x00m\x00g\x00.\x00c\x00n\x00/\x00m\x00/\x00w\x00e\x00i\x00b\x00o\x00-\x00l\x00i\x00t\x00e\x00/\x00f\x00a\x00v\x00i\x00c\x00o\x00n\x00-\x003\x002\x00.\x00p\x00n\x00g' @ 627 : 1
+2020/05/29-20:18:44.340 ef22 Compacting 1@1 + 1@2 files
+2020/05/29-20:18:44.342 ef22 Generated table #13@1: 124 keys, 4873 bytes
+2020/05/29-20:18:44.342 ef22 Compacted 1@1 + 1@2 files => 4873 bytes
+2020/05/29-20:18:44.343 ef22 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/05/29-20:18:44.344 ef22 Delete type=2 #12
+2020/05/29-20:18:44.344 ef22 Delete type=2 #9
+2020/05/29-20:18:44.344 ef22 Manual compaction at level-1 from '\x00\x04\x01\x1f\x03\x00\x80\x10\xe7\x05&wB\x00\x011\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00h\x005\x00.\x00s\x00i\x00n\x00a\x00i\x00m\x00g\x00.\x00c\x00n\x00/\x00m\x00/\x00w\x00e\x00i\x00b\x00o\x00-\x00l\x00i\x00t\x00e\x00/\x00f\x00a\x00v\x00i\x00c\x00o\x00n\x00-\x003\x002\x00.\x00p\x00n\x00g' @ 627 : 1 .. (end); will stop at (end)

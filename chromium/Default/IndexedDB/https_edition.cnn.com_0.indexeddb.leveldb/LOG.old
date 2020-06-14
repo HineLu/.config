@@ -1,0 +1,8 @@
+2020/05/04-01:53:24.309 482a Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_edition.cnn.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/04-01:53:24.309 482a Recovering log #11
+2020/05/04-01:53:24.309 482a Reusing old log /home/hine/.config/chromium/Default/IndexedDB/https_edition.cnn.com_0.indexeddb.leveldb/000011.log 
+2020/05/04-01:59:00.359 17c7 Level-0 table #15: started
+2020/05/04-01:59:00.359 17c7 Level-0 table #15: 0 bytes OK
+2020/05/04-01:59:00.407 17c7 Delete type=0 #11
+2020/05/04-01:59:00.407 17c7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/05/04-01:59:00.407 17c7 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

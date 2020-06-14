@@ -1,5 +1,15 @@
-2020/04/20-23:51:17.957 20b0 Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_passport.weibo.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/04/20-23:51:21.182 21f3 Level-0 table #5: started
-2020/04/20-23:51:21.184 21f3 Level-0 table #5: 1023 bytes OK
-2020/04/20-23:51:21.186 21f3 Delete type=0 #3
-2020/04/20-23:51:21.186 21f3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/09-23:59:14.987 1f30 Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_passport.weibo.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/09-23:59:14.987 1f30 Recovering log #7
+2020/06/09-23:59:14.987 1f30 Reusing old log /home/hine/.config/chromium/Default/IndexedDB/https_passport.weibo.com_0.indexeddb.leveldb/000007.log 
+2020/06/09-23:59:36.145 20f3 Level-0 table #12: started
+2020/06/09-23:59:36.154 20f3 Level-0 table #12: 475 bytes OK
+2020/06/09-23:59:36.156 20f3 Delete type=0 #7
+2020/06/09-23:59:36.156 20f3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/09-23:59:36.156 20f3 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x03\x00t\x00i\x00d' @ 86 : 1
+2020/06/09-23:59:36.156 20f3 Compacting 1@1 + 1@2 files
+2020/06/09-23:59:36.158 20f3 Generated table #13@1: 19 keys, 546 bytes
+2020/06/09-23:59:36.158 20f3 Compacted 1@1 + 1@2 files => 546 bytes
+2020/06/09-23:59:36.159 20f3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/06/09-23:59:36.160 20f3 Delete type=2 #12
+2020/06/09-23:59:36.160 20f3 Delete type=2 #9
+2020/06/09-23:59:36.160 20f3 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x03\x00t\x00i\x00d' @ 86 : 1 .. (end); will stop at (end)

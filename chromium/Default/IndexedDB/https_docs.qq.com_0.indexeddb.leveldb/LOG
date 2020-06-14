@@ -1,1 +1,15 @@
-2020/04/18-16:24:31.882 e3d Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_docs.qq.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/03-20:43:57.648 31f5 Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_docs.qq.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/03-20:43:57.648 31f5 Recovering log #4
+2020/06/03-20:43:57.662 31f5 Reusing old log /home/hine/.config/chromium/Default/IndexedDB/https_docs.qq.com_0.indexeddb.leveldb/000004.log 
+2020/06/03-20:45:10.323 32e8 Level-0 table #8: started
+2020/06/03-20:45:10.333 32e8 Level-0 table #8: 490394 bytes OK
+2020/06/03-20:45:10.336 32e8 Delete type=0 #4
+2020/06/03-20:45:10.336 32e8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/03-20:45:10.337 32e8 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x05\x01\x1f\x01 \x007\x007\x006\x007\x002\x00f\x001\x00a\x008\x000\x00a\x004\x004\x005\x001\x00d\x008\x00b\x00c\x008\x003\x00d\x00b\x00e\x001\x002\x000\x003\x002\x00a\x009\x005\x00\x03\x00\x00\x00\x00\x00\x00m@' @ 15981 : 1
+2020/06/03-20:45:10.337 32e8 Compacting 1@1 + 1@2 files
+2020/06/03-20:45:10.349 32e8 Generated table #9@1: 2724 keys, 291972 bytes
+2020/06/03-20:45:10.349 32e8 Compacted 1@1 + 1@2 files => 291972 bytes
+2020/06/03-20:45:10.350 32e8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/06/03-20:45:10.350 32e8 Delete type=2 #8
+2020/06/03-20:45:10.350 32e8 Delete type=2 #5
+2020/06/03-20:45:10.350 32e8 Manual compaction at level-1 from '\x00\x05\x01\x1f\x01 \x007\x007\x006\x007\x002\x00f\x001\x00a\x008\x000\x00a\x004\x004\x005\x001\x00d\x008\x00b\x00c\x008\x003\x00d\x00b\x00e\x001\x002\x000\x003\x002\x00a\x009\x005\x00\x03\x00\x00\x00\x00\x00\x00m@' @ 15981 : 1 .. (end); will stop at (end)

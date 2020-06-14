@@ -1,0 +1,34 @@
+{
+	"all-proxy-backup": "",
+	"auto-check-update": false,
+	"auto-hide-window": false,
+	"auto-sync-tracker": true,
+	"enable-upnp": true,
+	"engine-max-connection-per-server": 64,
+	"hide-app-menu": true,
+	"keep-window-state": false,
+	"last-check-update-time": 0,
+	"last-sync-tracker-time": 1591794285587,
+	"locale": "zh-CN",
+	"log-path": "/home/hine/.config/Motrix/logs/main.log",
+	"new-task-show-downloading": true,
+	"no-confirm-before-delete-task": false,
+	"open-at-login": false,
+	"protocols": {
+		"magnet": true,
+		"thunder": false
+	},
+	"resume-all-when-app-launched": false,
+	"run-mode": 1,
+	"session-path": "/home/hine/.config/Motrix/download.session",
+	"task-notification": true,
+	"theme": "auto",
+	"tracker-source": [
+		"https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best_ip.txt",
+		"https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best.txt"
+	],
+	"tray-theme": "auto",
+	"update-channel": "latest",
+	"use-proxy": false,
+	"window-state": {}
+}

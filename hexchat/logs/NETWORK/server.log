@@ -6,3 +6,42 @@
 2月 20 00:46:30 插件 Sysinfo 已载入
 2月 20 00:46:30 Checksum plugin loaded
 2月 20 00:46:30 Perl interface loaded
+**** 聊天记录于 Sun May  3 17:53:55 2020
+ 开始记录
+5月 03 17:53:55 Checksum plugin loaded
+5月 03 17:53:55 Python interface loaded
+5月 03 17:53:55 FiSHLiM plugin loaded
+5月 03 17:53:55 Perl interface loaded
+5月 03 17:53:55 Lua version 1.3/5.3 loaded.
+5月 03 17:53:55 插件 Sysinfo 已载入
+5月 03 17:53:55 *	 正在查询 chat.freenode.net
+5月 03 17:53:56 *	 正在连接到 chat.freenode.net (185.30.166.37:6697)
+5月 03 17:53:57 *	* Subject: /O=Digital Signature Trust Co./CN=DST Root CA X3
+5月 03 17:53:57 *	* Issuer: /O=Digital Signature Trust Co./CN=DST Root CA X3
+5月 03 17:53:57 *	* Subject: /C=US/O=Let's Encrypt/CN=Let's Encrypt Authority X3
+5月 03 17:53:57 *	* Issuer: /O=Digital Signature Trust Co./CN=DST Root CA X3
+5月 03 17:53:57 *	* Subject: /CN=orwell.freenode.net
+5月 03 17:53:57 *	* Issuer: /C=US/O=Let's Encrypt/CN=Let's Encrypt Authority X3
+5月 03 17:53:57 *	* Certification info:
+5月 03 17:53:57 *	  Subject:
+5月 03 17:53:57 *	    CN=orwell.freenode.net
+5月 03 17:53:57 *	  Issuer:
+5月 03 17:53:57 *	    C=US
+5月 03 17:53:57 *	    O=Let's Encrypt
+5月 03 17:53:57 *	    CN=Let's Encrypt Authority X3
+5月 03 17:53:57 *	  Public key algorithm: rsaEncryption (4096 bits)
+5月 03 17:53:57 *	  Sign algorithm sha256WithRSAEncryption
+5月 03 17:53:57 *	  Valid since Mar 30 05:01:24 2020 GM to Jun 28 05:01:24 2020 GM
+5月 03 17:53:57 *	* Cipher info:
+5月 03 17:53:57 *	  Version: TLSv1.3, cipher TLS_AES_256_GCM_SHA384 (256 bits)
+5月 03 17:53:57 *	 已连接。正在登录...
+5月 03 17:53:58 *	*** Looking up your hostname...
+5月 03 17:53:58 *	*** Checking Ident
+5月 03 17:53:58 *	*** Couldn't look up your hostname
+5月 03 17:54:02 插件 Sysinfo 以卸载
+5月 03 17:54:02 Perl interface unloaded
+5月 03 17:54:02 FiSHLiM plugin unloaded
+5月 03 17:54:02 Python interface unloaded
+5月 03 17:54:02 Checksum plugin unloaded
+**** 聊天记录于 Sun May  3 17:54:02 2020
+ 结束记录

@@ -1,0 +1,15 @@
+2020/05/18-12:07:54.953 216a Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_order.jd.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/18-12:07:54.953 216a Recovering log #31
+2020/05/18-12:07:54.953 216a Reusing old log /home/hine/.config/chromium/Default/IndexedDB/https_order.jd.com_0.indexeddb.leveldb/000031.log 
+2020/05/18-12:07:57.814 184f Level-0 table #36: started
+2020/05/18-12:07:57.825 184f Level-0 table #36: 885 bytes OK
+2020/05/18-12:07:57.828 184f Delete type=0 #31
+2020/05/18-12:07:57.828 184f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/05/18-12:07:57.829 184f Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x10\x003\x00A\x00B\x009\x00D\x002\x003\x00F\x007\x00A\x004\x00B\x003\x00C\x009\x00B' @ 385 : 1
+2020/05/18-12:07:57.829 184f Compacting 1@1 + 1@2 files
+2020/05/18-12:07:57.831 184f Generated table #37@1: 19 keys, 688 bytes
+2020/05/18-12:07:57.832 184f Compacted 1@1 + 1@2 files => 688 bytes
+2020/05/18-12:07:57.834 184f compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/05/18-12:07:57.835 184f Delete type=2 #36
+2020/05/18-12:07:57.835 184f Delete type=2 #33
+2020/05/18-12:07:57.836 184f Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x10\x003\x00A\x00B\x009\x00D\x002\x003\x00F\x007\x00A\x004\x00B\x003\x00C\x009\x00B' @ 385 : 1 .. (end); will stop at (end)

@@ -1,0 +1,5 @@
+2020/05/31-17:52:50.463 155a Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_ct.epro.sogou.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/31-17:52:55.290 1849 Level-0 table #5: started
+2020/05/31-17:52:55.297 1849 Level-0 table #5: 1307 bytes OK
+2020/05/31-17:52:55.299 1849 Delete type=0 #3
+2020/05/31-17:52:55.300 1849 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

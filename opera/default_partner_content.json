@@ -1,12 +1,12 @@
-// OlubkAmKJqAiXgayUryMNf7D/EHZXcTmYiRV6BWb+SvnA2wC2PX+uZhqYAwEEAk8W73mFLh3eiWHoOJlV1dqGUXhIQ44ff4Ug1AA4Zw21DeyXqXisZiTDZ34BHIBi3AC/YUW1FCnI/cD1LVMe9qPwHNtDw9gBrSOXbAwYsxPgFhRAOq7gkBzB+NWBtB0IsC//KWK0FZ5E5lbnBWjvWzJtUT7PzqLUo50WvmyY5ojVJcdi+NeCkk+NhE2dDyl7UqbFoRmv+c0VW28yTGG72nc30iUHyE4vyAgUPetYEhLfTk2kepg9VGlosXpkmUiTot2pFftn/jVrrNyY62+qelF0Q==
+// hI/H7N9lkqU5eCo/41W0BYtZxMvdjlW8U0M2Q5pmhTYvZXG8GgtIkTJVHXn0LCpyJlzdkMnC0ZRFPCwwl4lRZS2LDWvM1QKY4C2l08TpZaf8rLVkgfTn/8adN864NvwCXcbFlkYdCRfcnZOKX2xPBzOe0Pw8SvWYRtKpHJlv66c8QL6HwV6SXRPCKuD1u9se7Q9M3/DkAeVy4/wWnghpoFygWGwPi5CWz7NY2onoYlLtIE+0bGfSaqiKzej1+GXCtngQQO0g6hIVPUnrYy3RUi/11it3hpr5hAr4AInD2qs186ZUMDMSSF5GMjMzWkJROu0ZIkTsbX5F+N9pvM0DJQ==
 {
-  "version": 71,
+  "version": 76,
   "search_engines": {
     "location": {
       "at": {
         "other": {
           "list": [
-            "google_at",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -19,7 +19,7 @@
       "au": {
         "other": {
           "list": [
-            "google_au",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -32,7 +32,7 @@
       "az": {
         "other": {
           "list": [
-            "google_az",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -45,7 +45,7 @@
       "be": {
         "fr": {
           "list": [
-            "google_be",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -56,7 +56,7 @@
         },
         "nl": {
           "list": [
-            "google_be",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -67,7 +67,7 @@
         },
         "other": {
           "list": [
-            "google_be",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -80,7 +80,7 @@
       "br": {
         "other": {
           "list": [
-            "google_br",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -93,7 +93,7 @@
       "by": {
         "ru": {
           "list": [
-            "google_by_ru",
+            "google_com_ru",
             "yandex_ru",
             "rambler_ru",
             "duckduckgo",
@@ -104,7 +104,7 @@
         },
         "other": {
           "list": [
-            "google_by",
+            "google_com",
             "yandex",
             "rambler",
             "duckduckgo",
@@ -117,7 +117,7 @@
       "ca": {
         "fr": {
           "list": [
-            "google_ca",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -128,7 +128,7 @@
         },
         "other": {
           "list": [
-            "google_ca",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -141,7 +141,7 @@
       "ch": {
         "de": {
           "list": [
-            "google_ch",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -152,7 +152,7 @@
         },
         "fr": {
           "list": [
-            "google_ch",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -163,7 +163,7 @@
         },
         "it": {
           "list": [
-            "google_ch",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -174,7 +174,7 @@
         },
         "other": {
           "list": [
-            "google_ch",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -199,7 +199,7 @@
       "cz": {
         "other": {
           "list": [
-            "google_cz",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "seznam",
@@ -212,7 +212,7 @@
       "de": {
         "other": {
           "list": [
-            "google_de",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -225,7 +225,7 @@
       "dk": {
         "other": {
           "list": [
-            "google_dk",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -238,7 +238,7 @@
       "ee": {
         "other": {
           "list": [
-            "google_ee",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -251,7 +251,7 @@
       "es": {
         "other": {
           "list": [
-            "google_es",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -264,7 +264,7 @@
       "fi": {
         "other": {
           "list": [
-            "google_fi",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -277,7 +277,7 @@
       "fr": {
         "other": {
           "list": [
-            "google_fr",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -290,7 +290,7 @@
       "gb": {
         "other": {
           "list": [
-            "google_uk",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -303,7 +303,7 @@
       "gr": {
         "other": {
           "list": [
-            "google_gr",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -316,7 +316,7 @@
       "hk": {
         "other": {
           "list": [
-            "google_hk",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -329,7 +329,7 @@
       "hu": {
         "other": {
           "list": [
-            "google_hu",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -342,7 +342,7 @@
       "ie": {
         "other": {
           "list": [
-            "google_ie",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -355,7 +355,7 @@
       "il": {
         "other": {
           "list": [
-            "google_il",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -368,7 +368,7 @@
       "in": {
         "other": {
           "list": [
-            "google_in",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -381,7 +381,7 @@
       "it": {
         "other": {
           "list": [
-            "google_it",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -394,7 +394,7 @@
       "jp": {
         "other": {
           "list": [
-            "google_jp",
+            "google_com",
             "yahoo_jp",
             "duckduckgo",
             "amazon",
@@ -407,7 +407,7 @@
       "kr": {
         "other": {
           "list": [
-            "google_kr",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -444,7 +444,7 @@
       "lv": {
         "other": {
           "list": [
-            "google_lv",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -457,7 +457,7 @@
       "ma": {
         "other": {
           "list": [
-            "google_ma",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -470,7 +470,7 @@
       "mx": {
         "other": {
           "list": [
-            "google_mx",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -483,7 +483,7 @@
       "nl": {
         "other": {
           "list": [
-            "google_nl",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -496,7 +496,7 @@
       "no": {
         "nn": {
           "list": [
-            "google_no",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -507,7 +507,7 @@
         },
         "other": {
           "list": [
-            "google_no",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -520,7 +520,7 @@
       "nz": {
         "other": {
           "list": [
-            "google_nz",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -533,7 +533,7 @@
       "pl": {
         "other": {
           "list": [
-            "google_pl",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "bing",
@@ -545,7 +545,7 @@
       "pt": {
         "other": {
           "list": [
-            "google_pt",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -558,7 +558,7 @@
       "ro": {
         "other": {
           "list": [
-            "google_ro",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -571,7 +571,7 @@
       "rs": {
         "other": {
           "list": [
-            "google_rs",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -584,7 +584,7 @@
       "ru": {
         "ru": {
           "list": [
-            "google_ru_ru",
+            "google_com_ru",
             "yandex_ru",
             "yandex_prom_ru",
             "rambler_ru",
@@ -596,7 +596,7 @@
         },
         "other": {
           "list": [
-            "google_ru",
+            "google_com",
             "yandex",
             "yandex_prom",
             "rambler",
@@ -610,7 +610,7 @@
       "se": {
         "other": {
           "list": [
-            "google_se",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -623,7 +623,7 @@
       "sg": {
         "other": {
           "list": [
-            "google_sg",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -636,7 +636,7 @@
       "th": {
         "other": {
           "list": [
-            "google_th",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -649,7 +649,7 @@
       "tr": {
         "other": {
           "list": [
-            "google_tr",
+            "google_com",
             "yandex_tr",
             "duckduckgo",
             "amazon",
@@ -662,7 +662,7 @@
       "tw": {
         "other": {
           "list": [
-            "google_tw",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -675,7 +675,7 @@
       "ua": {
         "ru": {
           "list": [
-            "google_ua_ru",
+            "google_com_ru",
             "yandex_ua_fr_addressbar",
             "rambler_ru",
             "duckduckgo",
@@ -688,7 +688,7 @@
         },
         "uk": {
           "list": [
-            "google_ua",
+            "google_com",
             "yandex_ua_fr_addressbar",
             "rambler",
             "duckduckgo",
@@ -699,7 +699,7 @@
         },
         "other": {
           "list": [
-            "google_ua",
+            "google_com",
             "yandex_ua_fr_addressbar",
             "rambler",
             "duckduckgo",
@@ -727,7 +727,7 @@
       "za": {
         "other": {
           "list": [
-            "google_za",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -819,7 +819,7 @@
         },
         "pl": {
           "list": [
-            "google_pl",
+            "google_com",
             "yahoo",
             "duckduckgo",
             "amazon",
@@ -927,120 +927,12 @@
       "encoding": "UTF-8",
       "uuid": "3BFDFA54-5DD6-4DFF-8B6C-C1715F306D6B"
     },
-    "google_at": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.at/favicon.ico",
-      "search_url": "https://www.google.at/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.at/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_au": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.com.au/favicon.ico",
-      "search_url": "https://www.google.com.au/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.com.au/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_az": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.az/favicon.ico",
-      "search_url": "https://www.google.az/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.az/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_be": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.be/favicon.ico",
-      "search_url": "https://www.google.be/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.be/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_br": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.com.br/favicon.ico",
-      "search_url": "https://www.google.com.br/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.com.br/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_by": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.com.by/favicon.ico",
-      "search_url": "https://www.google.com.by/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.com.by/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_by_ru": {
-      "name": "Google поиск",
-      "keyword": "g",
-      "favicon_url": "https://www.google.com.by/favicon.ico",
-      "search_url": "https://www.google.com.by/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.com.by/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_ca": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.ca/favicon.ico",
-      "search_url": "https://www.google.ca/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.ca/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_ch": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.ch/favicon.ico",
-      "search_url": "https://www.google.ch/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.ch/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
     "google_cn": {
       "name": "Google Search",
       "keyword": "o",
-      "favicon_url": "https://www.google.com.hk/favicon.ico",
-      "search_url": "https://www.google.com.hk/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.com.hk/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "favicon_url": "https://www.google.com/favicon.ico",
+      "search_url": "https://www.google.com/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.com/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
       "post": false,
       "encoding": "UTF-8",
       "uuid": "c6aa8762-ce1a-480c-8254-234117944d6e",
@@ -1065,450 +957,6 @@
       "favicon_url": "https://www.google.com/favicon.ico",
       "search_url": "https://www.google.com/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
       "suggest_url": "https://www.google.com/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_cz": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.cz/favicon.ico",
-      "search_url": "https://www.google.cz/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.cz/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_de": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.de/favicon.ico",
-      "search_url": "https://www.google.de/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.de/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_dk": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.dk/favicon.ico",
-      "search_url": "https://www.google.dk/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.dk/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_ee": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.ee/favicon.ico",
-      "search_url": "https://www.google.ee/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.ee/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_es": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.es/favicon.ico",
-      "search_url": "https://www.google.es/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.es/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_fi": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.fi/favicon.ico",
-      "search_url": "https://www.google.fi/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.fi/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_fr": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.fr/favicon.ico",
-      "search_url": "https://www.google.fr/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.fr/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_gr": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.gr/favicon.ico",
-      "search_url": "https://www.google.gr/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.gr/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_hk": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.com.hk/favicon.ico",
-      "search_url": "https://www.google.com.hk/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.com.hk/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_hu": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.hu/favicon.ico",
-      "search_url": "https://www.google.hu/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.hu/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_ie": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.ie/favicon.ico",
-      "search_url": "https://www.google.ie/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.ie/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_il": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.co.il/favicon.ico",
-      "search_url": "https://www.google.co.il/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.co.il/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_in": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.co.in/favicon.ico",
-      "search_url": "https://www.google.co.in/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.co.in/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_it": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.it/favicon.ico",
-      "search_url": "https://www.google.it/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.it/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_jp": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.co.jp/favicon.ico",
-      "search_url": "https://www.google.co.jp/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.co.jp/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_kr": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.co.kr/favicon.ico",
-      "search_url": "https://www.google.co.kr/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.co.kr/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_lv": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.lv/favicon.ico",
-      "search_url": "https://www.google.lv/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.lv/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_ma": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.co.ma/favicon.ico",
-      "search_url": "https://www.google.co.ma/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.co.ma/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_mx": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.com.mx/favicon.ico",
-      "search_url": "https://www.google.com.mx/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.com.mx/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_nl": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.nl/favicon.ico",
-      "search_url": "https://www.google.nl/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.nl/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_no": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.no/favicon.ico",
-      "search_url": "https://www.google.no/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.no/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_nz": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.co.nz/favicon.ico",
-      "search_url": "https://www.google.co.nz/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.co.nz/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_pl": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.pl/favicon.ico",
-      "search_url": "https://www.google.pl/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.pl/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_pt": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.pt/favicon.ico",
-      "search_url": "https://www.google.pt/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.pt/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_ro": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.ro/favicon.ico",
-      "search_url": "https://www.google.ro/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.ro/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_rs": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.rs/favicon.ico",
-      "search_url": "https://www.google.rs/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.rs/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_ru": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.ru/favicon.ico",
-      "search_url": "https://www.google.ru/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.ru/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_ru_ru": {
-      "name": "Google поиск",
-      "keyword": "g",
-      "favicon_url": "https://www.google.ru/favicon.ico",
-      "search_url": "https://www.google.ru/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.ru/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_se": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.se/favicon.ico",
-      "search_url": "https://www.google.se/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.se/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_sg": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.com.sg/favicon.ico",
-      "search_url": "https://www.google.com.sg/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.com.sg/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_th": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.co.th/favicon.ico",
-      "search_url": "https://www.google.co.th/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.co.th/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_tr": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.com.tr/favicon.ico",
-      "search_url": "https://www.google.com.tr/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.com.tr/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_tw": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.com.tw/favicon.ico",
-      "search_url": "https://www.google.com.tw/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.com.tw/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_ua": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.com.ua/favicon.ico",
-      "search_url": "https://www.google.com.ua/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.com.ua/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_ua_ru": {
-      "name": "Google поиск",
-      "keyword": "g",
-      "favicon_url": "https://www.google.com.ua/favicon.ico",
-      "search_url": "https://www.google.com.ua/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.com.ua/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_uk": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.co.uk/favicon.ico",
-      "search_url": "https://www.google.co.uk/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.co.uk/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
-      "post": false,
-      "encoding": "UTF-8",
-      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
-      "css_resource": "css/searchstyle_google.css",
-      "speed_dial_logo": "images/logo_google.png"
-    },
-    "google_za": {
-      "name": "Google Search",
-      "keyword": "g",
-      "favicon_url": "https://www.google.co.za/favicon.ico",
-      "search_url": "https://www.google.co.za/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
-      "suggest_url": "https://www.google.co.za/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
       "post": false,
       "encoding": "UTF-8",
       "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
@@ -1562,7 +1010,8 @@
       "css_resource": "css/searchstyle_sogou.css",
       "post": false,
       "encoding": "UTF-8",
-      "uuid": "B478FE0C-0761-41C3-946F-CD1340356039"
+      "uuid": "B478FE0C-0761-41C3-946F-CD1340356039",
+      "speed_dial_logo": "images/logo_sogou.png"
     },
     "wiki": {
       "name": "Wikipedia",

@@ -1,5 +1,5 @@
 {
-   "checksum": "b07dc6f4b52990e1f48618cadc482720",
+   "checksum": "0f5e66e12b57527561476e790b40460e",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -121,9 +121,37 @@
             "name": "Dns检测|Dns查询 - 站长工具",
             "type": "url",
             "url": "http://tool.chinaz.com/dns"
+         }, {
+            "date_added": "13233477389057916",
+            "guid": "426be5b6-4cd7-4916-ad65-97477e05645a",
+            "id": "38",
+            "name": "YouZack英语听力逐句精听-youzack",
+            "type": "url",
+            "url": "https://www.youzack.com/"
+         }, {
+            "date_added": "13233981782986126",
+            "guid": "3af3fc27-2d11-4491-8206-1c72cdd6309a",
+            "id": "40",
+            "name": "Linux公社资源站_Linux公社-Linux系统门户网站",
+            "type": "url",
+            "url": "https://linux.linuxidc.com/"
+         }, {
+            "date_added": "13234764285878883",
+            "guid": "0a7e6777-4e47-4c45-8188-36aabf6f1fe3",
+            "id": "42",
+            "name": "归档 | 小资源栈",
+            "type": "url",
+            "url": "https://pymlovelyq.github.io/archives/"
+         }, {
+            "date_added": "13236284833990363",
+            "guid": "e3bd6962-25b6-4548-8885-be721720094f",
+            "id": "44",
+            "name": "Jiumo Search 鸠摩搜索 - 文档搜索引擎",
+            "type": "url",
+            "url": "https://www.jiumodiary.com/"
          } ],
          "date_added": "13226390097942093",
-         "date_modified": "13232462761663397",
+         "date_modified": "13236284833990363",
          "guid": "00000000-0000-4000-a000-000000000002",
          "id": "1",
          "name": "书签栏",

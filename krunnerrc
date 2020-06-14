@@ -1,0 +1,5 @@
+[General]
+history=alacr,alac,dol,ko,通知,chro,夜间,conne,kde conn,密钥,kde,KDE,tim
+
+[PlasmaRunnerManager]
+LaunchCounts=1 services_kcm_nightcolor.desktop,4 services_kcm_kdeconnect.desktop,1 services_org.kde.kleopatra.desktop,3 services_chromium.desktop,1 services_kcm_notifications.desktop,1 services_kwalletconfig5.desktop,1 services_org.kde.dolphin.desktop,1 services_deepin.com.qq.office.desktop,3 services_Alacritty.desktop
