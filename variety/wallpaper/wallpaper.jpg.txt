@@ -1,1 +1,1 @@
-/usr/share/backgrounds/manjaro-wallpapers-18.0/buttongreen.jpg
+/usr/share/backgrounds/xfce/wMJ_neutral_textured_warm.jpg

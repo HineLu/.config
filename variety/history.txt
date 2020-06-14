@@ -1,4 +1,5 @@
 0
+/usr/share/backgrounds/xfce/wMJ_neutral_textured_warm.jpg
 /usr/share/backgrounds/manjaro-wallpapers-18.0/buttongreen.jpg
 /usr/share/backgrounds/wallpapers-juhraya/wMJ_J2b_by_Bogdan-Covaciu.jpg
 /usr/share/backgrounds/wallpapers-juhraya/wMJ_J5_by_Bogdan-Covaciu.jpg
@@ -98,4 +99,3 @@
 /usr/share/backgrounds/xfce/wMJ_neutral_textured_warm.jpg
 /usr/share/backgrounds/manjaro-wallpapers-18.0/wpM_pcvp.jpg
 /usr/share/backgrounds/wallpapers-juhraya/Sunset-Of-The-Gods_by_Isaac-Sloan.jpg
-/usr/share/backgrounds/xfce/texture-2666357.jpg
