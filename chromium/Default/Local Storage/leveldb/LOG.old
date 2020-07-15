@@ -1,3 +1,6 @@
-2020/06/14-01:45:34.249 586a Reusing MANIFEST /home/hine/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2020/06/14-01:45:34.250 586a Recovering log #3475
-2020/06/14-01:45:34.251 586a Reusing old log /home/hine/.config/chromium/Default/Local Storage/leveldb/003475.log 
+2020/07/15-16:19:59.637 17f92 Reusing MANIFEST /home/hine/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2020/07/15-16:19:59.638 17f92 Recovering log #3924
+2020/07/15-16:19:59.638 17f92 Reusing old log /home/hine/.config/chromium/Default/Local Storage/leveldb/003924.log 
+2020/07/15-18:45:05.441 19cbc Level-0 table #3928: started
+2020/07/15-18:45:05.451 19cbc Level-0 table #3928: 36920 bytes OK
+2020/07/15-18:45:05.453 19cbc Delete type=0 #3924

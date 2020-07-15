@@ -1,0 +1,50 @@
+[Calendar]
+Default Calendar=-1
+
+[General]
+CalendarFilters=
+Current Filter=
+Current View=Agenda
+Range Mode=5
+
+[GlobalCollectionSelection]
+Current=x-1
+Selection=
+
+[GlobalCollectionView]
+Expansion=
+HorizontalScroll=0
+VerticalScroll=0
+
+[KOrganizer Geometry]
+Separator1=271,348
+Separator2=246,0,298,355
+
+[MainWindow]
+Height 1080=999
+State=AAAA/wAAAAD9AAAAAAAAAm8AAAOLAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAQAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAJABrAG8AcgBnAGEAbgBpAHoAZQByAF8AdABvAG8AbABiAGEAcgEAAAIL/////wAAAAAAAAAAAAAAIABzAGMAaABlAGQAdQBsAGUAXwB0AG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAAAAAAcAGYAaQBsAHQAZQByAF8AdABvAG8AbABiAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=623
+
+[Migratekde4]
+Version=1
+
+[Settings]
+DateNavigatorVisible=true
+EventViewerVisible=true
+ResourceViewVisible=true
+TodoViewVisible=false
+
+[Sidebar Todo View]
+ColumnOrder=0,1,2,3,4,5,6,7,8
+ColumnVisibility=true,false,false,false,true,true,false,false,false
+ColumnWidths=60,0,0,0,88,88,0,0,0
+SortAscending=1
+SortColumn=0
+
+[Timescale]
+Timescale Timezones=
+
+[Views]
+Separator AgendaView=158,721
+ShownDatesCount=7

@@ -1,0 +1,15 @@
+2020/07/04-18:38:50.328 4829b Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_supersuapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/04-18:38:50.328 4829b Recovering log #4
+2020/07/04-18:38:50.328 4829b Reusing old log /home/hine/.config/chromium/Default/IndexedDB/https_supersuapp.com_0.indexeddb.leveldb/000004.log 
+2020/07/04-18:55:28.030 2c875 Level-0 table #8: started
+2020/07/04-18:55:28.033 2c875 Level-0 table #8: 3670 bytes OK
+2020/07/04-18:55:28.035 2c875 Delete type=0 #4
+2020/07/04-18:55:28.035 2c875 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/07/04-18:55:28.035 2c875 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x03\x02\x01\x1f\x00w\x00e\x00b\x00h\x00o\x00o\x00k\x00s\x00.\x00n\x00o\x00t\x00i\x00f\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00.\x00d\x00i\x00s\x00p\x00l\x00a\x00y\x00e\x00d' @ 446 : 1
+2020/07/04-18:55:28.035 2c875 Compacting 1@1 + 1@2 files
+2020/07/04-18:55:28.037 2c875 Generated table #9@1: 98 keys, 2200 bytes
+2020/07/04-18:55:28.037 2c875 Compacted 1@1 + 1@2 files => 2200 bytes
+2020/07/04-18:55:28.039 2c875 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/07/04-18:55:28.039 2c875 Delete type=2 #8
+2020/07/04-18:55:28.039 2c875 Delete type=2 #5
+2020/07/04-18:55:28.040 2c875 Manual compaction at level-1 from '\x00\x01\x03\x02\x01\x1f\x00w\x00e\x00b\x00h\x00o\x00o\x00k\x00s\x00.\x00n\x00o\x00t\x00i\x00f\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00.\x00d\x00i\x00s\x00p\x00l\x00a\x00y\x00e\x00d' @ 446 : 1 .. (end); will stop at (end)

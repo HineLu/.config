@@ -1,4 +1,4 @@
-# created by KDE Plasma, 周日 6月 14 10:29:53 2020
+# created by KDE Plasma, 周三 7月 8 00:35:17 2020
 #
 
 gtk-alternative-button-order = 1
@@ -34,10 +34,10 @@ class "*" style "default"
 
 style "ToolTip"
 {
-  bg[NORMAL] = { 0.988, 0.988, 0.988 }
-  base[NORMAL] = { 0.988, 0.988, 0.988 }
-  text[NORMAL] = { 0.137, 0.149, 0.153 }
-  fg[NORMAL] = { 0.137, 0.149, 0.153 }
+  bg[NORMAL] = { 0.137, 0.149, 0.153 }
+  base[NORMAL] = { 0.137, 0.149, 0.153 }
+  text[NORMAL] = { 0.988, 0.988, 0.988 }
+  fg[NORMAL] = { 0.988, 0.988, 0.988 }
 }
 
 widget "gtk-tooltip" style "ToolTip"

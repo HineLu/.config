@@ -1,0 +1,15 @@
+2020/07/09-11:17:59.486 127ad Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_www.bilibili.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/09-11:17:59.486 127ad Recovering log #19
+2020/07/09-11:17:59.487 127ad Reusing old log /home/hine/.config/chromium/Default/IndexedDB/https_www.bilibili.com_0.indexeddb.leveldb/000019.log 
+2020/07/09-11:22:34.853 12cfc Level-0 table #24: started
+2020/07/09-11:22:34.855 12cfc Level-0 table #24: 7823 bytes OK
+2020/07/09-11:22:34.857 12cfc Delete type=0 #19
+2020/07/09-11:22:34.858 12cfc Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/07/09-11:22:34.858 12cfc Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x03\x00\x00\x00\x98\xf3t\x9bA' @ 3194 : 1
+2020/07/09-11:22:34.858 12cfc Compacting 1@1 + 1@2 files
+2020/07/09-11:22:34.860 12cfc Generated table #25@1: 34 keys, 3833 bytes
+2020/07/09-11:22:34.860 12cfc Compacted 1@1 + 1@2 files => 3833 bytes
+2020/07/09-11:22:34.862 12cfc compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/07/09-11:22:34.862 12cfc Delete type=2 #24
+2020/07/09-11:22:34.862 12cfc Delete type=2 #21
+2020/07/09-11:22:34.862 12cfc Manual compaction at level-1 from '\x00\x01\x01\x02\x03\x00\x00\x00\x98\xf3t\x9bA' @ 3194 : 1 .. (end); will stop at (end)

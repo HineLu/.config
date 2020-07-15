@@ -29,6 +29,10 @@ exec --no-startup-id xfce4-power-manager
 exec --no-startup-id utools
 exec --no-startup-id xfce4-clipman
 exec --no-startup-id variety
+exec --no-startup-id bash ~/.config/i3/notification/notification.sh
+
+
+
 
 # Hotkey
 # screenshot
@@ -118,12 +122,18 @@ bindsym Shift+XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @D
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
+# xbacklight
+bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight - 10%
+bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight + 10%
+bindsym Shift+XF86MonBrightnessDown exec --no-startup-id xbacklight - 1%
+bindsym Shift+XF86MonBrightnessUp exec --no-startup-id xbacklight + 1%
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # start a terminal
 #bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Return exec alacritty
+bindsym mod1+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -244,6 +254,71 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+mode "virtual mouse" {
+        bindsym Shift+Up exec xdotool mousemove_relative -- 0 -100
+        bindsym Shift+Down exec xdotool mousemove_relative -- 0 100
+        bindsym Shift+Left exec xdotool mousemove_relative -- -100 0
+        bindsym Shift+Right exec xdotool mousemove_relative -- 100 0
+
+        bindsym Up exec xdotool mousemove_relative -- 0 -10
+        bindsym Down exec xdotool mousemove_relative -- 0 10
+        bindsym Left exec xdotool mousemove_relative -- -10 0
+        bindsym Right exec xdotool mousemove_relative -- 10 0
+
+        bindsym Ctrl+Shift+Up exec xdotool mousemove_relative -- 0 -1
+        bindsym Ctrl+Shift+Down exec xdotool mousemove_relative -- 0 1
+        bindsym Ctrl+Shift+Left exec xdotool mousemove_relative -- -1 0
+        bindsym Ctrl+Shift+Right exec xdotool mousemove_relative -- 1 0
+
+        bindsym Shift+K exec xdotool mousemove_relative -- 0 -100
+        bindsym Shift+J exec xdotool mousemove_relative -- 0 100
+        bindsym Shift+H exec xdotool mousemove_relative -- -100 0
+        bindsym Shift+L exec xdotool mousemove_relative -- 100 0
+
+        bindsym K exec xdotool mousemove_relative -- 0 -10
+        bindsym J exec xdotool mousemove_relative -- 0 10
+        bindsym H exec xdotool mousemove_relative -- -10 0
+        bindsym L exec xdotool mousemove_relative -- 10 0
+
+        bindsym Ctrl+Shift+K exec xdotool mousemove_relative -- 0 -1
+        bindsym Ctrl+Shift+J exec xdotool mousemove_relative -- 0 1
+        bindsym Ctrl+Shift+H exec xdotool mousemove_relative -- -1 0
+        bindsym Ctrl+Shift+L exec xdotool mousemove_relative -- 1 0
+
+        bindsym U exec xdotool click 1
+        bindsym I exec xdotool click 3
+
+        bindsym $mod+Up exec xdotool click 4
+        bindsym $mod+Down exec xdotool click 5
+        bindsym $mod+Left exec xdotool click 6
+        bindsym $mod+Right exec xdotool click 7
+
+        bindsym $mod+k exec xdotool click 4
+        bindsym $mod+j exec xdotool click 5
+        bindsym $mod+h exec xdotool click 6
+        bindsym $mod+l exec xdotool click 7
+
+        bindsym $mod+Ctrl+Up exec xdotool click 4
+        bindsym $mod+Ctrl+Down exec xdotool click 5
+        bindsym $mod+Ctrl+Left exec xdotool click 6
+        bindsym $mod+Ctrl+Right exec xdotool click 7
+
+        bindsym $mod+Ctrl+k exec xdotool click 4
+        bindsym $mod+Ctrl+j exec xdotool click 5
+        bindsym $mod+Ctrl+h exec xdotool click 6
+        bindsym $mod+Ctrl+l exec xdotool click 7
+
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+m mode "default"
+}
+
+bindsym $mod+m mode "virtual mouse"
+
+
+
+
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -313,3 +388,22 @@ exec --no-startup-id exec bash ~/.config/polybar/launchi3.sh
 # set apparence
 new_window 1pixel
 gaps inner 10
+
+
+# Plasma
+#for_window [title="Desktop — Plasma"] kill; floating enable; border none
+for_window [title="桌面 — Plasma"] exec notify-send Welcome; floating disable; border none
+for_window [class="plasmashell"] floating enable;
+for_window [class="Plasma"] floating enable; border none
+for_window [title="plasma-desktop"] floating enable; border none
+for_window [title="win7"] floating enable; border none
+for_window [class="krunner"] floating enable; border none
+for_window [class="Kmix"] floating enable; border none
+for_window [class="Klipper"] floating enable; border none
+for_window [class="Plasmoidviewer"] floating enable; border none
+for_window [class="(?i)*nextcloud*"] floating disable
+#for_window [class="plasmashell" window_type="notification"] floating enable, border none, move right 700px, move down 450px
+no_focus [class="plasmashell" window_type="notification"] 
+# 这个指针要配哭了
+for_window [title="KDE Connect 守护进程"] floating enable;fullscreen;resize set height 1080;resize set width 1920,move absolute position center
+

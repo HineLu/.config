@@ -1,6 +1,6 @@
 <application>
   <component name="EventLogWhitelist">
-    <update recorder-id="FUS" last-modified="1591387322000" />
+    <update recorder-id="FUS" last-modified="1593201690000" />
   </component>
   <component name="FeatureUsageStatistics" first-run="1589966943661" have-been-shown="false" show-in-other="true" show-in-compilation="true">
     <feature id="refactoring.moveTopLevel" count="0" last-shown="0" last-used="0" shown-count="0" />

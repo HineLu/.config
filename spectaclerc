@@ -13,7 +13,6 @@ useReleaseToCapture=false
 
 [GuiConfig]
 captureMode=0
-cropRegion=676,854,525,99
 window-position=63,148
 
 [Save]
@@ -21,5 +20,5 @@ compressionQuality=90
 copySaveLocation=true
 defaultSaveImageFormat=png
 defaultSaveLocation=file:/home/hine/图片/
-lastSaveLocation=file:///home/hine/图片/Screenshot_20200302_235317.png
+lastSaveLocation=file:///home/hine/图片/Screenshot_20200708_192051.png
 saveFilenameFormat=Screenshot_%Y%M%D_%H%m%S

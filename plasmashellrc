@@ -1,5 +1,5 @@
 [PlasmaRunnerManager]
-LaunchCounts=1 services_kcm_notifications.desktop
+LaunchCounts=1 services_kcm_kdeconnect.desktop,1 services_org.kde.kdeconnect.app.desktop,1 services_kcm_notifications.desktop,2 services_deepin.com.qq.office.desktop,2 services_xfce4-taskmanager.desktop,1 services_khtml_appearance.desktop
 pluginWhiteList=desktopsessions,services,places,PowerDevil,calculator,unitconverter,shell,bookmarks,recentdocuments,locations,baloosearch
 
 [PlasmaViews][Panel 2][Defaults]
@@ -8,8 +8,34 @@ thickness=36
 [PlasmaViews][Panel 2][Horizontal1920]
 thickness=36
 
+[PlasmaViews][Panel 35][Defaults]
+thickness=36
+
+[PlasmaViews][Panel 35][Horizontal1920]
+thickness=36
+
+[PlasmaViews][Panel 36][Defaults]
+thickness=36
+
+[PlasmaViews][Panel 36][Vertical1080]
+thickness=36
+
+[PlasmaViews][Panel 58][Defaults]
+thickness=27
+
+[PlasmaViews][Panel 58][Horizontal1920]
+thickness=27
+
+[PlasmaViews][Panel 72][Defaults]
+thickness=36
+
+[PlasmaViews][Panel 72][Horizontal1920]
+thickness=36
+
 [ScreenConnectors]
 0=eDP1
+1=HDMI1
+2=:0.0
 
 [Updates]
 performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js

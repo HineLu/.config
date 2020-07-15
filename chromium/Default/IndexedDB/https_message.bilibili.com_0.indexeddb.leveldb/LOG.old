@@ -1,0 +1,5 @@
+2020/04/30-23:41:27.543 ea4f Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_message.bilibili.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/04/30-23:41:35.808 a818 Level-0 table #5: started
+2020/04/30-23:41:35.809 a818 Level-0 table #5: 8129 bytes OK
+2020/04/30-23:41:35.810 a818 Delete type=0 #3
+2020/04/30-23:41:35.811 a818 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

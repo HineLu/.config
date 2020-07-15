@@ -1,3 +1,8 @@
-2020/06/14-01:45:34.648 5868 Reusing MANIFEST /home/hine/.config/chromium/Default/Session Storage/MANIFEST-000001
-2020/06/14-01:45:34.648 5868 Recovering log #737
-2020/06/14-01:45:34.648 5868 Reusing old log /home/hine/.config/chromium/Default/Session Storage/000737.log 
+2020/07/15-16:19:59.864 17f93 Reusing MANIFEST /home/hine/.config/chromium/Default/Session Storage/MANIFEST-000001
+2020/07/15-16:19:59.864 17f93 Recovering log #938
+2020/07/15-16:19:59.864 17f93 Reusing old log /home/hine/.config/chromium/Default/Session Storage/000938.log 
+2020/07/15-20:47:32.004 19cbc Level-0 table #942: started
+2020/07/15-20:47:32.006 19cbc Level-0 table #942: 34745 bytes OK
+2020/07/15-20:47:32.008 19cbc Delete type=0 #938
+2020/07/15-20:47:32.009 19cbc Compacting 4@0 + 1@1 files
+2020/07/15-20:47:32.019 19cbc compacted to: files[ 4 1 1 0 0 0 0 ]

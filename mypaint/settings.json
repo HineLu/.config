@@ -448,7 +448,8 @@
     "Virtual core pointer:mouse:5": {},
     "HUION Huion Tablet Pen Pen (0):pen:3": {},
     "TABLET Pen Tablet Pen Pen (0):pen:3": {},
-    "HUION Huion Tablet Pad:tablet-pad:7": {}
+    "HUION Huion Tablet Pad:tablet-pad:7": {},
+    "SINO WEALTH Gaming KB  Consumer Control:mouse:4": {}
   },
   "color_chooser.default.selected_adjuster": "PaletteTool",
   "ui.blink_layers": true,

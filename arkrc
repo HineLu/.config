@@ -1,0 +1,19 @@
+[ExtractDialog]
+DirHistory[$e]=$HOME/PlayOnLinux's virtual drives/Office2010/drive_c/Program Files/KMSpico/
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME,file:$HOME
+Recent URLs[$e]=file:$HOME/PlayOnLinux's virtual drives/Office2010/drive_c/Program Files/KMSpico/
+detailViewIconSize=0
+
+[MainWindow]
+Height 1080=999
+State=AAAA/wAAAAD9AAAAAAAAAXQAAAOiAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+Width 1920=372
+splitterSizes=245,123
+
+[Recent Files]
+File1[$e]=$HOME/下载/HEU_KMS_Activator.zip
+Name1[$e]=HEU_KMS_Activator.zip

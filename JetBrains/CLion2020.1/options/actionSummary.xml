@@ -2,7 +2,7 @@
   <component name="ActionsLocalSummary">
     <data>
       <entry key="$Delete">
-        <ActionSummary times="1" last="1591418832035" />
+        <ActionSummary times="2" last="1593497802781" />
       </entry>
       <entry key="$SelectAll">
         <ActionSummary times="2" last="1589968591938" />
@@ -11,7 +11,10 @@
         <ActionSummary times="1" last="1589968798308" />
       </entry>
       <entry key="CloseProject">
-        <ActionSummary times="2" last="1591418860259" />
+        <ActionSummary times="3" last="1593499533132" />
+      </entry>
+      <entry key="Debug">
+        <ActionSummary times="2" last="1593497702911" />
       </entry>
       <entry key="EditorBackSpace">
         <ActionSummary times="217" last="1591419022207" />
@@ -37,11 +40,23 @@
       <entry key="EditorUp">
         <ActionSummary times="3" last="1589968918297" />
       </entry>
+      <entry key="List-selectPreviousRow">
+        <ActionSummary times="3" last="1593497966057" />
+      </entry>
+      <entry key="Rerun">
+        <ActionSummary times="3" last="1593498036794" />
+      </entry>
       <entry key="Run">
-        <ActionSummary times="4" last="1591417552560" />
+        <ActionSummary times="6" last="1593497696415" />
+      </entry>
+      <entry key="RunClass">
+        <ActionSummary times="1" last="1593497798577" />
+      </entry>
+      <entry key="RunToCursor">
+        <ActionSummary times="2" last="1593497721050" />
       </entry>
       <entry key="SelectNextOccurrence">
-        <ActionSummary times="6" last="1591416650924" />
+        <ActionSummary times="8" last="1593497646965" />
       </entry>
       <entry key="ShowIntentionActions">
         <ActionSummary times="2" last="1591416841372" />
@@ -49,17 +64,23 @@
       <entry key="ShowSettings">
         <ActionSummary times="3" last="1591418842898" />
       </entry>
+      <entry key="StepInto">
+        <ActionSummary times="18" last="1593498048931" />
+      </entry>
+      <entry key="ToggleLineBreakpoint">
+        <ActionSummary times="5" last="1593498034677" />
+      </entry>
       <entry key="Tree-selectChild">
-        <ActionSummary times="11" last="1591417689171" />
+        <ActionSummary times="13" last="1593497818289" />
       </entry>
       <entry key="Tree-selectNext">
-        <ActionSummary times="100" last="1591417699149" />
+        <ActionSummary times="119" last="1593497877201" />
       </entry>
       <entry key="Tree-selectParent">
-        <ActionSummary times="2" last="1591417594839" />
+        <ActionSummary times="4" last="1593497844212" />
       </entry>
       <entry key="Tree-selectPrevious">
-        <ActionSummary times="73" last="1591418835374" />
+        <ActionSummary times="88" last="1593497876808" />
       </entry>
       <entry key="Vcs.VcsClone">
         <ActionSummary times="1" last="1589968822387" />
@@ -76,20 +97,23 @@
       <entry key="WelcomeScreen.Settings">
         <ActionSummary times="3" last="1589968941744" />
       </entry>
+      <entry key="com.intellij.execution.impl.ConsoleViewImpl$BackSpaceHandler">
+        <ActionSummary times="4" last="1593497751105" />
+      </entry>
       <entry key="com.intellij.execution.impl.ConsoleViewImpl$EnterHandler">
-        <ActionSummary times="1" last="1591417562502" />
+        <ActionSummary times="2" last="1593497743007" />
       </entry>
       <entry key="com.intellij.ide.lightEdit.actions.LightEditExitAction">
         <ActionSummary times="1" last="1589968930050" />
       </entry>
       <entry key="com.intellij.openapi.actionSystem.EmptyAction$MyDelegatingAction">
-        <ActionSummary times="66" last="1591418809379" />
+        <ActionSummary times="113" last="1593498122914" />
       </entry>
       <entry key="com.intellij.openapi.wm.impl.welcomeScreen.FlatWelcomeFrame$FlatWelcomeScreen$5">
         <ActionSummary times="10" last="1591418876355" />
       </entry>
       <entry key="com.intellij.openapi.wm.impl.welcomeScreen.FlatWelcomeFrame$FlatWelcomeScreen$6">
-        <ActionSummary times="2" last="1591416594556" />
+        <ActionSummary times="3" last="1593497606109" />
       </entry>
       <entry key="com.intellij.ui.CommonActionsPanel$1">
         <ActionSummary times="2" last="1589967154657" />
@@ -100,11 +124,14 @@
       <entry key="com.intellij.ui.CommonActionsPanel$RemoveButton">
         <ActionSummary times="2" last="1591417731436" />
       </entry>
+      <entry key="com.intellij.xdebugger.impl.breakpoints.RemoveBreakpointGutterIconAction">
+        <ActionSummary times="1" last="1593497671146" />
+      </entry>
       <entry key="com.jetbrains.cidr.cpp.toolchains.CPPToolchainsPanel$AddToolchainAction">
         <ActionSummary times="4" last="1591417678126" />
       </entry>
       <entry key="com.maddyhome.idea.vim.ui.ExShortcutKeyAction">
-        <ActionSummary times="1" last="1590028192052" />
+        <ActionSummary times="4" last="1593498127751" />
       </entry>
     </data>
   </component>

@@ -1,3 +1,8 @@
-2020/06/05-19:00:49.957 bdf Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_ke.qq.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/06/05-19:00:49.958 bdf Recovering log #63
-2020/06/05-19:00:49.958 bdf Reusing old log /home/hine/.config/chromium/Default/IndexedDB/https_ke.qq.com_0.indexeddb.leveldb/000063.log 
+2020/07/12-14:34:51.381 38eb Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_ke.qq.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/12-14:34:51.381 38eb Recovering log #92
+2020/07/12-14:34:51.381 38eb Reusing old log /home/hine/.config/chromium/Default/IndexedDB/https_ke.qq.com_0.indexeddb.leveldb/000092.log 
+2020/07/12-15:25:32.550 8007 Level-0 table #96: started
+2020/07/12-15:25:32.551 8007 Level-0 table #96: 0 bytes OK
+2020/07/12-15:25:32.552 8007 Delete type=0 #92
+2020/07/12-15:25:32.552 8007 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/07/12-15:25:32.552 8007 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

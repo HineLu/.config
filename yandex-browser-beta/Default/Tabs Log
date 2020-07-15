@@ -877,3 +877,8 @@
 2020-04-24 02:09:13.745 [0] RemoveCurrentSessionInvalidMarker
 2020-04-24 02:09:13.745 [0] RemoveCurrentSessionInvalidMarker done
 2020-04-24 02:09:13.758 [0] SessionBackend done
+2020-07-01 12:45:25.232 [0] InitSessionLog done
+2020-07-01 12:45:25.232 [0] RemoveCurrentSessionInvalidMarker
+2020-07-01 12:45:25.233 [0] Set current_session_is_valid_
+2020-07-01 12:45:25.233 [0] RemoveCurrentSessionInvalidMarker done
+2020-07-01 12:45:25.241 [0] SessionBackend done

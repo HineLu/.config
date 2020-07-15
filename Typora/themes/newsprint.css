@@ -78,6 +78,12 @@ html, body {
 	max-width: 40em;
 }
 
+@media only screen and (min-width: 1400px) {
+	#write {
+			max-width: 914px;
+	}
+}
+
 ol li {
 	list-style-type: decimal;
 	list-style-position: outside;

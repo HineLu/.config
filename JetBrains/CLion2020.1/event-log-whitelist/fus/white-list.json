@@ -13,6 +13,7 @@
         "class" : [ "{util#class_name}" ],
         "context_menu" : [ "{enum#boolean}" ],
         "current_file" : [ "{util#current_file}" ],
+        "dumb" : [ "{enum#boolean}" ],
         "input_event" : [ "{util#shortcut}" ],
         "parent" : [ "{enum#parent}", "{util#class_name}", "{enum:LineMarkerActionWrapper|TreeActionWrapper|MyTreeActionWrapper}" ],
         "place" : [ "{util#place}" ],
@@ -81,20 +82,21 @@
       "from" : "191.4811"
     } ],
     "rules" : {
-      "event_id" : [ "{enum#_}", "{util#action}" ],
+      "event_id" : [ "{enum#_}", "{util#action}", "{enum:action.invoked}" ],
       "event_data" : {
+        "action_id" : [ "{util#action}", "{enum#__action_id}" ],
         "class" : [ "{util#class_name}" ],
         "context_menu" : [ "{enum#boolean}" ],
         "executor" : [ "{util#run_config_executor}" ],
         "input_event" : [ "{util#shortcut}" ],
-        "os" : [ "{enum#os}" ],
         "place" : [ "{util#place}" ],
         "plugin_type" : [ "{util#plugin_type}" ],
         "plugin_version" : [ "{util#plugin_version}" ],
         "system_id" : [ "{enum#build_tools}" ]
       },
       "enums" : {
-        "_" : [ "RefreshAllExternalProjectsAction", "RunExternalSystemTaskAction", "ShowExternalSystemSettingsAction", "RefreshExternalProjectAction", "ExecuteExternalSystemRunConfigurationAction", "AttachExternalProjectAction", "DetachExternalProjectAction", "OpenExternalConfigAction", "GradleRefreshProjectDependenciesAction", "ExternalSystemSelectProjectDataToImportAction", "RunTaskAction", "ToggleAutoImportAction", "EditExternalSystemRunConfigurationAction", "OpenTasksActivationManagerAction", "IgnoreExternalProjectAction", "RemoveExternalSystemRunConfigurationAction", "RunCommandAction", "ShowSettingAction", "GroupModulesAction", "AssignShortcutAction", "ToggleAfterCompileTasksAction", "ToggleAfterSyncTaskAction", "ShowTaskAction", "ToggleBeforeCompileTasksAction", "ToggleBeforeSyncTaskAction", "ToggleAfterRebuildTasksAction", "GroupTasksAction", "ShowIgnoredAction", "ShowInheritedTasksAction", "SbtHelpAction", "InspectTaskAction", "InspectSettingAction", "ToggleBeforeRebuildTasksAction", "AssignRunConfigurationShortcutAction" ]
+        "_" : [ "RefreshAllExternalProjectsAction", "RunExternalSystemTaskAction", "ShowExternalSystemSettingsAction", "RefreshExternalProjectAction", "ExecuteExternalSystemRunConfigurationAction", "AttachExternalProjectAction", "DetachExternalProjectAction", "OpenExternalConfigAction", "GradleRefreshProjectDependenciesAction", "ExternalSystemSelectProjectDataToImportAction", "RunTaskAction", "ToggleAutoImportAction", "EditExternalSystemRunConfigurationAction", "OpenTasksActivationManagerAction", "IgnoreExternalProjectAction", "RemoveExternalSystemRunConfigurationAction", "RunCommandAction", "ShowSettingAction", "GroupModulesAction", "AssignShortcutAction", "ToggleAfterCompileTasksAction", "ToggleAfterSyncTaskAction", "ShowTaskAction", "ToggleBeforeCompileTasksAction", "ToggleBeforeSyncTaskAction", "ToggleAfterRebuildTasksAction", "GroupTasksAction", "ShowIgnoredAction", "ShowInheritedTasksAction", "SbtHelpAction", "InspectTaskAction", "InspectSettingAction", "ToggleBeforeRebuildTasksAction", "AssignRunConfigurationShortcutAction" ],
+        "__action_id" : [ "RefreshAllExternalProjectsAction", "RunExternalSystemTaskAction", "ShowExternalSystemSettingsAction", "RefreshExternalProjectAction", "ExecuteExternalSystemRunConfigurationAction", "AttachExternalProjectAction", "DetachExternalProjectAction", "OpenExternalConfigAction", "GradleRefreshProjectDependenciesAction", "ExternalSystemSelectProjectDataToImportAction", "RunTaskAction", "ToggleAutoImportAction", "EditExternalSystemRunConfigurationAction", "OpenTasksActivationManagerAction", "IgnoreExternalProjectAction", "RemoveExternalSystemRunConfigurationAction", "RunCommandAction", "ShowSettingAction", "GroupModulesAction", "AssignShortcutAction", "ToggleAfterCompileTasksAction", "ToggleAfterSyncTaskAction", "ShowTaskAction", "ToggleBeforeCompileTasksAction", "ToggleBeforeSyncTaskAction", "ToggleAfterRebuildTasksAction", "GroupTasksAction", "ShowIgnoredAction", "ShowInheritedTasksAction", "SbtHelpAction", "InspectTaskAction", "InspectSettingAction", "ToggleBeforeRebuildTasksAction", "AssignRunConfigurationShortcutAction" ]
       }
     }
   }, {
@@ -231,6 +233,7 @@
       "event_data" : {
         "alphabetically" : [ "{enum#boolean}" ],
         "backspaces" : [ "{regexp#integer}" ],
+        "completion_char" : [ "{enum#__completion_char}" ],
         "dumb_finish" : [ "{enum#boolean}" ],
         "dumb_start" : [ "{enum#boolean}" ],
         "duration" : [ "{regexp#integer}" ],
@@ -240,11 +243,15 @@
         "query_length" : [ "{regexp#integer}" ],
         "selected_index" : [ "{regexp#integer}" ],
         "selection_changed" : [ "{regexp#integer}" ],
+        "spellchecker" : [ "{enum#boolean}" ],
         "time_to_show" : [ "{regexp#integer}" ],
         "token_length" : [ "{regexp#integer}" ],
         "total_ml_time" : [ "{regexp#integer}" ],
         "typing" : [ "{regexp#integer}" ],
         "version" : [ "{regexp#version}", "{enum:unknown}" ]
+      },
+      "enums" : {
+        "__completion_char" : [ "ENTER", "TAB", "COMPLETE_STATEMENT", "AUTO_INSERT", "OTHER" ]
       }
     }
   }, {
@@ -298,6 +305,19 @@
       "enums" : {
         "__event_id" : [ "remaining.pages.skipped", "WizardDisplayed", "UIThemeChanged", "DesktopEntryCreated", "LauncherScriptCreated", "BundledPluginGroupDisabled", "BundledPluginGroupEnabled", "BundledPluginGroupCustomized", "FeaturedPluginInstalled" ],
         "__group" : [ "Java_Frameworks", "Web_Development", "Version_Controls", "Test_Tools", "Application_Servers", "Clouds", "Swing", "Android", "Database_Tools", "Other_Tools", "Plugin_Development", "Build_Tools" ]
+      }
+    }
+  }, {
+    "id" : "cwm.lifecycle",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:connected|finished}" ],
+      "event_data" : {
+        "client_id" : [ "{regexp#hash}" ],
+        "id" : [ "{regexp#integer}" ]
       }
     }
   }, {
@@ -723,7 +743,7 @@
         "version" : [ "{regexp#version}" ]
       },
       "enums" : {
-        "__event_id" : [ "whitelist.loaded", "whitelist.updated", "logs.send", "external.send.command.creation.started", "external.send.command.creation.finished", "external.send.started", "external.send.finished", "loading.config.failed", "whitelist.update.failed", "whitelist.load.failed" ]
+        "__event_id" : [ "whitelist.loaded", "whitelist.updated", "logs.send", "external.send.command.creation.started", "external.send.command.creation.finished", "external.send.started", "external.send.finished", "loading.config.failed", "whitelist.update.failed", "whitelist.load.failed", "metadata.loaded", "metadata.updated", "metadata.update.failed", "metadata.load.failed" ]
       }
     }
   }, {
@@ -808,7 +828,7 @@
       "from" : "2"
     } ],
     "rules" : {
-      "event_id" : [ "{enum#_}" ],
+      "event_id" : [ "{enum#__event_id}" ],
       "event_data" : {
         "enabled" : [ "{enum#boolean}" ],
         "local_branches" : [ "{regexp#integer}" ],
@@ -820,14 +840,13 @@
         "remote_gitlab" : [ "{regexp#integer}" ],
         "remote_gitlab_custom" : [ "{regexp#integer}" ],
         "remotes" : [ "{regexp#integer}" ],
-        "type" : [ "{enum#type}" ],
-        "value" : [ "{enum#value}" ],
+        "type" : [ "{enum#__type}" ],
+        "value" : [ "{enum:sync|dont_sync|not_decided}", "{enum:branch_default|merge|rebase}", "{enum:stash|shelve}" ],
         "version" : [ "{regexp#version}" ]
       },
       "enums" : {
-        "_" : [ "repo.sync", "update.type", "save.policy", "use.builtin.ssh", "push.autoupdate", "push.update.all.roots", "cherrypick.autocommit", "warn.about.crlf", "warn.about.detached", "executable", "repository" ],
-        "type" : [ "UNIX", "MSYS", "CYGWIN", "UNDEFINED", "NULL" ],
-        "value" : [ "sync", "dont_sync", "not_decided", "branch_default", "merge", "rebase", "stash", "shelve" ]
+        "__event_id" : [ "repo.sync", "update.type", "save.policy", "use.builtin.ssh", "push.autoupdate", "push.update.all.roots", "cherrypick.autocommit", "warn.about.crlf", "warn.about.detached", "executable", "repository" ],
+        "__type" : [ "UNIX", "MSYS", "CYGWIN", "UNDEFINED", "NULL" ]
       }
     }
   }, {
@@ -1045,7 +1064,7 @@
       },
       "enums" : {
         "__model" : [ "ts.enum.hints", "annotation.hints", "JavaLens", "js.chain.hints", "ts.chain.hints", "composer.package.version.hints", "groovy.parameters.hints", "chain.hints", "ts.type.hints", "js.type.hints", "parameter.hints.old", "return.values.hints" ],
-        "__option_id" : [ "js.param.hints.show.names.for.all.args", "vuejs.show.names.for.filters", "inheritors", "java.clear.expression.type", "variables.and.fields", "ruby.show.param.grouping", "js.only.show.names.for.tagged", "ruby.non.literals", "inferred.annotations", "non.paren.single.param", "js.only.show.names.for.pipes", "oc.clangd.namehints.construct.expr", "ruby.method.name.contains.parameter.name", "usages", "oc.clangd.namehints.non.const.references", "php.pass.by.reference", "java.method.name.contains.parameter.name", "java.multiple.params.same.type", "inferred.parameter.types", "java.enums", "js.only.show.names.for.all.args", "php.show.names.for.all.args", "oc.clangd.namehints.enums", "java.build.like.method", "function.returns", "java.new.expr", "java.simple.sequentially.numbered", "vuejs.show.names.for.all.args", "parameters.in.parens", "oc.clangd.namehints.macro.expr", "js.param.hints.show.names.for.tagged", "type.parameter.list", "external.annotations", "angular.show.names.for.all.args", "angular.show.names.for.pipes", "SHOW_PROPERTY_HINT", "SHOW_LOCAL_VARIABLE_HINT", "SHOW_FUNCTION_HINT", "SHOW_PARAMETER_TYPE_HINT", "SHOW_PARAMETER_HINT", "SHOW_LAMBDA_RETURN_EXPRESSION", "SHOW_LAMBDA_IMPLICIT_PARAMETER_RECEIVER", "SHOW_SUSPENDING_CALL", "R_HINT_OPTION_WRAP_DOTS", "sql.show.column.names.in.insert.values", "sql.show.column.names.in.select", "sql.show.column.names.for.asterisk", "implicit.null.result" ]
+        "__option_id" : [ "js.param.hints.show.names.for.all.args", "vuejs.show.names.for.filters", "inheritors", "java.clear.expression.type", "variables.and.fields", "ruby.show.param.grouping", "js.only.show.names.for.tagged", "ruby.non.literals", "inferred.annotations", "non.paren.single.param", "js.only.show.names.for.pipes", "oc.clangd.namehints.construct.expr", "ruby.method.name.contains.parameter.name", "usages", "oc.clangd.namehints.non.const.references", "php.pass.by.reference", "java.method.name.contains.parameter.name", "java.multiple.params.same.type", "inferred.parameter.types", "java.enums", "js.only.show.names.for.all.args", "php.show.names.for.all.args", "oc.clangd.namehints.enums", "java.build.like.method", "function.returns", "java.new.expr", "java.simple.sequentially.numbered", "vuejs.show.names.for.all.args", "parameters.in.parens", "oc.clangd.namehints.macro.expr", "js.param.hints.show.names.for.tagged", "type.parameter.list", "external.annotations", "angular.show.names.for.all.args", "angular.show.names.for.pipes", "SHOW_PROPERTY_HINT", "SHOW_LOCAL_VARIABLE_HINT", "SHOW_FUNCTION_HINT", "SHOW_PARAMETER_TYPE_HINT", "SHOW_PARAMETER_HINT", "SHOW_LAMBDA_RETURN_EXPRESSION", "SHOW_LAMBDA_IMPLICIT_PARAMETER_RECEIVER", "SHOW_SUSPENDING_CALL", "R_HINT_OPTION_WRAP_DOTS", "sql.show.column.names.in.insert.values", "sql.show.column.names.in.select", "sql.show.column.names.for.asterisk", "implicit.null.result", "related.problems" ]
       }
     }
   }, {
@@ -1075,6 +1094,7 @@
         "inspection_id" : [ "{util#tool}" ],
         "lang" : [ "{util#lang}" ],
         "option_index" : [ "{regexp#integer}" ],
+        "option_name" : [ "{util#plugin_info}" ],
         "option_type" : [ "{enum:integer|boolean}" ],
         "option_value" : [ "{enum#boolean}", "{regexp#integer}" ],
         "plugin" : [ "{util#plugin}" ],
@@ -1158,19 +1178,15 @@
   }, {
     "id" : "json.schema",
     "builds" : [ {
-      "from" : "191.4811",
-      "to" : "193.0"
-    }, {
-      "from" : "193.1"
+      "from" : "191.4811"
     } ],
     "rules" : {
-      "event_id" : [ "{enum#_}" ],
+      "event_id" : [ "{enum#_}", "{enum:completion.by.schema.invoked}" ],
       "event_data" : {
-        "schemaKind" : [ "{enum#schema_kind}" ]
+        "schemaKind" : [ "{enum:builtin|schema|user|remote}" ]
       },
       "enums" : {
-        "_" : [ "json.schema.schema.completion", "json.schema.builtin.completion", "json.schema.user.completion", "json.schema.remote.completion", "completion.by.schema.invoked" ],
-        "schema_kind" : [ "builtin", "schema", "user", "remote" ]
+        "_" : [ "json.schema.schema.completion", "json.schema.builtin.completion", "json.schema.user.completion", "json.schema.remote.completion" ]
       }
     }
   }, {
@@ -1630,9 +1646,10 @@
       "from" : "1"
     } ],
     "rules" : {
-      "event_id" : [ "{enum#_}" ],
+      "event_id" : [ "{enum#_}", "{enum#__event_id}" ],
       "event_data" : {
         "framework" : [ "{util#framework}" ],
+        "generator_id" : [ "{util#class_name}" ],
         "gradle-kotlin-dsl" : [ "{enum#boolean}" ],
         "plugin" : [ "{util#plugin}" ],
         "plugin_type" : [ "{util#plugin_type}" ],
@@ -1640,7 +1657,8 @@
         "projectType" : [ "{util#project_type}" ]
       },
       "enums" : {
-        "_" : [ "finish", "attempt", "finish.add.framework", "attempt.add.framework" ]
+        "_" : [ "finish", "attempt", "finish.add.framework", "attempt.add.framework" ],
+        "__event_id" : [ "finish", "attempt", "finish.add.framework", "attempt.add.framework", "project.generated" ]
       }
     }
   }, {
@@ -2357,6 +2375,8 @@
       "event_id" : [ "{enum#_}", "{enum:not.default}" ],
       "event_data" : {
         "component" : [ "{util#component_name}" ],
+        "default_project" : [ "{enum#boolean}" ],
+        "id" : [ "{regexp#integer}" ],
         "name" : [ "{util#option_name}" ],
         "plugin" : [ "{util#plugin}" ],
         "plugin_type" : [ "{util#plugin_type}" ],
@@ -2366,6 +2386,29 @@
       },
       "enums" : {
         "_" : [ "GeneralSettings", "NotRoamableUiSettings", "UISettings", "PhpDebugGeneral", "PhpRefactoringSettings", "not.default", "invoked" ],
+        "__type" : [ "bool", "int", "float", "enum", "string" ]
+      }
+    }
+  }, {
+    "id" : "settings.changes",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "47"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:component_changed_option|component_changed}" ],
+      "event_data" : {
+        "component" : [ "{util#component_name}" ],
+        "default_project" : [ "{enum#boolean}" ],
+        "id" : [ "{regexp#integer}" ],
+        "name" : [ "{util#option_name}" ],
+        "plugin" : [ "{util#plugin}" ],
+        "plugin_type" : [ "{util#plugin_type}" ],
+        "plugin_version" : [ "{util#plugin_version}" ],
+        "type" : [ "{enum#__type}" ],
+        "value" : [ "{enum#boolean}", "{regexp#integer}", "{regexp#float}", "{util#setting_value}" ]
+      },
+      "enums" : {
         "__type" : [ "bool", "int", "float", "enum", "string" ]
       }
     }
@@ -2380,6 +2423,15 @@
       "event_data" : {
         "sync_type" : [ "{enum:merge|overwrite_local|overwrite_remote}" ]
       }
+    }
+  }, {
+    "id" : "spellchecker.events",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:add.to.accepted.words.ui|remove.from.accepted.words.ui}" ]
     }
   }, {
     "id" : "spellchecker.settings.project",
@@ -2549,6 +2601,7 @@
         "action_id" : [ "{util#action}" ],
         "class" : [ "{util#class_name}" ],
         "context_menu" : [ "{enum#boolean}" ],
+        "dumb" : [ "{enum#boolean}" ],
         "input_event" : [ "{util#shortcut}" ],
         "parent" : [ "{util#class_name}" ],
         "place" : [ "{util#place}" ],
@@ -2666,6 +2719,7 @@
       "event_data" : {
         "font_name" : [ "{enum#font}", "{enum#__font_name}" ],
         "font_size" : [ "{regexp#integer}", "{enum#_}", "{enum#__font_size}" ],
+        "line_spacing" : [ "{regexp#float}" ],
         "value" : [ "{regexp#float}" ]
       },
       "enums" : {
@@ -2987,13 +3041,10 @@
       "from" : "1"
     } ],
     "rules" : {
-      "event_id" : [ "commit.count.{regexp#count}", "branches.count.{regexp#count}", "users.count.{regexp#count}", "third.party.root.count.{regexp#count}", "{enum#vcs}.root.count.{regexp#count}", "{enum#_}" ],
+      "event_id" : [ "commit.count.{regexp#count}", "branches.count.{regexp#count}", "users.count.{regexp#count}", "third.party.root.count.{regexp#count}", "{enum#vcs}.root.count.{regexp#count}", "{enum:dataInitialized}", "{enum:commit.count|branches.count|users.count|root.count}" ],
       "event_data" : {
         "count" : [ "{regexp#integer}" ],
         "vcs" : [ "{enum#vcs}", "{enum:third.party}" ]
-      },
-      "enums" : {
-        "_" : [ "commit.count", "branches.count", "users.count", "root.count", "dataInitialized" ]
       }
     }
   }, {
@@ -3003,13 +3054,10 @@
       "from" : "1"
     } ],
     "rules" : {
-      "event_id" : [ "big.repositories.{regexp#count}", "index.disabled.in.registry.{enum#state}", "index.forced.in.registry.{enum#state}", "{enum#_}" ],
+      "event_id" : [ "big.repositories.{regexp#count}", "index.disabled.in.registry.{enum#state}", "index.forced.in.registry.{enum#state}", "{enum:big.repositories|index.disabled.in.registry|index.forced.in.registry}" ],
       "event_data" : {
         "count" : [ "{regexp#integer}" ],
         "value" : [ "{enum#boolean}" ]
-      },
-      "enums" : {
-        "_" : [ "big.repositories", "index.disabled.in.registry", "index.forced.in.registry" ]
       }
     }
   }, {
@@ -3150,7 +3198,7 @@
   } ],
   "rules" : {
     "enums" : {
-      "boolean" : [ "true", "false" ],
+      "boolean" : [ "true", "false", "TRUE", "FALSE" ],
       "build_tools" : [ "Maven", "Gradle", "gradle", "sbt", "Clojure_Deps", "clojure_deps", "Pants", "pants", "bsp", "Kobalt", "kobalt", "undefined.system", "third.party", "SPM", "CompDB", "Compilation_Database", "Makefile" ],
       "os" : [ "Windows", "Mac", "Linux", "FreeBSD", "Other" ],
       "plugin_type" : [ "PLATFORM", "JB_BUNDLED", "JB_NOT_BUNDLED", "LISTED", "NOT_LISTED", "UNKNOWN" ],
@@ -3169,5 +3217,5 @@
       "version" : "(\\d+\\.?)*\\d+"
     }
   },
-  "version" : "1296"
+  "version" : "1328"
 }

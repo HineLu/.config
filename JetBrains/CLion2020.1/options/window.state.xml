@@ -1,12 +1,16 @@
 <application>
   <component name="DimensionService">
-    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1850" height="281" />
-    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1850" height="281" />
-    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1850" height="281" />
-    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1850" height="281" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="895" height="346" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="895" height="346" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="895" height="346" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="895" height="346" />
+    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="895" height="346" />
+    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="895" height="346" />
+    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="895" height="346" />
+    <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="895" height="346" />
   </component>
   <component name="WindowManager">
-    <frame x="10" y="12" width="1900" height="1058" />
+    <frame x="10" y="12" width="945" height="1058" />
     <layout>
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
@@ -26,9 +30,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="456" y="39" key="SettingsEditor/0.0.1920.1080" timestamp="1589968959022" />
-    <state x="958" y="403" key="WELCOME_SCREEN" timestamp="1591419155252">
+    <state x="960" y="403" key="WELCOME_SCREEN" timestamp="1593499540023">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="958" y="403" key="WELCOME_SCREEN/0.0.1920.1080" timestamp="1591419155252" />
+    <state x="960" y="403" key="WELCOME_SCREEN/0.0.1920.1080/0.0.1920.1080" timestamp="1593499540023" />
   </component>
 </application>

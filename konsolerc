@@ -1,9 +1,15 @@
 [Desktop Entry]
-DefaultProfile=
+DefaultProfile=配置方案 1.profile
 
 [Favorite Profiles]
 Favorites=
 
+[KonsoleWindow]
+ShowMenuBarByDefault=false
+
 [MainWindow]
-State=AAAA/wAAAAD9AAAAAAAAAoAAAAHFAAAABAAAAAQAAAAIAAAACPwAAAAA
+Height 1080=999
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAB2oAAAPnAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
+Width 1920=943

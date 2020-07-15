@@ -47,6 +47,19 @@ body {
     max-width: 914px;
 }
 
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
 html,
 body,
 button,

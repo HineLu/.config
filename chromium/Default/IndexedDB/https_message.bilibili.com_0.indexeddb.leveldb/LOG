@@ -1,5 +1,15 @@
-2020/04/30-23:41:27.543 ea4f Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_message.bilibili.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/04/30-23:41:35.808 a818 Level-0 table #5: started
-2020/04/30-23:41:35.809 a818 Level-0 table #5: 8129 bytes OK
-2020/04/30-23:41:35.810 a818 Delete type=0 #3
-2020/04/30-23:41:35.811 a818 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/23-20:08:21.317 aa5c Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_message.bilibili.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/23-20:08:21.317 aa5c Recovering log #4
+2020/06/23-20:08:21.318 aa5c Reusing old log /home/hine/.config/chromium/Default/IndexedDB/https_message.bilibili.com_0.indexeddb.leveldb/000004.log 
+2020/06/23-20:08:30.605 ab0f Level-0 table #8: started
+2020/06/23-20:08:30.607 ab0f Level-0 table #8: 8936 bytes OK
+2020/06/23-20:08:30.609 ab0f Delete type=0 #4
+2020/06/23-20:08:30.610 ab0f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/23-20:08:30.610 ab0f Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x06\x02\x01\x0b\x001\x00_\x003\x002\x001\x001\x007\x003\x004\x006\x009' @ 452 : 1
+2020/06/23-20:08:30.610 ab0f Compacting 1@1 + 1@2 files
+2020/06/23-20:08:30.612 ab0f Generated table #9@1: 104 keys, 6897 bytes
+2020/06/23-20:08:30.612 ab0f Compacted 1@1 + 1@2 files => 6897 bytes
+2020/06/23-20:08:30.614 ab0f compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/06/23-20:08:30.614 ab0f Delete type=2 #8
+2020/06/23-20:08:30.614 ab0f Delete type=2 #5
+2020/06/23-20:08:30.615 ab0f Manual compaction at level-1 from '\x00\x01\x06\x02\x01\x0b\x001\x00_\x003\x002\x001\x001\x007\x003\x004\x006\x009' @ 452 : 1 .. (end); will stop at (end)

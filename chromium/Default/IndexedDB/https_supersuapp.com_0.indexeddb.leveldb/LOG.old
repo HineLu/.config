@@ -1,0 +1,5 @@
+2020/07/04-18:38:13.643 48384 Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_supersuapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/04-18:38:49.644 2c875 Level-0 table #5: started
+2020/07/04-18:38:49.646 2c875 Level-0 table #5: 6115 bytes OK
+2020/07/04-18:38:49.648 2c875 Delete type=0 #3
+2020/07/04-18:38:49.649 2c875 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

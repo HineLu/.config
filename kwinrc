@@ -11,3 +11,12 @@ Rows=1
 
 [NightColor]
 Active=true
+
+[TabBox]
+DesktopLayout=org.kde.breeze.desktop
+DesktopListLayout=org.kde.breeze.desktop
+LayoutName=org.kde.breeze.desktop
+
+[org.kde.kdecoration2]
+library=org.kde.breeze
+theme=Breeze

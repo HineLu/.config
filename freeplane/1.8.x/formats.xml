@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 'type' selects the kind of data the formatter is intended to format. -->
+<!-- 'style' selects the formatter implementation: -->
+<!--   - 'date': http://download.oracle.com/javase/6/docs/api/java/text/SimpleDateFormat.html -->
+<!--   - 'decimal': http://download.oracle.com/javase/6/docs/api/java/text/DecimalFormat.html -->
+<!--   - 'formatter': http://download.oracle.com/javase/6/docs/api/java/util/Formatter.html -->
+<!--   - 'name': a informal name, a comment that's not visible in the app -->
+<!--   - 'locale': the name of the locale, only set for locale dependent format codes -->
+<formats>
+    <format type="number" style="decimal" name="default number" locale="zh_CN">#0.####</format>
+    <format type="number" style="decimal" name="decimal" locale="zh_CN">#.00</format>
+    <format type="number" style="decimal" name="integer" locale="zh_CN">#</format>
+    <format type="number" style="decimal" name="percent" locale="zh_CN">#.##%</format>
+    <format type="date" style="date" name="short date" locale="zh_CN">yy-M-d</format>
+    <format type="date" style="date" name="medium date" locale="zh_CN">yyyy-M-d</format>
+    <format type="date" style="date" name="short datetime" locale="zh_CN">yy-M-d ah:mm</format>
+    <format type="date" style="date" name="medium datetime" locale="zh_CN">yyyy-M-d ah:mm</format>
+    <format type="date" style="date" name="short iso date" locale="zh_CN">yyyy-MM-dd</format>
+    <format type="date" style="date" name="long iso date" locale="zh_CN">yyyy-MM-dd HH:mm</format>
+    <format type="date" style="date" name="full iso date" locale="zh_CN">yyyy-MM-dd&apos;T&apos;HH:mmZ</format>
+    <format type="date" style="date" name="time" locale="zh_CN">HH:mm</format>
+</formats>

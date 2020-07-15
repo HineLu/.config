@@ -1,0 +1,21 @@
+<unity_prefs version_major="1" version_minor="1">
+	<pref name="Apps2048HighScore" type="int">0</pref>
+	<pref name="AppsScreenChangerIndex" type="int">0</pref>
+	<pref name="Screenmanager Is Fullscreen mode" type="int">1</pref>
+	<pref name="Screenmanager Resolution Height" type="int">1080</pref>
+	<pref name="Screenmanager Resolution Width" type="int">1920</pref>
+	<pref name="UnitySelectMonitor" type="int">0</pref>
+	<pref name="camConfig" type="string">MSwyLDMsNCw1</pref>
+	<pref name="difficultMode" type="string">aGFyZA==</pref>
+	<pref name="fxVol" type="int">9</pref>
+	<pref name="gameGenerated" type="int">1</pref>
+	<pref name="lang" type="string">Y2g=</pref>
+	<pref name="musicVol" type="int">9</pref>
+	<pref name="profile" type="string"></pref>
+	<pref name="tip" type="int">2</pref>
+	<pref name="tutorialPlayer" type="string">eWVz</pref>
+	<pref name="unity.cloud_userid" type="string">ZDgyOGY4Y2JjY2ExYzRjNWU5OTU2OWRlNTRlODNiNzI=</pref>
+	<pref name="unity.player_session_background_time" type="string">MTU5MzQwMDIwNTEzNQ==</pref>
+	<pref name="unity.player_session_elapsed_time" type="string">ODg0NjMx</pref>
+	<pref name="unity.player_sessionid" type="string">MzE2OTI2NTc2Nzk5MjIyOTQ4NA==</pref>
+</unity_prefs>

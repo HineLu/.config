@@ -55,3 +55,53 @@ INFO 2020/4/28 下午12:10:12  [blur] 1
 INFO 2020/4/28 下午12:11:00  [focus] 1
 INFO 2020/4/28 下午12:11:03  ----------------before-quit-----------------
 INFO 2020/4/28 下午12:11:03  ------------------will-quit------------------
+INFO 2020/6/15 下午3:44:40  luanchFromDiffVersion, pre version is 0.9.86
+INFO 2020/6/15 下午3:44:40  overwriteThemeFolder
+INFO 2020/6/15 下午3:44:40  ------------------start------------------
+INFO 2020/6/15 下午3:44:40  typora version: 0.9.89
+DEBUG 2020/6/15 下午3:44:40  [ '/usr/share/typora/Typora', '2.md' ]
+DEBUG 2020/6/15 下午3:44:40  app.openFile
+INFO 2020/6/15 下午3:44:40  addRecentDocument
+INFO 2020/6/15 下午3:44:40  [Raven] instanceKey = 0ea95478-674d-4a9e-9974-2ed832e734b3
+INFO 2020/6/15 下午3:44:40  [Raven] userId = 77a7df68-3b9e-4627-a87c-57b88e2de100
+INFO 2020/6/15 下午3:44:40  [focus] 1
+INFO 2020/6/15 下午3:44:48  [blur] 1
+INFO 2020/6/15 下午3:44:48  [focus] 1
+INFO 2020/6/15 下午3:44:49  ----------------before-quit-----------------
+INFO 2020/6/15 下午3:44:49  ------------------will-quit------------------
+INFO 2020/6/15 下午3:45:31  ------------------start------------------
+INFO 2020/6/15 下午3:45:31  typora version: 0.9.89
+DEBUG 2020/6/15 下午3:45:31  [ '/usr/share/typora/Typora', '2.md' ]
+DEBUG 2020/6/15 下午3:45:31  app.openFile
+INFO 2020/6/15 下午3:45:31  addRecentDocument
+INFO 2020/6/15 下午3:45:31  [Raven] instanceKey = 71079591-0aae-4fb2-a1fe-b0b732e89583
+INFO 2020/6/15 下午3:45:31  [focus] 1
+INFO 2020/6/15 下午3:45:31  [Raven] userId = 77a7df68-3b9e-4627-a87c-57b88e2de100
+INFO 2020/6/15 下午3:45:32  [blur] 1
+INFO 2020/6/15 下午3:45:32  [focus] 1
+INFO 2020/6/15 下午3:45:37  [blur] 1
+INFO 2020/6/15 下午3:45:39  [focus] 1
+INFO 2020/6/15 下午3:45:39  [blur] 1
+INFO 2020/6/15 下午3:45:46  [focus] 1
+INFO 2020/6/15 下午3:45:46  [blur] 1
+INFO 2020/6/15 下午3:45:46  [focus] 1
+INFO 2020/6/15 下午3:45:46  [blur] 1
+INFO 2020/6/15 下午3:45:46  [focus] 1
+INFO 2020/6/15 下午3:45:53  [blur] 1
+INFO 2020/6/15 下午3:45:53  [focus] 1
+INFO 2020/6/15 下午3:45:56  [blur] 1
+INFO 2020/6/15 下午3:46:07  [focus] 1
+INFO 2020/6/15 下午3:46:08  [blur] 1
+INFO 2020/6/15 下午3:46:10  ----------------before-quit-----------------
+INFO 2020/6/15 下午3:46:10  ----------------before-quit-----------------
+INFO 2020/6/15 下午3:46:10  ------------------will-quit------------------
+INFO 2020/6/15 下午3:46:16  ------------------start------------------
+INFO 2020/6/15 下午3:46:16  typora version: 0.9.89
+DEBUG 2020/6/15 下午3:46:16  [ '/usr/share/typora/Typora', '8-3.md' ]
+DEBUG 2020/6/15 下午3:46:16  app.openFile
+INFO 2020/6/15 下午3:46:16  addRecentDocument
+INFO 2020/6/15 下午3:46:16  [Raven] instanceKey = 4229209d-8456-4c89-9671-5d569af919a2
+INFO 2020/6/15 下午3:46:16  [focus] 1
+INFO 2020/6/15 下午3:46:17  [Raven] userId = 77a7df68-3b9e-4627-a87c-57b88e2de100
+INFO 2020/6/15 下午3:46:20  ----------------before-quit-----------------
+INFO 2020/6/15 下午3:46:20  ------------------will-quit------------------

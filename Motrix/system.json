@@ -3,7 +3,7 @@
 	"allow-overwrite": false,
 	"auto-file-renaming": true,
 	"bt-exclude-tracker": "",
-	"bt-tracker": "udp://31.14.40.30:6969/announce,udp://93.158.213.92:1337/announce,udp://151.80.120.112:2710/announce,udp://163.172.217.67:1337/announce,udp://208.83.20.20:6969/announce,udp://194.182.165.153:6969/announce,udp://185.181.60.67:80/announce,udp://5.206.13.166:6969/announce,udp://37.235.174.46:2710/announce,udp://91.216.110.52:451/announce,udp://176.113.71.60:6961/announce,udp://193.38.137.134:6969/announce,udp://207.241.231.226:6969/announce,udp://207.241.226.111:6969/announce,udp://46.148.18.250:2710/announce,udp://46.148.18.254:2710/announce,udp://tracker.coppersurfer.tk:6969/announce,udp://tracker.opentrackr.org:1337/announce,udp://tracker.leechers-paradise.org:6969/announce,udp://9.rarbg.to:2710/announce,udp://9.rarbg.me:2710/announce,udp://p4p.arenabg.com:1337/announce,udp://exodus.desync.com:6969/announce,udp://tracker.cyberia.is:6969/announce,udp://open.stealth.si:80/announce,udp://tracker.tiny-vps.com:6969/announce,udp://retracker.lanta-net.ru:2710/announce,udp://tracker.torrent.eu.org:451/announce,http://tracker4.itzmx.com:2710/announce,udp://tracker3.itzmx.com:6961/announce,http://tracker1.itzmx.com:8080/announce,udp://tracker.moeking.me:6969/announce,udp://bt2.archive.org:6969/announce,udp://bt1.archive.org:6969/announce,udp://valakas.rollo.dnsabr.com:2710/announce,udp://opentor.org:2710/announce",
+	"bt-tracker": "",
 	"continue": true,
 	"dht-file-path": "/home/hine/.config/Motrix/dht.dat",
 	"dht-file-path6": "/home/hine/.config/Motrix/dht6.dat",

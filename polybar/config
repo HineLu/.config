@@ -17,12 +17,21 @@
 ;;==========================================================
 
 [colors]
+;;background = ${xrdb:color0:#222}
+;background = #cc222222
+;background-alt = #444
+;;foreground = ${xrdb:color7:#222}
+;foreground = #dfdfdf
+;foreground-alt = #ffffff
+;primary = #ffb52a
+;secondary = #e60053
+;alert = #bd2c40
 ;background = ${xrdb:color0:#222}
-background = #cc222222
-background-alt = #444
+foreground = #000000
+foreground-alt = #444
 ;foreground = ${xrdb:color7:#222}
-foreground = #dfdfdf
-foreground-alt = #ffffff
+background = #dfdfdfdf
+background-alt = #ffffff
 primary = #ffb52a
 secondary = #e60053
 alert = #bd2c40
@@ -105,7 +114,7 @@ content-padding = 1
 [module/xwindow]
 type = internal/xwindow
 label-padding = 1
-label = "  %title:0:100:...%"
+label = "%{F#0a81f5}%{F-}  %title:0:100:...%"
 
 [module/xkeyboard]
 type = internal/xkeyboard
@@ -265,10 +274,22 @@ animation-packetloss-framerate = 500
 type = internal/cpu
 interval = 2
 format-prefix = ""
+format = <label>
+format-alt = <label> <ramp-coreload>
 ;format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #f90000
 label = %percentage%%
+; Spacing between individual per-core ramps
+ramp-coreload-spacing = 0
+ramp-coreload-0 = ▁
+ramp-coreload-1 = ▂
+ramp-coreload-2 = ▃
+ramp-coreload-3 = ▄
+ramp-coreload-4 = ▅
+ramp-coreload-5 = ▆
+ramp-coreload-6 = ▇
+ramp-coreload-7 = █
 
 [module/memory]
 type = internal/memory
@@ -350,8 +371,15 @@ label-muted-foreground = #666
 
 ramp-volume-0 = 
 ramp-volume-1 = 
-ramp-volume-2 = 
-ramp-volume-3 = 
+ramp-volume-2 = 
+ramp-volume-3 = 
+ramp-volume-4 = 
+ramp-volume-5 = 
+ramp-volume-6 = 
+ramp-volume-7 = 
+ramp-volume-8 = %{F#f05000}%{F-}
+ramp-volume-9 = %{F#f00000}%{F-}
+ramp-volume-10 = %{F#f00000}%{F-}
 
 ; If defined, it will replace <ramp-volume> when
 ; headphones are plugged in to `headphone_control_numid`
@@ -429,9 +457,9 @@ format-full-prefix = " "
 format-full-underline = ${self.format-charging-underline}
 ;
 ;
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
+ramp-capacity-0 = %{F#f00000}%{F-}
+ramp-capacity-1 = %{F#f00000}%{F-}
+ramp-capacity-2 = %{F#f00000}%{F-}
 ramp-capacity-3 = 
 ramp-capacity-4 = 
 ramp-capacity-5 = 
@@ -458,9 +486,9 @@ animation-charging-10 = 
 ;animation-charging-foreground = ${colors.foreground-alt}
 
 animation-charging-framerate = 750
-animation-discharging-0 = 
-animation-discharging-1 = 
-animation-discharging-2 = 
+animation-discharging-0 = %{F#f00000}{F-}
+animation-discharging-1 = %{F#f00000}{F-}
+animation-discharging-2 = %{F#f00000}{F-}
 animation-discharging-3 = 
 animation-discharging-4 = 
 animation-discharging-5 = 
@@ -490,8 +518,8 @@ label-warn-foreground = ${colors.secondary}
 ramp-0 = 
 ramp-1 = 
 ramp-2 = 
-ramp-3 = 
-ramp-4 = 
+ramp-3 = %{F#f05000}%{F-}
+ramp-4 = %{F#f00000}%{F-}
 
 ramp-foreground = ${colors.foreground-alt}
 

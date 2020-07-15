@@ -8,7 +8,7 @@
 	"hide-app-menu": true,
 	"keep-window-state": false,
 	"last-check-update-time": 0,
-	"last-sync-tracker-time": 1591794285587,
+	"last-sync-tracker-time": 1593744261789,
 	"locale": "zh-CN",
 	"log-path": "/home/hine/.config/Motrix/logs/main.log",
 	"new-task-show-downloading": true,
@@ -28,6 +28,7 @@
 		"https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best.txt"
 	],
 	"tray-theme": "auto",
+	"tray-speedometer": false,
 	"update-channel": "latest",
 	"use-proxy": false,
 	"window-state": {}

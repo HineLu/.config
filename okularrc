@@ -1,0 +1,15 @@
+[Desktop Entry]
+FullScreen=true
+shouldShowMenuBarComingFromFullScreen=true
+shouldShowToolBarComingFromFullScreen=true
+
+[MainWindow]
+Height 1080=1080
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAQ4AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=1920
+
+[Recent Files]
+File1[$e]=$HOME/下载/Yu-t'ang Lin_  Lin Yutang - The Gay Genius_ _The Life and Times of Su Tungpo (1971, Praeger) - libgen.lc.djvu
+Name1[$e]=Yu-t'ang Lin_  Lin Yutang - The Gay Genius_ _The Life and Times of Su Tungpo (1971, Praeger) - libgen.lc.djvu

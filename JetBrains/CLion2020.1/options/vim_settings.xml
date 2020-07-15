@@ -4,39 +4,74 @@
   </component>
   <component name="VimHistorySettings">
     <history>
+      <history-search />
       <history-cmd>
         <entry>w</entry>
       </history-cmd>
+      <history-expr />
+      <history-input />
     </history>
   </component>
   <component name="VimKeySettings">
-    <shortcut-conflicts />
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
   </component>
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="/GDB" timestamp="1593498037246">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/CLionProjects/test/main.c" timestamp="1591417233974">
         <mark key="[" line="4" column="4" />
         <mark key="]" line="4" column="4" />
         <mark key="." line="4" column="3" />
         <mark key="^" line="4" column="4" />
       </file>
+      <file name="$USER_HOME$/CLionProjects/untitled/main.c" timestamp="1593498125210">
+        <mark key="[" line="14" column="0" />
+        <mark key="]" line="14" column="0" />
+        <mark key="." line="14" column="0" />
+      </file>
       <file name="/" timestamp="1591417587767">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
-    <jumps />
+    <jumps>
+      <jump line="0" column="0" filename="$USER_HOME$/CLionProjects/untitled/main.c" />
+    </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>scanf</text>
+      <register name="1" type="2">
+        <text encoding="base64">Ly8gICAgZnNlZWsoZnAsMCxTRUVLX1NFVCk9PXJld2luZChmcCk7Cg==</text>
+      </register>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Ly8gICAgZnNlZWsoZnAsMCxTRUVLX1NFVCk9PXJld2luZChmcCk7Cg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">Ly8gICAgZnByaW50ZihmcCwiXG4iKTsK</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIGdldGNoYXIoKTsK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIGdldGNoYXIoKTsK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">I2luY2x1ZGUgPHN0ZGxpYi5oPgo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">I2luY2x1ZGUgPHN0ZGlvLmg+CgppbnQgbWFpbigpIHsKICAgIHByaW50ZigiSGVsbG8sIFdvcmxkIVxuIik7CiAgICByZXR1cm4gMDsKfQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
       <register name="-" type="4">
-        <text>scanf</text>
+        <text>/</text>
       </register>
     </registers>
   </component>

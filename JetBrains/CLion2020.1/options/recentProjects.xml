@@ -1,5 +1,26 @@
 <application>
   <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/CLionProjects/untitled">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1e1mkysHjVx8s6z2JSxidDOw00c">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-201.7846.88" />
+              <option name="buildTimestamp" value="1591174750327" />
+              <frame x="10" y="12" width="945" height="1058" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1593497620531" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="lastProjectLocation" value="$USER_HOME$/CLionProjects" />
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/CLionProjects/untitled" />
+      </list>
+    </option>
   </component>
 </application>

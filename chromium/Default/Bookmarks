@@ -1,5 +1,5 @@
 {
-   "checksum": "0f5e66e12b57527561476e790b40460e",
+   "checksum": "ecc1b670f7a29db8d769dc7aa384679e",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -149,9 +149,45 @@
             "name": "Jiumo Search 鸠摩搜索 - 文档搜索引擎",
             "type": "url",
             "url": "https://www.jiumodiary.com/"
+         }, {
+            "date_added": "13239010616772123",
+            "guid": "ff3cc153-7957-44ee-bc3a-31e17dbf4d91",
+            "id": "46",
+            "name": "West World VPN - 西部世界VPN",
+            "type": "url",
+            "url": "https://xbsj8789.site/?index=1"
+         }, {
+            "date_added": "13239268273885091",
+            "guid": "652fd0fe-5d9a-4bff-be0d-4db6533a1933",
+            "id": "48",
+            "name": "我的主页 - ZhiMap 思维导图",
+            "type": "url",
+            "url": "https://zhimap.com/home"
+         }, {
+            "children": [ {
+               "date_added": "13239268679019668",
+               "guid": "5943e93a-57f6-4464-b385-6546821c00c1",
+               "id": "49",
+               "name": "我的文档 - 幕布",
+               "type": "url",
+               "url": "https://mubu.com/list"
+            }, {
+               "date_added": "13239271462412664",
+               "guid": "6d856dde-f810-473b-8ffd-9b4d79c20a06",
+               "id": "52",
+               "name": "ZhiMap - 在线思维导图、电脑与手机微信里都能作图",
+               "type": "url",
+               "url": "https://zhimap.com/latex_help"
+            } ],
+            "date_added": "13239268699189159",
+            "date_modified": "13239271462412664",
+            "guid": "03a796ad-5073-4e65-a262-5abfe3410a76",
+            "id": "50",
+            "name": "思维导图",
+            "type": "folder"
          } ],
          "date_added": "13226390097942093",
-         "date_modified": "13236284833990363",
+         "date_modified": "13239268679019668",
          "guid": "00000000-0000-4000-a000-000000000002",
          "id": "1",
          "name": "书签栏",

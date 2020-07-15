@@ -1,15 +1,17 @@
 [Added Associations]
 application/octet-stream=org.gnome.FileRoller.desktop;
-application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;com.github.xournalpp.xournalpp.desktop;wps-office-pdf.desktop;
+application/pdf=com.github.xournalpp.xournalpp.desktop;org.pwmt.zathura-pdf-mupdf.desktop;wps-office-pdf.desktop;
 application/vnd.flatpak=org.gnome.FileRoller.desktop;
 application/vnd.rar=engrampa.desktop;360zip.desktop;org.gnome.FileRoller.desktop;
 application/wps-office.docx=wine-extension-docx.desktop;wps-office-wps.desktop;
 application/wps-office.pptx=wine-extension-pptx.desktop;wine-extension-ppsx.desktop;playonlinux-Microsoft Powerpoint 2010.desktop;
-application/wps-office.xlsx=wps-office-et.desktop;
+application/wps-office.xlsx=libreoffice-calc.desktop;wps-office-et.desktop;
 application/x-desktop=emacs.desktop;wine-extension-txt.desktop;vim.desktop;
 inode/directory=thunar.desktop;org.kde.gwenview.desktop;kfmclient_dir.desktop;ranger.desktop;
 x-scheme-handler/http=exo-web-browser.desktop;
 x-scheme-handler/https=exo-web-browser.desktop;
+text/plain=emacs.desktop;
+application/xmind=engrampa.desktop;XMind.desktop;
 
 [Default Applications]
 application/epub+zip=360zip.desktop
@@ -71,3 +73,4 @@ x-scheme-handler/http=chromium.desktop
 x-scheme-handler/https=chromium.desktop
 x-scheme-handler/magnet=freedownloadmanager_magnet_up.desktop
 x-scheme-handler/unknown=chromium.desktop
+x-scheme-handler/xmind-zen=XMind.desktop
