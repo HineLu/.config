@@ -1,4 +1,5 @@
 0
+/usr/share/backgrounds/manjaro-wallpapers-18.0/glassfieldManjaro_perspective_center_dark.jpg
 /usr/share/backgrounds/manjaro-wallpapers-18.0/Manjaro_Glass_1080p.jpg
 /usr/share/backgrounds/manjaro-wallpapers-18.0/buttongreen.jpg
 /usr/share/backgrounds/xfce/wpM_orbit2_textured.jpg
@@ -98,4 +99,3 @@
 /usr/share/backgrounds/xfce/illyria-default-lockscreen-nobrand.jpg
 /usr/share/backgrounds/xfce/wMJ_neutral_textured_warm.jpg
 /usr/share/backgrounds/manjaro-wallpapers-18.0/default-adapta-lockscreen.jpg
-/usr/share/backgrounds/xfce/wpM_pcvp.jpg
