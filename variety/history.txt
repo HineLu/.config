@@ -1,4 +1,14 @@
 0
+/usr/share/backgrounds/manjaro-wallpapers-18.0/manjaro_maia_abstract2.jpg
+/usr/share/backgrounds/manjaro-wallpapers-18.0/block-font-logo3.jpg
+/usr/share/backgrounds/xfce/Manjaro_Glass_1080p.jpg
+/usr/share/backgrounds/xfce/play.jpg
+/usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya - Mr_Glitch(Projekt:Root).png
+/usr/share/backgrounds/xfce/illyria-adapta-dark-maia.jpg
+/usr/share/backgrounds/xfce/block-font-logo3.jpg
+/usr/share/backgrounds/wallpapers-juhraya/Sunset-Of-The-Gods_by_Isaac-Sloan.jpg
+/usr/share/backgrounds/manjaro-wallpapers-18.0/play.jpg
+/usr/share/backgrounds/wallpapers-juhraya/wMJ_J3_by_Bogdan-Covaciu.jpg
 /usr/share/backgrounds/manjaro-wallpapers-18.0/glassfieldManjaro_perspective_center_dark.jpg
 /usr/share/backgrounds/manjaro-wallpapers-18.0/Manjaro_Glass_1080p.jpg
 /usr/share/backgrounds/manjaro-wallpapers-18.0/buttongreen.jpg
@@ -89,13 +99,3 @@
 /usr/share/backgrounds/manjaro-wallpapers-18.0/manjaro_grid_maia.jpg
 /usr/share/backgrounds/wallpapers-2018/panorama-3629120.jpg
 /usr/share/backgrounds/xfce/manjaro-maia-text.jpg
-/usr/share/backgrounds/wallpapers-2018/nature-3181144.jpg
-/usr/share/backgrounds/xfce/sky-3189347.jpg
-/usr/share/backgrounds/manjaro-wallpapers-18.0/illyria-adapta-dark-maia.jpg
-/usr/share/backgrounds/xfce/palm-wave.jpg
-/usr/share/backgrounds/manjaro-wallpapers-18.0/play.jpg
-/usr/share/backgrounds/wallpapers-2018/sky-3189347.jpg
-/usr/share/backgrounds/xfce/manjaro_grid_maia.jpg
-/usr/share/backgrounds/xfce/illyria-default-lockscreen-nobrand.jpg
-/usr/share/backgrounds/xfce/wMJ_neutral_textured_warm.jpg
-/usr/share/backgrounds/manjaro-wallpapers-18.0/default-adapta-lockscreen.jpg

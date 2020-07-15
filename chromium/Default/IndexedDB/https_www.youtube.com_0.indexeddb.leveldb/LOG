@@ -1,0 +1,5 @@
+2020/07/15-21:34:54.456 20b56 Reusing MANIFEST /home/hine/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/15-22:02:44.106 2133e Level-0 table #5: started
+2020/07/15-22:02:44.115 2133e Level-0 table #5: 2803 bytes OK
+2020/07/15-22:02:44.116 2133e Delete type=0 #3
+2020/07/15-22:02:44.117 2133e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

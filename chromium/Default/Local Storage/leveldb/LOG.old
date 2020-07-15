@@ -1,6 +1,18 @@
-2020/07/15-16:19:59.637 17f92 Reusing MANIFEST /home/hine/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2020/07/15-16:19:59.638 17f92 Recovering log #3924
-2020/07/15-16:19:59.638 17f92 Reusing old log /home/hine/.config/chromium/Default/Local Storage/leveldb/003924.log 
-2020/07/15-18:45:05.441 19cbc Level-0 table #3928: started
-2020/07/15-18:45:05.451 19cbc Level-0 table #3928: 36920 bytes OK
-2020/07/15-18:45:05.453 19cbc Delete type=0 #3924
+2020/07/15-22:03:04.354 2141e Reusing MANIFEST /home/hine/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2020/07/15-22:03:04.355 2141e Recovering log #3927
+2020/07/15-22:03:04.355 2141e Reusing old log /home/hine/.config/chromium/Default/Local Storage/leveldb/003927.log 
+2020/07/15-22:09:07.342 2174c Level-0 table #3931: started
+2020/07/15-22:09:07.344 2174c Level-0 table #3931: 20285 bytes OK
+2020/07/15-22:09:07.345 2174c Delete type=0 #3927
+2020/07/15-22:09:07.346 2174c Compacting 4@0 + 1@1 files
+2020/07/15-22:09:07.360 2174c Generated table #3932@0: 494 keys, 731575 bytes
+2020/07/15-22:09:07.360 2174c Compacted 4@0 + 1@1 files => 731575 bytes
+2020/07/15-22:09:07.361 2174c compacted to: files[ 0 1 5 0 0 0 0 ]
+2020/07/15-22:09:07.361 2174c Delete type=2 #3928
+2020/07/15-22:09:07.361 2174c Delete type=2 #3922
+2020/07/15-22:09:07.361 2174c Delete type=2 #3931
+2020/07/15-22:09:07.361 2174c Delete type=2 #3925
+2020/07/15-22:09:07.361 2174c Delete type=2 #3920
+2020/07/15-22:12:44.522 2174c Level-0 table #3934: started
+2020/07/15-22:12:44.571 2174c Level-0 table #3934: 14928 bytes OK
+2020/07/15-22:12:44.573 2174c Delete type=0 #3930
